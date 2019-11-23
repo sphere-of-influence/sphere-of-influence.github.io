@@ -22,13 +22,13 @@ We're currently in early development so things will often break and some news ma
 
 If something is a country level event, eg. affecting the whole UK, a random town will be bestowed the honour of "hosting" the story.
 
-We use GitHub Pages for hosting the front-end and Heroku for providing the back-end. Open Layers and Open Street Map provide the mapping interface technology. Chiefly written in JavaScript and Python.
+We use GitHub Pages for hosting the front-end and Heroku for providing the back-end. Open Layers and Open Street Map provide the mapping interface technology. Chiefly written in JavaScript and Python. There's a little caching going on so we don't max out the Twitter API.
 
 For technical details you can read the [source code on GitHub](https://github.com/sphere-of-influence/sphere-of-influence).
 
 ## Issues, Inaccuracies or Concerns 
 If you've concerns about the content on Sphere of Influence, please contact a contributor. All concerns will be promptly addressed.
 
-### Previous Works
+## Previous Works
 
 Sphere of Influence is a super-light rebuild of a concept originally realised by [@OldNewStandard](//twitter.com/OldNewStandard) with his [Atlaski Project](https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped) for the University of Brighton.
