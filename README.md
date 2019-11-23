@@ -8,7 +8,7 @@ Sphere of Influence is also the name of the site for which it was developed. Sph
 
 We're currently in early development so things will often break and some news may be irrelevant or confusing.
 
-If something is a country level event, eg. affecting the whole UK a random town will be bestowed the honour of "hosting" the story.
+If something is a country level event, eg. affecting the whole UK, a random town will be bestowed the honour of "hosting" the story.
 
 
 ## Official Documentation
