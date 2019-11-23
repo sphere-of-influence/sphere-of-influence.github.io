@@ -4,3 +4,5 @@ node_modules
 vendor
 storage
 artisan
+server/.env
+server/__pycache__
