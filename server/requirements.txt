@@ -1,3 +1,6 @@
 flask
+flask_sqlalchemy
+flask_heroku
 gunicorn
 tweepy
+psycopg2
