@@ -8,10 +8,10 @@ String.prototype.interpolate = function(params) {
 }
 
 
-const path  = './pages/content/';
+const path  = './src-pages/content/';
 const pages = fs.readdirSync(path);
 
-const templatePath = './pages/template.html';
+const templatePath = './src-pages/template.html';
 const template = fs.readFileSync(templatePath, 'utf8');
 
 const outputPath = './public/pages/';

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish" : "cp -R public/. docs/",
-    "build-pages" : "node pages/build.js",
+    "publish" : "cp -R public/. .",
+    "build-pages" : "node src-pages/build.js",
     "serve": "http-server public/",
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
