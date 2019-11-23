@@ -28,7 +28,7 @@ if len(account_list) > 0:
         if item == None:
             continue
 
-        for status in tweepy.Cursor(api.user_timeline, id=item.id).items():
+        for status in tweepy.Cursor(api.user_timeline, _id=item.id).items():
 
             if status.is_quote_status:
                 id = status.quoted_status_id_str
