@@ -48,7 +48,7 @@
         </main>
 
         <script src="/dist/app.js"></script>
-        <script src="http://127.0.0.1:5000/?callback=captureTweets"></script>
+        <script src="//sphere-of-influence.herokuapp.com?callback=captureTweets"></script>
 
     </body>
 </html>
