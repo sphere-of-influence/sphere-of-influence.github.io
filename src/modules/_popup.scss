@@ -1,0 +1,102 @@
+.popup {
+    position: absolute;
+    padding: 0;
+    bottom: 12px;
+    left: -50px;
+    min-width: 250px;
+    opacity: 0.95;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    @extend .sans;
+
+    twitter-widget[style] {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+
+    &.orphan {
+        &:before, &:after { display: none; }
+        .tweet twitter-widget[style] {
+            position: fixed !important;
+            top: 50%;
+            left: 33vw;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            display: flex !important;
+            align-items: center;
+            height: 0;
+        }
+    }
+
+    a {
+        color: #CD0000;
+        text-decoration: none;
+    }
+
+    h6 {
+        margin: 0;
+    }
+
+    &.hidden {
+        display: none;
+    }
+
+    .card-img-top {
+      max-height: 150px;
+      object-fit: cover;
+    }
+
+    .table-wrapper {
+      max-height: calc(33vh - 22px);
+      margin: -10px;
+      overflow-y: auto;
+
+      td {
+        line-height: normal;
+        vertical-align: middle;
+
+      }
+
+    }
+
+    .feature-icon {
+      width: 24px;
+      height: 24px;
+      filter: invert(0) !important;
+    }
+
+  }
+  .popup:after, .popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+  }
+  .popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+  }
+  .popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+  }
+  .popup-closer:after {
+    content: "✖";
+  }

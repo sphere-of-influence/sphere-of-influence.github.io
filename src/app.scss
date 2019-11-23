@@ -1,0 +1,187 @@
+@import '../node_modules/skeleton-sass-official/skeleton/core/config';
+ 
+// import theme, overrides, and extras
+@import "../node_modules/skeleton-sass-official/skeleton/themes/fresh/vars";
+@import "../node_modules/skeleton-sass-official/skeleton/themes/fresh/include_components";
+@import "../node_modules/skeleton-sass-official/skeleton/themes/fresh/grid";
+
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Inconsolata:400,700&display=swap');
+
+html, body {
+    background: lightgray;
+    margin: 10px 20px;
+    @extend .sans;
+}
+
+.sub-header {
+    display: none;
+    @media (min-width: 550px) { display: block; }
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    text-align: right;
+    z-index: 9;
+    transition: all .5s;
+    transform: translateY(-120px);
+    background: rgba(#ffffff, 0);
+    box-shadow: -20px 20px 10px 10px rgba(#ffffff, 0);
+    &.visible { 
+        transform: translateY(0px);
+        opacity: .85;
+        background: rgba(#ffffff, .5);
+        box-shadow: 0px 0px 100px 100px rgba(#ffffff, .5);
+     }
+     a {
+         text-decoration: none;
+     }
+}
+
+.shadow-provider {
+    position: fixed;
+    top: -50vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 200vh;
+    width: 200%;
+    box-shadow: inset 200px -20px 500px 250px rgba(255, 255, 255, 0.85);
+    pointer-events: none;
+}
+
+a { color: #222222; 
+    &:hover, &:active, &:visited {
+        color: #CD0000 !important;
+    }
+}
+
+.link {
+    position: relative;
+    margin: 0;
+    padding: 7.25px 0;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(#222222,0.05);
+    transition: background 0.33s;
+    cursor: pointer;
+
+    .tweet {
+        @media (min-width: 550px) {
+            pointer-events: none;
+        }
+    }
+    
+    a {
+        &:hover, &:active, &:visited {
+            color: #CD0000;
+            text-decoration: underline;
+        }
+        text-decoration: none;
+    }
+
+    &:hover, &.focused {
+        a { color: #CD0000; }
+        color: #CD0000;
+        background: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0));
+        time { opacity: 1; }
+    }
+
+    &.focused {
+        background: linear-gradient(to right, rgba(#CD0000,0.1), rgba(#CD0000,0));
+        .tweet { pointer-events: all; }
+    }
+
+    time {
+        @media (min-width: 550px) {
+            position: absolute;
+            top: calc(50% - .5em);
+            line-height: 1em;
+            left: -40px;
+            opacity: 0.5;
+            transition: opacity;
+        }
+    }
+
+}
+
+.no-break { white-space: nowrap; }
+.no-click { pointer-events: none; }
+.all-click { pointer-events: all; }
+
+.map {
+    display: none;
+    @media (min-width: 550px) { display: block; }
+
+    overscroll-behavior-y: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    height: 100vh;
+    width: 100%;
+
+    // reposition the bundled OpenLayers elements to better work with Socialiski
+    .ol-control {
+        position: absolute;
+    }
+
+    .ol-zoom {
+        top: initial !important;
+        right: 20px !important;
+        bottom: 40px !important;
+        left: auto !important;
+    }
+
+    .ol-attribution {
+        position: fixed;
+    }
+
+}
+
+.z-one {
+    position: relative;
+    z-index: 1;
+}
+
+.serif {
+    font-family: 'Calistoga', sans-serif;
+}
+.sans {
+    font-family: 'Inconsolata', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    @extend .sans;
+    small { font-size: 0.5em; } 
+}
+
+.sidebar {
+
+    border-left: 5px solid #222222;
+
+    > * {
+        padding-left: 15px;
+    }
+
+    #sidebar-stories {
+        padding-left: 0;
+        > * {
+            padding-left: 15px;
+        }
+    }
+
+    .star {
+
+        animation-name: spin;
+        animation-duration: 2s;
+        
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(#{(360 * 5)}deg);
+            }
+        }
+        
+    }
+}
+
+@import './modules/popup';
