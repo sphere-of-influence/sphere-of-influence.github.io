@@ -26,6 +26,9 @@ We use GitHub Pages for hosting the front-end and Heroku for providing the back-
 
 For technical details you can read the [source code on GitHub](https://github.com/bogstandard/Sphere-of-Influence).
 
+## Issues, Inaccuracies or Concerns 
+If you've concerns about the content on Sphere of Influence, please contact a contributor. All concerns will be promptly addressed.
+
 ### Previous Works
 
 Sphere of Influence is a super-light rebuild of a concept originally realised by [@OldNewStandard](//twitter.com/OldNewStandard) with his [Atlaski Project](https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped) for the University of Brighton.
