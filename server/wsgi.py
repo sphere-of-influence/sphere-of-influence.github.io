@@ -4,7 +4,6 @@ from flask import request
 import tweepy
 import os
 
-
 consumer_key = os.environ.get('CONSUMER_KEY','')
 consumer_secret = os.environ.get('CONSUMER_SECRET','')
 access_token =  os.environ.get('ACCESS_TOKEN','')
@@ -30,8 +29,6 @@ if len(account_list) > 0:
             continue
 
         for status in tweepy.Cursor(api.user_timeline, id=item.id).items():
-
-            
 
             if status.is_quote_status:
                 id = status.quoted_status_id_str
