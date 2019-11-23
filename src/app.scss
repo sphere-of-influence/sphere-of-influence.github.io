@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=Calistoga|Inconsolata:400,700&display=swap');
 
 html, body {
-    background: lightgray;
+    background: white;
     margin: 10px 20px;
     @extend .sans;
 }
@@ -150,6 +150,18 @@ a { color: #222222;
 h1, h2, h3, h4, h5, h6 { 
     @extend .sans;
     small { font-size: 0.5em; } 
+}
+
+.page {
+    max-width: 60rem;
+    margin: 40px auto 80px;
+    h1, h2, h3, h4, h5, h6 { 
+        @extend .serif;
+        small { font-size: 0.5em; } 
+    }   
+    nav {
+        margin-bottom: 20px;
+    }
 }
 
 .sidebar {

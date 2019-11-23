@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>${title}</title>
+        <meta name="title" content="${title}">
+        <meta name="description" content="${description}">
+
+        <!-- Primary Meta Tags -->
+        <title>${title}</title>
+        <meta name="title" content="${title}">
+        <meta name="description" content="${description}">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="${title}">
+        <meta property="og:description" content="${description}">
+        <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://metatags.io/">
+        <meta property="twitter:title" content="${title}">
+        <meta property="twitter:description" content="${description}">
+        <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+
+
+        <link rel="stylesheet" href="/dist/app.css">
+
+    </head>
+    <body>
+        <main class="page container">
+            <div class="u-full-width">
+
+                    <nav>
+                        <a href="/" class="u-pull-right">Return Home</a>
+                    </nav>
+                    <header>
+                        <div>
+                            <svg class="star" id="star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#CD0000" stroke="#CD0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+                        <h1>${title}</h1>
+                    </header>
+
+                    <article>
+                        ${body}
+                    </article>
+            </div>
+        </main>
+    </body>
+</html>
