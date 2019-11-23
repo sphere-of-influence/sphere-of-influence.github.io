@@ -310,15 +310,15 @@ function panTo(center) {
     });
 }
 
-async function refreshStories() {
-    const response = await fetch('/scout');
-    let stories = await response.json();
+function refreshStories(stories=[]) {
 
     stories = stories.map(story => {
 
-        if(story.place !== null)
+        if (story.place !== null && Object.keys(story.place).length>0)
             [story.longitude, story.latitude] = polygonCenter(story.place.bounding_box.coordinates[0]);
-        
+        else
+            story.place = null;
+
         return story;
 
     })
@@ -329,6 +329,7 @@ async function refreshStories() {
     addFeatures(stories);
     addSidebarStories(stories);
     registerSidebarStories(stories);
+
 }
 
 

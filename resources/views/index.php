@@ -1,10 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="/dist/app.css">
-
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css" type="text/css">
-    
-
     </head>
     <body>
         <main class="row">
@@ -51,6 +48,7 @@
         </main>
 
         <script src="/dist/app.js"></script>
+        <script src="http://127.0.0.1:5000/?callback=captureTweets"></script>
 
     </body>
 </html>

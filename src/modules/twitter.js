@@ -18,6 +18,10 @@ window.twttr = (function(d, s, id) {
 // Setup done ->
 window.pinnedTweet = '1198025479904776192';
 
+window.captureTweets = (tweets) => {
+    window.tweets = tweets;
+};
+
 window.twttr.ready( function (twttr) {
 
   twttr.widgets.createTweet(
@@ -26,8 +30,9 @@ window.twttr.ready( function (twttr) {
     {
       theme: 'light'
     }
-  );
+  ).then(() => {
+    window.refreshStories(window.tweets);
+  });
 
-  window.refreshStories();
 
 });
