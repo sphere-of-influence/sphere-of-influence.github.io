@@ -103,7 +103,11 @@ a { color: #222222;
 
 }
 
-.no-break { white-space: nowrap; }
+.no-break { 
+    @media (min-width: 550px) {
+        white-space: nowrap; 
+    }
+}
 .no-click { pointer-events: none; }
 .all-click { pointer-events: all; }
 
