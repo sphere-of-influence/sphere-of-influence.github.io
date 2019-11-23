@@ -235,13 +235,17 @@ document.addEventListener('storyFocused', evt => {
 
 function scrollTo(id) {
 
-    document.querySelectorAll('.story.link').forEach(storyEl => {
-        storyEl.classList.remove('focused');
-    });
+    if ( window.matchMedia( "(min-width: 550px)" ).matches ) {
 
-    const storyEl = document.getElementById('story-'+id);
-    storyEl.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
-    storyEl.classList.add('focused');
+        document.querySelectorAll('.story.link').forEach(storyEl => {
+            storyEl.classList.remove('focused');
+        });
+
+        const storyEl = document.getElementById('story-'+id);
+        storyEl.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
+        storyEl.classList.add('focused');
+
+    }
 }
 
 function tryPopup(feature, pan = true, orphan=false) {
