@@ -24,7 +24,7 @@ If something is a country level event, eg. affecting the whole UK, a random town
 
 We use GitHub Pages for hosting the front-end and Heroku for providing the back-end. Open Layers and Open Street Map provide the mapping interface technology. Chiefly written in JavaScript and Python.
 
-For technical details you can read the [source code on GitHub](https://github.com/bogstandard/Sphere-of-Influence).
+For technical details you can read the [source code on GitHub](https://github.com/sphere-of-influence/sphere-of-influence).
 
 ## Issues, Inaccuracies or Concerns 
 If you've concerns about the content on Sphere of Influence, please contact a contributor. All concerns will be promptly addressed.
