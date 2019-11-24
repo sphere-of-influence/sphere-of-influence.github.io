@@ -32,3 +32,7 @@ If you've concerns about the content on Sphere of Influence, please contact a co
 ## Previous Works
 
 Sphere of Influence is a super-light rebuild of a concept originally realised by [@OldNewStandard](//twitter.com/OldNewStandard) with his [Atlaski Project](https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped) for the University of Brighton.
+
+## License
+
+Until a robust license can be found which forbids commercial use this code-base remains proprietary and not free for re-use. We're aware this sucks and hope to change the license in future. If you have a suggestion for an appropriate license please contact a contributor.

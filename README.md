@@ -34,4 +34,4 @@ If you've concerns about the content on Sphere of Influence, please contact [@Sl
 
 ## License
 
-Sphere of Influence is currently closed source and strictly private. This will change once development exits Beta.
+Until a robust license can be found which forbids commercial use this code-base remains proprietary and not free for re-use. We're aware this sucks and hope to change the license in future. If you have a suggestion for an appropriate license please contact [@SleepingInSnow](https://twitter.com/SleepingInSnow).
