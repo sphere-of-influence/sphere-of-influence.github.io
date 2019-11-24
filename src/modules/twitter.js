@@ -23,15 +23,21 @@ window.captureTweets = (tweets) => {
 };
 
 window.twttr.ready( function (twttr) {
-
+  
   twttr.widgets.createTweet(
     window.pinnedTweet,
-    document.getElementById('sidebar-stories'),
+    document.getElementById('pinned-tweet-hook'),
     {
       theme: 'light'
     }
   ).then(() => {
-    window.refreshStories(window.tweets);
+    
+      window.refreshStories(window.tweets);
+
+      document.querySelectorAll('.skeleton-tweet').forEach(skeleton => {
+        skeleton.classList.add('hidden');
+      });
+
   });
 
 

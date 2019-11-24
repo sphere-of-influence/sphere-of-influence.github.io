@@ -58,6 +58,7 @@ a { color: #CD0000;
     position: relative;
     margin: 0;
     padding: 7.25px 0;
+    min-height: 200px;
     display: block;
     text-decoration: none;
     border-bottom: 1px solid rgba(#222222,0.05);
@@ -172,16 +173,81 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar {
 
     border-left: 5px solid #222222;
+    min-height: 100%;
 
     > * {
         padding-left: 15px;
     }
 
     #sidebar-stories {
+
+        position: relative;
+
         padding-left: 0;
         > * {
             padding-left: 15px;
         }
+    }
+
+    .skeleton-tweets {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 15px);
+        pointer-events: none;
+    }
+
+    .skeleton-tweet {
+            position: relative;
+            margin-bottom: 25px;
+            padding: 0;
+            border-radius: 7px;
+            display: block;
+            width: 100%;
+            height: 325px;
+            background: rgba(#ffffff, 1);
+            animation-name: pulse;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            transition: opacity 0.33s;
+            @keyframes pulse {
+                from { 
+                    opacity: 0.25;
+                    border-radius: 7px;
+                 }
+                to { 
+                    opacity: 0.45;
+                    border-radius: 3px;
+                 }
+            }
+
+            &.hidden {
+                animation-name: fadeAway;
+                animation-duration: .66s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+                animation-direction: normal;
+                @keyframes fadeAway {
+                    0% {}
+                    99% {opacity: 0}
+                    100% {opacity: 0;}
+                }
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 65px;
+                left: 10%;
+                width: 80%;
+                height: 30px;
+                border-radius: 3px;
+                background: rgba(#222222, .15);
+                color: rgba(#222222, .15);
+                box-shadow: 0 40px, 0 80px, 0 120px, 0 160px;
+            }
+
     }
 
     .star {
