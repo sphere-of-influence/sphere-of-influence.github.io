@@ -4,8 +4,7 @@ Sphere of Influence is dedicated to tracking lefty news on Twitter with a focus 
 Contributors wanted! Currently in Beta!
 ~
 
-Sphere of Influence is dedicated to tracking lefty news on Twitter with a focus on the United Kingdom. 
-Contributors wanted! We are currently in Beta so things might be a little rough & ready.
+Sphere of Influence is dedicated to tracking lefty news on Twitter with a focus on the United Kingdom. We are currently in Beta so things might be a little rough & ready.
 
 Current contributors are [@SleepingInSnow](//twitter.com/SleepingInSnow) and [@OldNewStandard](//twitter.com/OldNewStandard). If you'd like to join the team please contact either of us.
 
