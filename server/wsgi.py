@@ -80,11 +80,17 @@ def fetchTweets():
                 else:
                     id = status.id_str
 
+                if hasattr(status, 'retweeted_status'):
+                    place = status.retweeted_status._json['place'] or status._json['place'] or {}
+                else: 
+                    place = status._json['place'] or {}
+
                 tweets.append({
                     "id": id,
                     "date":  status._json['created_at'],
-                    "place": status._json['place'] or {}
+                    "place": place
                 })
+
 
         return tweets
 
@@ -93,13 +99,13 @@ def fetchTweets():
 
 
 @app.route('/')
-def index():
+def index(force_fresh=False):
 
     callback = request.args.get("callback", "callback")
     
     cache = db.session.query(Dataentry).first()
 
-    if cache.timestamp < ( int(time.time()) - (15 * 60)):
+    if force_fresh or cache.timestamp < ( int(time.time()) - (15 * 60)):
         from_cache = False
         tweets = fetchTweets()
         updateCache(json.dumps(tweets))
