@@ -2,8 +2,8 @@
 <html>
     <head>
 
-        <title>About Sphere of Influence</title>
-        <meta name="title" content="About Sphere of Influence">
+        <title>Operating Guide</title>
+        <meta name="title" content="Operating Guide">
         <meta name="description" content="Sphere of Influence is dedicated to tracking lefty news on Twitter with a focus on the United Kingdom. 
 Contributors wanted! Currently in Beta!">
         
@@ -26,15 +26,15 @@ Contributors wanted! Currently in Beta!">
         <meta name="theme-color" content="#ffffff">
         
         <!-- Primary Meta Tags -->
-        <title>About Sphere of Influence</title>
-        <meta name="title" content="About Sphere of Influence">
+        <title>Operating Guide</title>
+        <meta name="title" content="Operating Guide">
         <meta name="description" content="Sphere of Influence is dedicated to tracking lefty news on Twitter with a focus on the United Kingdom. 
 Contributors wanted! Currently in Beta!">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://sphere-of-influence.github.io/">
-        <meta property="og:title" content="About Sphere of Influence">
+        <meta property="og:title" content="Operating Guide">
         <meta property="og:description" content="Sphere of Influence is dedicated to tracking lefty news on Twitter with a focus on the United Kingdom. 
 Contributors wanted! Currently in Beta!">
         <meta property="og:image" content="https://sphere-of-influence.github.io/dist/social-image.png">
@@ -42,7 +42,7 @@ Contributors wanted! Currently in Beta!">
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://sphere-of-influence.github.io/">
-        <meta property="twitter:title" content="About Sphere of Influence">
+        <meta property="twitter:title" content="Operating Guide">
         <meta property="twitter:description" content="Sphere of Influence is dedicated to tracking lefty news on Twitter with a focus on the United Kingdom. 
 Contributors wanted! Currently in Beta!">
         <meta property="twitter:image" content="https://sphere-of-influence.github.io/dist/social-image.png">
@@ -64,43 +64,69 @@ Contributors wanted! Currently in Beta!">
                         <div>
                             <svg class="star" id="star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#CD0000" stroke="#CD0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                         </div>
-                        <h1>About Sphere of Influence</h1>
+                        <h1>Operating Guide</h1>
                     </header>
 
                     <article>
-                        <p>Sphere of Influence is dedicated to tracking lefty news on Twitter with a focus on the United Kingdom. 
-Contributors wanted! We are currently in Beta so things might be a little rough &amp; ready.</p>
+                        <p><em>This guide chiefly focuses on operating procedure</em>. For the meat of the technical details you can read the <a href="https://github.com/sphere-of-influence/sphere-of-influence">source code on GitHub</a>.</p>
 
-<p>Current contributors are <a href="//twitter.com/SleepingInSnow">@SleepingInSnow</a> and <a href="//twitter.com/OldNewStandard">@OldNewStandard</a>. If you&#39;d like to join the team please contact either of us.</p>
+<h2>Contributing</h2>
 
-<h2>Goal</h2>
+<p>Once you&#39;ve become a contributor your tweets will appear in the feed on Sphere&#39;. If you&#39;re worried about all your new tweets appearing consider using a separate dedicated account for Sphere&#39; instead.</p>
 
-<p>Sphere of Influence aims to spread optimism and awareness of the Labour Movement.</p>
+<h3>Location Tagging</h3>
 
-<h2>How does this work?</h2>
+<p>Sphere&#39; uses Twitter&#39;s location features to grab where things are, you&#39;ll need to active this in your Twitter profile settings.</p>
 
-<p>Content is ephemeral, meaning only the latest stories from contributors are displayed. For archived content please 
-refer to the individual contributor Twitter feeds.</p>
+<p>Once active you&#39;ll be able to set locations on your tweets, sometimes some locations won&#39;t be there, so go for the next best location if this happens. </p>
 
-<p>We&#39;re currently in early development so things will often break and some news may be irrelevant or confusing.</p>
+<p>If you don&#39;t attach a location Sphere&#39; won&#39;t assign it to the map but will still list it.</p>
 
-<p>If something is a country level event, eg. affecting the whole UK, a random town will be bestowed the honour of &quot;hosting&quot; the story.</p>
+<h3>Location Tagging Retweets</h3>
 
-<p>We use GitHub Pages for hosting the front-end and Heroku for providing the back-end. Open Layers and Open Street Map provide the mapping interface technology. Chiefly written in JavaScript and Python. There&#39;s a little caching going on so we don&#39;t max out the Twitter API.</p>
+<p><em>Location tagging is only available on Twitter&#39;s mobile apps, you will need to use these to be a contributor.</em></p>
 
-<p>For technical details you can read the <a href="https://github.com/sphere-of-influence/sphere-of-influence">source code on GitHub</a> or checkout the <a href="/pages/operating-guide.html">operating guide</a> for contributors and editors.</p>
+<p>Twitter only allows location tagging on original tweets or quote tweets, <em>not</em> basic retweets.</p>
 
-<h2>Issues, Inaccuracies or Concerns</h2>
+<p>To workaround this limitation Sphere&#39; will list a quoted tweet instead of a wrapping quote tweet, but will use the location of the wrapping quote tweet.</p>
 
-<p>If you&#39;ve concerns about the content on Sphere of Influence, please contact a contributor. All concerns will be promptly addressed.</p>
+<p>In other words, if you want to retweet John Smith&#39;s tweet but set the location as London you should quote tweet John, then set a location on your quote tweet with some tweet text (can be anything), then send. Sphere&#39; will pick this up, display John&#39;s tweet but with the location you set. Your tweet text will not be visible, because it will be John&#39;s tweet being shown.</p>
 
-<h2>Previous Works</h2>
+<h3>Working with an Alt Account</h3>
 
-<p>Sphere of Influence is a super-light rebuild of a concept originally realised by <a href="//twitter.com/OldNewStandard">@OldNewStandard</a> with his <a href="https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped">Atlaski Project</a> for the University of Brighton.</p>
+<p>If you&#39;re using a secondary account to contribute, its easy to switch between accounts on the Twitter&#39;s mobile apps, just tap your profile picture in the tweet compose view, or in the timeline view hold down the home icon.</p>
 
-<h2>License</h2>
+<h2>Administration &amp; Other Content</h2>
 
-<p>Until a robust license can be found which forbids commercial use this code-base remains proprietary and not free for re-use. We&#39;re aware this sucks and hope to change the license in future. If you have a suggestion for an appropriate license please contact a contributor.</p>
+<p>It&#39;s not all tweets, there can also be long-form materials for editorials, or pages like this.</p>
+
+<h3>Page Articles</h3>
+
+<p>If you&#39;re the technical maintainer or writing page articles (like this one) you&#39;ll need Push permissions to the Git repository.</p>
+
+<p>Articles are written in Markdown and stored within the <code>src-pages/content/</code> directory, with the filename as the slug, the contents in the format:</p>
+
+<pre><code>title
+~
+description
+~
+markdown here on..</code></pre>
+
+<p>Once written, build the pages using the command <code>npm run build-pages</code>. </p>
+
+<h3>Previewing Content</h3>
+
+<p>Serve the <code>public/</code> directory as a http server locally to preview changes. The npm package <code>http-server</code> is recommended, but its up to you what you use - it&#39;ll only be static content you&#39;re serving.</p>
+
+<h3>Publishing Content</h3>
+
+<p>To publish changes you&#39;ll need Push permissions to the Git repository. </p>
+
+<p>Running the command <code>npm run publish</code> will copy the current <code>public/</code> contents to the places they need to be to work with GitHub pages.</p>
+
+<p>Follow this with <code>git add . &amp;&amp; git commit -m &quot;Updated Content&quot; &amp;&amp; git push origin master</code></p>
+
+<p>Changes will now be live.</p>
                     </article>
             </div>
         </main>
