@@ -20,25 +20,26 @@ window.pinnedTweet = '1198025479904776192';
 
 window.captureTweets = (tweets) => {
     window.tweets = tweets;
-};
 
-window.twttr.ready( function (twttr) {
+    window.twttr.ready( function (twttr) {
   
-  twttr.widgets.createTweet(
-    window.pinnedTweet,
-    document.getElementById('pinned-tweet-hook'),
-    {
-      theme: 'light'
-    }
-  ).then(() => {
+      twttr.widgets.createTweet(
+        window.pinnedTweet,
+        document.getElementById('pinned-tweet-hook'),
+        {
+          theme: 'light'
+        }
+      ).then(() => {
+        
+          window.refreshStories(window.tweets);
     
-      window.refreshStories(window.tweets);
-
-      document.querySelectorAll('.skeleton-tweet').forEach(skeleton => {
-        skeleton.classList.add('hidden');
+          document.querySelectorAll('.skeleton-tweet').forEach(skeleton => {
+            skeleton.classList.add('hidden');
+          });
+    
       });
+    
+    
+    });
 
-  });
-
-
-});
+};
