@@ -16,7 +16,7 @@ window.twttr = (function(d, s, id) {
   }(document, "script", "twitter-wjs"));
 
 // Setup done ->
-window.pinnedTweet = '1198025479904776192';
+window.pinnedTweet = '1199426412740038662';
 
 window.captureTweets = (tweets) => {
     window.tweets = tweets;
