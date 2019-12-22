@@ -4,3 +4,4 @@ flask_heroku
 gunicorn
 tweepy
 psycopg2
+geotext
