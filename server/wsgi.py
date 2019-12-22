@@ -76,7 +76,7 @@ def stock_coords_index():
 # implement the ignore list, recursive programming here..
 def best_match_city(text, ignore=[]):
 
-    fresh_cities = GeoText(text).cities
+    fresh_cities = GeoText(text, 'GB').cities
     cities = [x for x in fresh_cities if x not in ignore]
 
     if cities == []:
@@ -133,7 +133,7 @@ def fetchTweets():
                 place_is_found = 'False'
 
                 if place == {}:
-                    
+
                     if hasattr(status, 'retweeted_status'):
                         found_place = best_match_city(status.retweeted_status.full_text)
                     else:
