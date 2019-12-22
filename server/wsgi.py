@@ -11,6 +11,9 @@ import json
 import tweepy
 import os
 
+from geotext import geotext # module
+from geotext import GeoText # class
+
 consumer_key = os.environ.get('CONSUMER_KEY','')
 consumer_secret = os.environ.get('CONSUMER_SECRET','')
 access_token =  os.environ.get('ACCESS_TOKEN','')
@@ -26,7 +29,6 @@ heroku = Heroku(app)
 db = SQLAlchemy(app)
 
 account_list = (os.environ.get('CONTRIBUTORS', '')).split()
-
 class Dataentry(db.Model):
     __tablename__ = "twitter_cache"
     id = db.Column(db.Integer, primary_key=True)
@@ -58,6 +60,48 @@ def updateCache(data):
     cache.timestamp = int(time.time())
     db.session.commit()
 
+
+coords_index = {}
+def stock_coords_index():
+
+    path = os.path.dirname(geotext.__file__) + "/data/cities15000.txt"
+    lat = geotext.read_table(path, usecols=[1,4])
+    lon = geotext.read_table(path, usecols=[1,5])
+
+    for t, n in zip(lat, lon):
+        lat[t] = float(lat[t])
+        lon[n] = float(lon[n])
+        coords_index[t] = [lat[t], lon[n]]
+
+# implement the ignore list, recursive programming here..
+def best_match_city(text, ignore=[]):
+
+    fresh_cities = GeoText(text).cities
+    cities = [x for x in fresh_cities if x not in ignore]
+
+    if cities == []:
+        top_hit = None
+        latitude = None
+        longitude = None
+
+    else:
+        top_hit = max(set(cities), key = cities.count)
+
+        try:
+            coords = coords_index[top_hit.lower()]
+        except:
+            ignore.append(top_hit)
+            return best_match_city(text, ignore)
+        
+        latitude = coords_index[top_hit.lower()][0]
+        longitude = coords_index[top_hit.lower()][1]
+
+    return {
+        "city": top_hit,
+        "latitude": latitude,
+        "longitude": longitude
+    }
+
 def fetchTweets():
 
     tweets = []
@@ -85,12 +129,23 @@ def fetchTweets():
                 else: 
                     place = status._json['place'] or {}
 
-                tweets.append({
-                    "id": id,
-                    "date":  status._json['created_at'],
-                    "place": place
-                })
+                found_place = None
+                place_is_found = False
 
+                if place == {}:
+                    found_place = best_match_city(status.text)
+                    print(status.text, found_place)
+                    if found_place != None and found_place["city"] != None:
+                        place = found_place
+                        place_is_found = True
+
+                if place != {}:
+                    tweets.append({
+                        "id": id,
+                        "date":  status._json['created_at'],
+                        "place": place,
+                        "place_is_found": place_is_found
+                    })
 
         return tweets
 
@@ -99,7 +154,9 @@ def fetchTweets():
 
 
 @app.route('/')
-def index(force_fresh=False):
+def index(force_fresh=True):
+
+    stock_coords_index()
 
     callback = request.args.get("callback", "callback")
     
@@ -112,6 +169,8 @@ def index(force_fresh=False):
     else:
         from_cache = True
         tweets = cache.data
+    
+    tweets = json.dumps(tweets)
         
     return '{0}({1}) /* from cache? {2} */'.format(callback, tweets, from_cache)
     
