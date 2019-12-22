@@ -130,14 +130,14 @@ def fetchTweets():
                     place = status._json['place'] or {}
 
                 found_place = None
-                place_is_found = False
+                place_is_found = 'False'
 
                 if place == {}:
                     found_place = best_match_city(status.text)
                     print(status.text, found_place)
                     if found_place != None and found_place["city"] != None:
                         place = found_place
-                        place_is_found = True
+                        place_is_found = 'True'
 
                 if place != {}:
                     tweets.append({
@@ -169,9 +169,7 @@ def index(force_fresh=False):
     else:
         from_cache = True
         tweets = cache.data
-    
-    tweets = json.dumps(tweets)
-        
+            
     return '{0}({1}) /* from cache? {2} */'.format(callback, tweets, from_cache)
     
 if __name__ == '__main__':
