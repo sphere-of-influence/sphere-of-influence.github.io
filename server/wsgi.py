@@ -117,7 +117,7 @@ def fetchTweets():
             if item == None:
                 continue
 
-            for status in tweepy.Cursor(api.user_timeline, _id=item.id).items():
+            for status in tweepy.Cursor(api.user_timeline, _id=item.id, tweet_mode="extended").items():
 
                 if status.is_quote_status:
                     id = status.quoted_status_id_str
@@ -133,8 +133,12 @@ def fetchTweets():
                 place_is_found = 'False'
 
                 if place == {}:
-                    found_place = best_match_city(status.text)
-                    print(status.text, found_place)
+                    
+                    if hasattr(status, 'retweeted_status'):
+                        found_place = best_match_city(status.retweeted_status.full_text)
+                    else:
+                        found_place = best_match_city(status.full_text)
+                        
                     if found_place != None and found_place["city"] != None:
                         place = found_place
                         place_is_found = 'True'
@@ -144,7 +148,8 @@ def fetchTweets():
                         "id": id,
                         "date":  status._json['created_at'],
                         "place": place,
-                        "place_is_found": place_is_found
+                        "place_is_found": place_is_found,
+                        #"text": status.full_text
                     })
 
         return tweets
@@ -159,6 +164,10 @@ def index(force_fresh=False):
     stock_coords_index()
 
     callback = request.args.get("callback", "callback")
+    demand = request.args.get("demand", "nothing")
+
+    if demand == "fresh":
+        force_fresh = True
     
     cache = db.session.query(Dataentry).first()
 
@@ -170,7 +179,7 @@ def index(force_fresh=False):
         from_cache = True
         tweets = cache.data
             
-    return '{0}({1}) /* from cache? {2} */'.format(callback, tweets, from_cache)
+    return '{0}({1}) /* from cache? {2} , demanding? {3} */'.format(callback, tweets, from_cache, demand)
     
 if __name__ == '__main__':
     app.run()
