@@ -154,7 +154,7 @@ def fetchTweets():
 
 
 @app.route('/')
-def index(force_fresh=True):
+def index(force_fresh=False):
 
     stock_coords_index()
 
