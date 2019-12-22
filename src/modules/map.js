@@ -319,7 +319,12 @@ function refreshStories(stories=[]) {
     stories = stories.map(story => {
 
         if (story.place !== null && Object.keys(story.place).length>0)
-            [story.longitude, story.latitude] = polygonCenter(story.place.bounding_box.coordinates[0]);
+
+            if (story.place_is_found)
+                [story.longitude, story.latitude] = [story.place.longitude, story.place.latitude];
+            else
+                [story.longitude, story.latitude] = polygonCenter(story.place.bounding_box.coordinates[0]);
+
         else
             story.place = null;
 
