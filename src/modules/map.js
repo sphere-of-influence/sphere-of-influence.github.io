@@ -320,7 +320,7 @@ function refreshStories(stories=[]) {
 
         if (story.place !== null && Object.keys(story.place).length>0)
 
-            if (story.place_is_found)
+            if (story.place_is_found == 'True')
                 [story.longitude, story.latitude] = [story.place.longitude, story.place.latitude];
             else
                 [story.longitude, story.latitude] = polygonCenter(story.place.bounding_box.coordinates[0]);
