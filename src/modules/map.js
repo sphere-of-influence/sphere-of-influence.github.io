@@ -262,8 +262,8 @@ function tryPopup(feature, pan = true, orphan=false) {
             {
                 theme: 'light',
                 linkColor: '#CD0000',
-                //width: 325,
-                cards: 'hidden'
+                width: 325,
+                //cards: 'hidden'
             }
         );
 
