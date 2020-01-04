@@ -9,11 +9,9 @@ Sphere of Influence can be set up cost free by exploiting services like GitHub P
 
 # Sphere of Influence (Site)
 
-Sphere of Influence is also the name of the site for which it was developed. Sphere of Influence (the site) is dedicated to tracking lefty news on Twitter with a focus on the United Kingdom. 
+Sphere of Influence is also the name of the site for which it was developed. Sphere of Influence (the site) is dedicated to tracking Soviet history on Twitter. 
 
 We're currently in early development so things will often break and some news may be irrelevant or confusing.
-
-If something is a country level event, eg. affecting the whole UK, a random town will be bestowed the honour of "hosting" the story.
 
 
 ## Official Documentation
