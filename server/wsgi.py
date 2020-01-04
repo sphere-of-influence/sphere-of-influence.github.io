@@ -11,8 +11,7 @@ import json
 import tweepy
 import os
 
-from geotext import geotext # module
-from geotext import GeoText # class
+from geotextbig import GeoText 
 
 consumer_key = os.environ.get('CONSUMER_KEY','')
 consumer_secret = os.environ.get('CONSUMER_SECRET','')
@@ -29,6 +28,11 @@ heroku = Heroku(app)
 db = SQLAlchemy(app)
 
 account_list = (os.environ.get('CONTRIBUTORS', '')).split()
+country_codes = (os.environ.get('COUNTRIES', '')).split()
+tweet_limit = int(os.environ.get('LIMIT', ''))
+
+Geo = GeoText()
+
 class Dataentry(db.Model):
     __tablename__ = "twitter_cache"
     id = db.Column(db.Integer, primary_key=True)
@@ -60,48 +64,6 @@ def updateCache(data):
     cache.timestamp = int(time.time())
     db.session.commit()
 
-
-coords_index = {}
-def stock_coords_index():
-
-    path = os.path.dirname(geotext.__file__) + "/data/cities15000.txt"
-    lat = geotext.read_table(path, usecols=[1,4])
-    lon = geotext.read_table(path, usecols=[1,5])
-
-    for t, n in zip(lat, lon):
-        lat[t] = float(lat[t])
-        lon[n] = float(lon[n])
-        coords_index[t] = [lat[t], lon[n]]
-
-# implement the ignore list, recursive programming here..
-def best_match_city(text, ignore=[]):
-
-    fresh_cities = GeoText(text, 'GB').cities
-    cities = [x for x in fresh_cities if x not in ignore]
-
-    if cities == []:
-        top_hit = None
-        latitude = None
-        longitude = None
-
-    else:
-        top_hit = max(set(cities), key = cities.count)
-
-        try:
-            coords = coords_index[top_hit.lower()]
-        except:
-            ignore.append(top_hit)
-            return best_match_city(text, ignore)
-        
-        latitude = coords_index[top_hit.lower()][0]
-        longitude = coords_index[top_hit.lower()][1]
-
-    return {
-        "city": top_hit,
-        "latitude": latitude,
-        "longitude": longitude
-    }
-
 def fetchTweets():
 
     tweets = []
@@ -117,29 +79,34 @@ def fetchTweets():
             if item == None:
                 continue
 
-            for status in tweepy.Cursor(api.user_timeline, _id=item.id, tweet_mode="extended").items():
+            for status in tweepy.Cursor(api.user_timeline, id=target, tweet_mode="extended").items(tweet_limit):
 
+
+                id = status.id_str
                 if status.is_quote_status:
-                    id = status.quoted_status_id_str
-                else:
-                    id = status.id_str
+                    try:
+                        id = status.quoted_status_id_str
+                    except:
+                        id = status.id_str
 
                 if hasattr(status, 'retweeted_status'):
                     place = status.retweeted_status._json['place'] or status._json['place'] or {}
                 else: 
                     place = status._json['place'] or {}
 
+                # "found" meaning the sytem found the place
+                # "found" may be false, but there can still be a inherent "place" from twitter
                 found_place = None
                 place_is_found = 'False'
 
                 if place == {}:
 
                     if hasattr(status, 'retweeted_status'):
-                        found_place = best_match_city(status.retweeted_status.full_text)
+                        found_place = Geo.find(status.retweeted_status.full_text, country_codes).best_city
                     else:
-                        found_place = best_match_city(status.full_text)
+                        found_place = Geo.find(status.full_text, country_codes).best_city
                         
-                    if found_place != None and found_place["city"] != None:
+                    if found_place != None and found_place["name"] != None:
                         place = found_place
                         place_is_found = 'True'
 
@@ -149,37 +116,42 @@ def fetchTweets():
                         "date":  status._json['created_at'],
                         "place": place,
                         "place_is_found": place_is_found,
-                        #"text": status.full_text
+                        "text": status.full_text
                     })
 
-        return tweets
+                Geo.clear()
+
+        return sorted(tweets, key=lambda k: int(k['id']), reverse=True) 
 
     else:
         return []
 
 
 @app.route('/')
-def index(force_fresh=False):
-
-    stock_coords_index()
+def index(force_fresh=False, update_cache=True):
 
     callback = request.args.get("callback", "callback")
     demand = request.args.get("demand", "nothing")
 
     if demand == "fresh":
         force_fresh = True
+
+    if demand == "dummy":
+        force_fresh = True
+        update_cache = False
     
     cache = db.session.query(Dataentry).first()
 
     if force_fresh or cache.timestamp < ( int(time.time()) - (15 * 60)):
         from_cache = False
         tweets = fetchTweets()
-        updateCache(json.dumps(tweets))
+        if update_cache:
+            updateCache(json.dumps(tweets))
     else:
         from_cache = True
         tweets = cache.data
             
-    return '{0}({1}) /* from cache? {2} , demanding? {3} */'.format(callback, tweets, from_cache, demand)
+    return '{0}({1}) /* from cache? {2}, demanding? {3}, with contributors: {4}*/'.format(callback, tweets, from_cache, demand, ', '.join(account_list))
     
 if __name__ == '__main__':
     app.run()
