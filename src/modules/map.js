@@ -52,10 +52,10 @@ const map = new Map({
         })
     ],
     view: new View({
-        center: [-1146103.7497373186, 7312647.439038483],
-        zoom: 6,
-        minZoom: 4.5,
-        maxZoom: 7.5
+        center: [3218104.8972297963, 7595497.719842249],
+        zoom: 4,
+        minZoom: 3.5,
+        maxZoom: 14.5
     })
 });
 
