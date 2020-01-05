@@ -20,16 +20,16 @@ Documentation for the platform is yet to be written.
 
 ## Contributing
 
-Thank you for considering contributing! Please contact [@SleepingInSnow](https://twitter.com/SleepingInSnow).
+Thank you for considering contributing! Please contact [@sovietarchitect](https://twitter.com/sovietarchitect).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Sphere of Influence, please contact [@SleepingInSnow](https://twitter.com/SleepingInSnow). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Sphere of Influence, please contact [@sovietarchitect](https://twitter.com/sovietarchitect). All security vulnerabilities will be promptly addressed.
 
 ## Other Issues & Inaccuracies 
 
-If you've concerns about the content on Sphere of Influence, please contact [@SleepingInSnow](https://twitter.com/SleepingInSnow). All concerns will be promptly addressed.
+If you've concerns about the content on Sphere of Influence, please contact [@sovietarchitect](https://twitter.com/sovietarchitect). All concerns will be promptly addressed.
 
 ## License
 
-Until a robust license can be found which forbids commercial use this code-base remains proprietary and not free for re-use. We're aware this sucks and hope to change the license in future. If you have a suggestion for an appropriate license please contact [@SleepingInSnow](https://twitter.com/SleepingInSnow).
+Until a robust license can be found which forbids commercial use this code-base remains proprietary and not free for re-use. We're aware this sucks and hope to change the license in future. If you have a suggestion for an appropriate license please contact [@sovietarchitect](https://twitter.com/sovietarchitect).

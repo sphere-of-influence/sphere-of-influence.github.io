@@ -6,7 +6,7 @@ Contributors wanted! Currently in Beta!
 
 Sphere of Influence is dedicated to tracking Soviet history on Twitter. We are currently in Beta so things might be a little rough & ready.
 
-Current editors are [@SleepingInSnow](//twitter.com/SleepingInSnow) and [@OldNewStandard](//twitter.com/OldNewStandard). If you'd like to join the team please contact either of us. Tweets not from editor accounts will also appear if they are of particular interest.
+Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [@OldNewStandard](//twitter.com/OldNewStandard). If you'd like to join the team please contact either of us. Tweets not from editor accounts will also appear if they are of particular interest.
 
 ## Goal
 
