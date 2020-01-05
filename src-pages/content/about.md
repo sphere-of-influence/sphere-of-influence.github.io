@@ -1,16 +1,16 @@
 About Sphere of Influence
 ~
-Sphere of Influence is dedicated to tracking Soviet history on Twitter. 
+Sphere of Influence is dedicated to tracking Soviet culture on Twitter. 
 Contributors wanted! Currently in Beta!
 ~
 
-Sphere of Influence is dedicated to tracking Soviet history on Twitter. We are currently in Beta so things might be a little rough & ready.
+Sphere of Influence is dedicated to tracking Soviet culture on Twitter. We are currently in Beta so things might be a little rough & ready.
 
 Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [@OldNewStandard](//twitter.com/OldNewStandard). If you'd like to join the team please contact either of us. Tweets not from editor accounts will also appear if they are of particular interest.
 
 ## Goal
 
-Sphere of Influence aims to spread optimism and awareness of Soviet history.
+Sphere of Influence aims to spread optimism and awareness of Soviet culture.
 
 ## How does this work?
 

@@ -9,7 +9,7 @@ Sphere of Influence can be set up cost free by exploiting services like GitHub P
 
 # Sphere of Influence (Site)
 
-Sphere of Influence is also the name of the site for which it was developed. Sphere of Influence (the site) is dedicated to tracking Soviet history on Twitter. 
+Sphere of Influence is also the name of the site for which it was developed. Sphere of Influence (the site) is dedicated to tracking Soviet culture on Twitter. 
 
 We're currently in early development so things will often break and some news may be irrelevant or confusing.
 
