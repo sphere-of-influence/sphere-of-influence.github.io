@@ -13,6 +13,11 @@ import os
 
 from geotextbig import GeoText 
 
+# for the arch bot
+import requests
+import random
+from time import sleep
+
 consumer_key = os.environ.get('CONSUMER_KEY','')
 consumer_secret = os.environ.get('CONSUMER_SECRET','')
 access_token =  os.environ.get('ACCESS_TOKEN','')
@@ -30,6 +35,8 @@ db = SQLAlchemy(app)
 account_list = (os.environ.get('CONTRIBUTORS', '')).split()
 country_codes = (os.environ.get('COUNTRIES', '')).split()
 tweet_limit = int(os.environ.get('LIMIT', ''))
+
+bot_trigger = (os.environ.get('BOT_TRIGGER', ''))
 
 Geo = GeoText()
 
@@ -126,12 +133,14 @@ def fetchTweets():
     else:
         return []
 
-
 @app.route('/')
-def index(force_fresh=False, update_cache=True):
+def index(force_fresh=False, update_cache=True, from_cache=False):
 
     callback = request.args.get("callback", "callback")
     demand = request.args.get("demand", "nothing")
+
+    if demand == "stale":
+        from_cache = True
 
     if demand == "fresh":
         force_fresh = True
@@ -142,7 +151,7 @@ def index(force_fresh=False, update_cache=True):
     
     cache = db.session.query(Dataentry).first()
 
-    if force_fresh or cache.timestamp < ( int(time.time()) - (15 * 60)):
+    if force_fresh or (from_cache == False and cache.timestamp < ( int(time.time()) - (15 * 60)) ):
         from_cache = False
         tweets = fetchTweets()
         if update_cache:
@@ -152,6 +161,47 @@ def index(force_fresh=False, update_cache=True):
         tweets = cache.data
             
     return '{0}({1}) /* from cache? {2}, demanding? {3}, with contributors: {4}*/'.format(callback, tweets, from_cache, demand, ', '.join(account_list))
-    
+
+
+
+'''
+
+    Arch bot code
+    This is not required for sphere'
+
+'''
+@app.route('/' + bot_trigger)
+def arch_bot_tweet():
+
+    def random_line(afile):
+        with open(afile) as f:
+            lines = f.readlines()
+            return random.choice(lines)
+
+    def tweet_image(url, message):
+        filename = 'temp.jpg'
+        request = requests.get(url, stream=True)
+        if request.status_code == 200:
+            with open(filename, 'wb') as image:
+                for chunk in request:
+                    image.write(chunk)
+
+            api.update_with_media(filename, status=message)
+            os.remove(filename)
+            return True
+        else:
+            return False
+
+    sent = False
+    while sent != True:
+        line = (random_line('./arch-bot/src.csv')).split()
+        url = line[:1][0]
+        message = ' '.join(line[1:])
+        message = (message[:275] + '..') if len(message) > 275 else message
+        sent = tweet_image(url, message)
+
+    return 'Tweet Sent: ' + url + ' ' + message
+
+
 if __name__ == '__main__':
     app.run()
