@@ -1,6 +1,6 @@
 # Sphere of Influence (Platform)
 
-Sphere of Influence is a barebones distributed platform for mapping curated news on Twitter. 
+Sphere of Influence is a barebones distributed platform for mapping curated content on Twitter. 
 
 The front-end is as light as possible and the back-end is a stateless RESTful API.
 Content is sourced from contributers by using Twitter as the CMS. 
