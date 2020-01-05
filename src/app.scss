@@ -13,12 +13,16 @@ html, body {
     @extend .sans;
 }
 
+body {
+    margin: 10px 0px;
+}
+
 .sub-header {
     display: none;
     @media (min-width: 550px) { display: block; }
     position: fixed;
     top: 20px;
-    right: 40px;
+    right: 20px;
     text-align: right;
     z-index: 9;
     transition: all .5s;
@@ -172,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar {
 
-    border-left: 5px solid #222222;
+    //border-left: 5px solid #222222;
     min-height: 100%;
 
     > * {
