@@ -242,7 +242,7 @@ function scrollTo(id) {
         });
 
         const storyEl = document.getElementById('story-'+id);
-        storyEl.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
+        storyEl.scrollIntoView({block: "center", inline: "center"});
         storyEl.classList.add('focused');
 
     }
