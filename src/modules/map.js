@@ -126,7 +126,7 @@ function handleStoryClick(e) {
 
 function addSidebarStories(stories) {
     const sidebarStories = document.getElementById('sidebar-stories');
-    stories.forEach( story => {
+    stories.reverse().forEach( story => {
 
         if(document.getElementById('story-'+story.id) != null) return;
         
@@ -142,7 +142,7 @@ function addSidebarStories(stories) {
         virtual.innerHTML = html.trim();
       
         const newStoryEl = virtual.firstChild;
-        sidebarStories.appendChild(newStoryEl);
+        sidebarStories.prepend(newStoryEl);
 
         window.twttr.widgets.createTweet(
         `${story.id}`,
