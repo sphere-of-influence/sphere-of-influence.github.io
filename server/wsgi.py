@@ -74,6 +74,7 @@ def updateCache(data):
 def fetchTweets():
 
     tweets = []
+    ids = []
 
     if len(account_list) > 0:
         for target in account_list:
@@ -88,13 +89,21 @@ def fetchTweets():
 
             for status in tweepy.Cursor(api.user_timeline, id=target, tweet_mode="extended").items(tweet_limit):
 
-
                 id = status.id_str
                 if status.is_quote_status:
                     try:
                         id = status.quoted_status_id_str
                     except:
-                        id = status.id_str
+                        pass
+                
+                if hasattr(status, 'retweeted_status'):
+                    try:
+                        id = status.retweeted_status.id_str
+                    except:
+                        pass
+
+                if id in ids: 
+                    continue
 
                 if hasattr(status, 'retweeted_status'):
                     place = status.retweeted_status._json['place'] or status._json['place'] or {}
@@ -118,6 +127,7 @@ def fetchTweets():
                         place_is_found = 'True'
 
                 if place != {}:
+
                     tweets.append({
                         "id": id,
                         "date":  status._json['created_at'],
@@ -126,7 +136,10 @@ def fetchTweets():
                         "text": status.full_text
                     })
 
+                    ids.append(id)
+
                 Geo.clear()
+                place = {}
 
         return sorted(tweets, key=lambda k: int(k['id']), reverse=True) 
 
