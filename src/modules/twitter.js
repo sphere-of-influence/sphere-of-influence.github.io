@@ -18,8 +18,7 @@ window.twttr = (function(d, s, id) {
 // Setup done ->
 window.pinnedTweet = '1199426412740038662';
 
-window.captureTweets = (tweets) => {
-    window.tweets = tweets;
+function captureTweets(tweets) {
 
     window.twttr.ready( function (twttr) {
   
@@ -31,7 +30,7 @@ window.captureTweets = (tweets) => {
         }
       ).then(() => {
         
-          window.refreshStories(window.tweets);
+          window.refreshStories(tweets);
     
           document.querySelectorAll('.skeleton-tweet').forEach(skeleton => {
             skeleton.classList.add('hidden');
@@ -41,5 +40,42 @@ window.captureTweets = (tweets) => {
     
     
     });
+}
 
-};
+async function getMapJson() 
+{
+  let response = await fetch(`/map.json`);
+  let data = await response.json();
+  return data;
+}
+
+async function requestTweets(demand, mapJson) 
+{
+  let response = await fetch(`http://0.0.0.0:5000/?demand=${demand}`, {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(mapJson)
+  });
+  let data = await response.json();
+  return data;
+}
+
+getMapJson()
+  .then(mapJson => {
+
+    window.initMap(mapJson);
+
+    requestTweets('stale', mapJson)
+    .then(data => {
+      captureTweets(data.tweets);
+    }); 
+  
+    requestTweets('dummy', mapJson)
+    .then(data => {
+      captureTweets(data.tweets);
+    }); 
+      
+  });

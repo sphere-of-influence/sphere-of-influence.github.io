@@ -1,6 +1,7 @@
 flask
 flask_sqlalchemy
 flask_heroku
+flask_cors
 gunicorn
 tweepy
 psycopg2

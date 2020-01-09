@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import jsonify
 from flask import request
+from flask_cors import CORS, cross_origin
 
 from flask_sqlalchemy import SQLAlchemy
 from flask_heroku import Heroku
@@ -31,6 +32,8 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 heroku = Heroku(app)
 db = SQLAlchemy(app)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 account_list = (os.environ.get('CONTRIBUTORS', '')).split()
 country_codes = (os.environ.get('COUNTRIES', '')).split()
@@ -71,13 +74,13 @@ def updateCache(data):
     cache.timestamp = int(time.time())
     db.session.commit()
 
-def fetchTweets():
+def fetchTweets(handles):
 
     tweets = []
     ids = []
 
-    if len(account_list) > 0:
-        for target in account_list:
+    if len(handles) > 0:
+        for target in handles:
             item = None
             try:
                 item = api.get_user(target)
@@ -146,7 +149,8 @@ def fetchTweets():
     else:
         return []
 
-@app.route('/')
+@app.route('/', methods = ['POST'])
+@cross_origin()
 def index(force_fresh=False, update_cache=True, from_cache=False):
 
     callback = request.args.get("callback", "callback")
@@ -166,14 +170,22 @@ def index(force_fresh=False, update_cache=True, from_cache=False):
 
     if force_fresh or (from_cache == False and cache.timestamp < ( int(time.time()) - (15 * 60)) ):
         from_cache = False
-        tweets = fetchTweets()
+        tweets = fetchTweets(request.json['handles'])
         if update_cache:
             updateCache(json.dumps(tweets))
     else:
         from_cache = True
-        tweets = cache.data
-            
-    return '{0}({1}) /* from cache? {2}, demanding? {3}, with contributors: {4}*/'.format(callback, tweets, from_cache, demand, ', '.join(account_list))
+        tweets = json.loads(cache.data)
+
+    out = {
+        "tweets": tweets,
+        "map": request.json,
+        "from_cache": from_cache,
+        "force_fresh": force_fresh,
+        "demand": demand
+    }
+    
+    return out
 
 
 

@@ -1,0 +1,11 @@
+{
+    "name" : "Sphere of Influence",
+    "strap": "Mapping Soviet culture",
+    "handles": ["sovietarchitect", "sovietvisuals", "SovietArtBot", "SovietArcades", "hocommunism", "ruaf_hmeimim", "ColdWarRecords"],
+    "view": {
+        "center": [3218104.8972297963, 7595497.719842249],
+        "zoom": 4,
+        "minZoom": 3.5,
+        "maxZoom": 14.5
+    }
+}
