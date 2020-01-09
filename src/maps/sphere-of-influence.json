@@ -2,6 +2,8 @@
     "name" : "Sphere of Influence",
     "strap": "Mapping Soviet culture",
     "handles": ["sovietarchitect", "sovietvisuals", "SovietArtBot", "SovietArcades", "hocommunism", "ruaf_hmeimim", "ColdWarRecords"],
+    "country_codes": ["EE", "LV", "LT", "KZ", "KG", "TJ", "TM", "UZ", "BY", "MD", "UA", "RU", "AM", "AZ", "GE", "PL", "DE"],
+    "color": "#CD0000",
     "view": {
         "center": [3218104.8972297963, 7595497.719842249],
         "zoom": 4,

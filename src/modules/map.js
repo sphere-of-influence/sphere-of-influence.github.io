@@ -127,8 +127,7 @@ window.initMap = function(options) {
             window.twttr.widgets.createTweet(
                 `${story.id}`,
                 document.getElementById(`story-${story.id}-twitter-hook`), {
-                    theme: 'light',
-                    linkColor: '#CD0000'
+                    theme: 'light'
                 }
             );
 
@@ -145,6 +144,10 @@ window.initMap = function(options) {
         });
     }
 
+    function adjust(color, amount) {
+        return '#' + color.replace(/^#/, '').replace(/../g, color => ('0'+Math.min(255, Math.max(0, parseInt(color, 16) + amount)).toString(16)).substr(-2));
+    }
+    
     function addFeatures(stories) {
 
         let feature, features = [];
@@ -161,14 +164,25 @@ window.initMap = function(options) {
             for (var k in story)
                 feature.data[k] = story[k]
 
-            let iconSrc = '/dist/icons/flag-x.png';
+            const color = document.documentElement.style.getPropertyValue('--color');
+
+            //let iconSrc = '/dist/icons/flag-x.png';
+            const iconSrc = `<svg width="60px" height="60px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="16.5" y="31" style="fill:#871B1B;" width="10px" height="6px"/>
+                    <path style="fill:#424A60;" d="M3.5,0c-0.552,0-1,0.447-1,1v3v55c0,0.553,0.448,1,1,1s1-0.447,1-1V4V1C4.5,0.447,4.052,0,3.5,0z"/>
+                    <rect x="4.5" y="4" style="fill:${adjust(color, 33)};" width="22px" height="29px"/>
+                    <path style="fill:${color};" d="M26.5,9v24h-6c-2.209,0-4,1.791-4,4c0,2.209,1.791,4,4,4h4h33l-11-16l11-16H26.5z"/>
+                    <path style="fill:${color, 25};" d="M16.5,37c0,2.209,1.791,4,4,4h4h2v-8h-6C18.291,33,16.5,34.791,16.5,37z"/>
+                    </svg>`;
+
             feature.setStyle(new Style({
                 image: new Icon({
                     anchor: [0.15, 1],
                     anchorXUnits: 'fraction',
                     anchorYUnits: 'fraction',
-                    src: iconSrc,
-                    scale: 1
+                    src:'data:image/svg+xml;charset=utf-8,' + encodeURIComponent( iconSrc ),
+                    scale: 0.33,
+                    rotation: 0.261799
                 })
             }));
             feature.data.iconSrc = iconSrc;

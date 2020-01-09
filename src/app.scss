@@ -7,6 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Calistoga|Inconsolata:400,700&display=swap');
 
+:root {
+    --colour: #CD0000;
+}
+
 html, body {
     background: white;
     margin: 10px 20px;
@@ -52,9 +56,9 @@ body {
     pointer-events: none;
 }
 
-a { color: #CD0000; 
+a { color: var(--color, #CD0000); 
     &:hover, &:active, &:visited {
-        color: #CD0000 !important;
+        color: var(--color, #CD0000) !important;
     }
 }
 
@@ -255,6 +259,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .star {
+
+        fill: var(--color, #CD0000);
+        stroke: var(--color, #CD0000);
 
         animation-name: spin;
         animation-duration: 2s;

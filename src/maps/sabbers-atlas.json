@@ -1,0 +1,13 @@
+{
+    "name" : "Sabbers Atlas",
+    "strap": "Strengthen the ban! Support the Sabs!",
+    "handles": ["sovietarchitect", "sovietvisuals", "SovietArtBot", "SovietArcades", "hocommunism", "ruaf_hmeimim", "ColdWarRecords"],
+    "country_codes": ["EE", "LV", "LT", "KZ", "KG", "TJ", "TM", "UZ", "BY", "MD", "UA", "RU", "AM", "AZ", "GE", "PL", "DE"],
+    "color": "#000000",
+    "view": {
+        "center": [3218104.8972297963, 7595497.719842249],
+        "zoom": 4,
+        "minZoom": 3.5,
+        "maxZoom": 14.5
+    }
+}

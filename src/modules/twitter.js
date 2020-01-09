@@ -18,7 +18,7 @@ window.twttr = (function(d, s, id) {
 // Setup done ->
 window.pinnedTweet = '1199426412740038662';
 
-function captureTweets(tweets) {
+window.captureTweets = function(tweets) {
 
     window.twttr.ready( function (twttr) {
   
@@ -40,42 +40,4 @@ function captureTweets(tweets) {
     
     
     });
-}
-
-async function getMapJson() 
-{
-  let response = await fetch(`/map.json`);
-  let data = await response.json();
-  return data;
-}
-
-async function requestTweets(demand, mapJson) 
-{
-  let response = await fetch(`http://0.0.0.0:5000/?demand=${demand}`, {
-    method: 'POST',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(mapJson)
-  });
-  let data = await response.json();
-  return data;
-}
-
-getMapJson()
-  .then(mapJson => {
-
-    window.initMap(mapJson);
-
-    requestTweets('stale', mapJson)
-    .then(data => {
-      captureTweets(data.tweets);
-    }); 
-  
-    requestTweets('dummy', mapJson)
-    .then(data => {
-      captureTweets(data.tweets);
-    }); 
-      
-  });
+};
