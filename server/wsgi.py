@@ -35,8 +35,6 @@ db = SQLAlchemy(app)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-account_list = (os.environ.get('CONTRIBUTORS', '')).split()
-country_codes = (os.environ.get('COUNTRIES', '')).split()
 tweet_limit = int(os.environ.get('LIMIT', ''))
 
 bot_trigger = (os.environ.get('BOT_TRIGGER', ''))
@@ -74,7 +72,7 @@ def updateCache(data):
     cache.timestamp = int(time.time())
     db.session.commit()
 
-def fetchTweets(handles):
+def fetchTweets(handles, country_codes):
 
     tweets = []
     ids = []
@@ -170,7 +168,7 @@ def index(force_fresh=False, update_cache=True, from_cache=False):
 
     if force_fresh or (from_cache == False and cache.timestamp < ( int(time.time()) - (15 * 60)) ):
         from_cache = False
-        tweets = fetchTweets(request.json['handles'])
+        tweets = fetchTweets(request.json['handles'], request.json['country_codes'])
         if update_cache:
             updateCache(json.dumps(tweets))
     else:
