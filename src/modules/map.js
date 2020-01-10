@@ -111,25 +111,30 @@ window.initMap = function(options) {
             if (document.getElementById('story-' + story.id) != null) return;
 
             const html = `<div 
-        data-story-id='${story.id}' 
-        id='story-${story.id}'
-        class='story link'>
-            <time datetime='20:00'>${timeSince(story.date)}</time>
-            <div id='story-${story.id}-twitter-hook' class='tweet'></div>
-        </div>`;
+                data-story-id='${story.id}' 
+                id='story-${story.id}'
+                class='story link loader-bg'>
+                    <time datetime='20:00'>${timeSince(story.date)}</time>
+                    <div id='story-${story.id}-twitter-hook' class='skeleton-tweet'></div>
+                </div>`;
 
             let virtual = document.createElement('div');
             virtual.innerHTML = html.trim();
 
             const newStoryEl = virtual.firstChild;
+            const twitterEl = newStoryEl.children[1];
+            console.log(twitterEl);
             sidebarStories.prepend(newStoryEl);
 
             window.twttr.widgets.createTweet(
                 story.id,
-                document.getElementById(`story-${story.id}-twitter-hook`), {
+                twitterEl, {
                     theme: 'light'
                 }
-            );
+            )
+            .then(()=>{
+                twitterEl.className = 'tweet';
+            });
 
         });
     }
