@@ -36,43 +36,48 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 tweet_limit = int(os.environ.get('LIMIT', ''))
-
+map_root_url = (os.environ.get('MAP_ROOT_URL', ''))
 bot_trigger = (os.environ.get('BOT_TRIGGER', ''))
 
 Geo = GeoText()
 
 class Dataentry(db.Model):
-    __tablename__ = "twitter_cache"
+    __tablename__ = "twitter_cache_slugs"
     id = db.Column(db.Integer, primary_key=True)
     data = db.Column(db.Text())
     timestamp = db.Column(db.Integer)
+    slug = db.Column(db.String)
 
-    def __init__ (self, data):
+    def __init__ (self, data, slug):
         self.data = data
         self.timestamp = int(time.time())
+        self.slug = slug
 
 # uncomment on first time run via heroku local
 #db.create_all()
 
-#def post_to_db(data):
-#    indata = Dataentry(data)
-#    try:
-#        db.session.add(indata)
-#        db.session.commit()
-#    except Exception as e:
-#        print("FAILED data entry")
-#        print(e)
-#    return "Data entry SUCCESS"
+def post_to_db(data, slug):
+    indata = Dataentry(data, slug)
+    try:
+        db.session.add(indata)
+        db.session.commit()
+    except Exception as e:
+        print("FAILED data entry")
+        print(e)
+    return indata
 
-#post_to_db('Nothing here yet')
+def update_cache(data, slug):
 
-def updateCache(data):
-    cache = db.session.query(Dataentry).first()
+    cache = db.session.query(Dataentry).filter(Dataentry.slug==slug).first()
+    if cache is None:
+        cache = post_to_db('[]', slug)
+
     cache.data = data
     cache.timestamp = int(time.time())
+    cache.slug = slug
     db.session.commit()
 
-def fetchTweets(handles, country_codes):
+def fetch_tweets(handles, country_codes):
 
     tweets = []
     ids = []
@@ -147,35 +152,45 @@ def fetchTweets(handles, country_codes):
     else:
         return []
 
+
 @app.route('/', methods = ['POST'])
 @cross_origin()
-def index(force_fresh=False, update_cache=True, from_cache=False):
+def index(force_fresh=False, update_the_cache=True, from_cache=False):
 
-    callback = request.args.get("callback", "callback")
+    slug = request.json['slug']
+
     demand = request.args.get("demand", "nothing")
 
     if demand == "stale":
         from_cache = True
+        update_the_cache = False
 
     if demand == "fresh":
         force_fresh = True
+        update_the_cache = True
 
     if demand == "dummy":
         force_fresh = True
-        update_cache = False
+        update_the_cache = False
     
-    cache = db.session.query(Dataentry).first()
+    tweets = []
 
     if force_fresh or (from_cache == False and cache.timestamp < ( int(time.time()) - (15 * 60)) ):
         from_cache = False
-        tweets = fetchTweets(request.json['handles'], request.json['country_codes'])
-        if update_cache:
-            updateCache(json.dumps(tweets))
+        tweets = fetch_tweets(request.json['handles'], request.json['country_codes'])
+        if update_the_cache:
+            update_cache(json.dumps(tweets), slug)
     else:
         from_cache = True
+
+        cache = db.session.query(Dataentry).filter(Dataentry.slug==slug).first()
+        if cache is None:
+            cache = post_to_db('[]', slug)
+
         tweets = json.loads(cache.data)
 
     out = {
+        "slug": slug,
         "tweets": tweets,
         "map": request.json,
         "from_cache": from_cache,
