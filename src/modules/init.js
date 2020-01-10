@@ -30,7 +30,7 @@ async function getMapJson() {
 }
 
 async function requestTweets(demand, mapJson) {
-  let response = await fetch(`http://0.0.0.0:5000/?demand=${demand}`, {
+  let response = await fetch(`https://sphere-of-influence.herokuapp.com/?demand=${demand}`, {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
@@ -113,7 +113,7 @@ getMapJson()
         window.captureTweets(data.tweets);
       });
 
-    requestTweets('fresh', mapJson)
+    requestTweets('nothing', mapJson)
       .then(data => {
         window.captureTweets(data.tweets);
       });
