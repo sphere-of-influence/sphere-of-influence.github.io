@@ -175,6 +175,10 @@ def index(force_fresh=False, update_the_cache=True, from_cache=False):
     
     tweets = []
 
+    cache = db.session.query(Dataentry).filter(Dataentry.slug==slug).first()
+    if cache is None:
+        cache = post_to_db('[]', slug)
+
     if force_fresh or (from_cache == False and cache.timestamp < ( int(time.time()) - (15 * 60)) ):
         from_cache = False
         tweets = fetch_tweets(request.json['handles'], request.json['country_codes'])
@@ -182,10 +186,6 @@ def index(force_fresh=False, update_the_cache=True, from_cache=False):
             update_cache(json.dumps(tweets), slug)
     else:
         from_cache = True
-
-        cache = db.session.query(Dataentry).filter(Dataentry.slug==slug).first()
-        if cache is None:
-            cache = post_to_db('[]', slug)
 
         tweets = json.loads(cache.data)
 
