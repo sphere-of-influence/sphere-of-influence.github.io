@@ -1,10 +1,10 @@
 {
-    "slug" : "sphere-of-influence",
-    "name" : "Sphere of Influence",
-    "strap": "Mapping Soviet culture",
+    "slug" : "test",
+    "name" : "Test Map",
+    "strap": "Try not to break things",
     "handles": ["sovietarchitect", "sovietvisuals", "SovietArtBot", "SovietArcades", "hocommunism", "ruaf_hmeimim", "ColdWarRecords"],
     "country_codes": ["EE", "LV", "LT", "KZ", "KG", "TJ", "TM", "UZ", "BY", "MD", "UA", "RU", "AM", "AZ", "GE", "PL", "DE"],
-    "color": "#CD0000",
+    "color": "#ffc0cb",
     "view": {
         "center": [1031623.7031323293, 7372530.908334386],
         "zoom": 4,
