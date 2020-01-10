@@ -1,0 +1,14 @@
+{
+    "slug": "sabbers-atlas",
+    "name": "Sabbers Atlas",
+    "strap": "Strengthen the ban! Support the Sabs!",
+    "handles": ["HuntSabs", "WestMidsSabs", "MancHuntSabs"],
+    "country_codes": ["GB", "IE"],
+    "color": "#000000",
+    "view": {
+        "center": [-946186.9464266179, 7258918.3929091515],
+        "zoom": 6,
+        "minZoom": 3.5,
+        "maxZoom": 14.5
+    }
+}
