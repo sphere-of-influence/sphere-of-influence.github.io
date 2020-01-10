@@ -125,7 +125,7 @@ window.initMap = function(options) {
             sidebarStories.prepend(newStoryEl);
 
             window.twttr.widgets.createTweet(
-                `${story.id}`,
+                story.id,
                 document.getElementById(`story-${story.id}-twitter-hook`), {
                     theme: 'light'
                 }
@@ -329,10 +329,7 @@ window.initMap = function(options) {
 
                 return story;
 
-            })
-            .filter(tweet => {
-                return tweet.id != window.pinnedTweet;
-            });
+        });
 
         addFeatures(stories);
         addSidebarStories(stories);
