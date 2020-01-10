@@ -5,7 +5,7 @@
 @import "../node_modules/skeleton-sass-official/skeleton/themes/fresh/include_components";
 @import "../node_modules/skeleton-sass-official/skeleton/themes/fresh/grid";
 
-@import url('https://fonts.googleapis.com/css?family=Calistoga|Inconsolata:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Inconsolata:400,700&display=fallback');
 
 :root {
     --colour: #CD0000;
@@ -307,3 +307,4 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @import './modules/popup';
+@import './modules/loader-bg';
