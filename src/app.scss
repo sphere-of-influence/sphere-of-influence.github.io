@@ -128,6 +128,10 @@ a { color: var(--color, #CD0000);
 
 }
 
+.mobile-only {
+    @media (min-width: 550px) { display: none; }
+}
+
 .no-break { 
     @media (min-width: 550px) {
         white-space: nowrap; 
@@ -162,6 +166,10 @@ a { color: var(--color, #CD0000);
         position: fixed;
     }
 
+}
+
+.text-center {
+    text-align: center;
 }
 
 .z-one {
