@@ -1,12 +1,15 @@
-function reload() {
-    console.log('Reloading!');
-    window.location.reload();
+
+let path = window.location.hash.split('/');
+
+if (path[1] === '') {
+  console.log('home');
 }
 
-window.addEventListener('hashchange', reload);
-window.addEventListener('popstate', reload);
+function reload() {
+    window.location.reload(true);
+}
 
-const path = window.location.hash.split('/');
+window.addEventListener('popstate', reload);
 
 async function getMapJson() 
 {
@@ -29,11 +32,13 @@ async function requestTweets(demand, mapJson)
   return data;
 }
 
-function setPageEls(options) {
-
+function setupMapPage(options) {
+    
     const page = {
         nameEls: document.querySelectorAll('.js-map-name'),
         strapEls: document.querySelectorAll('.js-map-strap'),
+        followingEl: document.querySelector('.js-map-following'),
+        followingLeadEl: document.querySelector('.js-map-following-lead'),
         rootEl: document.documentElement
     };
     
@@ -45,32 +50,48 @@ function setPageEls(options) {
         element.innerHTML = options.strap;
     });
 
-    page.rootEl.style.setProperty('--color', options.color)
+    options.handles = options.handles || [];
+    if (options.handles.length > 0) {
+      options.handles.forEach(handle => {
+          const link = document.createElement('a');
+          link.href = `//twitter.com/${handle}`;
+          link.innerHTML = `@${handle}`;
+          page.followingEl.appendChild(link);
+          link.insertAdjacentHTML('afterend', ' ');
+      });
+    } else {
+          page.followingLeadEl.parentElement.removeChild(page.followingLeadEl);
+    }
+
+    page.rootEl.style.setProperty('--color', options.color);
+
+    document.title = `${options.name} - ${options.strap}`
 
 }
 
 getMapJson()
   .then(mapJson => {
 
+    setupMapPage(mapJson);
     window.initMap(mapJson);
-    setPageEls(mapJson);
 
     requestTweets('stale', mapJson)
     .then(data => {
       window.captureTweets(data.tweets);
     }); 
   
-    requestTweets('nothing', mapJson)
+    requestTweets('fresh', mapJson)
     .then(data => {
       window.captureTweets(data.tweets);
     }); 
       
   })
   .catch(reason => {
+    console.error(reason);
       const options = {
         name : "404 - Map not found",
         strap : "We couldn't find a map here, is the link correct?",
         color : ""
       };
-      setPageEls(options);
+      setupMapPage(options);
   });

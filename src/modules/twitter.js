@@ -15,29 +15,16 @@ window.twttr = (function(d, s, id) {
     return t;
   }(document, "script", "twitter-wjs"));
 
-// Setup done ->
-window.pinnedTweet = '1199426412740038662';
-
 window.captureTweets = function(tweets) {
 
     window.twttr.ready( function (twttr) {
+
+        window.refreshStories(tweets);
   
-      twttr.widgets.createTweet(
-        window.pinnedTweet,
-        document.getElementById('pinned-tweet-hook'),
-        {
-          theme: 'light'
-        }
-      ).then(() => {
-        
-          window.refreshStories(tweets);
-    
-          document.querySelectorAll('.skeleton-tweet').forEach(skeleton => {
-            skeleton.classList.add('hidden');
-          });
-    
-      });
-    
+        document.querySelectorAll('.skeleton-tweet').forEach(skeleton => {
+          skeleton.classList.add('hidden');
+        });
+
     
     });
 };
