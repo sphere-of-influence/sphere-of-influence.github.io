@@ -7,8 +7,11 @@
     "color": "#CD0000",
     "view": {
         "center": [1031623.7031323293, 7372530.908334386],
-        "zoom": 4,
-        "minZoom": 3.5,
-        "maxZoom": 14.5
-    }
+        "zoom": 4.6,
+        "minZoom": 4.6,
+        "maxZoom": 6.5
+    },
+    "scripts": [
+        "airsim"
+    ]
 }
