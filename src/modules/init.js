@@ -76,8 +76,12 @@ function setupPage(options) {
   if (options.handles.length > 0) {
     options.handles.forEach(handle => {
       const link = document.createElement('a');
+      const pic = new Image();
+      pic.src = `https://avatars.io/twitter/${handle}`;
+      pic.className = 'profile-pic';
       link.href = `//twitter.com/${handle}`;
       link.innerHTML = `@${handle}`;
+      link.prepend(pic);
       page.followingEl.appendChild(link);
       link.insertAdjacentHTML('afterend', ' ');
     });
