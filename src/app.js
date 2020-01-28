@@ -1,4 +1,4 @@
-console.log('NO GODS OR MANAGERS');
+console.log('Workers of the world, unite!');
 
 import './modules/scroll';
 import './modules/twitter';

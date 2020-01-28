@@ -123,7 +123,6 @@ window.initMap = function(options) {
 
             const newStoryEl = virtual.firstChild;
             const twitterEl = newStoryEl.children[1];
-            console.log(twitterEl);
             sidebarStories.prepend(newStoryEl);
 
             window.twttr.widgets.createTweet(
