@@ -1,0 +1,57 @@
+.page-html, .page-body {
+    margin: 0;
+}
+
+.page {
+
+    margin: 0 auto 80px;
+    padding: 40px;
+    width: 90rem;
+    max-width: 100%;
+
+    .close-button {
+        position: fixed;
+        top: 40px;
+        right: 40px;
+        background: white;
+        padding: 15px;
+        display: flex;
+
+        svg {
+            max-width: 30px;
+            width: 5vw;
+            min-width: 15px;
+        }
+
+        &:hover svg {
+            opacity: .5;
+        }
+    }
+
+}
+
+
+.page-hero {
+    background-image: url(/dist/hero.jpg);
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 450px;
+    max-height: 30vw;
+    min-height: 250px;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+
+    .unsplash-badge {
+        position: absolute;
+        bottom: 0px;
+        right: 40px;
+        filter: invert(1) grayscale(1);
+    }
+}
+
+.page-main {
+    background: white;
+    z-index: 1;
+    position: relative;
+}
