@@ -72,7 +72,10 @@ body {
     pointer-events: none;
 }
 
-a { color: var(--color, #CD0000); 
+a { 
+    color: var(--color, #CD0000); 
+    text-decoration: none;
+    
     &:hover, &:active, &:visited {
         color: var(--color, #CD0000) !important;
     }
@@ -308,3 +311,4 @@ h1, h2, h3, h4, h5, h6 {
 
 @import './modules/popup';
 @import './modules/loader-bg';
+@import './modules/pages';
