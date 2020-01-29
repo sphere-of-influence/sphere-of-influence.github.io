@@ -10,7 +10,6 @@ import { Icon, Style } from 'ol/style'
 import { fromLonLat } from 'ol/proj'
 import Overlay from 'ol/Overlay'
 import timeSince from './time-since';
-import './long-press';
 
 window.initMap = function(options) {
 
@@ -134,12 +133,20 @@ window.initMap = function(options) {
             )
             .then(()=>{
                 twitterEl.className = 'tweet';
-                    twitterEl.setAttribute('data-long-press-delay', 10);
-                    twitterEl.parentElement.addEventListener('long-press', function(e) {
-                        if(window.matchMedia('(max-width: 551px)').matches)
+                twitterEl.touched = false;
+                
+                    twitterEl.parentElement.addEventListener('touchstart', function(e) {
+                        if(window.matchMedia('(max-width: 551px)').matches) {
                             e.stopPropagation();
-                            e.preventDefault();
-                            window.open(`https://twitter.com/i/web/status/${story.id}`)
+                            if(twitterEl.touched === true) {
+                                window.open(`https://twitter.com/i/web/status/${story.id}`);
+                                twitterEl.touched = false;
+                            }
+                            twitterEl.touched = true;
+                            setTimeout(()=>{
+                                twitterEl.touched = false;
+                            }, 250);
+                        }
                     });
             });
 
