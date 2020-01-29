@@ -14,6 +14,7 @@
 html, body {
     background: white;
     margin: 10px 20px;
+    @media (min-width: 550px) { margin: 10px; }
     @extend .sans;
 }
 
@@ -26,6 +27,12 @@ body {
     width: calc(100% + 13vw);
     max-width: 80vw;
     margin-bottom: 40px;
+
+    @media (max-width: 551px) {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
 
     a {
         background: rgba(255,255,255,0.75);
@@ -46,8 +53,7 @@ body {
 }
 
 .sub-header {
-    display: none;
-    @media (min-width: 550px) { display: block; }
+    display: block;
     position: fixed;
     top: 40px;
     right: 40px;
@@ -57,8 +63,12 @@ body {
     transform: translateY(-140px);
     background: rgba(#ffffff, 0);
     box-shadow: -20px 20px 10px 10px rgba(#ffffff, 0);
+    @media (max-width: 551px) { opacity: 0; }
     &.visible { 
         transform: translateY(0px);
+        @media (max-width: 551px) {
+            transform: translateY(-40px) translateX(50px) scale(0.75);
+        }
         opacity: .85;
         background: rgba(#ffffff, .5);
         box-shadow: 0px 0px 100px 100px rgba(#ffffff, .5);
@@ -250,12 +260,15 @@ h1, h2, h3, h4, h5, h6 {
 
     > * {
         padding-left: 15px;
+        @media (max-width: 551px) {
+            padding-left: 0;
+        }
     }
 
     #sidebar-stories {
 
         @media (max-width: 551px) {
-            pointer-events: none;
+            .tweet { pointer-events: none; }
         }
 
         position: relative;
@@ -263,6 +276,9 @@ h1, h2, h3, h4, h5, h6 {
         padding-left: 0;
         > * {
             padding-left: 15px;
+            @media (max-width: 551px) {
+                padding-left: 0;
+            }
         }
     }
 

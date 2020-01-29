@@ -10,6 +10,7 @@ import { Icon, Style } from 'ol/style'
 import { fromLonLat } from 'ol/proj'
 import Overlay from 'ol/Overlay'
 import timeSince from './time-since';
+import './long-press';
 
 window.initMap = function(options) {
 
@@ -126,13 +127,18 @@ window.initMap = function(options) {
             sidebarStories.prepend(newStoryEl);
 
             window.twttr.widgets.createTweet(
-                story.id,
+                ''+story.id,
                 twitterEl, {
                     theme: 'light'
                 }
             )
             .then(()=>{
                 twitterEl.className = 'tweet';
+                    twitterEl.setAttribute('data-long-press-delay', 20);
+                    twitterEl.parentElement.addEventListener('long-press', function(e) {
+                        if(window.matchMedia('(max-width: 551px)').matches)
+                            window.open(`https://twitter.com/i/web/status/${story.id}`)
+                    });
             });
 
         });
@@ -140,11 +146,8 @@ window.initMap = function(options) {
 
     function registerSidebarStories() {
         document.querySelectorAll('.story.link').forEach(storyEl => {
-
             if (storyEl.classList.contains('registered')) return;
-
-            storyEl.addEventListener('click', handleStoryClick)
-            storyEl.addEventListener('touchstart', handleStoryClick)
+            else storyEl.addEventListener('click', handleStoryClick)
         });
     }
 
