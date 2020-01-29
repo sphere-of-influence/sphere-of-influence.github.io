@@ -134,9 +134,11 @@ window.initMap = function(options) {
             )
             .then(()=>{
                 twitterEl.className = 'tweet';
-                    twitterEl.setAttribute('data-long-press-delay', 20);
+                    twitterEl.setAttribute('data-long-press-delay', 10);
                     twitterEl.parentElement.addEventListener('long-press', function(e) {
                         if(window.matchMedia('(max-width: 551px)').matches)
+                            e.stopPropagation();
+                            e.preventDefault();
                             window.open(`https://twitter.com/i/web/status/${story.id}`)
                     });
             });
