@@ -48,8 +48,28 @@
 
                 <div id="map" class="map loader-bg"></div>
                 <div id="popup" class="popup"></div>
-                
                 <div class="shadow-provider"></div>
+
+                <header class="sub-header" id="sub-header" aria-hidden>
+                    <div class="no-click">
+                        <div>
+                            <svg class="star" id="sub-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+
+                        <h3 class="serif no-break"><span class="js-map-name">&nbsp;</span>
+                            <br>
+                            <small class="no-break"><span class="js-map-strap">&nbsp;</span></small>
+                        </h3>
+                    </div>
+                    <div>
+                        <a class="desktop-only" href="/pages/about.html">About</a>
+                        <br>
+                        <div class="more-maps">
+                            <a>More Maps</a>
+                            <span class="js-map-list"></span>
+                        </div>
+                    </div>
+                </header>
 
                 <section class="four columns z-one sidebar">
 
@@ -72,26 +92,6 @@
                         </header>
 
 
-                        <header class="sub-header" id="sub-header" aria-hidden>
-                            <div class="no-click">
-                                <div>
-                                    <svg class="star" id="sub-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                </div>
-
-                                <h3 class="serif no-break"><span class="js-map-name">&nbsp;</span>
-                                    <br>
-                                    <small class="no-break"><span class="js-map-strap">&nbsp;</span></small>
-                                </h3>
-                            </div>
-                            <div>
-                                <a href="/pages/about.html">About</a>
-                                <br>
-                                <div class="more-maps">
-                                    <a>More Maps</a>
-                                    <span class="js-map-list"></span>
-                                </div>
-                            </div>
-                        </header>
 
                         <div id="sidebar-stories">
 
@@ -105,6 +105,12 @@
                         </div>
 
                 </section>
+
+                <nav class="mobile-tabber mobile-only">
+                    <a onclick="toggleFeed(true)" ontouchstart="toggleFeed(true)" class="js-show-feed">Feed</a>
+                    <a onclick="toggleFeed(false)" ontouchstart="toggleFeed(false)" class="js-hide-feed">Map</a>
+                    <a href="/pages/about.html">About</a>
+                </nav>
 
         </main>
 

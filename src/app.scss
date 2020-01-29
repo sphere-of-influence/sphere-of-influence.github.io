@@ -59,6 +59,19 @@ body {
     }
 }
 
+%sub-header-visible {
+    transform: translateY(0px);
+    @media (max-width: 551px) {
+        transform: translateY(-40px) translateX(50px) scale(0.75);
+    }
+    opacity: .85;
+    background: rgba(#ffffff, .5);
+    box-shadow: 0px 0px 100px 100px rgba(#ffffff, .5);
+    a {
+        top: 0px;
+    }
+}
+
 .sub-header {
     display: block;
     position: fixed;
@@ -72,16 +85,7 @@ body {
     box-shadow: -20px 20px 10px 10px rgba(#ffffff, 0);
     @media (max-width: 551px) { opacity: 0; }
     &.visible { 
-        transform: translateY(0px);
-        @media (max-width: 551px) {
-            transform: translateY(-40px) translateX(50px) scale(0.75);
-        }
-        opacity: .85;
-        background: rgba(#ffffff, .5);
-        box-shadow: 0px 0px 100px 100px rgba(#ffffff, .5);
-        a {
-            top: 0px;
-        }
+        @extend %sub-header-visible;
      }
      a {
         position: relative;
@@ -187,7 +191,11 @@ a {
 }
 
 .mobile-only {
-    @media (min-width: 550px) { display: none; }
+    @media (min-width: 550px) { display: none !important; }
+}
+
+.desktop-only {
+    @media (max-width: 551px) { display: none !important; }
 }
 
 .no-break { 
@@ -199,8 +207,8 @@ a {
 .all-click { pointer-events: all; }
 
 .map {
-    display: none;
-    @media (min-width: 550px) { display: block; }
+    //display: none;
+    //@media (min-width: 550px) { display: block; }
 
     overscroll-behavior-y: none;
     position: fixed;
@@ -350,26 +358,28 @@ h1, h2, h3, h4, h5, h6 {
 
     }
 
-    .star {
+}
 
-        fill: var(--color, #CD0000);
-        stroke: var(--color, #CD0000);
 
-        animation-name: spin;
-        animation-duration: 2s;
-        
-        @keyframes spin {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(#{(360 * 5)}deg);
-            }
+.star {
+
+    fill: var(--color, #CD0000);
+    stroke: var(--color, #CD0000);
+
+    animation-name: spin;
+    animation-duration: 2s;
+    
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
         }
-        
-    }
+        to {
+            transform: rotate(#{(360 * 5)}deg);
+        }
+    }    
 }
 
 @import './modules/popup';
+@import './modules/mobile-tabber';
 @import './modules/loader-bg';
 @import './modules/pages';

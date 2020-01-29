@@ -255,7 +255,7 @@ window.initMap = function(options) {
 
     function scrollTo(id) {
 
-        if (window.matchMedia("(min-width: 550px)").matches) {
+        //if (window.matchMedia("(min-width: 550px)").matches) {
 
             document.querySelectorAll('.story.link').forEach(storyEl => {
                 storyEl.classList.remove('focused');
@@ -268,7 +268,7 @@ window.initMap = function(options) {
             });
             storyEl.classList.add('focused');
 
-        }
+        //}
     }
 
     function tryPopup(feature, pan = true, orphan = false) {
@@ -359,11 +359,19 @@ window.initMap = function(options) {
 
     }
 
+    function toggleFeed(show) {
+        if (show) {
+            document.body.classList.remove('hide-feed');
+        } else {
+            document.body.classList.add('hide-feed');
+        }
+    }
 
     /**
      *      globally bootstrap key methods
      */
     window.refreshStories = refreshStories;
+    window.toggleFeed = toggleFeed;
     window.mapCenter = () => {
         return map.getView().getCenter()
     };
