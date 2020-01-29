@@ -132,6 +132,7 @@ window.initMap = function(options) {
                 }
             )
             .then(()=>{
+
                 twitterEl.className = 'tweet';
                 twitterEl.touched = false;
                 
@@ -139,7 +140,12 @@ window.initMap = function(options) {
                         if(window.matchMedia('(max-width: 551px)').matches) {
                             e.stopPropagation();
                             if(twitterEl.touched === true) {
-                                window.open(`https://twitter.com/i/web/status/${story.id}`);
+                                let target = `https://twitter.com/i/web/status/${story.id}`;
+                                let tryWindow = null;
+                                tryWindow = window.open(target);
+                                if(tryWindow === null) { // Safari is a petchalent child
+                                    window.location.href = target;
+                                }
                                 twitterEl.touched = false;
                             }
                             twitterEl.touched = true;
