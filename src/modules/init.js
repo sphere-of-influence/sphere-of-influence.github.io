@@ -106,6 +106,9 @@ function setupPage(options) {
 
 }
 
+// for the splash
+document.body.classList.add('loading');
+
 getMapJson()
   .then(mapJson => {
 

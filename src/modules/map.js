@@ -133,6 +133,8 @@ window.initMap = function(options) {
             )
             .then(()=>{
 
+                document.body.classList.remove('loading');
+                document.body.classList.add('loading-done');
                 twitterEl.className = 'tweet';
                 twitterEl.touched = false;
                 
