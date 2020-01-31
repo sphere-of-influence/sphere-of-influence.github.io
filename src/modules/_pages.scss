@@ -74,3 +74,26 @@
     z-index: 1;
     position: relative;
 }
+
+.page {
+    input,
+    textarea {
+        border-color: var(--colour) !important;
+        font-size: inherit;
+        font-family: inherit;
+        letter-spacing: inherit;
+    }
+
+    input[type="submit"] {
+        color: var(--colour) !important;
+    }
+
+    textarea {
+        height: 17rem;
+    }
+
+    hr {
+        margin-top: 4rem;
+        margin-bottom: 4.5rem;
+    }
+}

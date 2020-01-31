@@ -1,4 +1,4 @@
-const markdown = require('markdown').markdown;
+const markdown = require('marked');
 const fs = require('fs');
 
 String.prototype.interpolate = function(params) {
@@ -25,7 +25,7 @@ pages.forEach( page => {
     let description = content.shift().trim();
     let body = content.join(delim);
 
-    body = markdown.toHTML(body);
+    body = markdown(body);
 
     content = template.interpolate({
         title,
