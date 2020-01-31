@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish" : "cp -R public/. .",
-    "build-pages" : "node src-pages/build.js",
+    "publish": "cp -R public/. .",
+    "build-pages": "node src-pages/build.js",
     "serve": "http-server public/",
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -17,12 +17,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "marked": "^0.8.0",
     "ol": "^6.1.1"
   },
   "devDependencies": {
     "cross-env": "^6.0.3",
     "laravel-mix": "^5.0.0",
-    "markdown": "^0.5.0",
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
