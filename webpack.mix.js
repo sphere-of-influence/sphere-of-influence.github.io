@@ -1,4 +1,5 @@
 let mix = require('laravel-mix');
+let child_process = require('child_process');
 
 /*
  |--------------------------------------------------------------------------
@@ -14,7 +15,14 @@ let mix = require('laravel-mix');
 mix.js('src/app.js', 'public/dist/')
    .sass('src/app.scss', 'public/dist/')
    .copy('src/maps/*.json', 'public/maps')
-   .copy('src/*.html', 'public/');
+   .copy('src/*.html', 'public/')
+   .then(() => {
+      child_process.exec('npm run build-pages', {cwd: __dirname}, function(error, stdout, stderr){
+          if (error) throw error;
+          console.log(stdout, stderr);
+      });
+   });
+
 
 // Full API
 // mix.js(src, output);

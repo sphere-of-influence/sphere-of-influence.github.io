@@ -1,4 +1,4 @@
-const markdown = require('marked');
+const md = require('marked-it-core').generate;
 const fs = require('fs');
 
 String.prototype.interpolate = function(params) {
@@ -6,7 +6,6 @@ String.prototype.interpolate = function(params) {
     const vals = Object.values(params);
     return new Function(...names, `return \`${this}\`;`)(...vals);
 }
-
 
 const path  = './src-pages/content/';
 const pages = fs.readdirSync(path);
@@ -25,8 +24,7 @@ pages.forEach( page => {
     let description = content.shift().trim();
     let body = content.join(delim);
 
-    body = markdown(body);
-
+    body = md(body).html.text;
     content = template.interpolate({
         title,
         description,
@@ -34,5 +32,6 @@ pages.forEach( page => {
     });
 
     fs.writeFileSync( outputPath + page.replace(/\.[^.]+$/, '.html') , content);
+    console.log(`Built "${title}"`);
 
 });

@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "marked": "^0.8.0",
+    "marked-it-core": "^0.14.0",
     "ol": "^6.1.1"
   },
   "devDependencies": {
