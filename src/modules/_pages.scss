@@ -9,6 +9,7 @@
 .page-hero {
     width: 33%;
 }
+
 .page-main {
     max-width: 100%;
 }
@@ -50,7 +51,6 @@
     }
 
 }
-
 
 .page-hero {
     background-image: url(/dist/hero.jpg);
@@ -100,4 +100,21 @@
     h2 {
         margin-top: 4rem;
     }
+}
+
+.page-card {
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    padding: 8px;
+    max-width: 100%;
+    width: 390px;
+    margin: 8px;
+    box-sizing: border-box;
+    display: inline-block;
+
+    @media (max-width: 900px) { 
+        width: 100%;
+    }
+    //
 }
