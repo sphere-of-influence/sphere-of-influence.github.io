@@ -27,11 +27,11 @@ getDates().then( (dates) =>  {
                 position: fixed;
                 right: 60px;
                 bottom: 40px;
-                min-height: 150px;
                 width: 40%;
                 background: rgba(255, 255, 255, 0.75);
                 color: rgba(0,0,0,0.75);
-                padding: 30px;
+                padding: 20px;
+                font-size: 1.2rem;
             }
 
             .on-this-day h2 {
