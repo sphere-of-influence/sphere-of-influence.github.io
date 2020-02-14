@@ -93,6 +93,14 @@ function setupPage(options) {
 
   document.title = `${options.name} - ${options.strap}`;
 
+  if ('scripts' in options) {
+    options.scripts.forEach(script => {
+      const s = document.createElement('script');
+      s.setAttribute('src', `maps/scripts/${script}.js`);
+      document.body.appendChild(s);
+    });
+  }
+
   getMapIndex().then(index => {
     Object.keys(index).forEach(function(slug) {
       const link = document.createElement('a');
