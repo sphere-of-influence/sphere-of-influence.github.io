@@ -12,6 +12,6 @@
         "maxZoom": 6.5
     },
     "scripts": [
-        "airsim"
+        "on-this-day"
     ]
 }
