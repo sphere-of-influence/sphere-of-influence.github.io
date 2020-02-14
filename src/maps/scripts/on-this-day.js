@@ -83,7 +83,7 @@ getDates().then( (dates) =>  {
         const box = document.createElement('div');
         const sidebar = document.getElementById('sidebar-hook');
         box.className = 'page-card on-this-day';
-        box.innerHTML = `<h2>On this day in, ${onThisDay.day} ${onThisDay.year}..</h2>
+        box.innerHTML = `<h2>On this day, ${onThisDay.day} ${onThisDay.year}..</h2>
                          <p>${onThisDay.text}</p>
                          <p class="on-this-day-attr"><small><em>
                          <a href="https://en.wikipedia.org/w/index.php?search=${onThisDay.text.replace('"', '')}" target="_blank">Wikipedia</a>
