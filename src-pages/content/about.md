@@ -32,6 +32,8 @@ ___
 ## Get in touch
 Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [@OldNewStandard](//twitter.com/OldNewStandard). If you'd like to join the team, help out or just curious please contact either of us.
 
+If you are serious about contributing to the project please read the [Contributors Guide](/pages/contributing.html).
+
 <script>
 function makeMail() {
     window.location = 'mailto:ericspublicinbox@gmail.com?subject='+document.mail.subject.value.replace(/ /g, '%20')+'&body='+document.mail.body.value.replace(/ /g, '%20');
