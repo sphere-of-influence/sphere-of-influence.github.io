@@ -1,5 +1,3 @@
-console.log('Sphere of Influence');
-
 async function getDates() {
     let response = await fetch('/maps/scripts/dates.json');
     let data = await response.json();
@@ -25,7 +23,7 @@ getDates().then( (dates) =>  {
         const css = `
             .on-this-day {
                 position: fixed;
-                right: 60px;
+                right: 40px;
                 bottom: 40px;
                 width: 40%;
                 background: rgba(255, 255, 255, 0.75);
