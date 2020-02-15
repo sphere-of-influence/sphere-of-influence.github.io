@@ -68,6 +68,7 @@ getDates().then( (dates) =>  {
                     right: auto;
                     bottom: auto;
                     width: 100%;
+                    max-width: 100%;
                     margin: 0 0 20px;
                 }
                 .on-this-day-close {
