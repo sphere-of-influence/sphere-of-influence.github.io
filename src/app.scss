@@ -226,6 +226,9 @@ a {
         right: 20px !important;
         bottom: 40px !important;
         left: auto !important;
+        @media (min-width: 550px) { 
+            display: none;
+        }
         @media (max-width: 551px) { 
             right: 10px !important;
             bottom: 100px !important;
