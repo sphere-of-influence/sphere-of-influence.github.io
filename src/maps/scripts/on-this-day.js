@@ -22,10 +22,11 @@ getDates().then( (dates) =>  {
 
         const css = `
             .on-this-day {
+                display: inline-block;
                 position: fixed;
                 right: 40px;
                 bottom: 40px;
-                width: 40%;
+                width: auto;
                 background: rgba(255, 255, 255, 0.75);
                 color: rgba(0,0,0,0.75);
                 padding: 20px;
@@ -61,6 +62,7 @@ getDates().then( (dates) =>  {
 
             @media (max-width: 551px) {
                 .on-this-day {
+                    display: block;
                     position: relative;
                     right: auto;
                     bottom: auto;
