@@ -75,6 +75,12 @@
     position: relative;
 }
 
+.page-main img {
+    max-width: 80%;
+    display: block;
+    border-radius: 3px;
+}
+
 .page {
     input,
     textarea {
