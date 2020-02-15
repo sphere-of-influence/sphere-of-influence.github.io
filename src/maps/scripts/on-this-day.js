@@ -27,6 +27,7 @@ getDates().then( (dates) =>  {
                 right: 40px;
                 bottom: 40px;
                 width: auto;
+                max-width: 30%;
                 background: rgba(255, 255, 255, 0.75);
                 color: rgba(0,0,0,0.75);
                 padding: 20px;
