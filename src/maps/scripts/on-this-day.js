@@ -1,26 +1,25 @@
 async function getDates() {
-    let response = await fetch('/maps/scripts/dates.json');
-    let data = await response.json();
-    return data;
+  const response = await fetch('/maps/scripts/dates.json');
+  const data = await response.json();
+  return data;
 }
 
-const monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
+const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
 ];
 
 const d = new Date();
 const currentMonth = monthNames[d.getMonth()];
 const currentDay = d.getDate();
 
-getDates().then( (dates) =>  {
-    dates = dates.filter((date) => {
-        return date.day == `${currentDay} ${currentMonth}`;
-    });
+getDates().then((dates) => {
+  const ds = dates.filter((date) => date.day === `${currentDay} ${currentMonth}`);
 
-    if(dates.length > 0) {
-        const onThisDay = dates[~~(dates.length * Math.random())];
+  if (ds.length > 0) {
+    // eslint-disable-next-line no-bitwise
+    const onThisDay = ds[~~(ds.length * Math.random())];
 
-        const css = `
+    const css = `
             .on-this-day {
                 display: inline-block;
                 position: fixed;
@@ -75,17 +74,17 @@ getDates().then( (dates) =>  {
                     display: none;
                 }
             }
-        `,
-        head = document.head || document.getElementsByTagName('head')[0],
-        style = document.createElement('style');
-        head.appendChild(style);
-        style.type = 'text/css';
-        style.appendChild(document.createTextNode(css));
-        
-        const box = document.createElement('div');
-        const sidebar = document.getElementById('sidebar-hook');
-        box.className = 'page-card on-this-day';
-        box.innerHTML = `<h2>On this day, ${onThisDay.day} ${onThisDay.year}..</h2>
+        `;
+    const head = document.head || document.getElementsByTagName('head')[0];
+    const style = document.createElement('style');
+    head.appendChild(style);
+    style.type = 'text/css';
+    style.appendChild(document.createTextNode(css));
+
+    const box = document.createElement('div');
+    const sidebar = document.getElementById('sidebar-hook');
+    box.className = 'page-card on-this-day';
+    box.innerHTML = `<h2>On this day, ${onThisDay.day} ${onThisDay.year}..</h2>
                          <p>${onThisDay.text}</p>
                          <p class="on-this-day-attr"><small><em>
                          <a href="https://en.wikipedia.org/w/index.php?search=${onThisDay.text.replace('"', '')}" target="_blank">Wikipedia</a>
@@ -96,11 +95,10 @@ getDates().then( (dates) =>  {
                                 11.387,0 0.561,10.811 234.191,244.996 0.561,479.174 "></polygon>
                             </svg>
                          </a>`;
-                         
-        sidebar.insertBefore(box, sidebar.firstChild);
-        document.getElementById('on-this-day-close').addEventListener('click', () => {
-            box.style.display = 'none';
-        });
-    }
-    
+
+    sidebar.insertBefore(box, sidebar.firstChild);
+    document.getElementById('on-this-day-close').addEventListener('click', () => {
+      box.style.display = 'none';
+    });
+  }
 });
