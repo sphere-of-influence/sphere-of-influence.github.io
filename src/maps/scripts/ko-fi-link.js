@@ -48,7 +48,7 @@ function makeKoFiLink() {
                         <img src="https://pbs.twimg.com/media/C9x5h8KWsAE9iUF?format=jpg&name=small" alt="" />
                         <span>
                             Support the project, buy us a coffee or visit the accounts we follow,
-                            many of them sell merch! ☕️ 👕
+                            many of them sell merch! ☕️👕
                         </span>
                     </a>`;
   const sidebar = document.getElementById('sidebar-stories');
