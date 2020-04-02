@@ -12,6 +12,7 @@
         "maxZoom": 6.5
     },
     "scripts": [
-        "on-this-day"
+        "on-this-day",
+        "ko-fi-link"
     ]
 }
