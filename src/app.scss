@@ -165,7 +165,7 @@ a {
         text-decoration: none;
     }
 
-    &:hover, &.focused {
+    &.focused {
         a { color: #CD0000; }
         color: #CD0000;
         background: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0));
