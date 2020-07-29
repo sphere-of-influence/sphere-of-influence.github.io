@@ -19,9 +19,8 @@ window.twttr = ((d, s, id) => {
 window.captureTweets = (tweets) => {
   window.twttr.ready(() => {
     window.refreshStories(tweets);
-
-    document.querySelectorAll('.skeleton-tweet').forEach((skeleton) => {
-      skeleton.classList.add('hidden');
+    document.querySelectorAll('.skeleton-tweets .skeleton-tweet').forEach((og) => {
+      og.classList.add('hidden');
     });
   });
 };

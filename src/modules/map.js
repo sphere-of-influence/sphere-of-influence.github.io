@@ -69,6 +69,48 @@ window.initMap = (options) => {
   map.addOverlay(overlay);
   popup.classList.add('hidden');
 
+  const sidebarObserver = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        const el = entry.target;
+        if (!entry.isIntersecting && entry.boundingClientRect.y > window.innerHeight) {
+          return;
+        }
+        window.twttr.widgets.createTweet(
+          `${el.dataset.storyId}`,
+          el.twitterEl,
+          {
+            theme: 'light',
+          },
+        ).then(() => {
+          el.twitterEl.className = 'tweet';
+          el.twitterEl.touched = false;
+
+          el.twitterEl.parentElement.addEventListener('touchstart', (e) => {
+            if (window.matchMedia('(max-width: 551px)').matches) {
+              e.stopPropagation();
+              if (el.twitterEl.touched === true) {
+                const target = `https://twitter.com/i/web/status/${story.id}`;
+                let tryWindow = null;
+                tryWindow = window.open(target);
+                if (tryWindow === null) { // Safari is a petchalent child
+                  window.location.href = target;
+                }
+                el.twitterEl.touched = false;
+              }
+              el.twitterEl.touched = true;
+              setTimeout(() => {
+                el.twitterEl.touched = false;
+              }, 250);
+            }
+          });
+        });
+        observer.unobserve(entry.target);
+      });
+    },
+    { rootMargin: '600px 0px 600px 0px' },
+  );
+
   function addSidebarStories(stories) {
     const sidebarStories = document.getElementById('sidebar-stories');
     stories.reverse().forEach((story) => {
@@ -77,7 +119,7 @@ window.initMap = (options) => {
       const html = `<div 
                 data-story-id='${story.id}' 
                 id='story-${story.id}'
-                class='story link loader-bg'>
+                class='story link observable'>
                     <time datetime='20:00'>${timeSince(story.date)}</time>
                     <div id='story-${story.id}-twitter-hook' class='skeleton-tweet'></div>
                 </div>`;
@@ -86,41 +128,14 @@ window.initMap = (options) => {
       virtual.innerHTML = html.trim();
 
       const newStoryEl = virtual.firstChild;
-      const twitterEl = newStoryEl.children[1];
+      // eslint-disable-next-line prefer-destructuring
+      newStoryEl.twitterEl = newStoryEl.children[1];
       sidebarStories.prepend(newStoryEl);
-
-      window.twttr.widgets.createTweet(
-        `${story.id}`,
-        twitterEl,
-        {
-          theme: 'light',
-        },
-      ).then(() => {
-        document.body.classList.remove('loading');
-        document.body.classList.add('loading-done');
-        twitterEl.className = 'tweet';
-        twitterEl.touched = false;
-
-        twitterEl.parentElement.addEventListener('touchstart', (e) => {
-          if (window.matchMedia('(max-width: 551px)').matches) {
-            e.stopPropagation();
-            if (twitterEl.touched === true) {
-              const target = `https://twitter.com/i/web/status/${story.id}`;
-              let tryWindow = null;
-              tryWindow = window.open(target);
-              if (tryWindow === null) { // Safari is a petchalent child
-                window.location.href = target;
-              }
-              twitterEl.touched = false;
-            }
-            twitterEl.touched = true;
-            setTimeout(() => {
-              twitterEl.touched = false;
-            }, 250);
-          }
-        });
-      });
     });
+
+    document.querySelectorAll('.story.observable').forEach((el) => { sidebarObserver.observe(el); });
+    document.body.classList.remove('loading');
+    document.body.classList.add('loading-done');
   }
 
   function adjust(_color, amount) {
