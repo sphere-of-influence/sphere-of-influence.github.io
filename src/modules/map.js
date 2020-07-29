@@ -108,7 +108,7 @@ window.initMap = (options) => {
         observer.unobserve(entry.target);
       });
     },
-    { rootMargin: '0px 0px 600px 0px' },
+    { rootMargin: '600px 0px 600px 0px' },
   );
 
   function addSidebarStories(stories) {
