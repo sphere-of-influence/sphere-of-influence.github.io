@@ -73,9 +73,9 @@ window.initMap = (options) => {
     (entries, observer) => {
       entries.forEach((entry) => {
         const el = entry.target;
-        if (!entry.isIntersecting &&
-             entry.boundingClientRect.y > window.innerHeight
-             && el.twitterEl.childNodes.length >= 2) {
+        if ((!entry.isIntersecting
+             && entry.boundingClientRect.y > window.innerHeight)
+             || el.twitterEl.childNodes.length >= 2) {
           return;
         }
         observer.unobserve(entry.target);
