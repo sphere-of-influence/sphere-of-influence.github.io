@@ -73,7 +73,9 @@ window.initMap = (options) => {
     (entries, observer) => {
       entries.forEach((entry) => {
         const el = entry.target;
-        if (!entry.isIntersecting && entry.boundingClientRect.y > window.innerHeight) {
+        if (!entry.isIntersecting &&
+             entry.boundingClientRect.y > window.innerHeight
+             && entry.target.childNodes.length > 2) {
           return;
         }
         observer.unobserve(entry.target);
