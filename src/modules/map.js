@@ -76,6 +76,7 @@ window.initMap = (options) => {
         if (!entry.isIntersecting && entry.boundingClientRect.y > window.innerHeight) {
           return;
         }
+        observer.unobserve(entry.target);
         window.twttr.widgets.createTweet(
           `${el.dataset.storyId}`,
           el.twitterEl,
@@ -105,7 +106,6 @@ window.initMap = (options) => {
             }
           });
         });
-        observer.unobserve(entry.target);
       });
     },
     { rootMargin: '600px 0px 600px 0px' },
