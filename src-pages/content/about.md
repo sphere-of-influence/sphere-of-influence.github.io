@@ -9,7 +9,7 @@ Sharing the stories of Soviet Citizens and insights into daily life within the S
 Sphere of Influence is built and maintained by volunteers in their spare time, it is a project of love.
 We are currently in Beta so things might be a little rough & ready. 
 
-Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [@OldNewStandard](//twitter.com/OldNewStandard), with assistance of family and friends.
+Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [Bogstandard](//github.com/bogstandard), with assistance of family and friends.
 
 ___
 
@@ -25,12 +25,12 @@ Sphere of Influence uses GitHub Pages for hosting the front-end and Heroku for p
 
 We're not using a framework on the front-end (eg. Vue, React) for a few reasons; 1) OpenLayers and Twitter are already overhead heavy. 2) This is an exercise in roll-your-own minimalism. 3) It's nice to have a break. For full technical details you can read the [source code on GitHub](https://github.com/sphere-of-influence/sphere-of-influence).
 
-Sphere of Influence is a lite rebuild of [@OldNewStandard](//twitter.com/OldNewStandard)'s [Atlaski Project](https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped) for the University of Brighton.
+Sphere of Influence is a lite rebuild of [Bogstandard](//github.com/bogstandard)'s [Atlaski Project](https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped) for the University of Brighton.
 
 ___
 
 ## Get in touch
-Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [@OldNewStandard](//twitter.com/OldNewStandard). If you'd like to join the team, help out or just curious please contact either of us.
+Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [Bogstandard](//github.com/bogstandard). If you'd like to join the team, help out or just curious please contact either of us.
 
 If you are serious about contributing to the project please read the [Contributors Guide](/pages/contributing.html).
 
