@@ -75,7 +75,7 @@ window.initMap = (options) => {
         const el = entry.target;
         if ((!entry.isIntersecting
              && entry.boundingClientRect.y > window.innerHeight)
-             || el.twitterEl.childNodes.length >= 2) {
+             || el.twitterEl.childNodes.length >= 1) {
           return;
         }
         observer.unobserve(entry.target);
