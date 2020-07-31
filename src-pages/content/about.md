@@ -23,7 +23,7 @@ Content is ephemeral, meaning only the latest tweets from contributors are displ
 ## The Stack
 Sphere of Influence uses GitHub Pages for hosting the front-end and Heroku for providing the back-end. Open Layers and Open Street Map provide the mapping interface technology. Chiefly written in JavaScript and Python. There's a little caching going on so we don't max out the Twitter API.
 
-We're not using a framework on the front-end (eg. Vue, React) for a few reasons; 1) OpenLayers and Twitter are already overhead heavy. 2) This is an exercise in roll-your-own minimalism. 3) It's nice to have a break. For full technical details you can read the [source code on GitHub](https://github.com/sphere-of-influence/sphere-of-influence).
+We're not using a framework on the front-end (eg. Vue, React) for a few reasons; 1) OpenLayers and Twitter are already overhead heavy. 2) This is an exercise in roll-your-own minimalism. 3) It's nice to have a break. For full technical details you can read the [source code on GitHub](//github.com/sphere-of-influence/).
 
 Sphere of Influence is a lite rebuild of [Bogstandard](//github.com/bogstandard)'s [Atlaski Project](https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped) for the University of Brighton.
 
