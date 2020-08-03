@@ -10,6 +10,8 @@ import Feature from 'ol/Feature';
 import { Icon, Style } from 'ol/style';
 import { fromLonLat } from 'ol/proj';
 import Overlay from 'ol/Overlay';
+import proj4 from 'proj4';
+import { register } from 'ol/proj/proj4';
 import timeSince from './time-since';
 
 window.initMap = (options) => {
@@ -27,9 +29,21 @@ window.initMap = (options) => {
     source: vectorSource,
   });
 
+  // eslint-disable-next-line no-param-reassign
+  options.view.projection = options.view.projection || 'EPSG:3857';
+  if (options.proj4String || false) {
+    proj4.defs(
+      options.view.projection,
+      options.proj4String,
+    );
+    register(proj4);
+    // eslint-disable-next-line no-param-reassign
+    options.view.center = fromLonLat(options.view.center, options.view.projection);
+  }
+
   const map = new Map({
     target: 'map',
-    layers: [
+    layers: options.layers || [
       new LayerTile({
         source: new SourceOSM(),
       }),
@@ -151,9 +165,10 @@ window.initMap = (options) => {
       if (story.place == null) return;
 
       feature = new Feature(new Point(fromLonLat([story.longitude, story.latitude])));
-      // feature = new Feature(new Point(fromLonLat([i, i])))
       feature.setId(story.id);
-
+      if (options.proj4String || false) {
+        feature.getGeometry().transform('EPSG:3857', options.view.projection);
+      }
       // copy all the story data across to the feature
       feature.data = {};
       // eslint-disable-next-line no-restricted-syntax
@@ -365,9 +380,10 @@ window.initMap = (options) => {
   }
 
   /**
-     *      globally bootstrap key methods
+     *      globally bootstrap key items
      */
   window.refreshStories = refreshStories;
   window.toggleFeed = toggleFeed;
   window.mapCenter = () => map.getView().getCenter();
+  window.map = map;
 };
