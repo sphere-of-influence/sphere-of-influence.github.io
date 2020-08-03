@@ -6,8 +6,6 @@ import Feature from 'ol/Feature';
 import Circle from 'ol/geom/Circle';
 import { Stroke, Fill, Style } from 'ol/style';
 
-console.log('Running Northpole.');
-
 function arcticCircle() {
   const layer = new LayerVector({
     source: new SourceVector({
@@ -61,5 +59,4 @@ function northpole() {
 window.map.once('postrender', () => {
   northpole();
   northpole = () => {};
-  console.log('Northpole rendered.');
 });
