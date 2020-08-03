@@ -3,7 +3,6 @@ import Static from 'ol/source/ImageStatic';
 
 console.log('Running Northpole.');
 
-
 function northpole() {
   document.getElementById('map').style.background = 'white';
   const img = new Image(); img.src = '/maps/scripts/sea-ice-concentration.png';
@@ -28,4 +27,6 @@ function northpole() {
   };
 }
 
-window.northpole = northpole;
+window.map.once('postrender', () => {
+  northpole();
+});
