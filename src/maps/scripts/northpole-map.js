@@ -29,4 +29,6 @@ function northpole() {
 
 window.map.once('postrender', () => {
   northpole();
+  northpole = () => {};
+  console.log('Northpole rendered.');
 });
