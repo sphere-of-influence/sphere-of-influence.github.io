@@ -2,7 +2,7 @@
     "slug" : "northpole",
     "name" : "Northpole",
     "strap": "Mapping Polar Maneuvers",
-    "handles": ["RUSexercises"],
+    "handles": ["RUSexercises", "BarentsNews", "mod_russia", "DefenceFinland", "NorwayNATO", "DK_NATO"],
     "country_codes": ["GL", "DK", "FO", "RU", "IS", "FI", "NO", "SE"],
     "color": "#425381",
     "view": {
