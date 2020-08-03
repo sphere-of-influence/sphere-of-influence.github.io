@@ -5,7 +5,6 @@ import SourceVector from 'ol/source/Vector';
 import Feature from 'ol/Feature';
 import Circle from 'ol/geom/Circle';
 import { Stroke, Fill, Style } from 'ol/style';
-import { fromLonLat } from 'ol/proj';
 
 console.log('Running Northpole.');
 
