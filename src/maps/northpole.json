@@ -3,7 +3,7 @@
     "name" : "Northpole",
     "strap": "Mapping Polar Maneuvers",
     "handles": ["RUSexercises"],
-    "country_codes": ["GL", "DNK", "FRO", "US", "RU", "ISL", "FIN"],
+    "country_codes": ["GL", "DK", "FO", "RU", "IS", "FI", "NO", "SE"],
     "color": "#425381",
     "view": {
         "projection": "EPSG:3413",
