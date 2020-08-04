@@ -169,7 +169,7 @@ function driftingStations() {
     const data = {
       fetchTweet: false,
       popupInnerHTML: `<div style="
-                          background: rgba(255, 255, 255, 0.75);
+                          background: rgba(255, 255, 255, 0.88);
                           width: 100%;
                           padding: 10px;
                           border-radius: inherit;
