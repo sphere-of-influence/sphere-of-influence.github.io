@@ -2,9 +2,16 @@
     "slug" : "northpole",
     "name" : "Northpole",
     "strap": "Mapping the frozen North.",
-    "handles": ["RUSexercises", "BarentsNews", "mod_russia", "DefenceFinland", "NorwayNATO", "DK_NATO"],
-    "country_codes": ["GL", "DK", "FO", "RU", "IS", "FI", "NO", "SE"],
     "color": "#60a0dc",
+    "handles": ["BarentsNews", "mod_russia", "arctic_today", 
+                "arcticmuseum", "yakutia", "visityakutia", 
+                "USArmyAlaska", "aknationalguard", "176thWing", 
+                "siberian_times", "PolarBears", "forsvarsmin", "MOSAiCArctic",
+                "CircumpolarInfo"],
+    "country_codes": ["GL", "DK", "FO", "RU", "IS", "FI", "NO", "SE", "US", "CA"],
+    "fetch_extents": [{
+        "min_latitude": 60
+    }],
     "view": {
         "projection": "EPSG:3413",
         "center": [15.633, 78.217],

@@ -77,7 +77,7 @@ def update_cache(data, slug):
     cache.slug = slug
     db.session.commit()
 
-def fetch_tweets(handles, country_codes):
+def fetch_tweets(handles, country_codes, extents=None):
 
     tweets = []
     ids = []
@@ -93,7 +93,7 @@ def fetch_tweets(handles, country_codes):
             if item == None:
                 continue
 
-            for status in tweepy.Cursor(api.user_timeline, id=target, tweet_mode="extended").items(tweet_limit):
+            for status in tweepy.Cursor(api.user_timeline, id=target, tweet_mode="extended", exclude_replies=True).items(tweet_limit):
 
                 id = status.id_str
                 if status.is_quote_status:
@@ -120,13 +120,27 @@ def fetch_tweets(handles, country_codes):
                 # "found" may be false, but there can still be a inherent "place" from twitter
                 found_place = None
                 place_is_found = 'False'
+                
+                if place != {} and extents is not None and extents:
+                    for extent in extents:
+                        xs = [ i[0] for i in place['bounding_box']['coordinates'][0] ]
+                        ys = [ i[1] for i in place['bounding_box']['coordinates'][0] ]
+                        cx = (min(xs) + max(xs)) / 2
+                        cy = (min(ys) + max(ys)) / 2
+                        place['latitude'] = cx
+                        place['longitude'] = cy
+                        if not ((('min_latitude' in extent and float(place['latitude']) >= extent['min_latitude']) or 'min_latitude' not in extent)\
+                            and (('max_latitude' in extent and float(place['latitude']) <= extent['max_latitude']) or 'max_latitude' not in extent)\
+                            and (('min_longitude' in extent and float(place['longitude']) >= extent['min_longitude']) or 'min_longitude' not in extent)\
+                            and (('max_longitude' in extent and float(place['longitude']) <= extent['max_longitude']) or 'max_longitude' not in extent)):
+                            place = {}
 
                 if place == {}:
 
                     if hasattr(status, 'retweeted_status'):
-                        found_place = Geo.find(status.retweeted_status.full_text, country_codes).best_city
+                        found_place = Geo.find(status.retweeted_status.full_text, country_codes, extents).best_city
                     else:
-                        found_place = Geo.find(status.full_text, country_codes).best_city
+                        found_place = Geo.find(status.full_text, country_codes, extents).best_city
                         
                     if found_place != None and found_place["name"] != None:
                         place = found_place
@@ -152,6 +166,10 @@ def fetch_tweets(handles, country_codes):
     else:
         return []
 
+
+@app.route('/', methods = ['GET'])
+def ghosts():
+    return 'Nothing here but us ghosts.'
 
 @app.route('/', methods = ['POST'])
 @cross_origin()
@@ -181,7 +199,7 @@ def index(force_fresh=False, update_the_cache=True, from_cache=False):
 
     if force_fresh or (from_cache == False and cache.timestamp < ( int(time.time()) - (15 * 60)) ):
         from_cache = False
-        tweets = fetch_tweets(request.json['handles'], request.json['country_codes'])
+        tweets = fetch_tweets(request.json['handles'], request.json['country_codes'], request.json.get('fetch_extents'))
         if update_the_cache:
             update_cache(json.dumps(tweets), slug)
     else:
