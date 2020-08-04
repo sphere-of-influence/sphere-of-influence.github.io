@@ -7,7 +7,7 @@
                 "arcticmuseum", "yakutia", "visityakutia", 
                 "USArmyAlaska", "aknationalguard", "176thWing", 
                 "siberian_times", "PolarBears", "forsvarsmin", "MOSAiCArctic",
-                "CircumpolarInfo", "NuukNERO", "arktiskinstitut"],
+                "CircumpolarInfo", "NuukNERO", "arktiskinstitut", "EielsonAirForce"],
     "country_codes": ["GL", "DK", "FO", "RU", "IS", "FI", "NO", "SE", "US", "CA"],
     "fetch_extents": [{
         "min_latitude": 60
