@@ -273,7 +273,6 @@ window.initMap = (options) => {
         ? map.getView().getCenter()
         : feature.getGeometry().getCoordinates();
 
-      console.log(coordinate, feature.getId(), pan, orphan);
       popup.innerHTML = feature.data.popupInnerHTML || '<div class=\'tweet\' id=\'popup-twitter-hook\'></div>';
 
       const fetchTweet = 'fetchTweet' in feature.data ? feature.data.fetchTweet : true;
