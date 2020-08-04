@@ -1,6 +1,6 @@
-let mix = require('laravel-mix');
-let child_process = require('child_process');
-let fs = require('fs');
+const mix = require('laravel-mix');
+const child_process = require('child_process');
+const fs = require('fs');
 
 /*
  |--------------------------------------------------------------------------
@@ -14,34 +14,28 @@ let fs = require('fs');
  */
 
 mix.js('src/app.js', 'public/dist/')
-   .sass('src/app.scss', 'public/dist/')
-   .copy('src/maps/*.json', 'public/maps')
-   .copy('src/*.html', 'public/')
-   .then(() => {
-      // build pages
-      child_process.exec('npm run build-pages', {cwd: __dirname}, function(error, stdout, stderr){
-          if (error) throw error;
-          console.log(stdout, stderr);
-      });
-   });
+  .sass('src/app.scss', 'public/dist/')
+  .copy('src/maps/*.json', 'public/maps')
+  .copy('src/*.html', 'public/')
+  .then(() => {
+    // build pages
+    child_process.exec('npm run build-pages', { cwd: __dirname }, (error, stdout, stderr) => {
+      if (error) throw error;
+      console.log(stdout, stderr);
+    });
+  });
 
 // extensions
 const getFiles = function (dir) {
-   // get all 'files' in this directory
-   // filter directories
-   return fs.readdirSync(dir).filter(file => {
-      return fs.statSync(`${dir}/${file}`).isFile();
-   });
+  // get all 'files' in this directory
+  // filter directories
+  return fs.readdirSync(dir).filter((file) => fs.statSync(`${dir}/${file}`).isFile());
 };
 
-getFiles('src/maps/scripts').forEach(function (filepath) {
-   if (filepath.endsWith('.js'))
-      mix.js('src/maps/scripts/' + filepath, 'public/maps/scripts');
-   else
-      mix.copy('src/maps/scripts/' + filepath, 'public/maps/scripts')
+getFiles('src/maps/scripts').forEach((filepath) => {
+  if (filepath.endsWith('.js')) mix.js(`src/maps/scripts/${filepath}`, 'public/maps/scripts');
+  else mix.copy(`src/maps/scripts/${filepath}`, 'public/maps/scripts');
 });
-
-
 
 
 // Full API

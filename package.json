@@ -1,6 +1,6 @@
 {
-  "name": "socialiski",
-  "version": "1.0.0",
+  "name": "sphere-of-influence",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "marked-it-core": "^0.14.0",
-    "ol": "^6.1.1"
+    "ol": "^6.1.1",
+    "proj4": "^2.6.2"
   },
   "devDependencies": {
     "cross-env": "^6.0.3",

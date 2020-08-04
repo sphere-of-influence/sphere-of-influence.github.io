@@ -1,3 +1,4 @@
+/* eslint-disable prefer-destructuring */
 /* eslint-disable no-underscore-dangle */
 import Map from 'ol/Map';
 import View from 'ol/View';
@@ -5,14 +6,32 @@ import SourceVector from 'ol/source/Vector';
 import LayerVector from 'ol/layer/Vector';
 import LayerTile from 'ol/layer/Tile';
 import SourceOSM from 'ol/source/OSM';
+import { Cluster } from 'ol/source';
 import Point from 'ol/geom/Point';
 import Feature from 'ol/Feature';
-import { Icon, Style } from 'ol/style';
+import {
+  Icon, Style, Fill, Stroke, Circle, Text,
+} from 'ol/style';
 import { fromLonLat } from 'ol/proj';
 import Overlay from 'ol/Overlay';
+import proj4 from 'proj4';
+import { register } from 'ol/proj/proj4';
 import timeSince from './time-since';
 
 window.initMap = (options) => {
+  const color = document.documentElement.style.getPropertyValue('--color');
+
+  function adjust(_color, amount) {
+    return `#${_color.replace(/^#/, '').replace(/../g, (c) => (`0${Math.min(255, Math.max(0, parseInt(c, 16) + amount)).toString(16)}`).substr(-2))}`;
+  }
+  const iconSrc = `<svg width="60px" height="60px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <rect x="16.5" y="31" style="fill:#871B1B;" width="10px" height="6px"/>
+                <path style="fill:#424A60;" d="M3.5,0c-0.552,0-1,0.447-1,1v3v55c0,0.553,0.448,1,1,1s1-0.447,1-1V4V1C4.5,0.447,4.052,0,3.5,0z"/>
+                <rect x="4.5" y="4" style="fill:${adjust(color, 33)};" width="22px" height="29px"/>
+                <path style="fill:${color};" d="M26.5,9v24h-6c-2.209,0-4,1.791-4,4c0,2.209,1.791,4,4,4h4h33l-11-16l11-16H26.5z"/>
+                <path style="fill:${adjust(color, 25)};" d="M16.5,37c0,2.209,1.791,4,4,4h4h2v-8h-6C18.291,33,16.5,34.791,16.5,37z"/>
+                </svg>`;
+
   // map & sidebar related interaction events
   const storyFocusedEvent = (story) => new CustomEvent('storyFocused', {
     detail: story,
@@ -23,16 +42,79 @@ window.initMap = (options) => {
     wrapX: false,
   });
 
-  const vectorLayer = new LayerVector({
-    source: vectorSource,
+  const vectorSourceFree = new SourceVector({
+    features: [],
+    wrapX: false,
   });
+
+  const clusterSource = new Cluster({
+    distance: 28,
+    source: vectorSource,
+    wrapX: false,
+  });
+
+
+  const styleCache = {};
+  const clusterLayer = new LayerVector({
+    source: clusterSource,
+    style(feature) {
+      const features = feature.get('features');
+      const size = features.length;
+      let style = styleCache[size];
+      if (size > 1) {
+        if (!style) {
+          style = [new Style({
+            image: new Icon({
+              anchor: [1.15, 1.5],
+              anchorXUnits: 'fraction',
+              anchorYUnits: 'fraction',
+              src: `data:image/svg+xml;charset=utf-8,${encodeURIComponent(`<svg width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg"><circle fill="${color}" cx="8" cy="8" r="8"/></svg>`)}`,
+              scale: 0.9,
+            }),
+            text: new Text({
+              text: size.toString(),
+              fill: new Fill({
+                color: '#fff',
+              }),
+              scale: 0.9,
+              offsetX: -9,
+              offsetY: -14,
+            }),
+          }),
+          features[0].getStyle(),
+          ];
+          styleCache[size] = style;
+        }
+      } else {
+        style = features[0].getStyle(); // we're at 1, get the features actual style
+      }
+      return style;
+    },
+  });
+
+  const vectorLayer = new LayerVector({
+    source: vectorSourceFree,
+  });
+
+  // eslint-disable-next-line no-param-reassign
+  options.view.projection = options.view.projection || 'EPSG:3857';
+  if (options.proj4String || false) {
+    proj4.defs(
+      options.view.projection,
+      options.proj4String,
+    );
+    register(proj4);
+    // eslint-disable-next-line no-param-reassign
+    options.view.center = fromLonLat(options.view.center, options.view.projection);
+  }
 
   const map = new Map({
     target: 'map',
-    layers: [
+    layers: options.layers || [
       new LayerTile({
         source: new SourceOSM(),
       }),
+      clusterLayer,
     ],
     view: new View(options.view),
   });
@@ -69,49 +151,57 @@ window.initMap = (options) => {
   map.addOverlay(overlay);
   popup.classList.add('hidden');
 
-  const sidebarObserver = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        const el = entry.target;
-        if ((!entry.isIntersecting
-             && entry.boundingClientRect.y > window.innerHeight)
+  const observerCallback = (entries, observer) => {
+    const rootBottom = observer.root
+      ? observer.root.getBoundingClientRect().bottom : window.innerHeight;
+    entries.forEach((entry) => {
+      const el = entry.target;
+      if ((!entry.isIntersecting
+             && entry.boundingClientRect.y > rootBottom)
              || el.twitterEl.childNodes.length >= 1) {
-          return;
-        }
-        observer.unobserve(entry.target);
-        window.twttr.widgets.createTweet(
-          `${el.dataset.storyId}`,
-          el.twitterEl,
-          {
-            theme: 'light',
-          },
-        ).then(() => {
-          el.twitterEl.className = 'tweet';
-          el.twitterEl.touched = false;
+        return;
+      }
+      observer.unobserve(entry.target);
+      window.twttr.widgets.createTweet(
+        `${el.dataset.storyId}`,
+        el.twitterEl,
+        {
+          theme: 'light',
+        },
+      ).then(() => {
+        el.twitterEl.className = 'tweet';
+        el.twitterEl.touched = false;
 
-          el.twitterEl.parentElement.addEventListener('touchstart', (e) => {
-            if (window.matchMedia('(max-width: 551px)').matches) {
-              e.stopPropagation();
-              if (el.twitterEl.touched === true) {
-                const target = `https://twitter.com/i/web/status/${story.id}`;
-                let tryWindow = null;
-                tryWindow = window.open(target);
-                if (tryWindow === null) { // Safari is a petchalent child
-                  window.location.href = target;
-                }
-                el.twitterEl.touched = false;
+        el.twitterEl.parentElement.addEventListener('touchstart', (e) => {
+          if (window.matchMedia('(max-width: 551px)').matches) {
+            e.stopPropagation();
+            if (el.twitterEl.touched === true) {
+              const target = `https://twitter.com/i/web/status/${el.dataset.storyId}`;
+              let tryWindow = null;
+              tryWindow = window.open(target);
+              if (tryWindow === null) { // Safari is a petchalent child
+                window.location.href = target;
               }
-              el.twitterEl.touched = true;
-              setTimeout(() => {
-                el.twitterEl.touched = false;
-              }, 250);
+              el.twitterEl.touched = false;
             }
-          });
+            el.twitterEl.touched = true;
+            setTimeout(() => {
+              el.twitterEl.touched = false;
+            }, 250);
+          }
         });
       });
-    },
-    { rootMargin: '600px 0px 600px 0px' },
-  );
+    });
+  };
+
+  const sidebarObserver = new IntersectionObserver(observerCallback,
+    { rootMargin: '600px 0px 600px 0px' });
+
+  const popupObserver = new IntersectionObserver(observerCallback,
+    {
+      root: popup,
+      rootMargin: '100px 0px 100px 0px',
+    });
 
   function addSidebarStories(stories) {
     const sidebarStories = document.getElementById('sidebar-stories');
@@ -124,6 +214,7 @@ window.initMap = (options) => {
                 class='story link observable'>
                     <time datetime='20:00'>${timeSince(story.date)}</time>
                     <div id='story-${story.id}-twitter-hook' class='skeleton-tweet'></div>
+                    <!--<div class='place-name'>${story.place.name}</div>-->
                 </div>`;
 
       const virtual = document.createElement('div');
@@ -140,9 +231,19 @@ window.initMap = (options) => {
     document.body.classList.add('loading-done');
   }
 
-  function adjust(_color, amount) {
-    return `#${_color.replace(/^#/, '').replace(/../g, (c) => (`0${Math.min(255, Math.max(0, parseInt(c, 16) + amount)).toString(16)}`).substr(-2))}`;
-  }
+  // for usage by plugins to add features and skip story crafting
+  window.addFeature = function addFeature(id, longitude, latitude, style, data) {
+    const feature = new Feature(new Point(fromLonLat([longitude, latitude])));
+    if (options.proj4String || false) {
+      feature.getGeometry().transform('EPSG:3857', options.view.projection);
+    }
+    feature.setStyle(style);
+    feature.setId(id);
+    feature.data = data;
+    vectorSourceFree.addFeature(feature);
+    map.removeLayer(vectorLayer);
+    map.addLayer(vectorLayer);
+  };
 
   function addFeatures(stories) {
     let feature; const
@@ -151,9 +252,10 @@ window.initMap = (options) => {
       if (story.place == null) return;
 
       feature = new Feature(new Point(fromLonLat([story.longitude, story.latitude])));
-      // feature = new Feature(new Point(fromLonLat([i, i])))
       feature.setId(story.id);
-
+      if (options.proj4String || false) {
+        feature.getGeometry().transform('EPSG:3857', options.view.projection);
+      }
       // copy all the story data across to the feature
       feature.data = {};
       // eslint-disable-next-line no-restricted-syntax
@@ -162,18 +264,6 @@ window.initMap = (options) => {
           feature.data[k] = story[k];
         }
       }
-
-
-      const color = document.documentElement.style.getPropertyValue('--color');
-
-      // let iconSrc = '/dist/icons/flag-x.png';
-      const iconSrc = `<svg width="60px" height="60px" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="16.5" y="31" style="fill:#871B1B;" width="10px" height="6px"/>
-                    <path style="fill:#424A60;" d="M3.5,0c-0.552,0-1,0.447-1,1v3v55c0,0.553,0.448,1,1,1s1-0.447,1-1V4V1C4.5,0.447,4.052,0,3.5,0z"/>
-                    <rect x="4.5" y="4" style="fill:${adjust(color, 33)};" width="22px" height="29px"/>
-                    <path style="fill:${color};" d="M26.5,9v24h-6c-2.209,0-4,1.791-4,4c0,2.209,1.791,4,4,4h4h33l-11-16l11-16H26.5z"/>
-                    <path style="fill:${adjust(color, 25)};" d="M16.5,37c0,2.209,1.791,4,4,4h4h2v-8h-6C18.291,33,16.5,34.791,16.5,37z"/>
-                    </svg>`;
 
       feature.setStyle(new Style({
         image: new Icon({
@@ -190,8 +280,8 @@ window.initMap = (options) => {
     });
 
     vectorSource.addFeatures(features);
-    map.removeLayer(vectorLayer);
-    map.addLayer(vectorLayer);
+    // map.removeLayer(vectorLayer);
+    // map.addLayer(vectorLayer);
 
     return features;
   }
@@ -212,13 +302,13 @@ window.initMap = (options) => {
     });
 
     const storyEl = document.getElementById(`story-${id}`);
-    storyEl.scrollIntoView({
-      block: 'center',
-      inline: 'center',
-    });
-    storyEl.classList.add('focused');
-
-    // }
+    if (storyEl) {
+      storyEl.scrollIntoView({
+        block: 'center',
+        inline: 'center',
+      });
+      storyEl.classList.add('focused');
+    }
   }
 
   function panTo(center) {
@@ -237,34 +327,52 @@ window.initMap = (options) => {
     });
   }
 
-  function tryPopup(feature, pan = true, orphan = false) {
+  function tryPopup(feature, pan = true, orphan = false, features = []) {
     try {
-      const coordinate = !orphan
-        ? feature.getGeometry().getCoordinates()
-        : map.getView().getCenter();
+      const coordinate = orphan
+        ? map.getView().getCenter()
+        : feature.getGeometry().getCoordinates();
 
-      popup.innerHTML = '<div class=\'tweet\' id=\'popup-twitter-hook\'></div>';
+      // show the popup, its a feature which has been clicked
+      // but wait for the panning animation to finish
+      // otherwise there will be jank as the setPositions clash
 
-      window.twttr.widgets.createTweet(
-        `${feature.data.id}`,
-        document.getElementById('popup-twitter-hook'), {
-          theme: 'light',
-          linkColor: '#CD0000',
-        },
-      );
+      popup.classList.remove('hidden');
+      overlay.setPosition(coordinate);
+
+      if (features.length === 0) {
+        popup.innerHTML = feature.data.popupInnerHTML || '<div class="tweet" id="popup-twitter-hook"></div>';
+        const fetchTweet = 'fetchTweet' in feature.data ? feature.data.fetchTweet : true;
+        if (fetchTweet) {
+          window.twttr.widgets.createTweet(
+            `${feature.data.id}`,
+            document.getElementById('popup-twitter-hook'), {
+              theme: 'light',
+              linkColor: '#CD0000',
+            },
+          );
+        }
+      } else {
+        popup.innerHTML = '<div class="popup-list"></div>';
+
+        features.forEach((f) => {
+          const tweetHook = document.createElement('div');
+          tweetHook.id = `popup-twitter-hook--${f.data.id}`;
+          tweetHook.className = 'popup-list-row';
+          tweetHook.setAttribute('data-story-id', f.data.id);
+          const twitterEl = document.createElement('div');
+          twitterEl.className = 'skeleton-tweet';
+          tweetHook.appendChild(twitterEl);
+          tweetHook.twitterEl = twitterEl;
+          popup.firstElementChild.appendChild(tweetHook);
+          popupObserver.observe(tweetHook);
+        });
+      }
 
       if (orphan) popup.classList.add('orphan');
       else popup.classList.remove('orphan');
 
       if (pan && !orphan) panTo(coordinate);
-
-      // show the popup, its a feature which has been clicked
-      // but wait for the panning animation to finish
-      // otherwise there will be jank as the setPositions clash
-      setTimeout(() => {
-        popup.classList.remove('hidden');
-        overlay.setPosition(coordinate);
-      }, 500);
     } catch (err) {
       // no need to log this since these will be common
       // console.error('Attempted popup on non-feature')
@@ -275,11 +383,22 @@ window.initMap = (options) => {
   map.on('singleclick', (evt) => {
     // hide the popup, it might be a click anywhere
     popup.classList.add('hidden');
+    popupObserver.disconnect(); // remove its observations
     map.forEachFeatureAtPixel(evt.pixel, (feature) => {
-      if (feature == null) return;
+      let target = feature;
+      // check if this is being attempted on a cluster rather than a
+      // feature directly
+      const possibleClusterFeatures = feature.get('features') || null;
 
-      const id = feature.getId();
+      if (possibleClusterFeatures && possibleClusterFeatures.length === 1) {
+        target = feature.get('features')[0];
+      } else if (possibleClusterFeatures && possibleClusterFeatures.length > 1) {
+        tryPopup(feature, true, false, possibleClusterFeatures);
+      } else if (target == null) {
+        return;
+      }
 
+      const id = target.getId();
       if (id == null) return;
 
       try {
@@ -292,7 +411,6 @@ window.initMap = (options) => {
 
   function handleStoryClick(e) {
     if (e.target.href) return;
-
     focusStoryById(e.target.dataset.storyId);
     e.preventDefault();
   }
@@ -303,7 +421,9 @@ window.initMap = (options) => {
     // hide any popups already open
     popup.classList.add('hidden');
 
-    const feature = vectorSource.getFeatures().filter((f) => f.getId() === evt.detail.id);
+    const feature = vectorSource.getFeatures()
+      .concat(...vectorSourceFree.getFeatures())
+      .filter((f) => f.getId() === evt.detail.id);
 
     feature[0] = feature[0] || false;
     if (feature[0]) {
@@ -365,9 +485,10 @@ window.initMap = (options) => {
   }
 
   /**
-     *      globally bootstrap key methods
+     *      globally bootstrap key items
      */
   window.refreshStories = refreshStories;
   window.toggleFeed = toggleFeed;
   window.mapCenter = () => map.getView().getCenter();
+  window.map = map;
 };

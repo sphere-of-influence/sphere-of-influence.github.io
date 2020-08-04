@@ -5,4 +5,6 @@ vendor
 storage
 artisan
 server/.env
+server/env
 server/__pycache__
+public/
