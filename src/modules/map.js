@@ -138,6 +138,7 @@ window.initMap = (options) => {
                 class='story link observable'>
                     <time datetime='20:00'>${timeSince(story.date)}</time>
                     <div id='story-${story.id}-twitter-hook' class='skeleton-tweet'></div>
+                    <!--<div class='place-name'>${story.place.name}</div>-->
                 </div>`;
 
       const virtual = document.createElement('div');
@@ -157,6 +158,20 @@ window.initMap = (options) => {
   function adjust(_color, amount) {
     return `#${_color.replace(/^#/, '').replace(/../g, (c) => (`0${Math.min(255, Math.max(0, parseInt(c, 16) + amount)).toString(16)}`).substr(-2))}`;
   }
+
+  // for usage by plugins to add features and skip story crafting
+  window.addFeature = function addFeature(id, longitude, latitude, style, data) {
+    const feature = new Feature(new Point(fromLonLat([longitude, latitude])));
+    if (options.proj4String || false) {
+      feature.getGeometry().transform('EPSG:3857', options.view.projection);
+    }
+    feature.setStyle(style);
+    feature.setId(id);
+    feature.data = data;
+    vectorSource.addFeature(feature);
+    map.removeLayer(vectorLayer);
+    map.addLayer(vectorLayer);
+  };
 
   function addFeatures(stories) {
     let feature; const
@@ -227,13 +242,13 @@ window.initMap = (options) => {
     });
 
     const storyEl = document.getElementById(`story-${id}`);
-    storyEl.scrollIntoView({
-      block: 'center',
-      inline: 'center',
-    });
-    storyEl.classList.add('focused');
-
-    // }
+    if (storyEl) {
+      storyEl.scrollIntoView({
+        block: 'center',
+        inline: 'center',
+      });
+      storyEl.classList.add('focused');
+    }
   }
 
   function panTo(center) {
@@ -254,19 +269,23 @@ window.initMap = (options) => {
 
   function tryPopup(feature, pan = true, orphan = false) {
     try {
-      const coordinate = !orphan
-        ? feature.getGeometry().getCoordinates()
-        : map.getView().getCenter();
+      const coordinate = orphan
+        ? map.getView().getCenter()
+        : feature.getGeometry().getCoordinates();
 
-      popup.innerHTML = '<div class=\'tweet\' id=\'popup-twitter-hook\'></div>';
+      console.log(coordinate, feature.getId(), pan, orphan);
+      popup.innerHTML = feature.data.popupInnerHTML || '<div class=\'tweet\' id=\'popup-twitter-hook\'></div>';
 
-      window.twttr.widgets.createTweet(
-        `${feature.data.id}`,
-        document.getElementById('popup-twitter-hook'), {
-          theme: 'light',
-          linkColor: '#CD0000',
-        },
-      );
+      const fetchTweet = 'fetchTweet' in feature.data ? feature.data.fetchTweet : true;
+      if (fetchTweet) {
+        window.twttr.widgets.createTweet(
+          `${feature.data.id}`,
+          document.getElementById('popup-twitter-hook'), {
+            theme: 'light',
+            linkColor: '#CD0000',
+          },
+        );
+      }
 
       if (orphan) popup.classList.add('orphan');
       else popup.classList.remove('orphan');
