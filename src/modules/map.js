@@ -1,3 +1,4 @@
+/* eslint-disable prefer-destructuring */
 /* eslint-disable no-underscore-dangle */
 import Map from 'ol/Map';
 import View from 'ol/View';
@@ -5,9 +6,12 @@ import SourceVector from 'ol/source/Vector';
 import LayerVector from 'ol/layer/Vector';
 import LayerTile from 'ol/layer/Tile';
 import SourceOSM from 'ol/source/OSM';
+import { Cluster } from 'ol/source';
 import Point from 'ol/geom/Point';
 import Feature from 'ol/Feature';
-import { Icon, Style } from 'ol/style';
+import {
+  Icon, Style, Fill, Stroke, Circle, Text,
+} from 'ol/style';
 import { fromLonLat } from 'ol/proj';
 import Overlay from 'ol/Overlay';
 import proj4 from 'proj4';
@@ -15,6 +19,19 @@ import { register } from 'ol/proj/proj4';
 import timeSince from './time-since';
 
 window.initMap = (options) => {
+  const color = document.documentElement.style.getPropertyValue('--color');
+
+  function adjust(_color, amount) {
+    return `#${_color.replace(/^#/, '').replace(/../g, (c) => (`0${Math.min(255, Math.max(0, parseInt(c, 16) + amount)).toString(16)}`).substr(-2))}`;
+  }
+  const iconSrc = `<svg width="60px" height="60px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <rect x="16.5" y="31" style="fill:#871B1B;" width="10px" height="6px"/>
+                <path style="fill:#424A60;" d="M3.5,0c-0.552,0-1,0.447-1,1v3v55c0,0.553,0.448,1,1,1s1-0.447,1-1V4V1C4.5,0.447,4.052,0,3.5,0z"/>
+                <rect x="4.5" y="4" style="fill:${adjust(color, 33)};" width="22px" height="29px"/>
+                <path style="fill:${color};" d="M26.5,9v24h-6c-2.209,0-4,1.791-4,4c0,2.209,1.791,4,4,4h4h33l-11-16l11-16H26.5z"/>
+                <path style="fill:${adjust(color, 25)};" d="M16.5,37c0,2.209,1.791,4,4,4h4h2v-8h-6C18.291,33,16.5,34.791,16.5,37z"/>
+                </svg>`;
+
   // map & sidebar related interaction events
   const storyFocusedEvent = (story) => new CustomEvent('storyFocused', {
     detail: story,
@@ -25,8 +42,58 @@ window.initMap = (options) => {
     wrapX: false,
   });
 
-  const vectorLayer = new LayerVector({
+  const vectorSourceFree = new SourceVector({
+    features: [],
+    wrapX: false,
+  });
+
+  const clusterSource = new Cluster({
+    distance: 28,
     source: vectorSource,
+    wrapX: false,
+  });
+
+
+  const styleCache = {};
+  const clusterLayer = new LayerVector({
+    source: clusterSource,
+    style(feature) {
+      const features = feature.get('features');
+      const size = features.length;
+      let style = styleCache[size];
+      if (size > 1) {
+        if (!style) {
+          style = [new Style({
+            image: new Icon({
+              anchor: [1.15, 1.5],
+              anchorXUnits: 'fraction',
+              anchorYUnits: 'fraction',
+              src: `data:image/svg+xml;charset=utf-8,${encodeURIComponent(`<svg width="16px" height="16px" version="1.1" xmlns="http://www.w3.org/2000/svg"><circle fill="${color}" cx="8" cy="8" r="8"/></svg>`)}`,
+              scale: 0.9,
+            }),
+            text: new Text({
+              text: size.toString(),
+              fill: new Fill({
+                color: '#fff',
+              }),
+              scale: 0.9,
+              offsetX: -9,
+              offsetY: -14,
+            }),
+          }),
+          features[0].getStyle(),
+          ];
+          styleCache[size] = style;
+        }
+      } else {
+        style = features[0].getStyle(); // we're at 1, get the features actual style
+      }
+      return style;
+    },
+  });
+
+  const vectorLayer = new LayerVector({
+    source: vectorSourceFree,
   });
 
   // eslint-disable-next-line no-param-reassign
@@ -47,6 +114,7 @@ window.initMap = (options) => {
       new LayerTile({
         source: new SourceOSM(),
       }),
+      clusterLayer,
     ],
     view: new View(options.view),
   });
@@ -155,10 +223,6 @@ window.initMap = (options) => {
     document.body.classList.add('loading-done');
   }
 
-  function adjust(_color, amount) {
-    return `#${_color.replace(/^#/, '').replace(/../g, (c) => (`0${Math.min(255, Math.max(0, parseInt(c, 16) + amount)).toString(16)}`).substr(-2))}`;
-  }
-
   // for usage by plugins to add features and skip story crafting
   window.addFeature = function addFeature(id, longitude, latitude, style, data) {
     const feature = new Feature(new Point(fromLonLat([longitude, latitude])));
@@ -168,7 +232,7 @@ window.initMap = (options) => {
     feature.setStyle(style);
     feature.setId(id);
     feature.data = data;
-    vectorSource.addFeature(feature);
+    vectorSourceFree.addFeature(feature);
     map.removeLayer(vectorLayer);
     map.addLayer(vectorLayer);
   };
@@ -193,18 +257,6 @@ window.initMap = (options) => {
         }
       }
 
-
-      const color = document.documentElement.style.getPropertyValue('--color');
-
-      // let iconSrc = '/dist/icons/flag-x.png';
-      const iconSrc = `<svg width="60px" height="60px" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="16.5" y="31" style="fill:#871B1B;" width="10px" height="6px"/>
-                    <path style="fill:#424A60;" d="M3.5,0c-0.552,0-1,0.447-1,1v3v55c0,0.553,0.448,1,1,1s1-0.447,1-1V4V1C4.5,0.447,4.052,0,3.5,0z"/>
-                    <rect x="4.5" y="4" style="fill:${adjust(color, 33)};" width="22px" height="29px"/>
-                    <path style="fill:${color};" d="M26.5,9v24h-6c-2.209,0-4,1.791-4,4c0,2.209,1.791,4,4,4h4h33l-11-16l11-16H26.5z"/>
-                    <path style="fill:${adjust(color, 25)};" d="M16.5,37c0,2.209,1.791,4,4,4h4h2v-8h-6C18.291,33,16.5,34.791,16.5,37z"/>
-                    </svg>`;
-
       feature.setStyle(new Style({
         image: new Icon({
           anchor: [0.15, 1],
@@ -220,8 +272,8 @@ window.initMap = (options) => {
     });
 
     vectorSource.addFeatures(features);
-    map.removeLayer(vectorLayer);
-    map.addLayer(vectorLayer);
+    // map.removeLayer(vectorLayer);
+    // map.addLayer(vectorLayer);
 
     return features;
   }
@@ -267,23 +319,40 @@ window.initMap = (options) => {
     });
   }
 
-  function tryPopup(feature, pan = true, orphan = false) {
+  function tryPopup(feature, pan = true, orphan = false, features = []) {
     try {
       const coordinate = orphan
         ? map.getView().getCenter()
         : feature.getGeometry().getCoordinates();
 
-      popup.innerHTML = feature.data.popupInnerHTML || '<div class=\'tweet\' id=\'popup-twitter-hook\'></div>';
+      if (features.length === 0) {
+        popup.innerHTML = feature.data.popupInnerHTML || '<div class=\'tweet\' id=\'popup-twitter-hook\'></div>';
+        const fetchTweet = 'fetchTweet' in feature.data ? feature.data.fetchTweet : true;
+        if (fetchTweet) {
+          window.twttr.widgets.createTweet(
+            `${feature.data.id}`,
+            document.getElementById('popup-twitter-hook'), {
+              theme: 'light',
+              linkColor: '#CD0000',
+            },
+          );
+        }
+      } else {
+        popup.innerHTML = '<div class="popup-list"></div>';
 
-      const fetchTweet = 'fetchTweet' in feature.data ? feature.data.fetchTweet : true;
-      if (fetchTweet) {
-        window.twttr.widgets.createTweet(
-          `${feature.data.id}`,
-          document.getElementById('popup-twitter-hook'), {
-            theme: 'light',
-            linkColor: '#CD0000',
-          },
-        );
+        features.forEach((f) => {
+          const tweetHook = document.createElement('div');
+          tweetHook.id = `popup-twitter-hook--${f.data.id}`;
+          tweetHook.className = 'popup-list-row';
+          popup.firstElementChild.appendChild(tweetHook);
+          window.twttr.widgets.createTweet(
+            `${f.data.id}`,
+            tweetHook, {
+              theme: 'light',
+              linkColor: '#CD0000',
+            },
+          );
+        });
       }
 
       if (orphan) popup.classList.add('orphan');
@@ -309,10 +378,20 @@ window.initMap = (options) => {
     // hide the popup, it might be a click anywhere
     popup.classList.add('hidden');
     map.forEachFeatureAtPixel(evt.pixel, (feature) => {
-      if (feature == null) return;
+      let target = feature;
+      // check if this is being attempted on a cluster rather than a
+      // feature directly
+      const possibleClusterFeatures = feature.get('features') || null;
 
-      const id = feature.getId();
+      if (possibleClusterFeatures && possibleClusterFeatures.length === 1) {
+        target = feature.get('features')[0];
+      } else if (possibleClusterFeatures && possibleClusterFeatures.length > 1) {
+        tryPopup(feature, true, false, possibleClusterFeatures);
+      } else if (target == null) {
+        return;
+      }
 
+      const id = target.getId();
       if (id == null) return;
 
       try {
@@ -325,7 +404,6 @@ window.initMap = (options) => {
 
   function handleStoryClick(e) {
     if (e.target.href) return;
-
     focusStoryById(e.target.dataset.storyId);
     e.preventDefault();
   }
@@ -336,7 +414,9 @@ window.initMap = (options) => {
     // hide any popups already open
     popup.classList.add('hidden');
 
-    const feature = vectorSource.getFeatures().filter((f) => f.getId() === evt.detail.id);
+    const feature = vectorSource.getFeatures()
+      .concat(...vectorSourceFree.getFeatures())
+      .filter((f) => f.getId() === evt.detail.id);
 
     feature[0] = feature[0] || false;
     if (feature[0]) {
