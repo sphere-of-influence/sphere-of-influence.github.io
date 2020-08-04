@@ -1,0 +1,27 @@
+{
+    "slug" : "northpole",
+    "name" : "Northpole",
+    "strap": "Mapping the frozen North.",
+    "color": "#60a0dc",
+    "handles": ["BarentsNews", "mod_russia", "arctic_today", 
+                "arcticmuseum", "yakutia", "visityakutia", 
+                "USArmyAlaska", "aknationalguard", "176thWing", 
+                "siberian_times", "PolarBears", "forsvarsmin", "MOSAiCArctic",
+                "CircumpolarInfo", "NuukNERO", "arktiskinstitut", "EielsonAirForce"],
+    "country_codes": ["GL", "DK", "FO", "RU", "IS", "FI", "NO", "SE", "US", "CA"],
+    "fetch_extents": [{
+        "min_latitude": 60
+    }],
+    "view": {
+        "projection": "EPSG:3413",
+        "center": [15.633, 78.217],
+        "zoom": 4.6,
+        "minZoom": 4.6,
+        "maxZoom": 6.5
+    },
+    "scripts": [
+        "northpole-map",
+        "northpole-site"
+    ],
+    "proj4String": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+}
