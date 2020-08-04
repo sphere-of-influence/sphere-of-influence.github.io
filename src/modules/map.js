@@ -151,49 +151,57 @@ window.initMap = (options) => {
   map.addOverlay(overlay);
   popup.classList.add('hidden');
 
-  const sidebarObserver = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        const el = entry.target;
-        if ((!entry.isIntersecting
-             && entry.boundingClientRect.y > window.innerHeight)
+  const observerCallback = (entries, observer) => {
+    const rootBottom = observer.root
+      ? observer.root.getBoundingClientRect().bottom : window.innerHeight;
+    entries.forEach((entry) => {
+      const el = entry.target;
+      if ((!entry.isIntersecting
+             && entry.boundingClientRect.y > rootBottom)
              || el.twitterEl.childNodes.length >= 1) {
-          return;
-        }
-        observer.unobserve(entry.target);
-        window.twttr.widgets.createTweet(
-          `${el.dataset.storyId}`,
-          el.twitterEl,
-          {
-            theme: 'light',
-          },
-        ).then(() => {
-          el.twitterEl.className = 'tweet';
-          el.twitterEl.touched = false;
+        return;
+      }
+      observer.unobserve(entry.target);
+      window.twttr.widgets.createTweet(
+        `${el.dataset.storyId}`,
+        el.twitterEl,
+        {
+          theme: 'light',
+        },
+      ).then(() => {
+        el.twitterEl.className = 'tweet';
+        el.twitterEl.touched = false;
 
-          el.twitterEl.parentElement.addEventListener('touchstart', (e) => {
-            if (window.matchMedia('(max-width: 551px)').matches) {
-              e.stopPropagation();
-              if (el.twitterEl.touched === true) {
-                const target = `https://twitter.com/i/web/status/${el.dataset.storyId}`;
-                let tryWindow = null;
-                tryWindow = window.open(target);
-                if (tryWindow === null) { // Safari is a petchalent child
-                  window.location.href = target;
-                }
-                el.twitterEl.touched = false;
+        el.twitterEl.parentElement.addEventListener('touchstart', (e) => {
+          if (window.matchMedia('(max-width: 551px)').matches) {
+            e.stopPropagation();
+            if (el.twitterEl.touched === true) {
+              const target = `https://twitter.com/i/web/status/${el.dataset.storyId}`;
+              let tryWindow = null;
+              tryWindow = window.open(target);
+              if (tryWindow === null) { // Safari is a petchalent child
+                window.location.href = target;
               }
-              el.twitterEl.touched = true;
-              setTimeout(() => {
-                el.twitterEl.touched = false;
-              }, 250);
+              el.twitterEl.touched = false;
             }
-          });
+            el.twitterEl.touched = true;
+            setTimeout(() => {
+              el.twitterEl.touched = false;
+            }, 250);
+          }
         });
       });
-    },
-    { rootMargin: '600px 0px 600px 0px' },
-  );
+    });
+  };
+
+  const sidebarObserver = new IntersectionObserver(observerCallback,
+    { rootMargin: '600px 0px 600px 0px' });
+
+  const popupObserver = new IntersectionObserver(observerCallback,
+    {
+      root: popup,
+      rootMargin: '100px 0px 100px 0px',
+    });
 
   function addSidebarStories(stories) {
     const sidebarStories = document.getElementById('sidebar-stories');
@@ -325,8 +333,15 @@ window.initMap = (options) => {
         ? map.getView().getCenter()
         : feature.getGeometry().getCoordinates();
 
+      // show the popup, its a feature which has been clicked
+      // but wait for the panning animation to finish
+      // otherwise there will be jank as the setPositions clash
+
+      popup.classList.remove('hidden');
+      overlay.setPosition(coordinate);
+
       if (features.length === 0) {
-        popup.innerHTML = feature.data.popupInnerHTML || '<div class=\'tweet\' id=\'popup-twitter-hook\'></div>';
+        popup.innerHTML = feature.data.popupInnerHTML || '<div class="tweet" id="popup-twitter-hook"></div>';
         const fetchTweet = 'fetchTweet' in feature.data ? feature.data.fetchTweet : true;
         if (fetchTweet) {
           window.twttr.widgets.createTweet(
@@ -344,14 +359,13 @@ window.initMap = (options) => {
           const tweetHook = document.createElement('div');
           tweetHook.id = `popup-twitter-hook--${f.data.id}`;
           tweetHook.className = 'popup-list-row';
+          tweetHook.setAttribute('data-story-id', f.data.id);
+          const twitterEl = document.createElement('div');
+          twitterEl.className = 'skeleton-tweet';
+          tweetHook.appendChild(twitterEl);
+          tweetHook.twitterEl = twitterEl;
           popup.firstElementChild.appendChild(tweetHook);
-          window.twttr.widgets.createTweet(
-            `${f.data.id}`,
-            tweetHook, {
-              theme: 'light',
-              linkColor: '#CD0000',
-            },
-          );
+          popupObserver.observe(tweetHook);
         });
       }
 
@@ -359,14 +373,6 @@ window.initMap = (options) => {
       else popup.classList.remove('orphan');
 
       if (pan && !orphan) panTo(coordinate);
-
-      // show the popup, its a feature which has been clicked
-      // but wait for the panning animation to finish
-      // otherwise there will be jank as the setPositions clash
-      setTimeout(() => {
-        popup.classList.remove('hidden');
-        overlay.setPosition(coordinate);
-      }, 500);
     } catch (err) {
       // no need to log this since these will be common
       // console.error('Attempted popup on non-feature')
@@ -377,6 +383,7 @@ window.initMap = (options) => {
   map.on('singleclick', (evt) => {
     // hide the popup, it might be a click anywhere
     popup.classList.add('hidden');
+    popupObserver.disconnect(); // remove its observations
     map.forEachFeatureAtPixel(evt.pixel, (feature) => {
       let target = feature;
       // check if this is being attempted on a cluster rather than a
