@@ -175,7 +175,7 @@ window.initMap = (options) => {
             if (window.matchMedia('(max-width: 551px)').matches) {
               e.stopPropagation();
               if (el.twitterEl.touched === true) {
-                const target = `https://twitter.com/i/web/status/${story.id}`;
+                const target = `https://twitter.com/i/web/status/${el.dataset.storyId}`;
                 let tryWindow = null;
                 tryWindow = window.open(target);
                 if (tryWindow === null) { // Safari is a petchalent child
