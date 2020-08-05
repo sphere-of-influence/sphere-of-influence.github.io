@@ -10,9 +10,9 @@ import { Cluster } from 'ol/source';
 import Point from 'ol/geom/Point';
 import Feature from 'ol/Feature';
 import {
-  Icon, Style, Fill, Stroke, Circle, Text,
+  Icon, Style, Fill, Text,
 } from 'ol/style';
-import { fromLonLat } from 'ol/proj';
+import { fromLonLat, transformExtent } from 'ol/proj';
 import Overlay from 'ol/Overlay';
 import proj4 from 'proj4';
 import { register } from 'ol/proj/proj4';
@@ -230,6 +230,16 @@ window.initMap = (options) => {
     document.body.classList.remove('loading');
     document.body.classList.add('loading-done');
   }
+
+  window.transformCoords = function transformCoords(coords) {
+    if (options.proj4String || false) return fromLonLat(coords, options.view.projection);
+    return coords;
+  };
+
+  window.transformExtentBridge = function transformExtentBridge(extent, targetProj = 'EPSG:4326', incomingProj = options.view.projection) {
+    if (options.proj4String || false) return transformExtent(extent, incomingProj, targetProj);
+    return extent;
+  };
 
   // for usage by plugins to add features and skip story crafting
   window.addFeature = function addFeature(id, longitude, latitude, style, data) {
