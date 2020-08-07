@@ -3,7 +3,7 @@
     "name" : "Northpole",
     "strap": "Mapping the frozen North.",
     "color": "#60a0dc",
-    "handles": ["BarentsNews", "mod_russia", "arctic_today", 
+    "handles": ["BarentsNews", "CO1CRPG", "GreenlandRepRVK", "ChugachForestAK", "arctic_today", 
                 "arcticmuseum", "yakutia", "visityakutia", 
                 "USArmyAlaska", "aknationalguard", "176thWing", 
                 "siberian_times", "PolarBears", "forsvarsmin", "MOSAiCArctic",
@@ -16,7 +16,7 @@
         "projection": "EPSG:3413",
         "center": [15.633, 78.217],
         "zoom": 4.6,
-        "minZoom": 4.6,
+        "minZoom": 4.5,
         "maxZoom": 6.5
     },
     "scripts": [
