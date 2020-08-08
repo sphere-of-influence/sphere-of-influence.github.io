@@ -107,12 +107,17 @@
       margin-bottom: 0 !important;
   }
 
+  .popup .tweet {
+    width: 100%;
+  }
+
   .popup-list {
     background: rgba(255,255,255,0.88);
     border-radius: inherit;
     padding: 0;
     max-height: 400px;
     overflow: auto;
+    width: 100%;
   }
 
   .popup-list-row {
