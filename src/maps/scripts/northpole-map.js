@@ -196,7 +196,6 @@ function northpole() {
   // once loaded then put it on the canvas and tweak the colors
   img.onload = () => {
     c.width = img.width; c.height = img.height;
-    ctx.filter = 'grayscale(1) brightness(4) contrast(1)';
     ctx.globalAlpha = 0.8;
     ctx.drawImage(img, 0, 0);
     const sicSource = new Static({
