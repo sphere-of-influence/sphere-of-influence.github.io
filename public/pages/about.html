@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="page-html">
     <head>
 
         <title>About Sphere of Influence</title>
@@ -53,12 +53,22 @@ Contributors wanted! Currently in Beta!">
 
 
     </head>
-    <body>
-        <main class="page container">
-            <div class="u-full-width">
+    <body class="page-body">
+        <div class="page-hero">
+            <!-- https://unsplash.com/@soviet_artefacts -->
+            <a class="unsplash-badge" style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@soviet_artefacts?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Soviet Artefacts"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px"><small>Image Credit<br>Soviet Artefacts</small></span></a>
+        </div>
+        <main class="page-main">
+            <div class="page u-full-width">
 
                     <nav>
-                        <a href="/" class="u-pull-right">Return Home</a>
+                        <a href="/" aria-label="Return Home" class="close-button">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                            <polygon points="11.387,490 245,255.832 478.613,490 489.439,479.174 255.809,244.996 489.439,10.811 478.613,0 245,234.161 
+                                11.387,0 0.561,10.811 234.191,244.996 0.561,479.174 "/>
+                            </svg>                       
+                        </a>
                     </nav>
                     <header>
                         <div>
@@ -68,35 +78,40 @@ Contributors wanted! Currently in Beta!">
                     </header>
 
                     <article>
-                        <p>Sphere of Influence is dedicated to tracking Soviet culture on Twitter. We are currently in Beta so things might be a little rough &amp; ready.</p>
-
-<p>Current editors are <a href="//twitter.com/sovietarchitect">@sovietarchitect</a> and <a href="//twitter.com/OldNewStandard">@OldNewStandard</a>. If you&#39;d like to join the team please contact either of us. Tweets not from editor accounts will also appear if they are of particular interest.</p>
-
-<h2>Goal</h2>
-
-<p>Sphere of Influence aims to spread optimism and awareness of Soviet culture.</p>
-
-<h2>How does this work?</h2>
-
-<p>Content is ephemeral, meaning only the latest stories from contributors are displayed. For  a partial slice of archived content please 
-refer to the individual contributor Twitter feeds.</p>
-
-<p>We&#39;re currently in early development so things will often break and some news may be irrelevant or confusing.</p>
-
-<p>We use GitHub Pages for hosting the front-end and Heroku for providing the back-end. Open Layers and Open Street Map provide the mapping interface technology. Chiefly written in JavaScript and Python. There&#39;s a little caching going on so we don&#39;t max out the Twitter API.</p>
-
-<p>For technical details you can read the <a href="https://github.com/sphere-of-influence/sphere-of-influence">source code on GitHub</a>.</p>
-
-<h2>Issues, Inaccuracies or Concerns</h2>
-
+                        <p>Sharing the stories of Soviet Citizens and insights into daily life within the Soviet Union, Sphere of Influence aims to cast the USSR in a positive light and share its culture with a modern audience. The project hopes to shatter illusions that the <a href="https://en.wikipedia.org/wiki/Criticism_of_capitalism">current state of society</a> is a fixed absolute, by offering a window through which to admire an alternative model.</p>
+<p>Sphere of Influence is built and maintained by volunteers in their spare time, it is a project of love.
+We are currently in Beta so things might be a little rough &amp; ready. </p>
+<p>Current editors are <a href="//twitter.com/sovietarchitect">@sovietarchitect</a> and <a href="//github.com/bogstandard">Bogstandard</a>, with assistance of family and friends.</p>
+<hr>
+<h2 id="under-the-bonnet">Under the bonnet</h2>
+<p>Sphere of Influence pulls all its content from Twitter, the contributor accounts are listed on the main feed, these accounts post frequently, so there&#39;s almost always new tweets waiting for visitors.</p>
+<p>With some clever word matching and educated guesses Sphere of Influence matches tweet content to the world map, currently we only focus on Ex-Soviet States (and Germany). </p>
+<p>Content is ephemeral, meaning only the latest tweets from contributors are displayed. For older content please refer to the individual contributor Twitter feeds.</p>
+<h2 id="the-stack">The Stack</h2>
+<p>Sphere of Influence uses GitHub Pages for hosting the front-end and Heroku for providing the back-end. Open Layers and Open Street Map provide the mapping interface technology. Chiefly written in JavaScript and Python. There&#39;s a little caching going on so we don&#39;t max out the Twitter API.</p>
+<p>We&#39;re not using a framework on the front-end (eg. Vue, React) for a few reasons; 1) OpenLayers and Twitter are already overhead heavy. 2) This is an exercise in roll-your-own minimalism. 3) It&#39;s nice to have a break. For full technical details you can read the <a href="//github.com/sphere-of-influence/">source code on GitHub</a>.</p>
+<p>Sphere of Influence is a lite rebuild of <a href="//github.com/bogstandard">Bogstandard</a>&#39;s <a href="https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped">Atlaski Project</a> for the University of Brighton.</p>
+<h2 id="other-maps">Other Maps</h2>
+<p>We&#39;re also developing <a href="/#!home/northpole">Northpole</a> to map content at the top of the world &amp; provide a playground for the engine.</p>
+<hr>
+<h2 id="get-in-touch">Get in touch</h2>
+<p>Current editors are <a href="//twitter.com/sovietarchitect">@sovietarchitect</a> and <a href="//github.com/bogstandard">Bogstandard</a>. If you&#39;d like to join the team, help out or just curious please contact either of us.</p>
+<p>If you are serious about contributing to the project please read the <a href="/pages/contributing.html">Contributors Guide</a>.</p>
+<p><script>
+function makeMail() {
+    window.location = &#39;mailto:ericspublicinbox@gmail.com?subject=&#39;+document.mail.subject.value.replace(/ /g, &#39;%20&#39;)+&#39;&amp;body=&#39;+document.mail.body.value.replace(/ /g, &#39;%20&#39;);
+    return false;
+}
+</script></p>
+<form name="mail" class="row" onsubmit="window.location = 'mailto:ericspublicinbox@gmail.com?subject='+document.mail.subject.value.replace(/ /g, '%20')+'&body='+document.mail.body.value.replace(/ /g, '%20');">
+    <input name="subject" type="text" placeholder="Subject" class="ten columns">
+    <input type="submit" value="Send" class="two columns">
+    <textarea name="body" class="twelve columns"></textarea>
+</form>
+<hr>
+<h2 id="issues-inaccuracies-or-concerns">Issues, Inaccuracies or Concerns</h2>
 <p>If you&#39;ve concerns about the content on Sphere of Influence, please contact an editor. All concerns will be promptly addressed.</p>
-
-<h2>Previous Works</h2>
-
-<p>Sphere of Influence is a super-light rebuild of a concept originally realised by <a href="//twitter.com/OldNewStandard">@OldNewStandard</a> with his <a href="https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped">Atlaski Project</a> for the University of Brighton.</p>
-
-<h2>License</h2>
-
+<h2 id="license">License</h2>
 <p>Until a robust license can be found which forbids commercial use this code-base remains proprietary and not free for re-use. We&#39;re aware this sucks and hope to change the license in future. If you have a suggestion for an appropriate license please contact an editor or contributor.</p>
                     </article>
             </div>

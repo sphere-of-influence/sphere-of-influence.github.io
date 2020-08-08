@@ -44,43 +44,68 @@
 
     </head>
     <body>
+        <section class="splash">
+            <header class="header">
+                <div>
+                    <svg class="star" id="star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    <small class="serif loading">Loading ... </small>
+                </div>
+                <h1 class="serif no-break no-click"><span class="js-map-name">&nbsp;</span>
+                    <br>
+                    <small class="no-break js-map-strap">&nbsp;</small>
+                </h1>
+            </header>
+        </section>
         <main class="row">
 
-                <div id="map" class="map"></div>
+                <div id="map" class="map loader-bg"></div>
                 <div id="popup" class="popup"></div>
-                
                 <div class="shadow-provider"></div>
+
+                <header class="sub-header" id="sub-header" aria-hidden>
+                    <div class="no-click">
+                        <div>
+                            <svg class="star" id="sub-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+
+                        <h3 class="serif no-break"><span class="js-map-name">&nbsp;</span>
+                            <br>
+                            <small class="no-break"><span class="js-map-strap">&nbsp;</span></small>
+                        </h3>
+                    </div>
+                    <div>
+                        <a class="desktop-only" href="/pages/about.html">About</a>
+                        <br>
+                        <div class="more-maps">
+                            <a>More Maps</a>
+                            <span class="js-map-list"></span>
+                        </div>
+                    </div>
+                </header>
 
                 <section class="four columns z-one sidebar">
 
-                        <header>
+                        <header class="header">
                             <div>
-                                <svg class="star" id="star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#CD0000" stroke="#CD0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                <svg class="star" id="star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                             </div>
 
-                            <h1 class="serif no-break no-click">Sphere of Influence
+                            <h1 class="serif no-break no-click"><span class="js-map-name">&nbsp;</span>
                                 <br>
-                                <small class="no-break">Mapping Soviet culture.</small>
+                                <small class="no-break js-map-strap">&nbsp;</small>
                             </h1>
-                        </header>
 
-
-                        <header class="sub-header" id="sub-header" aria-hidden>
-                            <div class="no-click">
-                                <div>
-                                    <svg class="star" id="sub-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#CD0000" stroke="#CD0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                </div>
-
-                                <h3 class="serif no-break">Sphere of Influence
-                                    <br>
-                                    <small class="no-break">Mapping Soviet culture.</small>
-                                </h3>
-                            </div>
                             <div>
-                                <a href="/pages/about.html">About</a>
+                                <b class="js-map-following-lead">Following: </b>
+                                <span class="js-map-following">
+                                </span>
                             </div>
+
                         </header>
 
+
+
+                        <div id="sidebar-hook"></div>
                         <div id="sidebar-stories">
                             <div id="pinned-tweet-hook"></div>
                             <div class="skeleton-tweets">
@@ -93,11 +118,15 @@
 
                 </section>
 
+                <nav class="mobile-tabber mobile-only">
+                    <a onclick="toggleFeed(true)" ontouchstart="toggleFeed(true)" class="js-show-feed">Feed</a>
+                    <a onclick="toggleFeed(false)" ontouchstart="toggleFeed(false)" class="js-hide-feed">Map</a>
+                    <a href="/pages/about.html">About</a>
+                </nav>
+
         </main>
 
-        <script src="/dist/app.js"></script>
-        <script src="//sphere-of-influence.herokuapp.com?callback=captureTweets&demand=stale"></script>
-        <script async src="//sphere-of-influence.herokuapp.com?callback=captureTweets"></script>
+        <script src="/dist/app.js?jul-2020-c"></script>
 
     </body>
 </html>

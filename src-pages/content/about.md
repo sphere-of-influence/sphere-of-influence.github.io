@@ -27,6 +27,9 @@ We're not using a framework on the front-end (eg. Vue, React) for a few reasons;
 
 Sphere of Influence is a lite rebuild of [Bogstandard](//github.com/bogstandard)'s [Atlaski Project](https://folio.brighton.ac.uk/user/eric-daddio/atlaski-stories-mapped) for the University of Brighton.
 
+## Other Maps
+We're also developing [Northpole](/#!home/northpole) to map content at the top of the world & provide a playground for the engine.
+
 ___
 
 ## Get in touch
@@ -40,7 +43,7 @@ function makeMail() {
     return false;
 }
 </script>
-<form name="mail" class="row" onsubmit="return makeMail()">
+<form name="mail" class="row" onsubmit="window.location = 'mailto:ericspublicinbox@gmail.com?subject='+document.mail.subject.value.replace(/ /g, '%20')+'&body='+document.mail.body.value.replace(/ /g, '%20');">
     <input name="subject" type="text" placeholder="Subject" class="ten columns" />
     <input type="submit" value="Send" class="two columns" />
     <textarea name="body" class="twelve columns"></textarea>
