@@ -107,6 +107,14 @@
       margin-bottom: 0 !important;
   }
 
+  .popup-list-row {
+    margin-bottom: 10px;
+    min-height: 250px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   .popup .tweet {
     width: 100%;
   }
@@ -118,12 +126,4 @@
     max-height: 400px;
     overflow: auto;
     width: 100%;
-  }
-
-  .popup-list-row {
-    margin-bottom: 10px;
-    min-height: 250px;
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
