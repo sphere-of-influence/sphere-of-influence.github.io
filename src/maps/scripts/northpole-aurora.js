@@ -23,7 +23,6 @@ const noiseStrength = 100;
 const xOff = 0.0015;
 const yOff = 0.0015;
 const zOff = 0.0015;
-const backgroundcolor = 'hsla(220,60%,3%,0)';
 const {
   abs, round, random,
 } = Math;
@@ -42,10 +41,10 @@ let simplex;
 let rayProps;
 
 function setup() {
-  createCanvas();
-  resize();
-  initRays();
-  draw();
+    createCanvas();
+    resize();
+    initRays();
+    draw();
 }
 
 function initRays() {
@@ -181,7 +180,6 @@ function resize() {
 
 function render() {
   ctx.b.save();
-  //ctx.b.filter = 'blur(12px)';
   ctx.a.globalCompositeOperation = 'lighter';
   ctx.b.drawImage(canvas.a, 0, 0);
   ctx.b.restore();
@@ -190,14 +188,15 @@ function render() {
 function draw() {
   tick++;
   ctx.a.clearRect(0, 0, canvas.a.width, canvas.a.height);
-  ctx.b.fillStyle = backgroundcolor;
   ctx.b.clearRect(0, 0, canvas.b.width, canvas.a.height);
-  ctx.b.fillRect(0, 0, canvas.b.width, canvas.a.height);
   drawRays();
   render();
 
   window.requestAnimationFrame(draw);
 }
 
-window.addEventListener('load', setup);
-window.addEventListener('resize', resize);
+
+if (window.matchMedia('(min-width: 550px)').matches) {
+  window.addEventListener('load', setup);
+  window.addEventListener('resize', resize);
+}
