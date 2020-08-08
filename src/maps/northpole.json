@@ -1,6 +1,6 @@
 {
     "slug" : "northpole",
-    "name" : "Northpole",
+    "name" : "Northpole <small>Beta!</small>",
     "strap": "Mapping the frozen North.",
     "color": "#60a0dc",
     "handles": ["BarentsNews", "CO1CRPG", "GreenlandRepRVK", "ChugachForestAK", "arctic_today", 
@@ -21,7 +21,8 @@
     },
     "scripts": [
         "northpole-map",
-        "northpole-site"
+        "northpole-site",
+        "northpole-aurora"
     ],
     "proj4String": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
 }

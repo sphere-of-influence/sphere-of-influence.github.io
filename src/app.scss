@@ -90,11 +90,12 @@ body {
      a {
         position: relative;
         top: 20px;
+        margin-bottom: 20px;
         background: rgba(255,255,255,0.75);
         padding: 10px 15px;
         transition: all .25s;
-        height: 60px;
-        width: 60px;
+        min-height: 60px;
+        min-width: 60px;
         box-sizing: border-box;
         display: inline-flex;
         align-items: center;
@@ -104,10 +105,10 @@ body {
 }
 
 .more-maps {
-
-    // disable this feature until the future.
-    display: none;
-
+    a {
+        min-height: 30px;
+        margin-bottom: 5px;
+    }
     .more-map-link {
         transition: opacity .33s;
         opacity: 0;

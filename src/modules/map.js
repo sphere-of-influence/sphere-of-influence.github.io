@@ -56,6 +56,7 @@ window.initMap = (options) => {
 
   const styleCache = {};
   const clusterLayer = new LayerVector({
+    zIndex: 99,
     source: clusterSource,
     style(feature) {
       const features = feature.get('features');
@@ -94,6 +95,7 @@ window.initMap = (options) => {
 
   const vectorLayer = new LayerVector({
     source: vectorSourceFree,
+    zIndex: 99,
   });
 
   // eslint-disable-next-line no-param-reassign
@@ -115,6 +117,7 @@ window.initMap = (options) => {
         source: new SourceOSM(),
       }),
       clusterLayer,
+      vectorLayer,
     ],
     view: new View(options.view),
   });
@@ -251,8 +254,6 @@ window.initMap = (options) => {
     feature.setId(id);
     feature.data = data;
     vectorSourceFree.addFeature(feature);
-    map.removeLayer(vectorLayer);
-    map.addLayer(vectorLayer);
   };
 
   function addFeatures(stories) {
@@ -290,8 +291,6 @@ window.initMap = (options) => {
     });
 
     vectorSource.addFeatures(features);
-    // map.removeLayer(vectorLayer);
-    // map.addLayer(vectorLayer);
 
     return features;
   }

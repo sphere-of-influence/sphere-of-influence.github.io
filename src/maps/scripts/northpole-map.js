@@ -206,6 +206,7 @@ function northpole() {
     const sicLayer = new ImageLayer({
       source: sicSource,
       projection: 'EPSG:3413', // important!
+      zIndex: 0,
     });
     window.map.addLayer(sicLayer);
     arcticCircle();
