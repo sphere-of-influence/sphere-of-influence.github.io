@@ -196,10 +196,10 @@ function northpole() {
   // once loaded then put it on the canvas and tweak the colors
   img.onload = () => {
     c.width = img.width; c.height = img.height;
-    ctx.filter = 'grayscale(1) brightness(4) contrast(1)';
     ctx.globalAlpha = 0.8;
     ctx.drawImage(img, 0, 0);
     const sicSource = new Static({
+      attributions: ['Thanks to <a href="https://driftnoise.com" target="_blank">DRIFT+NOISE</a> &amp; <a href="https://global.jaxa.jp/" target="_blank">JAXA</a> for Ice data.'],
       imageExtent: [-3846875.000, -5353125.000, 3753125.000, 5846875.000],
       url: c.toDataURL(),
     });

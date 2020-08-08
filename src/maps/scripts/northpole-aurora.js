@@ -181,7 +181,7 @@ function resize() {
 
 function render() {
   ctx.b.save();
-  ctx.b.filter = 'blur(12px)';
+  //ctx.b.filter = 'blur(12px)';
   ctx.a.globalCompositeOperation = 'lighter';
   ctx.b.drawImage(canvas.a, 0, 0);
   ctx.b.restore();
