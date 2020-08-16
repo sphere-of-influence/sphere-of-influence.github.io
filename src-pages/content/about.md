@@ -4,14 +4,23 @@ Sphere of Influence is dedicated to tracking Soviet culture on Twitter.
 Contributors wanted! Currently in Beta!
 ~
 
-Sharing the stories of Soviet Citizens and insights into daily life within the Soviet Union, Sphere of Influence aims to cast the USSR in a positive light and share its culture with a modern audience. The project hopes to shatter illusions that the [current state of society](https://en.wikipedia.org/wiki/Criticism_of_capitalism) is a fixed absolute, by offering a window through which to admire an alternative model.
+Sharing the stories of Soviet Citizens and insights into daily life within the Soviet Union, Sphere of Influence aims to cast the USSR in a positive light and share its culture with a modern audience.
 
-Sphere of Influence is built and maintained by volunteers in their spare time, it is a project of love.
-We are currently in Beta so things might be a little rough & ready. 
+Sphere of Influence is built and maintained by volunteers in their spare time.
+We are currently in Beta so things might be a little rough & ready.
 
 Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [Bogstandard](//github.com/bogstandard), with assistance of family and friends.
 
 ___
+
+## Why the USSR?
+The USSR presents a unique study, a vast state encompassing many nations in one of the most culture rich periods of history. It also no longer exists.
+Twitter has many dedicated accounts regularly posting snapshots of daily life from within its borders, these provide a rich steady source of content for the project and because the USSR is (in terms of man's history) relatively recent the geography hasn't changed much beyond renamings (and a [lost sea](https://en.wikipedia.org/wiki/Aral_Sea)!). This makes for relatively accurate best-guess geotagging.
+
+###### A Positive Outlook?
+The project employs a self-aware air of positivity towards the USSR as a [stylistic choice](/pages/contributing.html), the focus is on life within a now vanished-state & not so much the broader history. 
+
+Occasionally the *On This Day* feature will display the darker side of the USSR.
 
 ## Under the bonnet
 Sphere of Influence pulls all its content from Twitter, the contributor accounts are listed on the main feed, these accounts post frequently, so there's almost always new tweets waiting for visitors.
@@ -37,12 +46,7 @@ Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [Bogst
 
 If you are serious about contributing to the project please read the [Contributors Guide](/pages/contributing.html).
 
-<script>
-function makeMail() {
-    window.location = 'mailto:ericspublicinbox@gmail.com?subject='+document.mail.subject.value.replace(/ /g, '%20')+'&body='+document.mail.body.value.replace(/ /g, '%20');
-    return false;
-}
-</script>
+
 <form name="mail" class="row" onsubmit="window.location = 'mailto:ericspublicinbox@gmail.com?subject='+document.mail.subject.value.replace(/ /g, '%20')+'&body='+document.mail.body.value.replace(/ /g, '%20');">
     <input name="subject" type="text" placeholder="Subject" class="ten columns" />
     <input type="submit" value="Send" class="two columns" />
