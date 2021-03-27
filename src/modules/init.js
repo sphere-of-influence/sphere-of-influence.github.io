@@ -90,7 +90,9 @@ function setupPage(options) {
 
   page.rootEl.style.setProperty('--color', options.color);
 
-  document.title = `${options.name} - ${options.strap}`;
+  const t = document.createElement('div');
+  t.innerHTML = `${options.name} - ${options.strap}`;
+  document.title = t.innerText;
 
   if ('scripts' in options) {
     options.scripts.forEach((script) => {

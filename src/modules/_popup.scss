@@ -102,12 +102,28 @@
     content: "✖";
   }
 
-  .popup .tweet {
-    width: 100%;
-
-    // twitter changes ~spring 2020
-    .twitter-tweet {
+  .popup .twitter-tweet {
       margin-top: 0 !important;
       margin-bottom: 0 !important;
+  }
+
+  .popup-list-row {
+    margin-bottom: 10px;
+    min-height: 250px;
+    &:last-child {
+      margin-bottom: 0;
     }
+  }
+
+  .popup .tweet {
+    width: 100%;
+  }
+
+  .popup-list {
+    background: rgba(255,255,255,0.88);
+    border-radius: inherit;
+    padding: 0;
+    max-height: 400px;
+    overflow: auto;
+    width: 100%;
   }
