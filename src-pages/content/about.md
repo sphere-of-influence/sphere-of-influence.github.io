@@ -47,7 +47,7 @@ Current editors are [@sovietarchitect](//twitter.com/sovietarchitect) and [Bogst
 If you are serious about contributing to the project please read the [Contributors Guide](/pages/contributing.html).
 
 
-<form name="mail" class="row" onsubmit="window.location = 'mailto:ericspublicinbox@gmail.com?subject='+document.mail.subject.value.replace(/ /g, '%20')+'&body='+document.mail.body.value.replace(/ /g, '%20');">
+<form name="mail" class="row" action="mailto:ericspublicinbox@gmail.com">
     <input name="subject" type="text" placeholder="Subject" class="ten columns" />
     <input type="submit" value="Send" class="two columns" />
     <textarea name="body" class="twelve columns"></textarea>
