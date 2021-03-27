@@ -6,3 +6,4 @@ storage
 artisan
 server/.env
 server/__pycache__
+public
