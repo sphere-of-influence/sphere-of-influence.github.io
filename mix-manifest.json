@@ -1,5 +1,19 @@
 {
-    "/dist/app.js": "/dist/app.js",
-    "/dist/app.css": "/dist/app.css",
-    "/index.html": "/index.html"
+    "/public/dist/app.js": "/public/dist/app.js",
+    "/public/dist/app.css": "/public/dist/app.css",
+    "/public/maps/scripts/ko-fi-link.js": "/public/maps/scripts/ko-fi-link.js",
+    "/public/maps/scripts/northpole-aurora.js": "/public/maps/scripts/northpole-aurora.js",
+    "/public/maps/scripts/northpole-map.js": "/public/maps/scripts/northpole-map.js",
+    "/public/maps/scripts/notice.js": "/public/maps/scripts/notice.js",
+    "/public/maps/scripts/on-this-day.js": "/public/maps/scripts/on-this-day.js",
+    "/public/dist/social-image.png": "/public/dist/social-image.png",
+    "/public/dist/hero.jpg": "/public/dist/hero.jpg",
+    "/public/maps/index.json": "/public/maps/index.json",
+    "/public/maps/northpole.json": "/public/maps/northpole.json",
+    "/public/maps/sphere-of-influence.json": "/public/maps/sphere-of-influence.json",
+    "/public/index.html": "/public/index.html",
+    "/public/maps/tweets/northpole.json": "/public/maps/tweets/northpole.json",
+    "/public/maps/tweets/sphere-of-influence.json": "/public/maps/tweets/sphere-of-influence.json",
+    "/public/maps/scripts/dates.json": "/public/maps/scripts/dates.json",
+    "/public/maps/scripts/sea-ice-concentration.png": "/public/maps/scripts/sea-ice-concentration.png"
 }

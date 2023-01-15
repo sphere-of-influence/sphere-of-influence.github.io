@@ -48,7 +48,7 @@ def read_table(filename, usecols=[0,1], sep='\t', comment='#', encoding='utf-8',
             if fresh:
                 alt_names = (columns[3].rstrip('\n')).split(',')
                 for alt in alt_names:
-                    if alt.lower() not in d:
+                    if (alt.lower() not in d) and len(alt) > 5:
                         d[alt.lower()] = d[key] # point to its originator
 
 
@@ -84,7 +84,7 @@ class GeoText(object):
 
     index = build_index()
 
-    def find(self, text, countries=None):
+    def find(self, text, countries=None, extents=None):
         city_regex = r"[A-ZÀ-Ú]+[a-zà-ú]+[ \-]?(?:d[a-u].)?(?:[A-ZÀ-Ú]+[a-zà-ú]+)*"
         candidates = re.findall(city_regex, text)
         # Removing white spaces from candidates
@@ -101,6 +101,19 @@ class GeoText(object):
 
         if countries is not None:
             self.cities = [city for city in self.cities if self.index.cities[city['name'].lower()]['country code'] in countries]
+
+        # Loop thru the extents and check each city conforms with at least 1
+        # possible optional keys: min_latitude, max_latitude, min_longitude, max_longitude
+        if extents is not None and extents:
+            for city in self.cities:
+                city['extent_valid'] = False
+                for extent in extents:
+                    if (('min_latitude' in extent and float(city['latitude']) >= extent['min_latitude']) or 'min_latitude' not in extent)\
+                        and (('max_latitude' in extent and float(city['latitude']) <= extent['max_latitude']) or 'max_latitude' not in extent)\
+                        and (('min_longitude' in extent and float(city['longitude']) >= extent['min_longitude']) or 'min_longitude' not in extent)\
+                        and (('max_longitude' in extent and float(city['longitude']) <= extent['max_longitude']) or 'max_longitude' not in extent):
+                        city['extent_valid'] = True
+            self.cities = [city for city in self.cities if city['extent_valid']]
 
         self.best_city = None
         if len(self.cities) > 0:

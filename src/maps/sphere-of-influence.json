@@ -13,6 +13,7 @@
     },
     "scripts": [
         "on-this-day",
-        "ko-fi-link"
+        "ko-fi-link",
+        "notice"
     ]
 }

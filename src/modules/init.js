@@ -27,14 +27,14 @@ async function getMapJson() {
   return data;
 }
 
-async function requestTweets(demand, mapJson) {
-  const response = await fetch(`https://sphere-of-influence.herokuapp.com/?demand=${demand}`, {
-    method: 'POST',
+async function requestTweets(mapJson) {
+  const response = await fetch(`/maps/tweets/${mapJson.slug}.json`, {
+    method: 'GET',
     headers: {
       Accept: 'application/json',
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify(mapJson),
+    body: null,
   });
   const data = await response.json();
   return data;
@@ -122,14 +122,9 @@ getMapJson()
     setupPage(mapJson);
     window.initMap(mapJson);
 
-    requestTweets('stale', mapJson)
+    requestTweets(mapJson)
       .then((data) => {
-        window.captureTweets(data.tweets);
-      });
-
-    requestTweets('nothing', mapJson)
-      .then((data) => {
-        window.captureTweets(data.tweets);
+        window.captureTweets(data.tweets || []);
       });
   })
   .catch(() => {

@@ -15,6 +15,7 @@ const fs = require('fs');
 
 mix.js('src/app.js', 'public/dist/')
   .sass('src/app.scss', 'public/dist/')
+  .copy(['src/*.png', 'src/*.jpg'], 'public/dist/')
   .copy('src/maps/*.json', 'public/maps')
   .copy('src/*.html', 'public/')
   .then(() => {
@@ -25,13 +26,19 @@ mix.js('src/app.js', 'public/dist/')
     });
   });
 
-// extensions
+
 const getFiles = function (dir) {
   // get all 'files' in this directory
   // filter directories
   return fs.readdirSync(dir).filter((file) => fs.statSync(`${dir}/${file}`).isFile());
 };
 
+// tweets
+getFiles('src/maps/tweets').forEach((filepath) => {
+  if (filepath.endsWith('.json')) mix.copy(`src/maps/tweets/${filepath}`, 'public/maps/tweets');
+});
+
+// extensions
 getFiles('src/maps/scripts').forEach((filepath) => {
   if (filepath.endsWith('.js')) mix.js(`src/maps/scripts/${filepath}`, 'public/maps/scripts');
   else mix.copy(`src/maps/scripts/${filepath}`, 'public/maps/scripts');
