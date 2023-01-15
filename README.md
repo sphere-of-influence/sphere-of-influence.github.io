@@ -1,3 +1,5 @@
+
+
 # Sphere of Influence (Platform)
 
 Sphere of Influence is a barebones distributed platform for mapping curated content on Twitter. 
@@ -5,7 +7,9 @@ Sphere of Influence is a barebones distributed platform for mapping curated cont
 The front-end is as light as possible and the back-end is a stateless RESTful API.
 Content is sourced from contributers by using Twitter as the CMS. 
 
-Sphere of Influence can be set up cost free by exploiting services like GitHub Pages & Heroku. Let the big guys take the burden, they've enough dollar dollar to do it.
+Sphere of Influence can be set up cost free by exploiting services like GitHub Pages & in the past; Heroku*. Let the big guys take the burden, they've enough dollar dollar to do it.
+
+_*Heroku removing its free tier plan forced us to make amends and rethink how the project is deployed._
 
 # Sphere of Influence (Site)
 
