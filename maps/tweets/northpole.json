@@ -1,0 +1,95 @@
+{
+    "slug": "northpole",
+    "tweets": [
+        {
+            "id": "1234232209306980354",
+            "date": "Sun Mar 01 22:37:31 +0000 2020",
+            "place": {
+                "name": "Norilsk",
+                "country code": "RU",
+                "population": "140800",
+                "latitude": "69.3535",
+                "longitude": "88.2027",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @womensart1: 'Days Of Night' series by Russian photographer Elena Chernyshova, on the Russian arctic city of Norilsk which is in darknes…"
+        },
+        {
+            "id": "1233440583844352001",
+            "date": "Fri Feb 28 20:44:58 +0000 2020",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Laying the wooden pavement in Yakutsk (1958) https://t.co/GslW02ytbP"
+        }
+    ],
+    "map": {
+        "slug": "northpole",
+        "name": "Northpole <small>Beta!</small>",
+        "strap": "Mapping the frozen North.",
+        "color": "#60a0dc",
+        "handles": [
+            "ourlapland",
+            "BarentsNews",
+            "GreenlandRepRVK",
+            "ChugachForestAK",
+            "arctic_today",
+            "arcticmuseum",
+            "yakutia",
+            "visityakutia",
+            "tassagency_en",
+            "USArmyAlaska",
+            "aknationalguard",
+            "176thWing",
+            "siberian_times",
+            "PolarBears",
+            "forsvarsmin",
+            "MOSAiCArctic",
+            "CircumpolarInfo",
+            "NuukNERO",
+            "arktiskinstitut",
+            "EielsonAirForce",
+            "arcticstationuk",
+            "arcticstationuc"
+        ],
+        "country_codes": [
+            "GL",
+            "DK",
+            "FO",
+            "RU",
+            "IS",
+            "FI",
+            "NO",
+            "SE",
+            "US",
+            "CA"
+        ],
+        "fetch_extents": [
+            {
+                "min_latitude": 60
+            }
+        ],
+        "view": {
+            "projection": "EPSG:3413",
+            "center": [
+                15.633,
+                78.217
+            ],
+            "zoom": 4.6,
+            "minZoom": 4.5,
+            "maxZoom": 6.5
+        },
+        "scripts": [
+            "northpole-map",
+            "northpole-aurora"
+        ],
+        "proj4String": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+    }
+}

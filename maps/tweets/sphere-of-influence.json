@@ -1,0 +1,948 @@
+{
+    "slug": "sphere-of-influence",
+    "tweets": [
+        {
+            "id": "1481970603636801536",
+            "date": "Sat Jan 15 00:07:09 +0000 2022",
+            "place": {
+                "name": "Khŭjand",
+                "country code": "TJ",
+                "population": "144865",
+                "latitude": "40.28256",
+                "longitude": "69.62216"
+            },
+            "place_is_found": "True",
+            "text": "RT @sher_khashimov: A massive Lenin bust hiding in an apartment building stairwell in Khujand, Tajikistan. Photo - Artyom Kushneruk. @sovie…"
+        },
+        {
+            "id": "1363166775009943555",
+            "date": "Sat Feb 20 20:37:55 +0000 2021",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @EastOfGMT: View of the Admiralty building in Leningrad (St Petersburg), USSR - 1969. #StPetersburg #USSR \n\n(photo: Vsevolod Tarasevich)…"
+        },
+        {
+            "id": "1302289349409746946",
+            "date": "Sat Sep 05 18:46:09 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @RealSardonicus: Moscow\n\nElliott Erwitt, 1968 https://t.co/z2y4MY62oL"
+        },
+        {
+            "id": "1290618485844795393",
+            "date": "Tue Aug 04 12:40:37 +0000 2020",
+            "place": {
+                "name": "Batumi",
+                "country code": "GE",
+                "population": "121806",
+                "latitude": "41.64228",
+                "longitude": "41.63392"
+            },
+            "place_is_found": "True",
+            "text": "RT @sovietvisuals: Train on Chavchavadze street of Batumi, Georgian SSR, 1985 https://t.co/NkFSQNGvbG"
+        },
+        {
+            "id": "1288760023531823104",
+            "date": "Thu Jul 30 16:59:12 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Shukhov Tower in Moscow, photo by Alexander Rodchenko (1929) https://t.co/qt929y63mi"
+        },
+        {
+            "id": "1288575745024036866",
+            "date": "Thu Jul 30 16:59:27 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Gorky Street in Moscow, photo by Alexander Rubashkin (1978) https://t.co/yN4zf8RJj2"
+        },
+        {
+            "id": "1276684141698875392",
+            "date": "Sat Jun 27 01:19:48 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Mukhin lives and works in Moscow. He teaches at the Rodchenko Moscow School of Photography and Multimedia. In 1986-1987 he attended classes at the A. Lapin Studio in the MSU, in 1987 he joined the Immediate Photography group and in 1989 he started his career as a freelance. https://t.co/NK5GnJZXN1"
+        },
+        {
+            "id": "1275819329607565313",
+            "date": "Wed Jun 24 16:04:33 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @GovernmentRF: The military parade marking the 75th anniversary of Victory in the Great Patriotic War was held in Moscow. The decision t…"
+        },
+        {
+            "id": "1275698175635001353",
+            "date": "Wed Jun 24 16:39:13 +0000 2020",
+            "place": {
+                "name": "Hrodna",
+                "country code": "BY",
+                "population": "317365",
+                "latitude": "53.6884",
+                "longitude": "23.8258"
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Grodno, Belarus. Photo by Georgiy Likhtarovich (1989) https://t.co/mTKIR4F3d0"
+        },
+        {
+            "id": "1270791267706900481",
+            "date": "Thu Jun 11 03:01:02 +0000 2020",
+            "place": {
+                "name": "Irkutsk",
+                "country code": "RU",
+                "population": "586695",
+                "latitude": "52.29778",
+                "longitude": "104.29639",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Irkutsk, Russia (1959) https://t.co/icmkhiPyhl"
+        },
+        {
+            "id": "1270269400667561984",
+            "date": "Thu Jun 11 03:01:19 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @tassagency_en: #TASS_archive\nWhite nights in Saint Petersburg, 1967\nMaxim Blokhin/TASS https://t.co/T3mCpdDxhW"
+        },
+        {
+            "id": "1270091928147722243",
+            "date": "Mon Jun 08 22:23:50 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Moscow (1959) https://t.co/clBDIc0uI2"
+        },
+        {
+            "id": "1269613403565371397",
+            "date": "Sun Jun 07 22:36:52 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Moscow metro. Photo by David Cook (1969) https://t.co/yOBVRCk0Br"
+        },
+        {
+            "id": "1269335324821532672",
+            "date": "Sun Jun 07 22:37:02 +0000 2020",
+            "place": {
+                "name": "Anapa",
+                "country code": "RU",
+                "population": "53600",
+                "latitude": "44.89497",
+                "longitude": "37.31623",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Anapa, Krasnodarsky Krai of Russia (1975) https://t.co/Ri8Kbb2mbA"
+        },
+        {
+            "id": "1269224737294688256",
+            "date": "Sun Jun 07 22:37:14 +0000 2020",
+            "place": {
+                "name": "Minsk",
+                "country code": "BY",
+                "population": "1742124",
+                "latitude": "53.9",
+                "longitude": "27.56667"
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Monument to the Atom on Yakub Kolas square in Minsk (1960s) https://t.co/r5i2Ee27Ub"
+        },
+        {
+            "id": "1269003717807943689",
+            "date": "Sun Jun 07 22:37:23 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Moscow. Photo by Nikolai Rakhmanov (1982) https://t.co/6ooxHTuozj"
+        },
+        {
+            "id": "1264546833013133313",
+            "date": "Mon May 25 03:43:36 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Nevsky Prospect in Leningrad. Photo by Joel Martin (1961). https://t.co/5wikYTmWCY"
+        },
+        {
+            "id": "1264546262495506432",
+            "date": "Mon May 25 03:43:00 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Komsomolskaya metro station in Moscow. Photo by Naum Granovsky (1950s) https://t.co/qId766Cdoq"
+        },
+        {
+            "id": "1263161297660719110",
+            "date": "Mon May 25 03:44:10 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Pushkin State Museum of Fine Arts in Moscow (1982) https://t.co/TNn3xUJHqV"
+        },
+        {
+            "id": "1259565117026549760",
+            "date": "Sun May 10 19:26:53 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Two flags: Soviet and Russian. Moscow, 8 November 1991. https://t.co/HT988gKTsC"
+        },
+        {
+            "id": "1245025563909087232",
+            "date": "Tue Mar 31 16:56:39 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @sovietvisuals: Round baths in Lesnoy. Photo by Boris Ignatovich, Leningrad, USSR, 1931 https://t.co/8TiQTe87Dh"
+        },
+        {
+            "id": "1244907492980805633",
+            "date": "Tue Mar 31 12:09:24 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Kuznetsky Most street in Moscow. Photo by M. Trakhman and S. Fridlyand (1956) https://t.co/KmkYtU0GT9"
+        },
+        {
+            "id": "1244690739965186049",
+            "date": "Tue Mar 31 12:09:03 +0000 2020",
+            "place": {
+                "name": "Ryazan’",
+                "country code": "RU",
+                "population": "520173",
+                "latitude": "54.6269",
+                "longitude": "39.6916",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Poschupovo village in Ryazan oblast of Russia (1986) https://t.co/F4Fa1s7HTs"
+        },
+        {
+            "id": "1244690492853571585",
+            "date": "Tue Mar 31 12:10:46 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Beach in Khimki, Moscow region. Photo by Emmanuil Yevzerikhin (1930) https://t.co/lHomgEAcFx"
+        },
+        {
+            "id": "1244603588707581952",
+            "date": "Tue Mar 31 12:09:57 +0000 2020",
+            "place": {
+                "name": "Mering",
+                "country code": "DE",
+                "population": "12820",
+                "latitude": "48.2656",
+                "longitude": "10.98461"
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Illustrations for O. Guryan’s “Mei Lin’s Stories”. Artist Tatyana Yeryomina (1957). https://t.co/5lKOefYFXf"
+        },
+        {
+            "id": "1243586732559339528",
+            "date": "Tue Mar 31 12:10:15 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Hedgehog in the Fog art in a tree in Izmailovsky Park in Moscow. Created by Yevgeniya Khlynova. https://t.co/1V0PwJ8pSs"
+        },
+        {
+            "id": "1243479571779014657",
+            "date": "Tue Mar 31 12:11:24 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Spring in Moscow. Photo by V. Yegorov (1975) https://t.co/QNjli779u8"
+        },
+        {
+            "id": "1243479298239074305",
+            "date": "Tue Mar 31 12:11:31 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Interior of a three-room model apartment in the 10th experimental quarter (Novyye Cheryomushki, Moscow). October 1, 19…"
+        },
+        {
+            "id": "1243452948451151872",
+            "date": "Tue Mar 31 12:10:30 +0000 2020",
+            "place": {
+                "name": "Bich’vinta",
+                "country code": "GE",
+                "population": "8401",
+                "latitude": "43.15925",
+                "longitude": "40.33985"
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Pitsunda, Abkhazia (1973) https://t.co/DtzlzSlIls"
+        },
+        {
+            "id": "1243163085206163457",
+            "date": "Tue Mar 31 12:11:21 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Bread shop in Leningrad (late 1930s) https://t.co/0Dtiq8JDpn"
+        },
+        {
+            "id": "1242726412920000513",
+            "date": "Wed Mar 25 11:50:12 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @sovietvisuals: Post-Soviet visual. Mosaic from abandoned Soviet young pioneer camp \"Kosmonavt\", Leningrad region, Russia, 2019 https://…"
+        },
+        {
+            "id": "1242525488515612672",
+            "date": "Wed Mar 25 11:50:31 +0000 2020",
+            "place": {
+                "name": "Kaluga",
+                "country code": "RU",
+                "population": "338978",
+                "latitude": "54.5293",
+                "longitude": "36.27542",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Lopatinka, village in Kaluga oblast of Russia (1976) https://t.co/bUGL0uZX4S"
+        },
+        {
+            "id": "1242468957744857089",
+            "date": "Wed Mar 25 11:50:45 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @PasanteDeLaKGB: Moscow. #Quarantine #COVIDー19\nSeats were empty at rehearsal, and remained so for the online performance. https://t.co/F…"
+        },
+        {
+            "id": "1241817588553920519",
+            "date": "Mon Mar 23 09:15:25 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @27khv: The new emergency coronavirus hospital under construction outside Moscow has a bunch of really cool motivational posters, done i…"
+        },
+        {
+            "id": "1241787279435317249",
+            "date": "Sun Mar 22 18:02:53 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: The Upper Trading Rows on the Red Square in Moscow. Photo by P. Pavlov (late 1890s). https://t.co/bBJPrUUCm1"
+        },
+        {
+            "id": "1241786025334181889",
+            "date": "Sun Mar 22 17:58:23 +0000 2020",
+            "place": {
+                "name": "Samarkand",
+                "country code": "UZ",
+                "population": "319366",
+                "latitude": "39.65417",
+                "longitude": "66.95972"
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Fabric department in a store in Samarkand, Uzbekistan (1970). Photo by Yu. Bagryansky. https://t.co/YS6nQBpKnY"
+        },
+        {
+            "id": "1241336616024788993",
+            "date": "Sat Mar 21 12:15:17 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Photo by Mikhail Ozersky (Moscow, 1962) https://t.co/L64s55JIby"
+        },
+        {
+            "id": "1241078070687268868",
+            "date": "Sat Mar 21 12:15:37 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Alexandrovsky Gardens in Moscow. Photo by Naum Granovsky (April 1965) https://t.co/hvsN70R7IH"
+        },
+        {
+            "id": "1240577442902933509",
+            "date": "Sat Mar 21 12:15:47 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Lion Bridge and Bank Bridge in Leningrad (late 1960s) https://t.co/0zhPtSJCd1"
+        },
+        {
+            "id": "1240275237989691394",
+            "date": "Sat Mar 21 12:15:59 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Red Square in Moscow (1979) https://t.co/yTKyiAHJlz"
+        },
+        {
+            "id": "1239966447859683330",
+            "date": "Sat Mar 21 12:16:16 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Somewhere in Moscow (1976) https://t.co/Hp44OebktK"
+        },
+        {
+            "id": "1239110315759087616",
+            "date": "Sun Mar 15 08:44:55 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Photo: Photo by Vladimir Yatsin / TASS Newsreel\n\nMoscow, moving to the Strogino area, 1979 https://t.co/Dk1OiFQgEb"
+        },
+        {
+            "id": "1239109990021058560",
+            "date": "Sun Mar 15 08:43:37 +0000 2020",
+            "place": {
+                "name": "Naberezhnyye Chelny",
+                "country code": "RU",
+                "population": "509870",
+                "latitude": "55.72545",
+                "longitude": "52.41122",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Photo: E. Logvinov / TASS Newsreel\n\nNaberezhnye Chelny, 1981 https://t.co/5U0yUHZ21B"
+        },
+        {
+            "id": "1239109356328804352",
+            "date": "Sun Mar 15 08:41:06 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Photo: Oleg Ivanov / TASS Newsreel\n\nMoscow, New settlers move into a new apartment, 1983 https://t.co/Mn9XkgJTth"
+        },
+        {
+            "id": "1239109059942535169",
+            "date": "Sun Mar 15 08:39:56 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Photo: Vladimir Zavyalov / TASS Newsreel\n\nMoscow, Young settlers in the Maryino area on a day off, 1986 https://t.co/6hFFEp7Rhf"
+        },
+        {
+            "id": "1239108908750442497",
+            "date": "Sun Mar 15 08:39:20 +0000 2020",
+            "place": {
+                "name": "Cherepovets",
+                "country code": "RU",
+                "population": "315738",
+                "latitude": "59.13333",
+                "longitude": "37.9",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Photo: Boris Kavashkin, Sergey Metelitsa / TASS Newsreel\n\nat a new apartment on Arkhangelskaya street in Cherepovets, 1982 https://t.co/3tFKxXahYl"
+        },
+        {
+            "id": "1238910163152785408",
+            "date": "Sun Mar 15 08:35:13 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Moscow (1976) https://t.co/fECRiJ6xr8"
+        },
+        {
+            "id": "1237823948605263873",
+            "date": "Wed Mar 11 19:37:15 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: “Long live our Moscow—our glory, our pride!”\n\nPoster celebrating Moscow’s 800th birthday (1947). Artist V. Livanova. h…"
+        },
+        {
+            "id": "1235884001841291265",
+            "date": "Fri Mar 06 11:19:42 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Mayakovsky metro station in Moscow (1939) https://t.co/XEp9z4eu9b"
+        },
+        {
+            "id": "1235846831545806852",
+            "date": "Fri Mar 06 09:05:00 +0000 2020",
+            "place": {
+                "id": "36775d842cbec509",
+                "url": "https://api.twitter.com/1.1/geo/id/36775d842cbec509.json",
+                "place_type": "city",
+                "name": "Montréal",
+                "full_name": "Montréal, Québec",
+                "country_code": "CA",
+                "country": "Canada",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -73.972965,
+                                45.410095
+                            ],
+                            [
+                                -73.473085,
+                                45.410095
+                            ],
+                            [
+                                -73.473085,
+                                45.705566
+                            ],
+                            [
+                                -73.972965,
+                                45.705566
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {}
+            },
+            "place_is_found": "False",
+            "text": "👇 https://t.co/VuTwtuXLvY"
+        },
+        {
+            "id": "1234394317235597312",
+            "date": "Mon Mar 02 08:27:15 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @PetrocTrelawny: As we mark Russian Spring @BBCRadio3, thanks to listener Susan Morris for sharing this - \nAlexei Savrasov's 'The rooks…"
+        },
+        {
+            "id": "1234232209306980354",
+            "date": "Sun Mar 01 22:37:31 +0000 2020",
+            "place": {
+                "name": "Norilsk",
+                "country code": "RU",
+                "population": "140800",
+                "latitude": "69.3535",
+                "longitude": "88.2027",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @womensart1: 'Days Of Night' series by Russian photographer Elena Chernyshova, on the Russian arctic city of Norilsk which is in darknes…"
+        },
+        {
+            "id": "1233440583844352001",
+            "date": "Fri Feb 28 20:44:58 +0000 2020",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Laying the wooden pavement in Yakutsk (1958) https://t.co/GslW02ytbP"
+        },
+        {
+            "id": "1233415064809545730",
+            "date": "Sat Feb 29 13:06:31 +0000 2020",
+            "place": {
+                "id": "07d9d7e006c83001",
+                "url": "https://api.twitter.com/1.1/geo/id/07d9d7e006c83001.json",
+                "place_type": "poi",
+                "name": "Общежитие МГЛУ",
+                "full_name": "Общежитие МГЛУ",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                37.63701512671683,
+                                55.75611014579106
+                            ],
+                            [
+                                37.63701512671683,
+                                55.75611014579106
+                            ],
+                            [
+                                37.63701512671683,
+                                55.75611014579106
+                            ],
+                            [
+                                37.63701512671683,
+                                55.75611014579106
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {}
+            },
+            "place_is_found": "False",
+            "text": "RT @maxfras: This constructivist gem in central Moscow is in a sad state of disrepair... \n\nBuilt in 1929-1930 as student dormitory of Julia…"
+        },
+        {
+            "id": "1233089856320000002",
+            "date": "Thu Feb 27 18:01:46 +0000 2020",
+            "place": {
+                "name": "Almaty",
+                "country code": "KZ",
+                "population": "2000900",
+                "latitude": "43.25667",
+                "longitude": "76.92861"
+            },
+            "place_is_found": "True",
+            "text": "Soviet Architecture, Almaty https://t.co/5YRPfzA3lt"
+        },
+        {
+            "id": "1233038586536173574",
+            "date": "Thu Feb 27 15:13:10 +0000 2020",
+            "place": {
+                "name": "Mikhaylov",
+                "country code": "RU",
+                "population": "12907",
+                "latitude": "54.2298",
+                "longitude": "39.0269",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Housewarming postcard by Yu. Mikhailov (1961) https://t.co/xNFu02uO9p"
+        },
+        {
+            "id": "1232682186911952898",
+            "date": "Wed Feb 26 15:01:50 +0000 2020",
+            "place": {
+                "name": "Nur-Sultan",
+                "country code": "KZ",
+                "population": "345604",
+                "latitude": "51.1801",
+                "longitude": "71.44598"
+            },
+            "place_is_found": "True",
+            "text": "The Strange, Post-Soviet Architecture of Astana, Kazakhstan https://t.co/OINxLKV69l"
+        },
+        {
+            "id": "1232636908444045313",
+            "date": "Wed Feb 26 12:01:54 +0000 2020",
+            "place": {
+                "name": "Gyumri",
+                "country code": "AM",
+                "population": "148381",
+                "latitude": "40.7942",
+                "longitude": "43.84528"
+            },
+            "place_is_found": "True",
+            "text": "shackway: Fountain on the edge of town in Gyumri, Armenia. This must have been quite impressive when it was still working. The location seems strange, but there was probably a plan to expand housing in this part of town before the 1988 earthquake struck. In the background th.. https://t.co/nK1QizSEEB"
+        },
+        {
+            "id": "1230408871568646148",
+            "date": "Mon Feb 24 15:20:21 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @tassagency_en: #TASS_archive\nPeople make their way through puddles in Bronnitsy, Moscow region, 1989\nAnatoly Morkovkin, Andrei Solovyov…"
+        },
+        {
+            "id": "1107577596743700480",
+            "date": "Sat Mar 21 12:15:56 +0000 2020",
+            "place": {
+                "name": "Tashkent",
+                "country code": "UZ",
+                "population": "1978028",
+                "latitude": "41.26465",
+                "longitude": "69.21627"
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Tashkent, Uzbekistan (1978) https://t.co/21HoefNkLM"
+        },
+        {
+            "id": "1020647123757432833",
+            "date": "Mon Mar 02 21:31:06 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Spotted this rusty Lenin monument when we stopped for lunch in a small non-descript village called Cherkutino on the w…"
+        }
+    ],
+    "map": {
+        "slug": "sphere-of-influence",
+        "name": "Sphere of Influence",
+        "strap": "Mapping Soviet culture",
+        "handles": [
+            "sovietarchitect",
+            "sovietvisuals",
+            "SovietArtBot",
+            "SovietPostcards",
+            "SovietArcades",
+            "hocommunism",
+            "ruaf_hmeimim",
+            "ColdWarRecords"
+        ],
+        "country_codes": [
+            "EE",
+            "LV",
+            "LT",
+            "KZ",
+            "KG",
+            "TJ",
+            "TM",
+            "UZ",
+            "BY",
+            "MD",
+            "UA",
+            "RU",
+            "AM",
+            "AZ",
+            "GE",
+            "PL",
+            "DE"
+        ],
+        "color": "#CD0000",
+        "view": {
+            "center": [
+                1031623.7031323293,
+                7372530.908334386
+            ],
+            "zoom": 4.6,
+            "minZoom": 4.6,
+            "maxZoom": 6.5
+        },
+        "scripts": [
+            "on-this-day",
+            "ko-fi-link"
+        ]
+    }
+}
