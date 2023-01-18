@@ -28,7 +28,7 @@ async function getMapJson() {
 }
 
 async function requestTweets(mapJson) {
-  const response = await fetch(`/maps/tweets/${mapJson.slug}.json`, {
+  const response = await fetch(`/maps/tweets/${mapJson.slug}.json?t=${Math.floor(Date.now() / 1000)}`, {
     method: 'GET',
     headers: {
       Accept: 'application/json',
