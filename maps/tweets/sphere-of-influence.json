@@ -458,20 +458,6 @@
             "text": "RT @PasanteDeLaKGB: Moscow. #Quarantine #COVIDー19\nSeats were empty at rehearsal, and remained so for the online performance. https://t.co/F…"
         },
         {
-            "id": "1241817588553920519",
-            "date": "Mon Mar 23 09:15:25 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @27khv: The new emergency coronavirus hospital under construction outside Moscow has a bunch of really cool motivational posters, done i…"
-        },
-        {
             "id": "1241787279435317249",
             "date": "Sun Mar 22 18:02:53 +0000 2020",
             "place": {
@@ -856,6 +842,76 @@
             "text": "shackway: Fountain on the edge of town in Gyumri, Armenia. This must have been quite impressive when it was still working. The location seems strange, but there was probably a plan to expand housing in this part of town before the 1988 earthquake struck. In the background th.. https://t.co/nK1QizSEEB"
         },
         {
+            "id": "1231903765877395461",
+            "date": "Mon Feb 24 15:20:01 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Sports parade in Moscow (c. 1930) https://t.co/iZKncvFhk6"
+        },
+        {
+            "id": "1231640309630722051",
+            "date": "Sun Feb 23 18:01:47 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "The Gosplan garage designed by Konstantin Melnikov in Moscow, USSR 1934-1936 https://t.co/KeQ1xhfdO1"
+        },
+        {
+            "id": "1231509928210292736",
+            "date": "Sun Feb 23 15:03:00 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Churches of Moscow, photo by Boris Kavashkin (1970s) https://t.co/z2Zlx7If2o"
+        },
+        {
+            "id": "1230761557568569344",
+            "date": "Fri Feb 21 19:25:28 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Volleyball game at Dinamo stadium in Moscow (1930s) https://t.co/eFux2vl3wJ"
+        },
+        {
+            "id": "1230417173660807168",
+            "date": "Thu Feb 20 09:01:28 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Home of \"Singer\" (also known as \"Home Books\") - Building on Nevsky Prospect in St.Petersburg, Art nouveau. https://t.co/EyXUQmq8OL"
+        },
+        {
             "id": "1230408871568646148",
             "date": "Mon Feb 24 15:20:21 +0000 2020",
             "place": {
@@ -868,6 +924,955 @@
             },
             "place_is_found": "True",
             "text": "RT @tassagency_en: #TASS_archive\nPeople make their way through puddles in Bronnitsy, Moscow region, 1989\nAnatoly Morkovkin, Andrei Solovyov…"
+        },
+        {
+            "id": "1230212879141539842",
+            "date": "Wed Feb 19 20:02:21 +0000 2020",
+            "place": {
+                "name": "Hrodna",
+                "country code": "BY",
+                "population": "317365",
+                "latitude": "53.6884",
+                "longitude": "23.8258"
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Grodno, Belarus. Photo by Georgy Likhtarovich (1989) https://t.co/VUnhSq4ny0"
+        },
+        {
+            "id": "1230135806716760065",
+            "date": "Wed Feb 19 15:02:54 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Zhdanovskaya (Vykhino) - commuter train and metro station in Moscow (1976) https://t.co/IxxporGBYz"
+        },
+        {
+            "id": "1230037567623618577",
+            "date": "Wed Feb 19 07:54:48 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: January 1987 in Moscow, photo by Viktor Budan and Aleksandr Zavyalov. https://t.co/plqPwvsf1L"
+        },
+        {
+            "id": "1229843911469944835",
+            "date": "Tue Feb 18 19:04:14 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Astoria hotel in Leningrad, photo by John Schultz (1958) https://t.co/mvkz1zKbqI"
+        },
+        {
+            "id": "1229828359653330944",
+            "date": "Tue Feb 18 18:01:44 +0000 2020",
+            "place": {
+                "name": "Norilsk",
+                "country code": "RU",
+                "population": "140800",
+                "latitude": "69.3535",
+                "longitude": "88.2027",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Norilsk (Russia). https://t.co/rMxOAUgQen"
+        },
+        {
+            "id": "1229784810916323329",
+            "date": "Tue Feb 18 16:13:32 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Airworkers’ House of Culture in Leningrad (c. 1930) https://t.co/l3PapS2e3A"
+        },
+        {
+            "id": "1229783101796163585",
+            "date": "Tue Feb 18 15:01:54 +0000 2020",
+            "place": {
+                "name": "Nur-Sultan",
+                "country code": "KZ",
+                "population": "345604",
+                "latitude": "51.1801",
+                "longitude": "71.44598"
+            },
+            "place_is_found": "True",
+            "text": "The Strange, Post-Soviet Architecture of Astana, Kazakhstan https://t.co/Jc4UGyljA1"
+        },
+        {
+            "id": "1229007498708951040",
+            "date": "Sun Feb 16 12:11:18 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Aeroflot flight attendant Nadezhda Tkach in Sheremetyevo airport in Moscow (1973) https://t.co/YWFQyymJ0n"
+        },
+        {
+            "id": "1228429228267515904",
+            "date": "Fri Feb 14 21:28:12 +0000 2020",
+            "place": {
+                "name": "Volgograd",
+                "country code": "RU",
+                "population": "1011417",
+                "latitude": "48.71939",
+                "longitude": "44.50183",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @RealSardonicus: G. Zelma \nVolgograd \n1970 https://t.co/yAP0bH7oms"
+        },
+        {
+            "id": "1228016386586423296",
+            "date": "Thu Feb 13 18:01:36 +0000 2020",
+            "place": {
+                "name": "Tbilisi",
+                "country code": "GE",
+                "population": "1049498",
+                "latitude": "41.69411",
+                "longitude": "44.83368"
+            },
+            "place_is_found": "True",
+            "text": "The Palace of ceremonial rites, Tbilisi, Georgia.Â Masterpiece of the Soviet modernism erected in 1985. The building was bought by a local businessman who was finally buried there in 2008. https://t.co/eHZXQIgC0j"
+        },
+        {
+            "id": "1227880556656037888",
+            "date": "Thu Feb 13 09:01:52 +0000 2020",
+            "place": {
+                "name": "Nur-Sultan",
+                "country code": "KZ",
+                "population": "345604",
+                "latitude": "51.1801",
+                "longitude": "71.44598"
+            },
+            "place_is_found": "True",
+            "text": "Kazmunaigaz Building, Astana (2012) https://t.co/fZYE88a7OK"
+        },
+        {
+            "id": "1227689867385151489",
+            "date": "Wed Feb 12 20:25:19 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Warsaw railway station in Leningrad (1966) https://t.co/kVPUuxD5LA"
+        },
+        {
+            "id": "1227291667343917057",
+            "date": "Tue Feb 11 18:01:50 +0000 2020",
+            "place": {
+                "name": "Arsk",
+                "country code": "RU",
+                "population": "17243",
+                "latitude": "56.09151",
+                "longitude": "49.87783",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Melnikov garage intourist 1200px wide - Konstantin Melnikov - Wikipedia, the free encyclopedia https://t.co/wrjlARSk4H"
+        },
+        {
+            "id": "1227155741880045572",
+            "date": "Tue Feb 11 09:01:42 +0000 2020",
+            "place": {
+                "name": "Tashkent",
+                "country code": "UZ",
+                "population": "1978028",
+                "latitude": "41.26465",
+                "longitude": "69.21627"
+            },
+            "place_is_found": "True",
+            "text": "L.Ivanov, The Aeroflot Building, Tashkent, Uzbekistan, 1974 https://t.co/VctIEKgkWV"
+        },
+        {
+            "id": "1226566851393703942",
+            "date": "Sun Feb 09 18:01:40 +0000 2020",
+            "place": {
+                "name": "Gyumri",
+                "country code": "AM",
+                "population": "148381",
+                "latitude": "40.7942",
+                "longitude": "43.84528"
+            },
+            "place_is_found": "True",
+            "text": "shackway: Fountain on the edge of town in Gyumri, Armenia. This must have been quite impressive when it was still working. The location seems strange, but there was probably a plan to expand housing in this part of town before the 1988 earthquake struck. In the background th.. https://t.co/v1hto9XRgK"
+        },
+        {
+            "id": "1226562157573263362",
+            "date": "Sun Feb 09 17:47:30 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Winter in Moscow, photo by Sergey Guneyev (1978) https://t.co/Vgd1M1Kvbo"
+        },
+        {
+            "id": "1226521569515786240",
+            "date": "Sun Feb 09 15:01:44 +0000 2020",
+            "place": {
+                "name": "Yerevan",
+                "country code": "AM",
+                "population": "1093485",
+                "latitude": "40.18111",
+                "longitude": "44.51361"
+            },
+            "place_is_found": "True",
+            "text": "Minimal Soviet... #Yerevan #armstreets #streets #soviet #style #block #minimal #minimalism ... https://t.co/oYJKCLrSd0"
+        },
+        {
+            "id": "1226414320445247488",
+            "date": "Sun Feb 09 18:13:49 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Dinamo ice rink in Moscow, photo by A. Ginzburg (1946) https://t.co/biss0druqA"
+        },
+        {
+            "id": "1226093377613156353",
+            "date": "Sat Feb 08 11:02:25 +0000 2020",
+            "place": {
+                "name": "Hrodna",
+                "country code": "BY",
+                "population": "317365",
+                "latitude": "53.6884",
+                "longitude": "23.8258"
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Grodno, Belarus (1989) https://t.co/HCqBkGQvQC"
+        },
+        {
+            "id": "1225167512108765184",
+            "date": "Wed Feb 05 21:22:17 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Grocery store on Volgogradsky Prospect in Moscow (1966) https://t.co/UQDQBzdiJz"
+        },
+        {
+            "id": "1225166240353849344",
+            "date": "Wed Feb 05 21:20:18 +0000 2020",
+            "place": {
+                "name": "Sochi",
+                "country code": "RU",
+                "population": "327608",
+                "latitude": "43.59917",
+                "longitude": "39.72569",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Waters and juices kiosk in Sochi (1960s) https://t.co/WqwXFPcTHw"
+        },
+        {
+            "id": "1224709643416625152",
+            "date": "Tue Feb 04 15:01:47 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "The Icons of Communist Architecture - Melnikov House, Moscow ARCHITECT: KONSTANTIN MELNIKOV https://t.co/uIqrFrvTV8"
+        },
+        {
+            "id": "1224688618205257728",
+            "date": "Tue Feb 04 13:52:16 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Mayakovsky Square in Moscow (1950s) https://t.co/popZs7Xh3L"
+        },
+        {
+            "id": "1224664342085472257",
+            "date": "Tue Feb 04 12:01:46 +0000 2020",
+            "place": {
+                "name": "Yalta",
+                "country code": "UA",
+                "population": "77003",
+                "latitude": "44.50218",
+                "longitude": "34.16624"
+            },
+            "place_is_found": "True",
+            "text": "“Druzhba Holiday Center Hall” (Yalta, Ukraine, designed by Igor Vasilevsky 1984) © Frederic Chaubin https://t.co/u1tkw8VxeG"
+        },
+        {
+            "id": "1224407591264145409",
+            "date": "Mon Feb 03 19:10:20 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: “The First Soviet Artificial Satellite of the Earth” - monument in Moscow built in 1977, to celebrate the 20th anniver…"
+        },
+        {
+            "id": "1224256637411696640",
+            "date": "Mon Feb 03 09:01:42 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Rusakov Workers’ Club – Moscow, Russia https://t.co/REgnh0kdEw"
+        },
+        {
+            "id": "1224075100435165186",
+            "date": "Mon Feb 03 16:34:17 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @simongerman600: Europe from Moscow and Asia from Irkutsk. This fantastic map from Time Magazine (1952) shows us that viewing the world…"
+        },
+        {
+            "id": "1224052209178071040",
+            "date": "Sun Feb 02 19:30:04 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: On the Red Square in Moscow, photo by Aleksandr Krylov (1967) https://t.co/PuVkeGYxCx"
+        },
+        {
+            "id": "1224035782949769216",
+            "date": "Sun Feb 02 18:25:08 +0000 2020",
+            "place": {
+                "name": "Sochi",
+                "country code": "RU",
+                "population": "327608",
+                "latitude": "43.59917",
+                "longitude": "39.72569",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Fruit market in Sochi (1959) https://t.co/ducWh7VTeV"
+        },
+        {
+            "id": "1223708510963359745",
+            "date": "Sat Feb 01 20:45:54 +0000 2020",
+            "place": {
+                "name": "Perm",
+                "country code": "RU",
+                "population": "982419",
+                "latitude": "58.01046",
+                "longitude": "56.25017",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Headless church of Peter and Paul in Taman village in Perm region of Russia (1983) https://t.co/McN4OVmeA8"
+        },
+        {
+            "id": "1223622419463770118",
+            "date": "Sat Feb 01 15:01:33 +0000 2020",
+            "place": {
+                "name": "Chisinau",
+                "country code": "MD",
+                "population": "635994",
+                "latitude": "47.00556",
+                "longitude": "28.8575"
+            },
+            "place_is_found": "True",
+            "text": "Chisinau circus, Soviet architecture https://t.co/w7jaTadBso"
+        },
+        {
+            "id": "1222613533822738435",
+            "date": "Wed Jan 29 20:29:15 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Red Square in Moscow, photo by Brian Brake (1955) https://t.co/gwjudFsWDo"
+        },
+        {
+            "id": "1222082293336104960",
+            "date": "Tue Jan 28 09:01:38 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Narkomfin Building – Constructivist architecture. The Narkomfin Building is a block of flats in Moscow, Russia, designed by Moisei Ginzburg with Ignaty Milinis in 1928, and finished in 1932. Wikipedia. https://t.co/Vg88ZReHL6"
+        },
+        {
+            "id": "1221493373518991360",
+            "date": "Sun Jan 26 18:01:29 +0000 2020",
+            "place": {
+                "name": "Vitebsk",
+                "country code": "BY",
+                "population": "342700",
+                "latitude": "55.1904",
+                "longitude": "30.2049"
+            },
+            "place_is_found": "True",
+            "text": "CCCP. The Memorial complex \"To Liberators of Vitebsk - the Soviet soldiers, partisans and underground fighters\", it is one of the greatest monuments in Vitebsk, Belarus. The memorial was built in1974. It includes the square, the park, the sculptures, or the pools with flowin.. https://t.co/Juv6RIcAnQ"
+        },
+        {
+            "id": "1221357509618929664",
+            "date": "Sun Jan 26 09:01:36 +0000 2020",
+            "place": {
+                "name": "Tashkent",
+                "country code": "UZ",
+                "population": "1978028",
+                "latitude": "41.26465",
+                "longitude": "69.21627"
+            },
+            "place_is_found": "True",
+            "text": "Tashkent, Uzbekistan. \"State Museum of the History of Uzbekistan\" https://t.co/GTuBYB6Otm"
+        },
+        {
+            "id": "1219919204289302528",
+            "date": "Wed Jan 22 11:10:34 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Matryoshka decorations in Sokolniki Park of Moscow, photo by V. Budan and V. Sozinov (February 1971) https://t.co/TN9Z…"
+        },
+        {
+            "id": "1219681505187942400",
+            "date": "Tue Jan 21 18:01:46 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Architecture of Doom Russia Moscow USSR Soviet Konstantin Melnikov 1920's Constructivism Architecture https://t.co/dBKU5daU2W"
+        },
+        {
+            "id": "1219228523883376640",
+            "date": "Mon Jan 20 12:01:46 +0000 2020",
+            "place": {
+                "name": "Kaliningrad",
+                "country code": "RU",
+                "population": "434954",
+                "latitude": "54.70649",
+                "longitude": "20.51095",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Unfinished building, Kaliningrad, Russia / brutalism #socialist #brutalism #architecture https://t.co/BDmk7U8sba"
+        },
+        {
+            "id": "1218458441519370240",
+            "date": "Sat Jan 18 09:01:44 +0000 2020",
+            "place": {
+                "name": "Tbilisi",
+                "country code": "GE",
+                "population": "1049498",
+                "latitude": "41.69411",
+                "longitude": "44.83368"
+            },
+            "place_is_found": "True",
+            "text": "The Palace of ceremonial rites, Tbilisi, Georgia.Â Masterpiece of the Soviet modernism erected in 1985. The building was bought by a local businessman who was finally buried there in 2008. https://t.co/xKXg4qlfgj"
+        },
+        {
+            "id": "1218231910561996802",
+            "date": "Fri Jan 17 18:01:35 +0000 2020",
+            "place": {
+                "name": "Tbilisi",
+                "country code": "GE",
+                "population": "1049498",
+                "latitude": "41.69411",
+                "longitude": "44.83368"
+            },
+            "place_is_found": "True",
+            "text": "Soviet Wedding Palace - Tbilisi, Georgia https://t.co/egwDLg0hGr"
+        },
+        {
+            "id": "1218186672531279873",
+            "date": "Fri Jan 17 15:01:50 +0000 2020",
+            "place": {
+                "name": "Almaty",
+                "country code": "KZ",
+                "population": "2000900",
+                "latitude": "43.25667",
+                "longitude": "76.92861"
+            },
+            "place_is_found": "True",
+            "text": "Soviet Architecture, Almaty https://t.co/q9BHeJKSRn"
+        },
+        {
+            "id": "1218103985925693441",
+            "date": "Fri Jan 17 10:09:20 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Winter in Moscow https://t.co/XO5nlExpDH"
+        },
+        {
+            "id": "1217870972419821568",
+            "date": "Thu Jan 16 18:17:03 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Kashin Bridge over Kryukov Canal in Leningrad (1940) https://t.co/rnMtEGVcNt"
+        },
+        {
+            "id": "1217054195775418368",
+            "date": "Tue Jan 14 12:01:46 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Shukhov Tover, Moscow, 1922 The Hyperboloid steel tower-gridshell by Vladimir Shukhov: https://t.co/ri6LC33Tgj"
+        },
+        {
+            "id": "1216794257333399555",
+            "date": "Mon Jan 13 18:51:56 +0000 2020",
+            "place": {
+                "name": "Tver",
+                "country code": "RU",
+                "population": "400212",
+                "latitude": "56.85836",
+                "longitude": "35.90057",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: A church in Tver region (1978) https://t.co/bzKlEXGgry"
+        },
+        {
+            "id": "1216332098321244161",
+            "date": "Mon Jan 13 16:51:36 +0000 2020",
+            "place": {
+                "id": "6d73a696edc5306f",
+                "url": "https://api.twitter.com/1.1/geo/id/6d73a696edc5306f.json",
+                "place_type": "country",
+                "name": "Kazakhstan",
+                "full_name": "Kazakhstan",
+                "country_code": "KZ",
+                "country": "Kazakhstan",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                46.4925433,
+                                40.9363327
+                            ],
+                            [
+                                87.3152134,
+                                40.9363327
+                            ],
+                            [
+                                87.3152134,
+                                55.4425719
+                            ],
+                            [
+                                46.4925433,
+                                55.4425719
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {}
+            },
+            "place_is_found": "False",
+            "text": "RT @Starshina73: Зимняя рыбалка говоришь? Да что ты знаешь о ней?)) https://t.co/BI2G5FY3mG"
+        },
+        {
+            "id": "1216012318217207809",
+            "date": "Sat Jan 11 15:01:43 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Unique house. Moscow. Date of Construction 1969 https://t.co/58PFqVSysA"
+        },
+        {
+            "id": "1215921701973786624",
+            "date": "Sat Jan 11 09:01:39 +0000 2020",
+            "place": {
+                "name": "Ashgabat",
+                "country code": "TM",
+                "population": "727700",
+                "latitude": "37.95",
+                "longitude": "58.38333"
+            },
+            "place_is_found": "True",
+            "text": "Karl Marx Library, Ashgabat, Turkmenistan. 1960 - 1975 https://t.co/Ab4AegYNJx"
+        },
+        {
+            "id": "1214879863208849408",
+            "date": "Wed Jan 08 12:01:45 +0000 2020",
+            "place": {
+                "name": "Tbilisi",
+                "country code": "GE",
+                "population": "1049498",
+                "latitude": "41.69411",
+                "longitude": "44.83368"
+            },
+            "place_is_found": "True",
+            "text": "The Palace of ceremonial rites, Tbilisi, Georgia. Masterpiece of the Soviet modernism erected in 1985 is a real late Soviet temple but deprived of elements of a religious cult. https://t.co/zOK5BqNR5z"
+        },
+        {
+            "id": "1214842053387051009",
+            "date": "Wed Jan 08 09:31:30 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Soviet Architecture - SkyscraperCity The Ostankino Tower, designed by Nikolai Nikitin, Moscow, 1967 amazing… https://t.co/pWEbRv2D6K"
+        },
+        {
+            "id": "1214751461038608386",
+            "date": "Wed Jan 08 03:31:31 +0000 2020",
+            "place": {
+                "name": "Dnipro",
+                "country code": "UA",
+                "population": "1032822",
+                "latitude": "48.4593",
+                "longitude": "35.03865"
+            },
+            "place_is_found": "True",
+            "text": "Parus Hotel in Dnipro, Ukraine. Constructed between 1973-1987 but the project was never completed. #travel #abandoned #abandonedplaces #urbanexploration #URBEX #abandonedhotels #sovietarchitecture https://t.co/ZwXDxX1Ho1"
+        },
+        {
+            "id": "1214679228370837505",
+            "date": "Tue Jan 07 22:44:30 +0000 2020",
+            "place": {
+                "name": "Nur-Sultan",
+                "country code": "KZ",
+                "population": "345604",
+                "latitude": "51.1801",
+                "longitude": "71.44598"
+            },
+            "place_is_found": "True",
+            "text": "Kazmunaigaz Building, Astana (2012) https://t.co/896xLkeOF7"
+        },
+        {
+            "id": "1214667833210232833",
+            "date": "Tue Jan 07 21:59:13 +0000 2020",
+            "place": {
+                "name": "Velikiy Novgorod",
+                "country code": "RU",
+                "population": "215062",
+                "latitude": "58.52131",
+                "longitude": "31.27104",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Fyodor Dostoevsky Theater---Novgorod, Russia. I'm sorry, but this couldn't be very comfortable... https://t.co/6rdMKNVDx4"
+        },
+        {
+            "id": "1214621987366199296",
+            "date": "Tue Jan 07 20:08:01 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @mashant: Very dramatic space monument in a former military town outside Moscow https://t.co/c7dKzriBsz"
+        },
+        {
+            "id": "1214570288312193024",
+            "date": "Tue Jan 07 15:31:37 +0000 2020",
+            "place": {
+                "name": "Tashkent",
+                "country code": "UZ",
+                "population": "1978028",
+                "latitude": "41.26465",
+                "longitude": "69.21627"
+            },
+            "place_is_found": "True",
+            "text": "Tashkent, Uzbekistan. \"State Museum of the History of Uzbekistan\" https://t.co/BlysXStz86"
+        },
+        {
+            "id": "1214434366169976832",
+            "date": "Tue Jan 07 06:31:30 +0000 2020",
+            "place": {
+                "name": "Buch",
+                "country code": "DE",
+                "population": "12674",
+                "latitude": "52.6347",
+                "longitude": "13.49679"
+            },
+            "place_is_found": "True",
+            "text": "Fotograf Christopher Herwig hat in Ex-Sowjetrepubliken unglaubliche Bushaltestellen aufgestöbert, zu sehen im Buch \"Soviet Bus Stops\". https://t.co/fD2rujZIC9"
+        },
+        {
+            "id": "1214426845153779712",
+            "date": "Tue Jan 07 06:01:37 +0000 2020",
+            "place": {
+                "name": "Tashkent",
+                "country code": "UZ",
+                "population": "1978028",
+                "latitude": "41.26465",
+                "longitude": "69.21627"
+            },
+            "place_is_found": "True",
+            "text": "L.Ivanov, The Aeroflot Building, Tashkent, Uzbekistan, 1974 https://t.co/gG6iWhgTBZ"
+        },
+        {
+            "id": "1214026670992232448",
+            "date": "Mon Jan 06 03:31:28 +0000 2020",
+            "place": {
+                "name": "Nur-Sultan",
+                "country code": "KZ",
+                "population": "345604",
+                "latitude": "51.1801",
+                "longitude": "71.44598"
+            },
+            "place_is_found": "True",
+            "text": "The Strange, Post-Soviet Architecture of Astana, Kazakhstan https://t.co/ssA59FGLtm"
+        },
+        {
+            "id": "1213928575600078848",
+            "date": "Sun Jan 05 21:01:40 +0000 2020",
+            "place": {
+                "name": "Vilnius",
+                "country code": "LT",
+                "population": "542366",
+                "latitude": "54.68916",
+                "longitude": "25.2798"
+            },
+            "place_is_found": "True",
+            "text": "Apartment blocks, Vilnius https://t.co/5cV4sk5vbm"
+        },
+        {
+            "id": "1213883236708995072",
+            "date": "Sun Jan 05 18:01:31 +0000 2020",
+            "place": {
+                "name": "Tallinn",
+                "country code": "EE",
+                "population": "394024",
+                "latitude": "59.43696",
+                "longitude": "24.75353"
+            },
+            "place_is_found": "True",
+            "text": "Linnahall - Soviet Architecture from 1980 in Tallinn, Estonia https://t.co/2dsG1Mj2jY"
+        },
+        {
+            "id": "1213837943112114176",
+            "date": "Sun Jan 05 15:01:32 +0000 2020",
+            "place": {
+                "name": "Samara",
+                "country code": "RU",
+                "population": "1134730",
+                "latitude": "53.20007",
+                "longitude": "50.15",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Granery in Samara, Russia #socialist #brutalism #architecture https://t.co/te7GtS5Tvi"
+        },
+        {
+            "id": "1213681936515915776",
+            "date": "Sun Jan 05 04:41:37 +0000 2020",
+            "place": {
+                "name": "Oldenburg",
+                "country code": "DE",
+                "population": "159218",
+                "latitude": "53.14118",
+                "longitude": "8.21467"
+            },
+            "place_is_found": "True",
+            "text": "The \"Russian Riviera\" resort town of Gagra is mostly abandoned today. Duke Peter of Oldenburg, a Russian aristocrat, built a grand Art Noveau palace there in 1904. With the advent of the Soviet era, the building was nationalized and turned into a luxury hotel for Stalin and .. https://t.co/QktFyV3CfD"
+        },
+        {
+            "id": "1213681218191077377",
+            "date": "Sun Jan 05 04:38:46 +0000 2020",
+            "place": {
+                "name": "Vladivostok",
+                "country code": "RU",
+                "population": "587022",
+                "latitude": "43.10562",
+                "longitude": "131.87353",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Vladivostok, Russia https://t.co/CAy3QhRDK1"
+        },
+        {
+            "id": "1213645934246203393",
+            "date": "Sun Jan 05 02:18:33 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "The Gosplan garage designed by Konstantin Melnikov in Moscow, USSR 1934-1936 https://t.co/P48KilvyVz"
+        },
+        {
+            "id": "1213634091393916929",
+            "date": "Sun Jan 05 01:31:30 +0000 2020",
+            "place": {
+                "name": "Samara",
+                "country code": "RU",
+                "population": "1134730",
+                "latitude": "53.20007",
+                "longitude": "50.15",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Granery in Samara, Russia #socialist #brutalism #architecture https://t.co/UiiMJoocvb"
+        },
+        {
+            "id": "1213632720313683970",
+            "date": "Sun Jan 05 01:26:03 +0000 2020",
+            "place": {
+                "name": "Nur-Sultan",
+                "country code": "KZ",
+                "population": "345604",
+                "latitude": "51.1801",
+                "longitude": "71.44598"
+            },
+            "place_is_found": "True",
+            "text": "The Strange, Post-Soviet Architecture of Astana, Kazakhstan https://t.co/p4hr5V2g4Q"
+        },
+        {
+            "id": "1213627712289562624",
+            "date": "Sun Jan 05 01:06:09 +0000 2020",
+            "place": {
+                "name": "Almaty",
+                "country code": "KZ",
+                "population": "2000900",
+                "latitude": "43.25667",
+                "longitude": "76.92861"
+            },
+            "place_is_found": "True",
+            "text": "Futuristic Soviet architecture series. Palace of Pioneers in Almaty, Kazakhstan https://t.co/qDowzFgBbN"
+        },
+        {
+            "id": "1213627059521695745",
+            "date": "Sun Jan 05 01:03:33 +0000 2020",
+            "place": {
+                "name": "Tbilisi",
+                "country code": "GE",
+                "population": "1049498",
+                "latitude": "41.69411",
+                "longitude": "44.83368"
+            },
+            "place_is_found": "True",
+            "text": "Palace of Weddings – Tbilisi, Georgia https://t.co/JWxhQdOaWx"
         },
         {
             "id": "1107577596743700480",
@@ -895,6 +1900,20 @@
             },
             "place_is_found": "True",
             "text": "RT @SovietPostcards: Spotted this rusty Lenin monument when we stopped for lunch in a small non-descript village called Cherkutino on the w…"
+        },
+        {
+            "id": "868405228231696384",
+            "date": "Sat Feb 01 15:46:08 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @dgriffinchess: Karpov-Korchnoi, 18th match-game, FIDE Candidates' final, Moscow 1974. (Source: TASS, photographer: V. Savostianov.) #ch…"
         }
     ],
     "map": {
@@ -942,7 +1961,8 @@
         },
         "scripts": [
             "on-this-day",
-            "ko-fi-link"
+            "ko-fi-link",
+            "notice"
         ]
     }
 }

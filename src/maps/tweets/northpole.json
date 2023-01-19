@@ -28,6 +28,76 @@
             },
             "place_is_found": "True",
             "text": "RT @SovietPostcards: Laying the wooden pavement in Yakutsk (1958) https://t.co/GslW02ytbP"
+        },
+        {
+            "id": "1230507842051940352",
+            "date": "Thu Feb 20 15:01:45 +0000 2020",
+            "place": {
+                "name": "Helsinki",
+                "country code": "FI",
+                "population": "558457",
+                "latitude": "60.16952",
+                "longitude": "24.93545",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "split an ark/for a lark Julius Jääskeläinen, b. 1975, Architect, Helsinki, Finland https://t.co/dgumCR3QSn"
+        },
+        {
+            "id": "1229828359653330944",
+            "date": "Tue Feb 18 18:01:44 +0000 2020",
+            "place": {
+                "name": "Norilsk",
+                "country code": "RU",
+                "population": "140800",
+                "latitude": "69.3535",
+                "longitude": "88.2027",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Norilsk (Russia). https://t.co/rMxOAUgQen"
+        },
+        {
+            "id": "1216332098321244161",
+            "date": "Mon Jan 13 16:51:36 +0000 2020",
+            "place": {
+                "id": "6d73a696edc5306f",
+                "url": "https://api.twitter.com/1.1/geo/id/6d73a696edc5306f.json",
+                "place_type": "country",
+                "name": "Kazakhstan",
+                "full_name": "Kazakhstan",
+                "country_code": "KZ",
+                "country": "Kazakhstan",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                46.4925433,
+                                40.9363327
+                            ],
+                            [
+                                87.3152134,
+                                40.9363327
+                            ],
+                            [
+                                87.3152134,
+                                55.4425719
+                            ],
+                            [
+                                46.4925433,
+                                55.4425719
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 66.90387835,
+                "longitude": 48.1894523
+            },
+            "place_is_found": "False",
+            "text": "RT @Starshina73: Зимняя рыбалка говоришь? Да что ты знаешь о ней?)) https://t.co/BI2G5FY3mG"
         }
     ],
     "map": {
@@ -88,7 +158,8 @@
         },
         "scripts": [
             "northpole-map",
-            "northpole-aurora"
+            "northpole-aurora",
+            "notice"
         ],
         "proj4String": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
     }
