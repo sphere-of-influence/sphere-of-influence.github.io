@@ -34,6 +34,10 @@ def fetch_tweets(handles, country_codes, extents=None):
 
     if len(handles) > 0:
         for target in handles:
+
+            print('Sleeping...')
+            time.sleep(2)
+
             item = None
             try:
                 print(target)
@@ -45,7 +49,9 @@ def fetch_tweets(handles, country_codes, extents=None):
             if item == None:
                 continue
 
-            for status in tweepy.Cursor(api.user_timeline, user_id=target, tweet_mode='extended', exclude_replies=True).items(tweet_limit):
+            for status in tweepy.Cursor(api.user_timeline, screen_name=target, tweet_mode='extended', exclude_replies=True).items(tweet_limit):
+                
+                print('(@' + target + ') ' + status.full_text, end='')
 
                 id = status.id_str
                 if status.is_quote_status:
@@ -100,19 +106,24 @@ def fetch_tweets(handles, country_codes, extents=None):
 
                 if place != {}:
 
+                    print(' ✅')
                     tweets.append({
                         'id': id,
                         'date':  status._json['created_at'],
                         'place': place,
                         'place_is_found': place_is_found,
-                        'text': status.full_text
+                        'text': status.full_text,
+                        'map_handle': target
                     })
 
                     ids.append(id)
+                
+                else:
+                    print(' ❌')
 
                 Geo.clear()
                 place = {}
-            
+
         return sorted(tweets, key=lambda k: int(k['id']), reverse=True) 
 
     else:
