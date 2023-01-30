@@ -2,22 +2,53 @@
     "slug": "northpole",
     "tweets": [
         {
-            "id": "1234232209306980354",
-            "date": "Sun Mar 01 22:37:31 +0000 2020",
+            "id": "1620180087558602763",
+            "date": "Mon Jan 30 22:00:09 +0000 2023",
             "place": {
-                "name": "Norilsk",
-                "country code": "RU",
-                "population": "140800",
-                "latitude": "69.3535",
-                "longitude": "88.2027",
+                "name": "Vi",
+                "country code": "SE",
+                "population": "5841",
+                "latitude": "62.43333",
+                "longitude": "17.41667",
                 "extent_valid": true
             },
             "place_is_found": "True",
-            "text": "RT @womensart1: 'Days Of Night' series by Russian photographer Elena Chernyshova, on the Russian arctic city of Norilsk which is in darknes…"
+            "text": "The Russian government approved the procedure for the implementation of the presidential decree on the ban on oil supplies under price cap contracts:\nhttps://t.co/dViA9CL30u https://t.co/wuuAecobPL",
+            "map_handle": "tassagency_en"
         },
         {
-            "id": "1233440583844352001",
-            "date": "Fri Feb 28 20:44:58 +0000 2020",
+            "id": "1619757678372487168",
+            "date": "Sun Jan 29 18:01:38 +0000 2023",
+            "place": {
+                "name": "Kemijärvi",
+                "country code": "FI",
+                "population": "8883",
+                "latitude": "66.71309",
+                "longitude": "27.43056",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Suomutunturi – Lapland’s Hidden Gem. #VisitLapland #Kemijärvi #Finland https://t.co/wfxLHdufSX",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1619684555790897152",
+            "date": "Sun Jan 29 13:11:05 +0000 2023",
+            "place": {
+                "name": "Arkhangel’sk",
+                "country code": "RU",
+                "population": "356051",
+                "latitude": "64.5401",
+                "longitude": "40.5433",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "American investors leave forests of Arkhangelsk #InternationalPaper #Ilim https://t.co/CmpuXZmGNU",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1618907084963319810",
+            "date": "Fri Jan 27 09:41:41 +0000 2023",
             "place": {
                 "name": "Yakutsk",
                 "country code": "RU",
@@ -27,11 +58,102 @@
                 "extent_valid": true
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Laying the wooden pavement in Yakutsk (1958) https://t.co/GslW02ytbP"
+            "text": "Meanwhile, out of the city, everything is different. The sky is clean. Magic winter.\n\nThat's Lena Pillars in the images.\n\n#Yakutsk #LenaPillars #Yakutia #Siberia #Russia https://t.co/g6lLdgVLU9",
+            "map_handle": "yakutia"
         },
         {
-            "id": "1230507842051940352",
-            "date": "Thu Feb 20 15:01:45 +0000 2020",
+            "id": "1618902246489751553",
+            "date": "Fri Jan 27 09:22:27 +0000 2023",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Just a regular drive in Yakutsk, Russia, today. Watch to the end.\n\nNext week its gonna be warmer... for a while, I guess. https://t.co/k7BtYSCOQ9",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1618215074287747075",
+            "date": "Wed Jan 25 11:51:53 +0000 2023",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The new trade. Shipments from Murmansk show Russia's great partner shift towards Turkey, North Africa, South America and Asia https://t.co/m8978ABXIL",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1615757180665200648",
+            "date": "Wed Jan 18 17:05:05 +0000 2023",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Once upon a time in Yakutsk, Russia, at midday... Under -50C.\n\nFrankly, there are many people strolling down the street. Hard to spot them ☺️ https://t.co/dhsxIjaWjX",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1615700480063307776",
+            "date": "Wed Jan 18 13:19:47 +0000 2023",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The giant floating dock north of Murmansk held Russia's only carrier, the \"Admiral Kuznetsov\" when it sank in 2018. https://t.co/H3JWfx0w1B",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1615580353254592514",
+            "date": "Wed Jan 18 05:22:26 +0000 2023",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "-50C at 10:40 am today #Yakutsk #Russia\n\nBtw, have spent holidays in the arrangement of travels to Oymyakon. So the next images will be of the wild Siberian nature. Might be interesting 🤗 https://t.co/eVZpt6rM2k",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1615274364168962049",
+            "date": "Tue Jan 17 09:06:33 +0000 2023",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Me trying to take a perfect picture 🤣 They say we had -54C in Yakutsk, Russia, today. Could you spot a building in the end?! https://t.co/4WVPgMOqq0",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1614941787310669824",
+            "date": "Mon Jan 16 11:05:00 +0000 2023",
             "place": {
                 "name": "Helsinki",
                 "country code": "FI",
@@ -41,11 +163,177 @@
                 "extent_valid": true
             },
             "place_is_found": "True",
-            "text": "split an ark/for a lark Julius Jääskeläinen, b. 1975, Architect, Helsinki, Finland https://t.co/dgumCR3QSn"
+            "text": "Meet us in the Nordic travel fair this week in Helsinki. #VisitLapland #Finland #matkamessut https://t.co/GdiE0JUfaH",
+            "map_handle": "ourlapland"
         },
         {
-            "id": "1229828359653330944",
-            "date": "Tue Feb 18 18:01:44 +0000 2020",
+            "id": "1614200948988985344",
+            "date": "Sat Jan 14 10:01:11 +0000 2023",
+            "place": {
+                "name": "Inari",
+                "country code": "FI",
+                "population": "7049",
+                "latitude": "68.90596",
+                "longitude": "27.02881",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Street lights view from the north of Lapland last night. #Finland #Inari #VisitLapland https://t.co/r6xXA0CEIS",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1613943673179312150",
+            "date": "Fri Jan 13 16:58:51 +0000 2023",
+            "place": {
+                "name": "Vi",
+                "country code": "SE",
+                "population": "5841",
+                "latitude": "62.43333",
+                "longitude": "17.41667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Godt møde med Naalakkersuisoq Vivian Motzfeldt i dag. Vi står overfor at skulle aftale et historisk forsvarsforlig med fokus på bl.a. Arktis og Nordatlanten. Vigtigt med dialog mellem 🇬🇱 og 🇩🇰 #dkpol https://t.co/76vgNupfZc",
+            "map_handle": "forsvarsmin"
+        },
+        {
+            "id": "1613598094121107462",
+            "date": "Thu Jan 12 18:05:39 +0000 2023",
+            "place": {
+                "name": "Kittilä",
+                "country code": "FI",
+                "population": "5713",
+                "latitude": "67.66474",
+                "longitude": "24.89356",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Here's the magical winter wonderland you are dreaming about. #Lapland #finland #VisitLapland #Kittilä \n\n📷 Sanni Jäppinen| visitlapland IG https://t.co/LHb0ZucWgb",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1608726051848622081",
+            "date": "Fri Dec 30 07:25:54 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Meanwhile in Yakutsk, Russia ☺️ 1 day 7 hr till the New Year! https://t.co/Y4SwoIryBo",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1608453172074549248",
+            "date": "Thu Dec 29 13:21:34 +0000 2022",
+            "place": {
+                "name": "Severodvinsk",
+                "country code": "RU",
+                "population": "194292",
+                "latitude": "64.5635",
+                "longitude": "39.8302",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Russia significantly increased its modern naval nuclear forces on Thursday as one new Borei-A class submarine was handed over to the navy at the shipyard in Severodvinsk. https://t.co/YoXmmgCiLl",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1608111231755247617",
+            "date": "Wed Dec 28 15:50:03 +0000 2022",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @joukoleinonen: This is how it looks like to drive by car over a frozen river! This shortcut over #Kemijoki in #Rovaniemi saves a lot of…",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1607808450699972617",
+            "date": "Tue Dec 27 18:39:40 +0000 2022",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "New patriotism youth center in Severomorsk, Murmansk region, starts training of teenage warriors https://t.co/M1P9ibMCbi",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1607042024125108225",
+            "date": "Sun Dec 25 15:54:10 +0000 2022",
+            "place": {
+                "name": "Ii",
+                "country code": "FI",
+                "population": "6546",
+                "latitude": "65.31735",
+                "longitude": "25.3731",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Merry Christmas and Happy Holidays to our polar bear community 🎄💙 https://t.co/xk0SaRJ8Ii",
+            "map_handle": "PolarBears"
+        },
+        {
+            "id": "1606919840668979210",
+            "date": "Sun Dec 25 07:48:39 +0000 2022",
+            "place": {
+                "name": "Inari",
+                "country code": "FI",
+                "population": "7049",
+                "latitude": "68.90596",
+                "longitude": "27.02881",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Greetings from Finnish Lapland! Christmas lights were ON last night. #HappyChristmas #HyvääJoulua #Finland #VisitLapland #Inari #LastNight https://t.co/5hJAlU7fjz",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1606561799855300609",
+            "date": "Sat Dec 24 08:05:56 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "That's how it was in Yakutsk, Russia, on a winter solstice day. Finally, we've made it through. More daylight hours are ahead. Cool! ☺️ https://t.co/bYnf8YS6Iq",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1605948145724055555",
+            "date": "Fri Jan 06 11:08:22 +0000 2023",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @OurLapland: Find out Where To Eat, Shop &amp; Explore In The #Santa Claus Village. #Lapland #SantaClausVillage #Rovaniemi #VisitLapland \nht…",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1605926339189411840",
+            "date": "Thu Dec 22 14:00:50 +0000 2022",
             "place": {
                 "name": "Norilsk",
                 "country code": "RU",
@@ -55,49 +343,3750 @@
                 "extent_valid": true
             },
             "place_is_found": "True",
-            "text": "Norilsk (Russia). https://t.co/rMxOAUgQen"
+            "text": "Lack of battery materials is not the first that comes to mind when you think about Norilsk.\nhttps://t.co/WJwlJjPAyT",
+            "map_handle": "BarentsNews"
         },
         {
-            "id": "1216332098321244161",
-            "date": "Mon Jan 13 16:51:36 +0000 2020",
+            "id": "1604964458799026198",
+            "date": "Mon Dec 19 22:18:40 +0000 2022",
             "place": {
-                "id": "6d73a696edc5306f",
-                "url": "https://api.twitter.com/1.1/geo/id/6d73a696edc5306f.json",
-                "place_type": "country",
-                "name": "Kazakhstan",
-                "full_name": "Kazakhstan",
-                "country_code": "KZ",
-                "country": "Kazakhstan",
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The Russian Church and sports: A 'Spiritual Sport Complex' is built in Murmansk where training will be offered in martial arts https://t.co/pU3SzIfGyC",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1604542128943685635",
+            "date": "Sun Dec 18 18:20:29 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Felicitaciones a Argentina 🇦🇷\n\nHere's a vid with a local fan of Argentina in Yakutsk, Russia ☺️\n\n#WorldcupQatar2022 https://t.co/GAKglZ5k9W",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1604454703269552128",
+            "date": "Sun Dec 18 12:33:05 +0000 2022",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "THe EU sanctions Murmansk governor for involvement in child kidnapping https://t.co/Lsgc2LQsjZ",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1604140595219415042",
+            "date": "Sat Dec 17 15:44:56 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "They say it was -47C -49C in Yakutsk, Russia. \n\nhttps://t.co/lDOGI2pKXu https://t.co/DKLQGPP7Am",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1604029529638506496",
+            "date": "Sat Dec 17 08:23:35 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Haha. One of fellows is complaining that too many pics with fog I post. Dude, its just a part of the daily life 🤣 One more image for you\n\nStill #Yakutsk, #Russia's #Siberia. https://t.co/nq6lYLGKeE",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1604001337728983040",
+            "date": "Sat Dec 17 06:31:34 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Midday in Yakutsk, Russia. Saturday. Can you spot a human?!\n\nBtw, Morocco deserve the medal. They're awesome! #WorldcupQatar2022 https://t.co/9VTqfEnv77",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1603711079489703936",
+            "date": "Fri Dec 16 11:18:11 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Friday evening in Yakutsk, Russia. https://t.co/Xs3xVTXlud",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1602812898992132099",
+            "date": "Tue Dec 13 23:49:08 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Good morning! -49C in #Yakutsk, #Russia, at 08:30 am. In some areas of the city, it was down to -53C.\n\nParabéns à Argentina! For making to the final #WorldcupQatar2022 https://t.co/uIunl0ksr2",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1600917121659154432",
+            "date": "Thu Dec 08 18:16:00 +0000 2022",
+            "place": {
+                "name": "Anchorage",
+                "country code": "US",
+                "population": "298695",
+                "latitude": "61.21806",
+                "longitude": "-149.90028",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Join #ChugachNF Fire and Aviation Management program! 🔥🛩️\n\nDeputy Forest Fire Management Officer GS-0301-11/12. in Anchorage, Alaska https://t.co/MZuPnGqwXy\n\nZone Fire Management Officer GS-0301-9/11 in Moose Pass, Alaska https://t.co/jNwyjYf5J5\nPositions close Dec. 16, 2022 https://t.co/Z6pa8Ui9Cy",
+            "map_handle": "ChugachForestAK"
+        },
+        {
+            "id": "1600827061542666241",
+            "date": "Thu Dec 08 12:18:08 +0000 2022",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Almost three-quarters of all oil shipped out of Murmansk in mid-November went to Asia.  https://t.co/qXESQgtO5k",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1600469283489734656",
+            "date": "Wed Dec 07 12:36:27 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "An UAZ vehicle as a monument by a fire station in Yakutsk, Russia. Looks a bit funny ☺️ Guess, it was around -40C at 5 pm. https://t.co/egBXgovZMY",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1599748116324175872",
+            "date": "Mon Dec 05 12:50:47 +0000 2022",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "“These guys are heroes of the North,” says the Governor of Murmansk. We compiled a list of North Russian men killed in Ukraine. It gives important info about their background \nhttps://t.co/W8oZccn0YF",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1598935104545468416",
+            "date": "Sat Dec 03 07:00:10 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Passing by a bus stop... Guess what the temp was at that moment in Yakutsk, Russia. https://t.co/TBkZMto3iU",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1598645192441184256",
+            "date": "Fri Dec 02 12:02:33 +0000 2022",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @NLinFinland: ✈️ @KLM Royal Dutch Airlines will launch a seasonal route from Rovaniemi to Amsterdam starting Dec 3.🌲 To celebrate the fu…",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1598244696845086722",
+            "date": "Thu Dec 01 09:16:44 +0000 2022",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Murmansk governor Andrei Chibis sanctioned for supporting the war on Ukraine by engaging in the mobilisation of military reservists from the North https://t.co/Eu2tZqzNYt",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1597229661217779712",
+            "date": "Mon Nov 28 14:03:20 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Meanwhile in Yakutsk... https://t.co/LTtdJvXFW1",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1596996087948382210",
+            "date": "Mon Nov 28 09:48:41 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @ThierryGooseBC: More -50°C today in #Russia 🇷🇺.\n\n🌡️-50.9°C Oymyakon\n🌡️-50.0°C Nera\n🌡️-49.6°C Delyankir\n🌡️-49.5°C Agayakan\n🌡️-49.2°C Yur…",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1595991235885309953",
+            "date": "Fri Nov 25 04:02:17 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Finally, it's coming. Six days with below -40C ahead. And... that's just the end of November in Yakutsk, Russia ☺️ https://t.co/civkBZAsCu",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1594259454731730944",
+            "date": "Sun Nov 20 09:20:48 +0000 2022",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Christmas season is officially open. Yesterday opening ceremony at Santa Claus village in Rovaniemi. #Finland #VisitLapland https://t.co/Vd3G81jfdw",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1593429311528128513",
+            "date": "Fri Nov 18 02:22:07 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Ice-fishing on the Lena River... The best way to relax these days. \n\nStill in Yakutsk, Russia. https://t.co/MLmJfV0tCB",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1593310501139673090",
+            "date": "Thu Nov 17 18:30:00 +0000 2022",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Visitors to Iceland can now sweat it out in front of real, live molten rock in Reykjavík, as part of what organizers say is the world’s only live lava show. https://t.co/95ubTnTCYj https://t.co/L5vCwS10V8",
+            "map_handle": "arctic_today"
+        },
+        {
+            "id": "1593115796888506369",
+            "date": "Thu Nov 17 05:36:19 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Meanwhile in Yakutsk... Freezingly beautiful ☺️ \n\nPhoto credit: Ajar Varlamov, a friend of mine and the best private guide. https://t.co/i1AXwyxnmA",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1592718727459799040",
+            "date": "Wed Nov 16 03:18:30 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "This morning in Yakutsk, Russia. At 09:03 and 10:35 am correspondingly.\n\nIts getting colder and colder. -39C.\n\nJust to show the difference of today and yesterday's mornings. https://t.co/gcQZtJ1lt4",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1592314250180976641",
+            "date": "Tue Nov 15 00:31:15 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Morning! Greetings from the winter. \n\nFinally, its getting a bit colder in Yakutsk, Russia ☺️ -34C currently. https://t.co/mUtDtU23FO",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1591995733087260673",
+            "date": "Mon Nov 14 03:25:35 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Gooood doggy day! We've got a lovely winter day in #Yakutsk. https://t.co/QhMZ9xqZHV",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1591861696637063169",
+            "date": "Sun Nov 13 18:32:58 +0000 2022",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Polar Explorer Icebreaker cruise and lunch with shuttle bus transportation from Rovaniemi. #Finland #VisitLapland \n\nBook now!\n\nhttps://t.co/lJKrzpNocM",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1587531420725133312",
+            "date": "Tue Nov 01 19:46:00 +0000 2022",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Rovaniemi is getting seven new flight connections to European cities, a growth in seasonal flights suggesting that Christmas and winter tourism in northern Finland will be busy this year, @NilsenThomas reports via @BarentsNews. https://t.co/r5KXDNpXJL https://t.co/Ik4IhJ4XEY",
+            "map_handle": "arctic_today"
+        },
+        {
+            "id": "1587376366814695424",
+            "date": "Thu Nov 03 18:04:57 +0000 2022",
+            "place": {
+                "name": "Kittilä",
+                "country code": "FI",
+                "population": "5713",
+                "latitude": "67.66474",
+                "longitude": "24.89356",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @OurLapland: Kittilä Airport Announced Airport Of The Year 2021\n\n#VisitLapland #Kittilä #Finland \n\nhttps://t.co/LBH2TSxpcP",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1587362812736987137",
+            "date": "Tue Nov 01 14:31:54 +0000 2022",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GEM_Arctic: New @NatureComms paper - GEM has contributed with extensive datasets from both @ZERO74N and @NuukNERO.  Very interestingly,…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1585348393144094720",
+            "date": "Wed Oct 26 19:11:25 +0000 2022",
+            "place": {
+                "name": "Arkhangel’sk",
+                "country code": "RU",
+                "population": "356051",
+                "latitude": "64.5401",
+                "longitude": "40.5433",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Tromsø terminates its friendship agreements with Murmansk, Arkhangelsk and Nadym. Tromsø's sister city agreement with Murmansk dates back to 1972, @NilsenThomas reports via @BarentsNews. https://t.co/2xkPv3Im77 https://t.co/fHotXhlNc9",
+            "map_handle": "arctic_today"
+        },
+        {
+            "id": "1585283337949782016",
+            "date": "Wed Oct 26 14:52:55 +0000 2022",
+            "place": {
+                "name": "Tromsø",
+                "country code": "NO",
+                "population": "52436",
+                "latitude": "69.6489",
+                "longitude": "18.95508",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Norwegian police arrested a suspected Russian spy in the Arctic city of Tromsø, describing him as a rare illegal agent.\n\nThe man worked as a researcher at the University of Tromsø and posed as a Brazilian citizen, but police believe he is Russian. https://t.co/L97Xjf1e4j https://t.co/usf0hfjnBv",
+            "map_handle": "arctic_today"
+        },
+        {
+            "id": "1585184622073106432",
+            "date": "Wed Oct 26 08:20:39 +0000 2022",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Snowy day in the Arctic circle. Lots of snow arrived this morning ❄️❄️. #Firstsnow #Rovaniemi #Finland #VisitLapland https://t.co/pyPgVKLZ3Z",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1584949021575368705",
+            "date": "Tue Oct 25 16:44:28 +0000 2022",
+            "place": {
+                "name": "Anchorage",
+                "country code": "US",
+                "population": "298695",
+                "latitude": "61.21806",
+                "longitude": "-149.90028",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Educators from the Anchorage, Matansuka-Susitna and Kenai school districts meet with recruiters from Alaska Army National Guard to learn more about what the Army National Guard can do for their high school students! https://t.co/0O5sBQRCZV",
+            "map_handle": "aknationalguard"
+        },
+        {
+            "id": "1584573301959319554",
+            "date": "Mon Oct 24 15:51:29 +0000 2022",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "October 13th in Reykjavik, the Prime Minister of Greenland Múte B. Egede and Iceland's Prime Minister Katrín Jakobsdóttir signed a Declaration of Cooperation. In the Declaration, the ministers confirm their commitment to further strengthen and expand the bilateral relations🇬🇱🇮🇸 https://t.co/2uHDRdK1VZ",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1583166153047752705",
+            "date": "Mon Oct 24 04:53:51 +0000 2022",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @OurLapland: Ski Season In Lapland Has Begun in Levi, Ruka and Rovaniemi \n\n#VisitLapland #WinterIsComing #Lapland \n\nhttps://t.co/GyMtRp4…",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1582213806972817408",
+            "date": "Tue Oct 18 03:35:42 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Feeding squirrels in the park… 🐿 ❄️ 🌲 \n\nNoted that hazelnuts 🌰 were more favourite than the seeds of flax, sunflower and oats.\n\nThat's still in Yakutsk, Russia. https://t.co/FGZKLRatDN",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1580478737438547969",
+            "date": "Thu Oct 13 09:22:23 +0000 2022",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @_LopezBlanco: We integrated multiple in-situ datasets from two beautiful tundra sites (@ZERO74N &amp; @NuukNERO) collected by @GEM_Arctic,…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1578689101246607360",
+            "date": "Sat Oct 08 10:09:47 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Just a week ahead and the winter is over here. Hugh. How is it on your side? #Yakutsk #Russia https://t.co/sbCHzP8Z4b",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1570033790193385474",
+            "date": "Wed Sep 14 12:56:40 +0000 2022",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "[1/5] Climate change or just bad weather in Nuuk this year? In September this year, the weather in Nuuk has been cold and wet - yes, simply miserable. On the other hand, the weather at Hinrich Rink's 'Party in Godthaab Sept. 1855' seems to be quite summery. https://t.co/jcNh2pAjbJ",
+            "map_handle": "arktiskinstitut"
+        },
+        {
+            "id": "1559975373907312641",
+            "date": "Wed Aug 17 18:48:06 +0000 2022",
+            "place": {
+                "name": "Tiksi",
+                "country code": "RU",
+                "population": "5700",
+                "latitude": "71.69002",
+                "longitude": "128.86467",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "State of emergency in Russia’s northernmost port Tiksi/Arctic Yakutia, where a reservoir dam supplying drinking water to local residents &amp; army base broke; the likely cause is thawing permafrost. A special freezing setting that used to support permafrost stopped working in 1997 https://t.co/3KacgzJPGi",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1557659603621613568",
+            "date": "Thu Aug 11 09:26:04 +0000 2022",
+            "place": {
+                "name": "Vi",
+                "country code": "SE",
+                "population": "5841",
+                "latitude": "62.43333",
+                "longitude": "17.41667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Vi skal støtte Ukraine med flere våben og mere ammunition, hvis Rusland skal stoppes. Det siger landets præsident Volodomyr Zelenskyy til konferencen #CopenhagenUkraine, som DK, Ukraine og UK netop har åbnet dørene for. 26 lande mødes for at styrke langsigtet støtte til Ukraine. https://t.co/pdLvmvPg94",
+            "map_handle": "forsvarsmin"
+        },
+        {
+            "id": "1557065983327703043",
+            "date": "Wed Aug 10 10:11:22 +0000 2022",
+            "place": {
+                "name": "Surgut",
+                "country code": "RU",
+                "population": "300367",
+                "latitude": "61.25",
+                "longitude": "73.41667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @WeatherSarov1: Very polluted with smoke air in Surgut , Siberia, Russia. Smell of burning is felt in the apartments with closed windows…",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1556553803960180736",
+            "date": "Mon Aug 08 21:55:49 +0000 2022",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GEM_Arctic: New paper out by Efren Lopez-Blanco using GEM data from Zackenberg and Kobbefjord; The future of tundra carbon storage in G…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1556217260548788224",
+            "date": "Sun Aug 07 09:58:48 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @or_bit_eye: 🔴🔥⚠️#wildfires2022Russia/1 Eastern #Siberia is having more and more #wildfires of relevant sizes:this one is larger than 20…",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1556194570291003392",
+            "date": "Sun Aug 07 08:24:32 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The area of currently active wildfires in Yakutia, Russia's coldest territory grew over 450,000 hectares since the start of the wildfires season, Aerial Forest Protection Service said. Picture shows a view over smog-covered Yakutsk #wildfires2022Russia https://t.co/6diDlikDpY",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1555878372630216706",
+            "date": "Sat Aug 06 11:36:38 +0000 2022",
+            "place": {
+                "name": "Nyagan",
+                "country code": "RU",
+                "population": "52137",
+                "latitude": "62.14056",
+                "longitude": "65.39361",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @Pierre_Markuse: 🟠 Multiple fires🔥 near and south of #Nyagan in the Khanty–Mansi Autonomous Okrug, West #Siberia, #Russia🇷🇺 6 August 202…",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1555552520323436544",
+            "date": "Fri Aug 05 14:07:11 +0000 2022",
+            "place": {
+                "name": "Nyagan",
+                "country code": "RU",
+                "population": "52137",
+                "latitude": "62.14056",
+                "longitude": "65.39361",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @Pierre_Markuse: 🟠 Heavy #Fires🔥 and smoke near #Nyagan in the Khanty–Mansi Autonomous Okrug, West #Siberia, #Russia🇷🇺 4 August 2022 #Co…",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1555482023061487617",
+            "date": "Fri Aug 05 09:13:08 +0000 2022",
+            "place": {
+                "name": "Nyagan",
+                "country code": "RU",
+                "population": "52137",
+                "latitude": "62.14056",
+                "longitude": "65.39361",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Wildfires rage through Tyumen region/Western Siberia; several of them are only 20km away from the town of Nyagan, with firefighters having to go through walls of fire. More than 40,000hectares of woods are burning, heavy smog is blanketing sky over the region #wildfires2022Russia https://t.co/oh4rgv6foR",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1549426643118485504",
+            "date": "Tue Jul 19 16:11:13 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Federal state of emergency introduced in Yakutia, Russia's largest territory, and the neighbouring Khabarovsk region, in another attempt to tame #wildfires2022Russia. Wildfires in Yakutia &amp; the Far East of Russia started around mid-April this year. Video of today's air in Yakutsk https://t.co/bGkCUMljAp",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1548986476461182976",
+            "date": "Mon Jul 18 11:02:09 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Yakutsk, the world’s coldest city is top of today’s list of Russia’s most polluted cities. Republic of Yakutia keeps battling both wildfires in the south-east and floods in the north. By earlier today 38,000 hectares of forests were on fire #wildfires2022Russia https://t.co/wotD1rjKwV",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1547622465085775872",
+            "date": "Thu Jul 14 16:42:03 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Yakutsk, capital city of Russia's largest and coldest region might get partially flooded tomorrow/on 16 July, local authorities warned. Floods continue in the north of republic. Picture from flooded Verkhoyansk, one of the coldest inhabited places on earth #floods2022Russia https://t.co/7sCnGqEaXy",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1547243402613649408",
+            "date": "Wed Jul 13 15:35:48 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Strong floods in the north of Yakutia reached the town of Verkhoyansk - The Pole of Cold - and destroyed part of the road connecting Yakutsk and Magadan, also known as The Road of Bones; the south &amp; southeast of Russia's biggest republic are still battling #wildfires2022Russia https://t.co/Vx2trCjmmn",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1546525963940691968",
+            "date": "Mon Jul 11 16:04:57 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Melting permafrost at the site of last year’s wildfires in the Tattinsky district in Yakutia (east of capital Yakutsk) threatens to destroy roads and to flood the area; last year this district was one of the worst affected by #wildfires2021Russia https://t.co/genzlCNYT0",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1543886105002778625",
+            "date": "Mon Jul 04 09:15:06 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "18 inquired, including 3 children at a hurricane that interrupted the opening of the Sport Games of People of Yakutia in the village of Borogontsy, north-west of republic’s capital Yakutsk https://t.co/mCvTm6Xu29",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1542358427670052866",
+            "date": "Thu Jun 30 04:04:39 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "17 out of 23 on board of wildfire monitoring Mi-8 helicopter that crash-landed yesterday in Yakutia got wounded; two are in grave condition. All wounded were flown to Yakutsk, the republic's capital #wildfires2022Russia https://t.co/ZIHLR6ofQM",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1542180918890475520",
+            "date": "Wed Jun 29 16:19:18 +0000 2022",
+            "place": {
+                "name": "Aykhal",
+                "country code": "RU",
+                "population": "15267",
+                "latitude": "65.93381",
+                "longitude": "111.4834",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Yakutia, Russia’s largest &amp; coldest territory declared state of emergency ahead of ‘2 hardest months of wildfires'. Currently more than 55,000hectares of the republic are on fire; video below is of today's wildfire by the village of Aikhal, Mirninsky district #wildfires2022Russia https://t.co/uE52bk6bTo",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1537353868119445505",
+            "date": "Thu Jun 16 08:38:19 +0000 2022",
+            "place": {
+                "name": "Urengoy",
+                "country code": "RU",
+                "population": "9355",
+                "latitude": "65.9655",
+                "longitude": "78.36929",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Fire at Russia’s largest gas field, the Urengoy field at the Yamal peninsula, following a pipe rupture. The fire was contained, Gazprom Dobycha Urengoy said around midday today. No casualties were reported; the field is world’s second biggest with up to ten trillion m3 of gas https://t.co/ANVij1f8zX",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1533831956555010048",
+            "date": "Mon Jun 06 15:23:30 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Yakutsk 2077 [video]\n\nhttps://t.co/wC7suk7l4A",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1533753814607609856",
+            "date": "Mon Jun 06 15:27:27 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @CopernicusEU: #Copernicus for land monitoring \n\nAfter the spring thaw of the snow and ice, the burn scars of the #wildfires that ravage…",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1532778394802593793",
+            "date": "Fri Jun 03 17:37:01 +0000 2022",
+            "place": {
+                "name": "Norilsk",
+                "country code": "RU",
+                "population": "140800",
+                "latitude": "69.3535",
+                "longitude": "88.2027",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Residents of Norilsk, Russia’s capital of nickel, palladium, platinum, copper and cobalt said earlier today they were struggling to breathe after one of rubbish dumps outside the city caught fire. Local mayor said it was hard to extinguish the fire because of strong gusts of wind https://t.co/uHRUp2HNTW",
+            "map_handle": "siberian_times"
+        },
+        {
+            "id": "1532004121473335298",
+            "date": "Wed Jun 01 14:20:20 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "So how much do you pay for patrol/gasoline? Yakutsk is one of locations with the highest rates. For the last two years, it's 57,80 RUB / 0,95 USD  per litre or 3,51 USD per gallon. https://t.co/UynLD8yYpd",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1526865458254815232",
+            "date": "Wed May 18 10:01:07 +0000 2022",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Our research vessel Porsild is back after a long winter stay at the shipyard in Nuuk and the @GEM_Arctic  marine monitoring program is back on track. Still lots of thick ice in the inner #Qeqertarsuaq harbor. @science_ku https://t.co/ntAmZr5BOh",
+            "map_handle": "arcticstationuc"
+        },
+        {
+            "id": "1526665093269794816",
+            "date": "Tue May 17 21:37:52 +0000 2022",
+            "place": {
+                "name": "Arkhangel’sk",
+                "country code": "RU",
+                "population": "356051",
+                "latitude": "64.5401",
+                "longitude": "40.5433",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @brian_eifler: On 6 June, U.S. Army Alaska will become the 11th Airborne Division. A Division steeped in Pacific WWII history, the “Ange…",
+            "map_handle": "USArmyAlaska"
+        },
+        {
+            "id": "1523644060459991040",
+            "date": "Mon May 09 12:40:26 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Btw, it's my favourite ensemble on every V-Day in Yakutsk. \n\nThis night, btw, we gonna have snow and -2C. https://t.co/WfPk8nx4TO",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1523525708286668800",
+            "date": "Mon May 09 04:50:09 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The winter is finally over. Today in Yakutsk. Remember. Proud. Honor. https://t.co/4wIe6fbHQd",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1507015954974208007",
+            "date": "Thu Mar 24 15:26:17 +0000 2022",
+            "place": {
+                "name": "Ilulissat",
+                "country code": "GL",
+                "population": "4413",
+                "latitude": "69.21981",
+                "longitude": "-51.09861",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "[1/3] It is always interesting to see how a city develops. And a lot has happened in Ilulissat since this picture was taken back in 1903. https://t.co/DWnQzpWdJ6",
+            "map_handle": "arktiskinstitut"
+        },
+        {
+            "id": "1506737235336392706",
+            "date": "Wed Mar 23 21:17:28 +0000 2022",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @NIChardon: ⛰ My recent PostDoc research in Greenland with @SLF_MountEcosys and @VegDyn is published! Please let’s all think about how t…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1503879465251659778",
+            "date": "Tue Mar 15 23:42:59 +0000 2022",
+            "place": {
+                "name": "Wasilla",
+                "country code": "US",
+                "population": "9284",
+                "latitude": "61.5809",
+                "longitude": "-149.4415",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Alaska Army National Guard Soldiers with Avalanche Company, 1-297th Infantry Battalion, practiced squad and platoon situational training exercises (STX) at Alcantra armory in Wasilla last weekend. #TeamAKNG #alwaysready https://t.co/fJKHbqY3GL",
+            "map_handle": "aknationalguard"
+        },
+        {
+            "id": "1498485840661475334",
+            "date": "Tue Mar 01 02:30:39 +0000 2022",
+            "place": {
+                "name": "Anchorage",
+                "country code": "US",
+                "population": "298695",
+                "latitude": "61.21806",
+                "longitude": "-149.90028",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "MAT+SAR Search &amp; Rescue teams from Palmer partnered with participants of Arctic Eagle-Patriot 2022 in a missing persons training scenario at the Anchorage Fire Training Center in Anchorage. #AEP22 https://t.co/HD2dVKZ89u",
+            "map_handle": "aknationalguard"
+        },
+        {
+            "id": "1497392655407345666",
+            "date": "Sat Feb 26 02:06:43 +0000 2022",
+            "place": {
+                "name": "Anchorage",
+                "country code": "US",
+                "population": "298695",
+                "latitude": "61.21806",
+                "longitude": "-149.90028",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Firefighters from the Anchorage Fire Department instructed Soldiers from the Rhode Island National Guard yesterday on metal-cutting during search-extraction training at the Fire Training Center in Anchorage for Exercise Arctic Eagle-Patriot 2022. #AEP22 #alwaysready #alwaysthere https://t.co/Bs6MCCDrZl",
+            "map_handle": "aknationalguard"
+        },
+        {
+            "id": "1496073993278967814",
+            "date": "Tue Feb 22 11:18:17 +0000 2022",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GEM_Arctic: Great new publication on #Arctic #satellite-based snow monitoring applied in some of our key sites @ZERO74N and @NuukNERO…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1493211709808553984",
+            "date": "Mon Feb 14 13:13:08 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Every winter we try to do a big journey. This time we did the Yakutsk to Pevek Road Trip. Led by our driver Maxim Shirikov. 10 days with amazing landscapes, and Northern Lights along the #Arctic #winter road. \n\nSee the GPS trek over the following page:  https://t.co/f7sB7nzKDG https://t.co/EryqRHz2Ao",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1492114874998181888",
+            "date": "Fri Feb 11 12:34:43 +0000 2022",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "[1/5] Wondering if the snow drifts are as big in Nuuk with all the snow that has fallen there the last few days? Here it is Niels Møller who has been shoveling snow at the LORAN station Angissoq in South Greenland in 1968. https://t.co/I2QJas0E06",
+            "map_handle": "arktiskinstitut"
+        },
+        {
+            "id": "1491263496503570440",
+            "date": "Wed Feb 09 04:11:38 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Cómo Sobreviven En La CIUDAD MÁS FRÍA DEL MUNDO🥶 (Yakutsk) https://t.co/zu5zjeXkqs через @YouTube\n\nThe first video from our Spanish guest Rama. The next one will be dedicated to Lena Pillars or Oymyakon.",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1489926885027069955",
+            "date": "Sat Feb 05 11:42:15 +0000 2022",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @VisitYakutia: Finally. Today is the first of the Yakutsk to Pevek (Chukotka) winter road trip. Follow our driver Maxim Shirikov’s GPS t…",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1481674830596423683",
+            "date": "Fri Jan 14 11:46:22 +0000 2022",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GreenlandMFA: 📣 August 27 - 29, @Naalakkersuisut will host its 2nd @_Arctic_Circle Forum in Nuuk 🇬🇱\n\n“I look forward to welcoming inter…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1478725131337932807",
+            "date": "Wed Jan 05 13:48:39 +0000 2022",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
                 "contained_within": [],
                 "bounding_box": {
                     "type": "Polygon",
                     "coordinates": [
                         [
                             [
-                                46.4925433,
-                                40.9363327
+                                129.5950817,
+                                61.949109
                             ],
                             [
-                                87.3152134,
-                                40.9363327
+                                129.8662308,
+                                61.949109
                             ],
                             [
-                                87.3152134,
-                                55.4425719
+                                129.8662308,
+                                62.1833831
                             ],
                             [
-                                46.4925433,
-                                55.4425719
+                                129.5950817,
+                                62.1833831
                             ]
                         ]
                     ]
                 },
                 "attributes": {},
-                "latitude": 66.90387835,
-                "longitude": 48.1894523
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
             },
             "place_is_found": "False",
-            "text": "RT @Starshina73: Зимняя рыбалка говоришь? Да что ты знаешь о ней?)) https://t.co/BI2G5FY3mG"
+            "text": "Meanwhile in Yakutia. On the way to Oymyakon. https://t.co/U9aU0fPMIv",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1476944360050724876",
+            "date": "Fri Dec 31 15:52:30 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Greetings from 2022!!! 💥 #Yakutsk #Russia https://t.co/8FdZFrhdwv",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1476932989485527047",
+            "date": "Fri Dec 31 15:07:19 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Happy New Year from 2022!!! It should be the best year!!! #Yakutsk #Russia",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1475336784485785603",
+            "date": "Mon Dec 27 05:27:18 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Disclosing one of my favourite winter destinations... \n\nThat’s the Sinyaya River with Stone Forest. https://t.co/rwFIYe9uYh",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1473980197343047685",
+            "date": "Thu Dec 23 11:33:58 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "When the outdoor temp is below -45C and it feels like all -50C, our American guest is enjoying the hottest welcome dinner in Sinsk. Cool! https://t.co/3ApKgKlAQz",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1473872467064246273",
+            "date": "Thu Dec 23 04:25:54 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "A morning Christmas mood in Yakutsk, Russia. People are heading to their offices. https://t.co/GOEQJ6fByu",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1473871374770966528",
+            "date": "Thu Dec 23 04:21:33 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Ok. And one more street pic in Yakutsk. With a cute dog. https://t.co/00jE4YNUVE",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1473868533251649537",
+            "date": "Thu Dec 23 04:10:16 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Victory Square in Yakutsk at 03:03 pm. https://t.co/m1DlP6zmll",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1473866190435098625",
+            "date": "Thu Dec 23 04:00:57 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "-48C at 03:28 pm. That’s Dzerzhinsky Street in #Yakutsk #Russia. https://t.co/gaw5kXh8qo",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1473862599280320516",
+            "date": "Thu Dec 23 03:46:41 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "A house of my childhood. The apartment building was built in 1970s… #Yakutsk #Russia\n\nAn image is taken at 09:53 am. https://t.co/wFlk6SqmYO",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1471372306857574401",
+            "date": "Thu Dec 16 06:51:09 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "A long-awaited milky day in Yakutsk, Russia. -40C/F. https://t.co/M0iEcNwYTY",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1467463227239911432",
+            "date": "Sun Dec 05 11:57:52 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "My sincere greetings to you from Twenty Twenty Two! From the lovely coldest city of Yakutsk #Yakutia 🤗 https://t.co/fGstjL0Zmv",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1466755490642534403",
+            "date": "Fri Dec 03 13:05:34 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Classic!.. https://t.co/P4aJAfxcFD",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1462992472104214528",
+            "date": "Tue Nov 23 03:52:41 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Yesterday’s sightseeings in Yakutsk, Russia. Just before the sunset at 03:10 pm. Well, it was -36C and felt like -44C (w/ a wind factor.) So, when I thought the winter had eventually gained the ground, the forecast said, Nope, -16C is gonna be on Saturday. Crazy. https://t.co/UEnqKNw122",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1461637852308123650",
+            "date": "Fri Nov 19 10:09:54 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "A try to fix a lunar eclipse in Yakutsk, Russia 😅 \n\nCaptured when it was partial. When full, the moon was almost invisible. \n\nFurther see photos. https://t.co/b8ReN71Fdm",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1461298439774425096",
+            "date": "Thu Nov 18 11:41:12 +0000 2021",
+            "place": {
+                "name": "Aasiaat",
+                "country code": "GL",
+                "population": "3005",
+                "latitude": "68.70981",
+                "longitude": "-52.86988",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "[1/7] Who would have thought that a #unicorn (‘enhjørning’) was hiding in an archive box? And it is completely genuine! - it says so itself. Just look at the bottom left corner of this beautiful hand-drawn map from 1761 over the old Egedesminde. https://t.co/n22PnxrfJc",
+            "map_handle": "arktiskinstitut"
+        },
+        {
+            "id": "1461158556149989380",
+            "date": "Thu Nov 18 02:25:21 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Getting ready for the New Year in Yakutsk, Russia. \n\nIf no celebration is expected indoor in public, it looks like all activities are gonna be outdoor… hopefully. https://t.co/7FVjeyJ3Yx",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1460763323964829698",
+            "date": "Wed Nov 17 00:14:50 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Gooood morning from Yakutsk, Russia! This is the heating station making clouds. Temp is -33C. https://t.co/yEt8tA1mTp",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1460250854229950466",
+            "date": "Mon Nov 15 14:40:41 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "A bit strange feeling. It should be cold in our area, but it’s not cold yet and looks like it’s gonna be warmer soon… https://t.co/s5ERmSrIAH",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1456950844167835648",
+            "date": "Sat Nov 06 12:18:02 +0000 2021",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GEM_Arctic: Join us celebrating GEM’s 25th anniversary and the  new strategy  on November 11  at 15:45   in Katuaq, Nuuk. #GreenlandSci…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1451885098706653188",
+            "date": "Sat Oct 23 12:15:56 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "It’s so hard for the winter to start in Yakutsk, Russia. Now it looks like it’s gaining ground finally. https://t.co/AA6VJL3vEH",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1443966067685171200",
+            "date": "Fri Oct 01 15:48:32 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "When the autumn is meeting the winter on the Lena River in Yakutia… ❄️ #Siberia #Russia https://t.co/Mfh2Dff5Bh",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1443956289608949761",
+            "date": "Fri Oct 01 15:09:41 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Lena Pillars on the Lena River today, October 1st, 2021. So, the winter is coming! #Yakutsk #Russia https://t.co/3Ajgjda5Uv",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1443953829389680677",
+            "date": "Fri Oct 01 14:59:54 +0000 2021",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "𝐕𝐢𝐬𝐢𝐭 𝐭𝐨 𝐭𝐡𝐞 𝐑𝐞𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧\nToday, Greenland's Head of Representation in Reykjavik Tove Søvndahl Gant had a really good courtesy meeting with the British Ambassador to Reykjavik H.E Dr Bryony Mathew. https://t.co/GbXyYLVcGv",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1443381883404959748",
+            "date": "Thu Sep 30 01:07:12 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Woke up and got these pics from my beloved! Winter is coming back. Good morning from Yakutsk, Russia. https://t.co/bo7aeEH7QR",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1440367221239279639",
+            "date": "Tue Sep 21 20:21:07 +0000 2021",
+            "place": {
+                "name": "College",
+                "country code": "US",
+                "population": "12964",
+                "latitude": "64.85694",
+                "longitude": "-147.80278",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @BowdoinCollege: The framework of Bowdoin’s latest construction project supports more than simply the buildings that will become Barry M…",
+            "map_handle": "arcticmuseum"
+        },
+        {
+            "id": "1439991275164512260",
+            "date": "Mon Sep 20 16:34:08 +0000 2021",
+            "place": {
+                "name": "Tromsø",
+                "country code": "NO",
+                "population": "52436",
+                "latitude": "69.6489",
+                "longitude": "18.95508",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "2 years ago today, at 8.48 pm, it's \"Cast off!\" in Tromsø on the #Polarstern and MOSAiC, the largest #Arctic expedition of all time, begins. https://t.co/CXzXEYL337",
+            "map_handle": "MOSAiCArctic"
+        },
+        {
+            "id": "1435338688968466433",
+            "date": "Tue Sep 07 20:26:25 +0000 2021",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Featuring @GEM_Arctic annual report Cards 2020 which is also the 25 year anniversary of the Greenland-Danish monitoring program \n@ZERO74N @NuukNERO @ArcticStationUC \nRead about how it started, the collaborations, the long time-series and the perspectives:\nhttps://t.co/JvDWnUiyrw https://t.co/T2RtC9vl2E",
+            "map_handle": "arcticstationuc"
+        },
+        {
+            "id": "1431195621487259648",
+            "date": "Fri Aug 27 10:03:21 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "It’s the only way to Oymyakon, the world’s coldest inhabited settlement. There were devastating wildfires. Now it’s abnormal rainfalls. See other vids in the thread. \n\nVideo credit: a local WhatsApp user. https://t.co/oZwXjVfLo1",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1428285293904474112",
+            "date": "Thu Aug 19 09:18:44 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Ура! Ура! Реакция немножко с опозданием. До сих пор не верится. Основная взлётная полоса аэропорта г. Якутска введена в эксплуатацию после ремонта. Рейсы до Москвы теперь прямые. И лесные пожары вокруг города прекратились. Теперь можно принимать гостей ☺️",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1426055041736118272",
+            "date": "Fri Aug 13 05:36:31 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Из-за смога аэропорт г. Якутска сейчас работает по такому же принципу как зимой в туманы - от заката до рассвета. В тёмное время суток взлётная полоса освещается, и самолёты могут приземляться безопасно. По этой причине, подозреваю, все прилёты/вылеты перенесены на вечернее время",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1423215221439713280",
+            "date": "Thu Aug 05 09:32:05 +0000 2021",
+            "place": {
+                "name": "Bergen",
+                "country code": "NO",
+                "population": "213585",
+                "latitude": "60.39299",
+                "longitude": "5.32415",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Next round in our Q&amp;A session🤓🎤: Today postdoc Zoé Koenig from the University of Bergen will tell us how she experienced her time on the #MOSAiCexpedition and report on her current research in the #Arctic. ❄️@UiB @AWI_Media https://t.co/aTA3tDFr1l",
+            "map_handle": "MOSAiCArctic"
+        },
+        {
+            "id": "1420408201414123524",
+            "date": "Wed Jul 28 15:37:59 +0000 2021",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "BioBasis has checked the #automatic #cameras at Qussuk/Akia 1.5 h in boat from Nuuk. We were joined by gazillions of black flies and #mosquitoes. Doing #fieldwork in #Greenland for @GEM_Arctic https://t.co/ztzsOQG0Z9",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1416725442002931714",
+            "date": "Sun Jul 18 11:44:01 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "The western part of Yakutia on fire 🔥 #Siberia Praying for rainfalls! https://t.co/Q86ncV4hhS",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1413510589746319361",
+            "date": "Fri Jul 09 14:49:21 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Smog in Yakutsk, Russia. As a result of wildfires around. Praying for rainfall...\n\nVideo credit: @NewsYktRu https://t.co/vrwagRwbXw",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1412970306810089472",
+            "date": "Thu Jul 08 03:02:27 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Didn’t believe in England. The final will be awesome! No more attempt to predict anything. Will just enjoy the game #EURO2020",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1411179759627874305",
+            "date": "Sun Jul 11 21:56:09 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Amazing final! So, it’s Italy 🇮🇹 #EURO2020 #Euro2020Final https://t.co/RH9MVSqJK1",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1408419301418229761",
+            "date": "Fri Jun 25 14:27:47 +0000 2021",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @KRaundrup: Short stay @NuukNERO to change batteries and SD-cards in @TokeHoye ‘s #automatic #cameras in #Kobbefjord, #Greenland https:/…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1407017960573657088",
+            "date": "Mon Jun 28 13:25:57 +0000 2021",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @PresidentISL: Sending my warmest regards to our dear and near neighbours in Greenland, on your national day. In 2019 I had the pleasure…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1395860953716166658",
+            "date": "Fri May 21 21:55:59 +0000 2021",
+            "place": {
+                "name": "Aasiaat",
+                "country code": "GL",
+                "population": "3005",
+                "latitude": "68.70981",
+                "longitude": "-52.86988",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Hurrah....our research vessel Porsild is back in #Qeqertarsuaq after a long dogging period in Aasiaat for maintenance. Great news for the @GEM marine monitoring program and for other activities going on at @ArcticStationUC. https://t.co/NYTOmBLKSB",
+            "map_handle": "arcticstationuc"
+        },
+        {
+            "id": "1395769798718537728",
+            "date": "Fri May 21 20:27:15 +0000 2021",
+            "place": {
+                "name": "Ii",
+                "country code": "FI",
+                "population": "6546",
+                "latitude": "65.31735",
+                "longitude": "25.3731",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GreenlandMFA: At the @ArcticCouncil Ministerial, MoFa Broberg @Naalakkersuisut emphasized the importance of continued constructive coop…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1395431438644822016",
+            "date": "Fri May 21 20:38:47 +0000 2021",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @SecBlinken: Haluu Kalaallit Nunaat! The reopening of the U.S. Consulate in Nuuk reflects our mutual desire to deepen the U.S.-Greenland…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1387703155429937153",
+            "date": "Thu Apr 29 09:39:49 +0000 2021",
+            "place": {
+                "name": "Ii",
+                "country code": "FI",
+                "population": "6546",
+                "latitude": "65.31735",
+                "longitude": "25.3731",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "[1/3] Did you know that all three parts of the Danish Realm celebrate a Holiday called ‘store bededag’ tomorrow? The literal translation is Great Prayer Day. In the Faroe Islands it is called dýri biðidagur and in Greenland it is called tussiarfissuaq. https://t.co/uJ7d5IiTBE",
+            "map_handle": "arktiskinstitut"
+        },
+        {
+            "id": "1386613522612711430",
+            "date": "Mon Apr 26 18:05:27 +0000 2021",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GEM_Arctic: A new genetic study is just out now \"High-throughput sequencing of the kelp Alaria (Phaeophyceae) reveals epi-endobiotic as…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1385157592939442177",
+            "date": "Thu Apr 22 14:24:32 +0000 2021",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GEM_Arctic: Out now @MycoKeys \"A survey of Hebeloma (Hymenogastraceae) in Greenland\" by Eberhardt et al.: 40 years of sampling 400 coll…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1382435008758026240",
+            "date": "Wed Apr 14 20:46:05 +0000 2021",
+            "place": {
+                "name": "Aasiaat",
+                "country code": "GL",
+                "population": "3005",
+                "latitude": "68.70981",
+                "longitude": "-52.86988",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Morning glory - after many days with low light and massive snowfall there is finally sun over the station. \nThe ice in Disko Bay has broken up and we hope, that “Porsild” can arrive from Aasiaat soon and the marine monitoring can start up. #Qeqertarsuaq @science_ku @GEM_Arctic https://t.co/ltaByw0AMn",
+            "map_handle": "arcticstationuc"
+        },
+        {
+            "id": "1380379469479821313",
+            "date": "Fri Apr 09 04:38:06 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Saying bye to the winter. Looking forward to enjoying summer road trips @Yakutia, Russia's Siberia.\n\nThe Kolyma road between Yakutsk and Magadan. Photo by Ajar Varlamov who is our best guide, interpreter, and photographer. https://t.co/Sow607Ixrv",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1375085952020926464",
+            "date": "Thu Mar 25 14:03:33 +0000 2021",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "[1/4] Cities change all the time and #Nuuk is no exception! On the first photo, where a football match is taking place in the foreground, a part of the city is seen in the 1950s from where the arena ‘GHB-hallen’ lies today. https://t.co/YFrlbRnJBE",
+            "map_handle": "arktiskinstitut"
+        },
+        {
+            "id": "1375063333821423622",
+            "date": "Thu Mar 25 12:33:40 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Только что опубликовано фото @ Yakutsk, Russia https://t.co/PY4nQlZHyp",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1375062720421171203",
+            "date": "Thu Mar 25 12:31:14 +0000 2021",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "What do you usually do with the just-caught fresh fish?! Eat it. That’s correct. Watch to the last vid.\n\nIce-fishing on the #LenaRiver in #Yakutia, #Russia. North off #Yakutsk. With our guest from #Japan🇯🇵 https://t.co/QqTPd9f4wQ",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1371879535088709634",
+            "date": "Fri Mar 19 01:33:18 +0000 2021",
+            "place": {
+                "name": "Iqaluit",
+                "country code": "CA",
+                "population": "6124",
+                "latitude": "63.74697",
+                "longitude": "-68.51727",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GreenlandRepDC: Congratulations to the Kingdom of Denmark’s new Honorary Counsel in Iqaluit, Ms. Navarana Beveridge, who will be coveri…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1361603061546950662",
+            "date": "Tue Feb 16 09:11:31 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: Meanwhile in Siberia... A spike ate a spike. This is why ice fishing is too intriguing. You never know what you get out of the…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1355656117116932099",
+            "date": "Sat Jan 30 23:16:19 +0000 2021",
+            "place": {
+                "name": "Ilulissat",
+                "country code": "GL",
+                "population": "4413",
+                "latitude": "69.21981",
+                "longitude": "-51.09861",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Arctic Biology field course - student project case #3: water beetles. Marta &amp; Kasper confirmed the presence of Hydroporus morio and Colembetes dolabratus. Surprisingly, they found Gyrinus opacus (near Ilulissat) - possibly the  northernmost record ever in Greenland @FBL_UCPH https://t.co/KEMUDfTgYg",
+            "map_handle": "arcticstationuc"
+        },
+        {
+            "id": "1353982569105285120",
+            "date": "Tue Jan 26 08:26:14 +0000 2021",
+            "place": {
+                "name": "Aasiaat",
+                "country code": "GL",
+                "population": "3005",
+                "latitude": "68.70981",
+                "longitude": "-52.86988",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Our wessel Porsild is grounded for winter at the yard in Aasiaat for the annual repair and service. It will be ready by April 1 for the marine @GEM_Arctic monitoring program - if ice conditions permits. @uni_copenhagen #arcticstationdisko https://t.co/IyCBV1r2cR",
+            "map_handle": "arcticstationuc"
+        },
+        {
+            "id": "1353650561988644864",
+            "date": "Mon Jan 25 10:29:10 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: Going to work this morning and back home tonight. Yet -50C in Yakutsk, Russia. \n\nVideo mainly by my lovely and some are mine.…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1351318210629537793",
+            "date": "Wed Jan 20 08:28:06 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: Good morning! -51,6C on my balcony in Yakutsk, Russia. \n\nAll schools are closed. Kids can stay home. https://t.co/dYgFd319QZ",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1341186550068105216",
+            "date": "Tue Dec 22 02:07:31 +0000 2020",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Yakutsk is awaiting the New Year and hopes that the Bull of the Winter is gonna beat the king of rats 😊 https://t.co/lrwgi3NVaw",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1337009912841465861",
+            "date": "Fri Dec 11 16:57:39 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Come to #Nuuk and work with data from the stations in @GEM_Arctic https://t.co/4VuVwlvgcr",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1316056392185323520",
+            "date": "Tue Oct 13 16:41:09 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Autumn pulse in export of glacial ice out of Nuup Kangerlua (15s = 8hrs). Most of the ice from 3 marine-terminating glaciers melts inside the fjord, but a fraction is exported during these seasonal events. Video by MarineBasis-Nuuk @NuukNERO @GEM_Arctic @GCRC_GINR @TJuulPedersen https://t.co/EYMOrcHZ8n",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1314840317967826944",
+            "date": "Sat Oct 10 12:16:48 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GEM_Arctic: De morgenfriske kunne i dag indtage kaffen sammen med et indslag om GEM programmet der blev præsenteret  i  #TV-AVISEN Morg…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1313118851329073152",
+            "date": "Mon Oct 05 14:08:25 +0000 2020",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Готовимся к зиме! #Якутск #Якутия\n\nHooray! We’re getting ready for the winter! #Yakutsk #Siberia",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1312016397015416832",
+            "date": "Fri Oct 02 13:07:39 +0000 2020",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Great meeting this morning with EU ambassador Lucie Samcová-Hall Allen and welcome to Reykjavík! \nFine discussion on EU-Greenland 🇪🇺🇬🇱 topics, diplomacy, Nordic cooperation, sustainable development and the Arctic 🧊 https://t.co/EAD3KIXGEu",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1309472468575322114",
+            "date": "Fri Sep 25 12:38:59 +0000 2020",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "These days the Reykjavík 🇮🇸 International Film 🎬 Festival 🎥(RIFF) is being held.\nSee the program 📽 here:\nhttps://t.co/bCMYsNmy5h\nAmong other movies you can watch 'The Fight for Greenland' today at: The Nordic House 18:00\nPrice: 1690 ISK https://t.co/v7PMMCKXuC https://t.co/huqpVaT82G",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1308716133252567042",
+            "date": "Wed Sep 23 10:33:35 +0000 2020",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Today on the 23. of September the West-Nordic Day will be celebrated in the The Nordic House in Reykjavík. \n\nLearn more about the program here:\nhttps://t.co/zIyUsVYotU https://t.co/dEZ9gepfaV",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1305833174770081793",
+            "date": "Sun Jul 18 11:08:42 +0000 2021",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "Autumn 🍂 must be awesome this year! Especially after the summer’s wildfires... https://t.co/SgBtQ1h5Y6",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1300520615686832129",
+            "date": "Wed Sep 02 09:42:40 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @KRaundrup: I gave two presentations on the importance of #longterm #monitoring in the #Arctic using examples from @GEM_Arctic. The audi…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1299381903292805123",
+            "date": "Sat Aug 29 14:40:57 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @DrPennyHow: Last week we had another day of fieldwork on Qasigiannguit glacier, as part of #GlacioBasis. Whilst Kobbefjord and Nuuk wer…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1298973973829615618",
+            "date": "Thu Aug 27 13:21:43 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "For travellers to Nuuk in West Greenland 🇬🇱 you can order a time for a covid-19 (PCR) test in Iceland 🇮🇸 Travellers have to show a negative Covid-19 certifikate before they board the plane to Nuuk. This certifikate or proof cannot be older than 5 days.",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1298963860871839748",
+            "date": "Thu Aug 27 15:30:49 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GEM_Arctic: New paper out: \"Multi-year data-model evaluation reveals the importance of nutrient availability over climate in arctic eco…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1298232696276213763",
+            "date": "Tue Aug 25 12:16:09 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Thank you for visiting! @NIChardon have had an @INTERACT66 stay at @NuukNERO and worked with @idabdj to quantify shrub species composition and abundance across the #Kobbefjord landscape to validate spatial prediction models with an independent and random dataset. https://t.co/sVW0kiUvHq",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1291197564121952257",
+            "date": "Thu Aug 06 02:21:03 +0000 2020",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Подавайте заявки на однодневные туры в Якутске заранее. Дешевле и гарантировано! // A wanna-travel-right-tomorrow request call doesn’t work out over here, unfortunately. Your wished days might be overbooked... #Lifehack for your trip to #Yakutsk #Russia",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1284147456154968065",
+            "date": "Fri Jul 17 15:26:26 +0000 2020",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "A historical day in the cooperation between Greenland and Iceland 🇬🇱🇮🇸 The Joint Vessel and weekly sailing between Nuuk and Reykjavík has started and @Eimskip Dettifoss has arrived in Nuuk today 🚢🇬🇱🇮🇸 Greenland is open for business to the rest of the world 🌏 @Naalakkersuisut https://t.co/7U9icvNPoE",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1284067335821811712",
+            "date": "Fri Jul 17 10:14:44 +0000 2020",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: В такую жару лучше на лёд и к водопадам 😅 https://t.co/KMefuDQJ4G",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1273141994672529412",
+            "date": "Wed Jun 17 06:35:51 +0000 2020",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: Toyon Ary Cliffs in Yakutia, #Russia’s #Siberia. Not far from Yakutsk. https://t.co/vE5sHVEFWf",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1272549987247886336",
+            "date": "Mon Jun 15 15:23:43 +0000 2020",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: Река Синяя в Якутии! // The Sinyaya River in Yakutia, #Russia’s #Siberia https://t.co/D3mfTA7iXp",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1270689379787452417",
+            "date": "Thu Jun 11 14:12:56 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @SecPompeo: On June 10, we reopen our consulate in Nuuk, Greenland. Our presence in Nuuk will strengthen our partnerships with our Arcti…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1258409785231388675",
+            "date": "Thu May 07 14:54:07 +0000 2020",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "If you are a student and interested in working with Greenland's foreign relations, there is still an chance to apply for our intern position here in Reykjavik 🇬🇱🇮🇸\n\nFurther information can be found at our website here: https://t.co/93cPpsWopf https://t.co/dtGpuzm4wf",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1255870996936089601",
+            "date": "Wed May 06 21:41:10 +0000 2020",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @StateDept: .@SecPompeo: I’m pleased to announce we will re-open our Consulate in Nuuk, Greenland, this summer, for the first time since…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1227825706584936448",
+            "date": "Thu Feb 13 05:30:20 +0000 2020",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @yakutia: We've started a new ice winter road trip. This time to the south along the Lena River and west to Mirny, the diamond city in Y…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1225819925320585220",
+            "date": "Fri Feb 07 16:33:39 +0000 2020",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Our intern was invited to lunch at @NorwayinIceland's residence to greet Nordic interns to discuss a nordic forum for interns in Reykjavik. Many arrangements will come from this amazing group🇫🇴🇳🇴🇸🇪🇫🇮🇩🇰🇬🇱 #NordiskPraktikantForum\n@GreenlandMFA @Naalakkersuisut https://t.co/ziD5rCZxxY",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1224338421260394497",
+            "date": "Mon Feb 03 14:26:41 +0000 2020",
+            "place": {
+                "name": "Qaqortoq",
+                "country code": "GL",
+                "population": "3224",
+                "latitude": "60.71839",
+                "longitude": "-46.03561",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "We would like to welcome our new intern, Karl from Qaqortoq who is studying in CPH university, he will be with us for the next 6 months 🇬🇱🇮🇸\nPraktikertorput Karl tikilluaqquarput, qaammatit arfinillit maanissaaq, Karl Qaqortumiuvoq, KBH universitetimi ilisimatusartuulluni 🇬🇱🇮🇸 https://t.co/h7QcvE0QxM",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1222741075502256128",
+            "date": "Thu Jan 30 04:44:01 +0000 2020",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @yakutia: Follow the trek of our travelers, who arrived from Slovakia. Today they embarked a road trip from Yakutsk to Magadan with a tu…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1221783542251823109",
+            "date": "Mon Jan 27 13:14:30 +0000 2020",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Always a special day when we have visit from Greenland 🇬🇱 the Nuummi Naluttartut Klubbiat's swimmingteam participated and competed with 3 medals 🥇🏆 in the international championship here in Reykjavík 🇮🇸 we are all very proud and honoured to host a great and fun meeting today https://t.co/79FlBts1uq",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1217120054413795329",
+            "date": "Tue Jan 14 16:23:28 +0000 2020",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Come to the Nordic house in Reykjavik 🇮🇸 and see the Greenlandic movie 'Anori' and meet Director Pipaluk K. Jørgensen 🇬🇱 and others in Saturday 18 January at 13h00 free entrance to all screenings at the Nordic Film Focus\nhttps://t.co/uPtRgAUJkl",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1214506690651074562",
+            "date": "Tue Jan 07 11:19:50 +0000 2020",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: Merry Christmas from #Oymyakon, #Russia’s #Siberia. The way our travelers enjoyed the time with reindeer and their herders...…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1210806180882206720",
+            "date": "Sat Dec 28 11:26:10 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @yakutia: 3 pm in Yakutsk. Right now the temp is just -46C. @Yakutia in #Siberia #Russia https://t.co/7nYC3sgsi9",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1208636408845537280",
+            "date": "Sun Dec 22 06:33:03 +0000 2019",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: Freezing eyelashes in #Oymyakon, the coldest village in Yakutia, #Russia’s #Siberia. With our guests from Turkey 🇹🇷. https://t…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1208036672702763008",
+            "date": "Fri Dec 20 14:49:21 +0000 2019",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "5 reasons why Nuuk 🇬🇱 is the Best kept secret Christmas getaway 🎄✨✈\nhttps://t.co/JnKSzLFa7q",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1202331886380605446",
+            "date": "Wed Dec 04 21:00:34 +0000 2019",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Polar day - @Ilisimatusarfik the Greenland Science Week in Nuuk 🇬🇱 where Minister for Industry, Energy, Research and Labour Jess Svane address the importance for knowledge sharing among scientists and inclusiveness of the local communities with local experiences and science 👨‍🎓🇬🇱 https://t.co/wEssonJKSn",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1200071680598716418",
+            "date": "Thu Nov 28 15:19:19 +0000 2019",
+            "place": {
+                "name": "Vi",
+                "country code": "SE",
+                "population": "5841",
+                "latitude": "62.43333",
+                "longitude": "17.41667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Viđ þökkum Kristjönu G. Motzfeldt kærlega fyrir höfđinglega gjöf, málverk af eiginmanni sínum, fyrrum forsætisráđherra Grænlands Jonathan Motzfeldt 🇬🇱🇮🇸\nFormer F. Lady Krístjana G. Motzfeldt donated this portrait of Jonathan Motzfeldt former Premier of Greenland @Naalakkersuisut https://t.co/8RueGrkm31",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1193902520038559744",
+            "date": "Mon Nov 11 14:45:17 +0000 2019",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Great pleasure to meet and learn more about the Greenlandic #plasticnotsofantastic project 🇬🇱Here with cofounder Giiti Titussen visiting the Representation in Reykjavík 🇮🇸🇬🇱 and with his nomination for the Nordic Council's environmental prize. https://t.co/zN110kdjRT",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1189786990578941952",
+            "date": "Thu Oct 31 06:39:17 +0000 2019",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: ICE &amp; WINTER ROAD EXPED IN SIBERIA! Just a regular trip to Tiksi by Toyo... https://t.co/nrvEO0nKlY через @YouTube",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1184074656329936896",
+            "date": "Tue Oct 15 11:52:51 +0000 2019",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Fantastic visit from the U12 NÛK handball team from Nuuk, Greenland at the Greenland representation in Reykjavík. It's fun and an honor to meet the future star players from Greenland 🏆🥇Thanks to the club and their great coaches and we wish you a successful stay in Iceland! 🇬🇱🇮🇸 https://t.co/1w3eCMWbn6",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1183910766342279169",
+            "date": "Tue Oct 15 01:01:37 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Aeroflot started selling air tickets for flights to Yakutsk in Winter 2019-2020. Finally.",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1182980351414718464",
+            "date": "Sat Oct 12 11:25:05 +0000 2019",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GreenlandMFA: Marking a truly historic moment, as @ORGrimsson stated, our four Heads of Representation to Brussels, Copenhagen, Reykjav…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1182955230935310337",
+            "date": "Sat Oct 12 09:47:47 +0000 2019",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GreenlandRepDC: #Greenland has very much emerged on the world stage - 🇬🇱 is now taking the main stage at @_Arctic_Circle yet again for…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1175311800126099456",
+            "date": "Sat Sep 21 07:32:24 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "See and follow our Max Shirikov Expedition from Yakutsk to Mongolia and further to Altai, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, Azerbaijan, Dagestan, Moscow https://t.co/hljASIxeNU When the summer is over, why not do a big trip?! :) https://t.co/I35Wr3NWsj",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1173437423382073344",
+            "date": "Mon Sep 16 03:24:17 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Yakutsk - Magadan Road Trip, 03-09 Oct 2019, 10-16 Oct 2019. Start in the autumn. Travel through the winter. Finish in the gold autumn. \n\nhttps://t.co/CZrVzqEzsM",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1164742044838875136",
+            "date": "Fri Aug 23 03:35:30 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @yakutia: Weather is perfect in Yakutsk! A cruise ship is ready to depart for Tiksi, #Arctic seaport in #Russia. Fingers crossed. Hope o…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1135004210125312001",
+            "date": "Sun Jun 02 02:04:25 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Ленские Столбы зовут! Сезон открыт! / Lena Pillars are calling! Hooray! The summer season has started! 🚤⛴🛩 #LenaRiver #Yakutsk #Siberia #Russia https://t.co/nRgLmQnRGA",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1134428409889722368",
+            "date": "Sat Jun 01 02:46:47 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @yakutia: They say, the first passenger train will depart Yakutsk railway station 🚉 on July 27th, 2019. Don’t know whether to believe of…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1130023891257233408",
+            "date": "Sun May 19 08:15:50 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @yakutia: This morning on the Lena River in Yakutsk... Весна на реке Лена. Якутск, Якутия. 19.05.2019 https://t.co/95UAcGVmDu #Siberia #…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1113084137580179456",
+            "date": "Tue Apr 02 14:21:53 +0000 2019",
+            "place": {
+                "name": "Ii",
+                "country code": "FI",
+                "population": "6546",
+                "latitude": "65.31735",
+                "longitude": "25.3731",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "We started preparations for the upcoming summer season! Check out one of our group trips to Verkhoyansk #Siberia #Russia. Yes, it’s still #Yakutia 😊 https://t.co/MJv4me2T6f https://t.co/IiD8dE0T03",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1108285441801928705",
+            "date": "Wed Mar 20 08:35:18 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @yakutia: Railway station in front of Yakutsk across the Lena River. This time officials say the 1st passenger train will come in Septem…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1104573316315127808",
+            "date": "Sun Mar 10 02:42:55 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "GPS трек поездки на Магадан из Якутска... / Follow the GPS trek of our current journey from Yakutsk to Magadan... https://t.co/8QWPLub8v1 https://t.co/fNhQ8idnrR",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1098033014188240896",
+            "date": "Wed Feb 20 01:34:05 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Follow the GPS trek of Yakutsk - GULAGs - Oymyakon - Magadan Winter Kolyma Road Trip [LIVE NOW] https://t.co/U2oZBAOxKa #visityakutia",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1097475501348872194",
+            "date": "Mon Feb 18 12:39:07 +0000 2019",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: Вот и завершилась долгая поездка Максима с Алексеем и Сергеем на Север - в Тикси. Вся хроника и трек по данной ссылке https://…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1094162562080493568",
+            "date": "Sat Feb 09 09:14:18 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Hey, do you follow our overland expedition from Yakutsk to Tiksi? Not yet? You should! Our team made it to Ust Kuiga. The hardest part is left. Snow storm ahead! https://t.co/5W2BI6YW9E https://t.co/RtHE7lsTi9",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1093477932834742273",
+            "date": "Thu Feb 07 11:57:25 +0000 2019",
+            "place": {
+                "id": "aa5a3bba7e32448a",
+                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
+                "place_type": "city",
+                "name": "Yakutsk",
+                "full_name": "Yakutsk, Russia",
+                "country_code": "RU",
+                "country": "Russia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                129.5950817,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                61.949109
+                            ],
+                            [
+                                129.8662308,
+                                62.1833831
+                            ],
+                            [
+                                129.5950817,
+                                62.1833831
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {},
+                "latitude": 129.73065625,
+                "longitude": 62.066246050000004
+            },
+            "place_is_found": "False",
+            "text": "RT @yakutia: When your guests from #Thailand🇹🇭 arrive to #Yakutsk #Russia... 🤦‍♂️ We need to give them the warmest clothes as quick as poss…",
+            "map_handle": "visityakutia"
+        },
+        {
+            "id": "1092311194164170752",
+            "date": "Mon Feb 04 06:37:37 +0000 2019",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Yakutsk to Tiksi Winter Off-road Expedition has officially started! 3 Russians, 5 drivers from Kazakhstan 🇰🇿, 4 vehicles. Trek them over here https://t.co/Y6Zmd0Iuzm #visityakutia https://t.co/YgGDMljA2P",
+            "map_handle": "visityakutia"
         }
     ],
     "map": {

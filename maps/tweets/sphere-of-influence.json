@@ -2,6 +2,2117 @@
     "slug": "sphere-of-influence",
     "tweets": [
         {
+            "id": "1620127378625425410",
+            "date": "Mon Jan 30 18:30:42 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Switchboard operators of the International Telephone Exchange. Photo by B. Azarov (March 1960, Moscow). https://t.co/JBDFngvdmS",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1620037435123179521",
+            "date": "Mon Jan 30 12:33:18 +0000 2023",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"The Old East\", border crossing, #Berlin  1989/90, #gdr #DDR  #berlinwall #mauer #TheWall #socialism #Socialismo #Communism #Communists  #Socialist #Communist #History https://t.co/BceuTOUIhd",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1620033208304771074",
+            "date": "Mon Jan 30 12:16:30 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Post-Soviet visual. Photo by Igor Mukhin, Moscow, Russia, 2012. https://t.co/hf1WLzCm1d",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1619776780772196352",
+            "date": "Sun Jan 29 19:17:33 +0000 2023",
+            "place": {
+                "name": "Bobrov",
+                "country code": "RU",
+                "population": "20587",
+                "latitude": "51.09611",
+                "longitude": "40.03333"
+            },
+            "place_is_found": "True",
+            "text": "Hydrometeorological engineers Zoya and Yuri Sudakov take readings of the heliograph at the polar weather station. The East Siberian Sea, archipelago of the Bear Islands, island Chetyryokhstolbovy [Four Pillars]. Photo by N. Bobrov (March 3, 1979). https://t.co/JXerq9NRXl",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1619403911198302209",
+            "date": "Sat Jan 28 18:35:54 +0000 2023",
+            "place": {
+                "name": "Irkutsk",
+                "country code": "RU",
+                "population": "586695",
+                "latitude": "52.29778",
+                "longitude": "104.29639",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Kolkhoz workers Yelena and Leonid Panichkin in their new flat in Rubakino village, Irkutsk oblast (Russia, January 1983). https://t.co/o3pPrIlLcm",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1619400189961461762",
+            "date": "Sat Jan 28 18:21:06 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Children riding in a one-horse sleigh in the park. Photo by David Tierney (Moscow, late 1980s). https://t.co/MBbHpD3J4A",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1619384055790768128",
+            "date": "Sat Jan 28 17:17:00 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "\"Moscow beauty Galina\". Painting by Dmitry Pyatkin, USSR, 1960s. https://t.co/d9pskxzZ6c",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1619284524763959296",
+            "date": "Sat Jan 28 10:41:30 +0000 2023",
+            "place": {
+                "name": "Torgau",
+                "country code": "DE",
+                "population": "18746",
+                "latitude": "51.56016",
+                "longitude": "12.99617"
+            },
+            "place_is_found": "True",
+            "text": "Meeting of Soviet and American soldiers at Torgau, Germany, April 1945 https://t.co/A2ZhQxDVtF",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1619252885551972352",
+            "date": "Sat Jan 28 08:35:46 +0000 2023",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "A pair of penguin enamel podstakanniks (glass holders) made of melchior. Made at “Russian Gems”, Leningrad. USSR, 1970s. https://t.co/aFDqKgroqq",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1619249738033004545",
+            "date": "Sat Jan 28 08:23:16 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Book sellers on Kuznetsky Most street (Moscow, 1996) https://t.co/8RxiHcfocn",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1619245398396370951",
+            "date": "Sun Jan 29 08:18:30 +0000 2023",
+            "place": {
+                "id": "07d9c9e1ae883001",
+                "url": "https://api.twitter.com/1.1/geo/id/07d9c9e1ae883001.json",
+                "place_type": "poi",
+                "name": "Kilikia Bus Station",
+                "full_name": "Kilikia Bus Station",
+                "country_code": "AM",
+                "country": "Armenia",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                44.49087471331488,
+                                40.17216687080182
+                            ],
+                            [
+                                44.49087471331488,
+                                40.17216687080182
+                            ],
+                            [
+                                44.49087471331488,
+                                40.17216687080182
+                            ],
+                            [
+                                44.49087471331488,
+                                40.17216687080182
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {}
+            },
+            "place_is_found": "False",
+            "text": "RT @ThatchEffendi: Yerevan's Kilikia bus station feels like freebasing the Soviet Union. https://t.co/PnhnNhyumU",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1619102324231659520",
+            "date": "Fri Jan 27 22:37:30 +0000 2023",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "\"Leningrad calls\" Soviet poster, 1967. https://t.co/6rdT10dgLo",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1619035744609374208",
+            "date": "Fri Jan 27 18:12:56 +0000 2023",
+            "place": {
+                "name": "Samara",
+                "country code": "RU",
+                "population": "1134730",
+                "latitude": "53.20007",
+                "longitude": "50.15"
+            },
+            "place_is_found": "True",
+            "text": "Fox ceramic pitcher made in Kuibyshev (USSR, 1950s) https://t.co/w5SXlKLXkt",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1619034816967749633",
+            "date": "Fri Jan 27 18:09:15 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Trolleybus route 22. Photo by Boris Trepetov (Moscow, 1964). https://t.co/DAfP211Scc",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1619034705344749569",
+            "date": "Fri Jan 27 18:08:48 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Designers of the Likhachyov Moscow Automobile Factory develop a dump truck project. Photo by V. Shandrin (Moscow, April 18, 1963). https://t.co/Km5f1axlY9",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1619033622454886402",
+            "date": "Fri Jan 27 18:04:30 +0000 2023",
+            "place": {
+                "name": "Gatchina",
+                "country code": "RU",
+                "population": "89761",
+                "latitude": "59.57639",
+                "longitude": "30.12833"
+            },
+            "place_is_found": "True",
+            "text": "A Soviet soldier smashes a poster with the image of A. Hitler in liberated Gatchina with a rifle butt, January 1944 https://t.co/iB5PFdMiOW",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1618895535846604802",
+            "date": "Fri Jan 27 08:55:48 +0000 2023",
+            "place": {
+                "name": "Surgut",
+                "country code": "RU",
+                "population": "300367",
+                "latitude": "61.25",
+                "longitude": "73.41667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Buying a television. Photo by A. Myasnikov (Surgut, USSR, 1965). https://t.co/g8Ld383Tr2",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1618676180328263680",
+            "date": "Thu Jan 26 18:25:45 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "(part 2) Winter twilight. Photo by Vasily Ulitin (Moscow, 1930). https://t.co/FFXVtBRISZ https://t.co/NUnMlsebD2",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1618612199962054656",
+            "date": "Thu Jan 26 14:09:55 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Designers of a special art and design bureau are working on the design of production facilities of the Moscow Electric Lamp Plant. Photo by V. Koshevoy (Moscow, January 19, 1965). https://t.co/M5So9Slwhk",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1618610274868793345",
+            "date": "Thu Jan 26 14:02:16 +0000 2023",
+            "place": {
+                "name": "Baku",
+                "country code": "AZ",
+                "population": "1116513",
+                "latitude": "40.37767",
+                "longitude": "49.89201"
+            },
+            "place_is_found": "True",
+            "text": "Alone in the bleachers. Photo by Mark Grudsky (Baku, 1965). https://t.co/Y5rGZoyKJL",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1618335384437690368",
+            "date": "Wed Jan 25 19:49:57 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "A winter’s day in Moscow. Photo by Boris Kavashkin, Valery Khristoforov (1985). https://t.co/HBSTS2vMf3",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1618331970278395905",
+            "date": "Wed Jan 25 19:36:23 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Moscow metro escalator. Photo by Panayot Barnev (1985). https://t.co/99mAclAAtc",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1618284435014668288",
+            "date": "Wed Jan 25 16:27:30 +0000 2023",
+            "place": {
+                "name": "Salekhard",
+                "country code": "RU",
+                "population": "38025",
+                "latitude": "66.53",
+                "longitude": "66.60194"
+            },
+            "place_is_found": "True",
+            "text": "Settlement of reindeer breeders near Salekhard. Photo by Dean Conger, USSR, 1980. https://t.co/1qxRe8qfIp",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1618235991017259008",
+            "date": "Wed Jan 25 13:15:00 +0000 2023",
+            "place": {
+                "name": "Syktyvkar",
+                "country code": "RU",
+                "population": "230139",
+                "latitude": "61.664",
+                "longitude": "50.815"
+            },
+            "place_is_found": "True",
+            "text": "State Opera and Ballet Theatre, Syktyvkar, Komi ASSR, 1974. https://t.co/3jiNHps0HG",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1618172070218563586",
+            "date": "Wed Jan 25 09:01:00 +0000 2023",
+            "place": {
+                "name": "Jūrmala",
+                "country code": "LV",
+                "population": "54088",
+                "latitude": "56.968",
+                "longitude": "23.77038"
+            },
+            "place_is_found": "True",
+            "text": "Beach volleyball in Jurmala, Latvia, 1976 https://t.co/5gARUawd3d",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1617916502732341249",
+            "date": "Tue Jan 24 16:05:28 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "View of the VDNKh metro station in Moscow and its surroundings. Photo by L. Lazarev (1967). https://t.co/FmqsbacCe9",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1617623958089605120",
+            "date": "Mon Jan 23 20:43:00 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Ice rink in Gorky Park, Moscow, 1950s (photo by Viktor Akhlomov) https://t.co/9dzRAzRXZ4",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1617580793991409664",
+            "date": "Mon Jan 23 17:51:29 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Photo by V. Gende-Rote (Moscow, 1970s) https://t.co/cRCmRR2kUu",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1617555381143609351",
+            "date": "Mon Jan 23 16:10:30 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Parade decoration for 17th anniversary of the October Revolution, Moscow, USSR, 1934. https://t.co/ijeAK9dyRt",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1617506408597016578",
+            "date": "Mon Jan 23 23:25:20 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietPostcards: Central control room of Sheremetyevo Airport. Photo by A. Vorotynsky (Moscow, 1960). https://t.co/bsgkovdoYM",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1617506280154750980",
+            "date": "Mon Jan 23 12:55:23 +0000 2023",
+            "place": {
+                "name": "Velikiy Ustyug",
+                "country code": "RU",
+                "population": "32642",
+                "latitude": "60.76186",
+                "longitude": "46.31352"
+            },
+            "place_is_found": "True",
+            "text": "Children playing in the snow. Photo by Vsevolod Tarasevich (Veliky Ustyug, Russia, 1970s). https://t.co/5zCO9zo3fZ",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1617444148407148545",
+            "date": "Mon Jan 23 08:48:30 +0000 2023",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "Two girls assemble submachine guns during the siege of Leningrad, 1942 https://t.co/nmQjCbO3Z6",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1617441503550312448",
+            "date": "Mon Jan 23 08:37:59 +0000 2023",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"Over the Wall\", Brandenburg Gate, #Berlin 1980s, #GDR #brandenburgertor #DDR #Socialism #Socialismo #Communism #Communists #Socialist #communist #History https://t.co/tcZS0x9p8e",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1617228980800593926",
+            "date": "Sun Jan 22 18:33:30 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "A winter evening on Revolution Square in Moscow, 1950s (photo by V. Kovrigin) https://t.co/9Qb5t5L3mQ",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1617225593149394944",
+            "date": "Sun Jan 22 18:20:02 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Tverskoy boulevard in Moscow. Photo by B. Vdovenko (1936). https://t.co/W5LewdDEzQ",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1617225224092778497",
+            "date": "Sun Jan 22 18:18:34 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Moscow call-in information office (\"Mosgorspravka\"). Photo by V. Gende-Rote (1962). https://t.co/U7wE1VUK5t",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1617222250834411528",
+            "date": "Sun Jan 22 18:06:45 +0000 2023",
+            "place": {
+                "name": "Sergiyev Posad",
+                "country code": "RU",
+                "population": "109252",
+                "latitude": "56.3",
+                "longitude": "38.13333"
+            },
+            "place_is_found": "True",
+            "text": "Wooden painted dolls of Soviet republics (Zagorsk, 1950s) https://t.co/tt4WFpzl6q",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1616867725070028801",
+            "date": "Sat Jan 21 18:38:00 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Policemen cordoning off a musical show. Photo by Igor Stomakhin, Moscow, USSR,1989. https://t.co/HzjxLeSCr3",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1616852166416687106",
+            "date": "Sat Jan 21 17:36:10 +0000 2023",
+            "place": {
+                "name": "Arkhangel’sk",
+                "country code": "RU",
+                "population": "356051",
+                "latitude": "64.5401",
+                "longitude": "40.5433",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "View from the Cathedral of the Archangel in Moscow Kremlin. Photo by Vladimír Vlček (1947). https://t.co/aNKHETpKJO",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1616814247807258630",
+            "date": "Sat Jan 21 15:05:30 +0000 2023",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "\"Snow White and the Seven Dwarfs\" poster by Leningrad theatre named after Lenin Komsomol, USSR, 1962. https://t.co/37LsQoVga0",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1616813751079952384",
+            "date": "Sun Jan 22 14:29:05 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @TSJPhillips: USSR athletes competed at the Olympics for the first time in Helsinki in 1952. Moscow was so worried, it forced the Finns…",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1616524943235186702",
+            "date": "Fri Jan 20 19:55:54 +0000 2023",
+            "place": {
+                "name": "Riga",
+                "country code": "LV",
+                "population": "742572",
+                "latitude": "56.946",
+                "longitude": "24.10589"
+            },
+            "place_is_found": "True",
+            "text": "The Thirteen Chairs café in Riga, Latvia. Photo by Aleksandr Makarov (1970). https://t.co/NbyTtXPKbM",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1616507153338236933",
+            "date": "Fri Jan 20 18:45:13 +0000 2023",
+            "place": {
+                "name": "Kazan",
+                "country code": "RU",
+                "population": "1104738",
+                "latitude": "55.78874",
+                "longitude": "49.12214"
+            },
+            "place_is_found": "True",
+            "text": "Late winter in Kazan. Photo by Rustam Mukhametzyanov (1974). https://t.co/1IcYylvxn6",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1616507012778496002",
+            "date": "Fri Jan 20 18:44:39 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Moscow’s Sheremetyevo Airport. Photo by A. Vorotynsky (1960). https://t.co/7UXLTCgoTL",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1616505453705416704",
+            "date": "Fri Jan 20 18:38:28 +0000 2023",
+            "place": {
+                "name": "Yevpatoriya",
+                "country code": "UA",
+                "population": "106202",
+                "latitude": "45.20091",
+                "longitude": "33.36655"
+            },
+            "place_is_found": "True",
+            "text": "Dairy products on sale in the shop No. 26 (\"Milk\") in Yevpatoriya (1978) https://t.co/E0JfCylVm9",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1616455635142336515",
+            "date": "Fri Jan 20 15:20:30 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Kursky railway station. Photo by Viktor Akhlomov, Moscow, USSR, 1989. https://t.co/BicUTx6pWl",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1616079028183523328",
+            "date": "Thu Jan 19 14:24:00 +0000 2023",
+            "place": {
+                "name": "Samarkand",
+                "country code": "UZ",
+                "population": "319366",
+                "latitude": "39.65417",
+                "longitude": "66.95972"
+            },
+            "place_is_found": "True",
+            "text": "Old man of Samarkand, Uzbek SSR, 1959. https://t.co/IuzFWSsPdZ",
+            "map_handle": "sovietvisuals"
+        },
+        {
+            "id": "1615812848025800715",
+            "date": "Wed Jan 18 20:46:17 +0000 2023",
+            "place": {
+                "name": "Torgau",
+                "country code": "DE",
+                "population": "18746",
+                "latitude": "51.56016",
+                "longitude": "12.99617"
+            },
+            "place_is_found": "True",
+            "text": "Lieutenant Bill Robertson and Lieutenant Alexander Silvashko, after the meeting of Soviet and American armies at Torgau, Germany, April 1945 https://t.co/LkfTyBcjbw",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1615727210211549184",
+            "date": "Wed Jan 18 15:06:00 +0000 2023",
+            "place": {
+                "name": "Minsk",
+                "country code": "BY",
+                "population": "1742124",
+                "latitude": "53.9",
+                "longitude": "27.56667"
+            },
+            "place_is_found": "True",
+            "text": "\"Chinese children visiting Minsk pioneers\", soviet painting by Valeriana Zholtok, 1950s https://t.co/WcT5W6aJWB",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1615442124249391122",
+            "date": "Tue Jan 17 20:13:10 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "A winter evening on Revolution Square in Moscow. Photo by V. Kovrigin (1950s). https://t.co/dP06ME9CAJ",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1615427929034625026",
+            "date": "Tue Jan 17 19:16:46 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "View of the Red Square in winter. Photo by Nikolai Rakhmanov (Moscow, 1970s). https://t.co/adFyiXQM0t",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1615318027448246272",
+            "date": "Tue Jan 17 12:00:03 +0000 2023",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "Mikhail Gorbachev and Raisa Gorbacheva accompanied by Vladimir Putin, Saint Petersburg, 1994 https://t.co/ICKO0q0lWP",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1615280140510195712",
+            "date": "Tue Jan 17 09:29:30 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Walking in the snowstorm. Pushkin Square, Moscow (1960s). https://t.co/llls0veAC4",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1615274317771669505",
+            "date": "Tue Jan 17 09:06:22 +0000 2023",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"The last torch train\", Oktober 1989, #Berlin #GDR Celebration of the east #German State's 40th birthday. Weeks later East #Germany collapsed. #DDR #diewende #berlinwall #berlinmauer #Socialism #Socialismo #Communism #Communist #History https://t.co/L7EBux7FJG",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1615068620291276809",
+            "date": "Mon Jan 16 19:29:00 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Moscow family, 1953 (photo by B.Kolesnikov) https://t.co/mKOf07O8iy",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1615047175704133633",
+            "date": "Mon Jan 16 18:03:47 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Winter in Moscow https://t.co/fk2ofA6kBI",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1615046791233212423",
+            "date": "Mon Jan 16 18:02:15 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Buffet at Park Kultury [Culture Park] metro station. Photo by Mario De Biasi (Moscow, 1960). https://t.co/PT2bTvxGDV",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1614964773824921600",
+            "date": "Mon Jan 16 12:36:21 +0000 2023",
+            "place": {
+                "name": "Kaluga",
+                "country code": "RU",
+                "population": "338978",
+                "latitude": "54.5293",
+                "longitude": "36.27542"
+            },
+            "place_is_found": "True",
+            "text": "Sovkhoz Tarusa, Kaluga oblast, Russia (1970) https://t.co/7YZiCrcMbA",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1614964655272738816",
+            "date": "Mon Jan 16 12:35:53 +0000 2023",
+            "place": {
+                "name": "Vorkuta",
+                "country code": "RU",
+                "population": "80039",
+                "latitude": "67.49884",
+                "longitude": "64.05253"
+            },
+            "place_is_found": "True",
+            "text": "Toy shop in Vorkuta. Photo by R. Yuniter (USSR, 1977). https://t.co/1m3fbq6jni",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1614905293984481281",
+            "date": "Mon Jan 16 08:40:00 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Young woman reading outside in the winter, Moscow, 1960 (photo by Mario De Biasi) https://t.co/ny63NUPhK6",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1614527932365508608",
+            "date": "Sun Jan 15 07:40:30 +0000 2023",
+            "place": {
+                "name": "Volgograd",
+                "country code": "RU",
+                "population": "1011417",
+                "latitude": "48.71939",
+                "longitude": "44.50183"
+            },
+            "place_is_found": "True",
+            "text": "\"Stalingrad\", soviet tourism poster, 1958 https://t.co/MH0BPwCnqQ",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1614497707414126594",
+            "date": "Sun Jan 15 05:40:24 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Krasnaya Presnya st. in Moscow (1982) https://t.co/o9SuKWY9Ly",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1614496283003084800",
+            "date": "Sun Jan 15 05:34:44 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Snow Cheburashka in Lytkarino, Moscow oblast. Photo by V. Dobrikov (1985). https://t.co/sMpA5vTxwj",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1614352954932224001",
+            "date": "Sat Jan 14 20:05:12 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Kuznetsky Most street in Moscow. Photo by V. Vodovozov (January 1973). https://t.co/IZQ5YSTAn1",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1614352309177163776",
+            "date": "Sat Jan 14 20:02:38 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Elektrichka (suburb commuter train). Photo by Igor Gnevashev (Moscow oblast, 1970s). https://t.co/qTipDjpXr1",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1614321110807445506",
+            "date": "Sat Jan 14 17:58:40 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Holiday sled train in Sokolniki park. Photo by Oleg Makarov (Moscow, 1971). https://t.co/0AdeT2YSEF",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1614240916193042433",
+            "date": "Sat Jan 14 12:40:00 +0000 2023",
+            "place": {
+                "name": "Tbilisi",
+                "country code": "GE",
+                "population": "1049498",
+                "latitude": "41.69411",
+                "longitude": "44.83368"
+            },
+            "place_is_found": "True",
+            "text": "Ortachala Fire Station mosaic from 1979 in Tbilisi, Georgia https://t.co/21vvmcG4C0",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1614220589606260737",
+            "date": "Sat Jan 14 11:19:13 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Information transforming device for connecting punch card calculating machines and telegraph communication channels. InterOrgTechnics-66 exhibition, the Soviet pavilion. Photo by N. Sitnikov, B. Trepetov (Moscow, September 9, 1966). https://t.co/Afl6F2wXAJ",
+            "map_handle": "SovietPostcards"
+        },
+        {
+            "id": "1613817929778319361",
+            "date": "Fri Jan 13 08:39:12 +0000 2023",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"The Last One\", Karl Marx Allee, Oktober 1989, #Berlin #GDR The parade celebrating East #Germany and it's 40 years anniversary, would be the last one. The #SED regime felt just weeks later. #Communism #Socialism #Socialismo #Marxist #socialist #Communist #History https://t.co/8bI32vh7Kd",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1613650023065034754",
+            "date": "Thu Jan 12 21:32:00 +0000 2023",
+            "place": {
+                "name": "Volgograd",
+                "country code": "RU",
+                "population": "1011417",
+                "latitude": "48.71939",
+                "longitude": "44.50183"
+            },
+            "place_is_found": "True",
+            "text": "Joseph Stalin kisses the \"Sword of Stalingrad\" during the Tehran Conference, Iran, 1943 https://t.co/ehuVoZZXgd",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1613304336892796928",
+            "date": "Wed Jan 11 22:38:22 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Medical students at the Patrice Lumumba People's Friendship University, Moscow, 1985 (photo by Petr Nosov) https://t.co/C4oDgw5f4k",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1611998737861349378",
+            "date": "Sun Jan 08 08:10:23 +0000 2023",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Changing Sectors\", #American / #Soviet sector border, January 1968, #Berlin #GDR #DDR #coldwarhist #capitalism #Communism #Socialismo #Socialism #Communists #socialist #History https://t.co/Rh7PH7eF1K",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1611838382304370688",
+            "date": "Sat Jan 07 21:33:11 +0000 2023",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "Lenin Monument at the Finland Station in Leningrad, 7th November 1947\n(photo by Alexander Ustinov) https://t.co/0upw2WsB8S",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1611448527191687168",
+            "date": "Fri Jan 06 19:44:02 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Look what an amazing New Year party our team had together with #GoPinball — Museum of Pinball in Moscow! \nThanks everyone! It was super fun 🤩 https://t.co/NCDrCOyWjq",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1611301659644203009",
+            "date": "Fri Jan 06 10:00:26 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Playing chess in a park, Moscow, 1950s https://t.co/O9FbyhdolZ",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1610649947375915008",
+            "date": "Wed Jan 04 14:50:46 +0000 2023",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "Look what we have in our museum in St. Petersburg now!\nThis is called “subsoccer” and it is absolutely perfect for those who already need some rest but totally doesn’t want to stop playing yet 🤩\nWould you like to try it? ⚽️ https://t.co/8iRZsKD4tg",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1610557235771445249",
+            "date": "Wed Jan 04 08:42:22 +0000 2023",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"It's January\", Brandenburg Gate, #Berlin 1964, #GDR #BrandenburgerTor #DDR #Socialism #Socialismo #Communism #Communists #Communist #History https://t.co/F0tgMh15Hh",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1609842671710789632",
+            "date": "Mon Jan 02 09:22:57 +0000 2023",
+            "place": {
+                "name": "Strelka",
+                "country code": "RU",
+                "population": "5677",
+                "latitude": "58.07278",
+                "longitude": "93.03444"
+            },
+            "place_is_found": "True",
+            "text": "Soviet space dogs Strelka and Belka, 1960 https://t.co/hslwKYqgIe",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1609121958569951234",
+            "date": "Sat Dec 31 09:39:05 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"Both Ways\", #Berlin 1960s, #GDR #DDR Best wishes for #NewYear 2023. #Stalin #Lenin #Marxism #Communism #Socialism #socialismo #communist #History https://t.co/OPmFEUHaEu",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1609109670991470595",
+            "date": "Sat Dec 31 08:50:16 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Pelé and Soviet goalkeeper Anzor Kavazashvili after the friendly match in Moscow, 1965 https://t.co/TkChsQt82O",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1608104646966476800",
+            "date": "Wed Dec 28 14:16:39 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "This is how we decorated our museums both in Moscow and St. Petersburg!\n\nThe secrets are: team work, holidays vibes… and a bit of magic 🪄✨ https://t.co/ZZgKrjR6pw",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1608089256752193536",
+            "date": "Wed Dec 28 13:15:30 +0000 2022",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "German rock band \"Scorpions\" in Leningrad, 1988 https://t.co/AYbKVWLZMt",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1607386660307623936",
+            "date": "Mon Dec 26 14:43:38 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Soldiers celebrating New Year in Moscow region, 1942 https://t.co/WgHcuBk8BJ",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1606573904738234368",
+            "date": "Sat Dec 24 08:54:02 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" Walking home for #Christmas \", Kastanienalle 1960s, #Berlin #GDR #DDR #socialism #Socialismo #communism #Communist #History https://t.co/HdKZnnCALe",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1606388172471996417",
+            "date": "Fri Dec 23 20:36:00 +0000 2022",
+            "place": {
+                "name": "Saratov",
+                "country code": "RU",
+                "population": "863725",
+                "latitude": "51.54056",
+                "longitude": "46.00861"
+            },
+            "place_is_found": "True",
+            "text": "City of Saratov in the evening, 1988 (photo by Vadim Kann) https://t.co/fpZ2eiVjrn",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1605978221429854208",
+            "date": "Thu Dec 22 17:27:00 +0000 2022",
+            "place": {
+                "name": "Baku",
+                "country code": "AZ",
+                "population": "1116513",
+                "latitude": "40.37767",
+                "longitude": "49.89201"
+            },
+            "place_is_found": "True",
+            "text": "Foreign students during a demonstration in Baku, Azerbaijan, 1972 (photo by Henri Cartier-Bresson) https://t.co/xSDxxtQRfW",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1605918085248073731",
+            "date": "Thu Dec 22 13:28:02 +0000 2022",
+            "place": {
+                "name": "Yalta",
+                "country code": "UA",
+                "population": "77003",
+                "latitude": "44.50218",
+                "longitude": "34.16624"
+            },
+            "place_is_found": "True",
+            "text": "Monument to Stalin, Roosevelt and Churchill in Yalta, Crimea https://t.co/UdQFPY5BP3",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1605837310502789121",
+            "date": "Thu Dec 22 08:07:04 +0000 2022",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "Leningrad in 1988 (photo by Victor Akhlomov) https://t.co/UPDaBvA8py",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1605542852498313216",
+            "date": "Wed Dec 21 12:37:00 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "\"Surrender of Berlin\", painting by Pyotr Krivonogov, 1946 https://t.co/XVz5K5AC3e",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1605487082087976961",
+            "date": "Wed Dec 21 08:55:23 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Two Decembers\", Brandenburg Gate, #Berlin #GDR #December in 1964 and 1945. #DDR #mauer #brandenburgertor #Brandenburg #Christmas #Socialism #Socialismo #Communism #WW2 #WWII  #communist #History https://t.co/kffEadiyow",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1604398813975678976",
+            "date": "Sun Dec 18 08:51:00 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Mural of Lenin in Moscow, 1982 (photo by Barry Lewis) https://t.co/0NGtJ4dsdB",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1604179598471733248",
+            "date": "Sat Dec 17 18:19:55 +0000 2022",
+            "place": {
+                "name": "Irkutsk",
+                "country code": "RU",
+                "population": "586695",
+                "latitude": "52.29778",
+                "longitude": "104.29639",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Polytechnic Institute in Irkutsk, 1972 https://t.co/QNR2Mc5G2H",
+            "map_handle": "PicturesUssr"
+        },
+        {
+            "id": "1604063259602067457",
+            "date": "Sat Dec 17 10:37:37 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \" #Christmas at the gate \", Brandenburg Gate 1960s, #Berlin #GDR #DDR #brandenburgertor #winter #Socialism #Socialismo #Communism #Communist #History https://t.co/qTlaw3Mabv",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1602941973240889345",
+            "date": "Wed Dec 14 08:22:02 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" #GDR behind the fog \", #Berlin 1980s. #DDR #Berlinwall #mauer #sozialismus #socialism #socialismo #Communism #Communist #History https://t.co/JU0MKbILOK",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1602276379516715011",
+            "date": "Mon Dec 12 12:17:12 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Wall n' Winter\", #December 1968, #Berlin #GDR #berlinwall #mauer #DDR #sozialismus #Socialism #socialismo #Communism #Communist #History https://t.co/lMTJpZJKIk",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1600762246262493184",
+            "date": "Thu Dec 08 08:00:34 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar The #Communist elite in the former #GDR and their secret hideout outside #Berlin ➡️https://t.co/nFFSjWbuPg #DDR #waldsiedlung #socialism #Socialismo #Communism #History",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1600098484308148226",
+            "date": "Tue Dec 06 12:03:01 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" #GDR in the mist \", #Berlin 1980s. #wintertime #DDR #socialism #Socialismo #Communism #Communists #Communist #History https://t.co/TjnMjFukc0",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1598688799659286528",
+            "date": "Fri Dec 02 14:41:26 +0000 2022",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "We’re happy to show you our new merch design!\nOur museum in St. Petersburg created these t-shirts together with a local illustrator bureau. And last week we made a photoshoot of the museum’s team wearing new merch 🤩\nBTW, shirts are already on sale — but temporarily only in SPb https://t.co/Hu6wDf6sCb",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1598604269040455680",
+            "date": "Fri Dec 02 09:05:33 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"Wintertime\", #Brandenburg Gate, December 1970, #Berlin , #GDR #DDR #brandenburgertor #winter #socialism #socialismo #Communism #Communist #History https://t.co/jWXs3OcFAa",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1598370673306570763",
+            "date": "Thu Dec 01 17:37:19 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "We have a special plate in our museum in Moscow.\nIt’s placed in the reception area and has all the information on the condition of our machines at the moment. They’re fragile and break quite often.\nHere you can see which ones work and which are in repairs — we renew it every day! https://t.co/vgZvr0y0LE",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1598063745389170690",
+            "date": "Wed Nov 30 21:17:42 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Hi everyone! We wanted to announce a new syrup flavor we got for our Soviet soda water machine — Lemon Syrup🍋 \nAlthough it’s new in our menu, Lemon flavor is made according to Soviet GOSTs as all our other syrups. So it’s 💯% authentic!\nCome and taste it in our Museum in Moscow! https://t.co/NWigmewiOg",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1597881105897885696",
+            "date": "Wed Nov 30 09:11:57 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Bleak View\", #Berlin 1974, #gdr From west, looking east. #berlinwall #berlinermauer #mauer #DDR #Socialism #SOCIALISMO #Communism #Communist #History https://t.co/F6yqs12kHC",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1597162126866788352",
+            "date": "Mon Nov 28 09:34:59 +0000 2022",
+            "place": {
+                "name": "Hamburg",
+                "country code": "DE",
+                "population": "1739117",
+                "latitude": "53.55073",
+                "longitude": "9.99302"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Nerves and Hope\", #Hamborg 1974, #FIFAWorldCup at Volksparksstadion. West #Germany vs. #GDR #DDR #Fussball #soccer #football #History https://t.co/rYGzJ6Fg1o",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1596048845448044544",
+            "date": "Fri Nov 25 07:51:12 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Listen Up\", #SED Party Day, #Berlin 1971, #GDR First Secretary Erich Honecker speaking. #DDR #politics #sozialismus #socialism #Socialismo #Communism #Communist #History https://t.co/vZDsu6cO3m",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1595349287260639232",
+            "date": "Wed Nov 23 09:31:24 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" Reaching out for #Christmas \", #Berlin 1961, #GDR First #Winter at the Berlin Wall. West Berliners waving to family. #berlinwahl #mauer #DDR  #thewall #Socialism #socialismo #Communism #Communist #History https://t.co/NhDuiMN6QA",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1593578409959071744",
+            "date": "Fri Nov 18 12:14:34 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"New World at the end of the Street\", #Berlin 1983, #GDR #American #sector #berlinwall #mauer #DDR #socialism #socialismo #socialistas #socialiste #Communism  #Communist #History https://t.co/NwfDB3Edlu",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1592848439351840768",
+            "date": "Wed Nov 16 11:53:56 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \" Everyday life in the #GDR \", #Berlin 1970's. #socialism #SOCIALISMO #Communism #socialist #History https://t.co/hUbCs2JnJa",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1580472496327118849",
+            "date": "Thu Oct 13 08:16:21 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" Two aces of #GDR #socialism \", #Berlin 1980s. #plattenbau #trabant #trabi #DDR #communism #Socialist #History https://t.co/bgjOJidCSa",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1578317736169512965",
+            "date": "Fri Oct 07 09:34:06 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Bernauer Strasse '61\", #Berlin 1961, #GDR #DDR #berlinwall #mauer #socialism #socialismo #Communism #communist #History https://t.co/3tf2zs4hf6",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1576856914914250752",
+            "date": "Mon Oct 03 08:49:19 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"A peek towards west\", #Berlin 1980s, #gdr #BrandenburgerTor #BerlinerMauer #DDR #BerlinWall #socialism #Socialismo #Communism #History https://t.co/3uj7DufM7Z",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1575804624132444160",
+            "date": "Fri Sep 30 11:07:54 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar Read a piece on life in the #Berlin underground during the Cold war era. #GDR #DDR https://t.co/WMs8KyiF3e #socialism #Socialismo #Communism #Socialist #History",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1575803345687965696",
+            "date": "Fri Sep 30 11:02:49 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Remember loving your fatherland\", #Berlin 1970s, #GDR #DDR #socialism #Socialismo #Communism #Socialist #History https://t.co/jWjYFmBtSl",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1575128333360168968",
+            "date": "Wed Sep 28 14:20:33 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Just if you didn’t know — since summer you can buy legendary Soviet sneakers “Dva Myacha” in both our museums in Moscow and St. Petersburg! 🥳\nBut why do they remain popular for almost 60 years? What makes them so cool? Let’s immerse a bit in the historical context! https://t.co/CR9xibBQBH",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1566712286609285123",
+            "date": "Mon Sep 05 08:58:11 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"The Chosen One\", #Berlin 1989, #GDR  Erich Honecker's May parade. #DDR #SED #socialism #Communism #socialismo #Sozialismus #socialist #History https://t.co/eYu6UeStVr",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1565089234100396032",
+            "date": "Wed Aug 31 21:28:46 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "We have great news! There’s a new arrival in our museum in Moscow. It’s a Soviet vending machine that used to spray cologne! Though it doesn’t work now, we’ll try to improve it👍\nIt’s very pretty and rare, and it’s also the oldest machine in our exposition — it was made in 1960s! https://t.co/8Lf9woqQYs",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1561703936876240898",
+            "date": "Mon Aug 22 13:16:48 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Traffic Circle\". Running through Potsdamer Platz, #Berlin 1962. #GDR #DDR #berlinwall #mauer #Socialismo #Socialism #Communism #History https://t.co/xSIj9pWcPX",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1559993697256804358",
+            "date": "Wed Aug 17 20:00:55 +0000 2022",
+            "place": {
+                "name": "Munich",
+                "country code": "DE",
+                "population": "1260391",
+                "latitude": "48.13743",
+                "longitude": "11.57549"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar As the #EuropeanChampionships in #Munich is well underway, here’s a read on how the #GDR once participated. https://t.co/tS1ptf2wo6 #DDR #socialism #communism #History",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1552068566526066688",
+            "date": "Tue Jul 26 23:09:16 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Here is the machine we have in our museum in Moscow. It’s the only copy we have and it’s super rare. Ladies &amp; gentlemen, we’re pleased to introduce “Lobis” - one and only gambling machine that we have. Unfortunately, it’s in repair mode now, but it doesn’t make it less exciting! https://t.co/o84MJRnynx",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1550927663547686912",
+            "date": "Sat Jul 23 19:35:44 +0000 2022",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "Hi! Here’s a super cool table game — “From morning to night”. It’s based on a “regular” day of a St. Petersburg citizen: visiting Hermitage museum,  dancing salsa between the Rostral Columns, eating shawarma for lunch and even driving to Finland (oh yes, we all live like that 😎) https://t.co/6Tzotl1f6C",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1538419517872816129",
+            "date": "Sun Jun 19 07:12:50 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Watching as the world change\", #Berlin 1961, #GDR Early stage in building the #berlinwall #mauer #DDR #Communism #socialism #Socialismo #communist #History https://t.co/H0zCMYuUUB",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1535151928149217281",
+            "date": "Fri Jun 10 06:48:36 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"Two Worlds\", #Berlin 1980s, #GDR #DDR The #berlinwall from the sky. #mauer #socialism #socialismo #Communism #Storia #Historia #Communist #History https://t.co/vIU1OupEms",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1534140306353954816",
+            "date": "Tue Jun 07 11:48:46 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Hi everyone! We’re back to tell you about one of the coolest new things we have in our museum in Moscow. It’s a vending machine that makes oxygen cocktails! And now we’ve repaired it so every guest can take a sip of this tasty and super healthy drink 🥳\nHave you ever tried it? https://t.co/YUeTSHo0io",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1534070349654020096",
+            "date": "Tue Jun 07 07:10:47 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Human After All\", #Berlin 1980s, #GDR East german border troops feed birds. #DDR #berlinwall #mauer #Socialism #Socialismo #historia #storia #communism #Communist #History https://t.co/IpFdtxCAZv",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1529356481182806016",
+            "date": "Wed May 25 06:59:33 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Wasteland\", Potsdamer Platz, early 1980s, #Berlin #GDR #Socialism #Socialismo #communism #DDR #History https://t.co/ELmlcpLaEs",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1526102076970913792",
+            "date": "Mon May 16 07:27:43 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Don't Go There\", #Berlin 1962, #GDR Part of the death strip on Potsdamer Platz. #DDR #socialism #Socialismo #Communism #Communist #History https://t.co/iqDcEQmzKT",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1521393163683999745",
+            "date": "Tue May 03 07:36:10 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar Read of #Berlin beneath ground during the Cold War. https://t.co/WMs8KyAgrO #GDR #DDR #BRD #socialism #socialislismo #Communism #communist #History",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1521390209941704709",
+            "date": "Tue May 03 07:24:26 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"A #Socialist Welcome\", Checkpoint Charlie, #Berlin 1969, #GDR #DDR #socialism #Socialismo #socialistes #Communism #Communist #History https://t.co/pVTnWcsb3n",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1516014777918709760",
+            "date": "Mon Apr 18 11:24:23 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Early Days\", #Berlin 1961/62, #GDR #DDR #berlinwall #mauer #thewall #Socialism #Socialismo #communism #Communist #socialist #History https://t.co/heKcxlNWXB",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1509816747293134848",
+            "date": "Fri Apr 01 08:55:38 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" Road made for #socialism \", #Berlin 1987, #GDR #DDR #socialismo #Socialista #Communism #Communist #Socialist #History https://t.co/XvzgI8oALD",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1508701532572864512",
+            "date": "Tue Mar 29 07:04:10 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"Getting ready for a big charade\", Karl-Marx-Allee, early 1980s. #Berlin #GDR #DDR #karlmarx #Communism #Socialism #socialismo #Communist #socialist #History https://t.co/9Bi5LOE1GF",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1506937783658631175",
+            "date": "Thu Mar 24 10:15:39 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar The hidden place outside #Berlin the #GDR elite called home. #DDR #SED #History  https://t.co/nFFSjWt6dQ #Socialist #socialistas #socialism #socialismo #Communism",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1506935951687397379",
+            "date": "Thu Mar 24 10:08:23 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" A Duo \", #Berlin 1970-71, #GDR #DDR Two men ruled the former East #Germany for most of nation's existence. Walter Ulbricht, 1949-71. Erich #Honecker, 1971-89. Egon Krenz was handed 2,5 months in charge in 1989, when it was all over. #SED #socialist #Communist #History https://t.co/ysqFHr5MvR",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1506622983548411904",
+            "date": "Wed Mar 23 13:24:45 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"Cold Winter\", #Berlin 1980s, #gdr #DDR Overlooking no man's land. #socialism #socialismo #Communism #Communist #socialist #History https://t.co/oXQhFcSJht",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1501834721243938816",
+            "date": "Thu Mar 10 08:17:54 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Walls Everywhere\", Potsdamer Platz, #Berlin 1986, #GDR #DDR #Socialism #socialismo #thewall #berlinwall #mauer #Communism #Communist #Socialist #History https://t.co/4eJWijnvQr",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1500811440869060613",
+            "date": "Mon Mar 07 12:31:45 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Culture on Karl-Marx-Allee\", #Berlin early 1980s, #GDR #DDR Rather progressive variety of movies in a staunch #socialist regime. #tootsie #socialism #Socialismo #Communism #Communist #History https://t.co/Ijr4Nw3PbD",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1499324257523965952",
+            "date": "Thu Mar 03 10:02:13 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Seeing things with own eyes\", #Berlin 1963, #GDR President Kennedy visits the #berlinwall at Brandenburger Gate showing #USA stands with West berliners, supporting #freedom #JFK #DDR #socialism #socialismo #Communism #Communists #Socialist #Communist #History https://t.co/ZP3AFHtRdj",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1496034496273174531",
+            "date": "Tue Feb 22 08:09:53 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" Daily life in the #GDR \", Alexanderplatz, 1962, #Berlin #DDR #socialism #socialismo #Communism #Comunista  #Socialist #Communist #History https://t.co/Sz7JfRlu3X",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1493705059938541571",
+            "date": "Tue Feb 15 21:53:32 +0000 2022",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Look what we have in our souvenir store now! Four volumes of “The History of Nintendo” by @FlorentGorgesFR, telling you literally everything about the history of videogames 🖥🕹\nIf you want to educate yourself a bit, come and get these at our museums — in Moscow &amp; St. Petersburg! https://t.co/kmrMefEyQT",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1491737356730310658",
+            "date": "Thu Feb 10 11:34:35 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Bernauer Strasse\", #Berlin 1968, #Soviet sector, #GDR #DDR #socialism #SOCIALISMO #communism #socialiste #Communiste #communist #Socialist  #History https://t.co/Z4FIV3YwTF",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1488103189656309760",
+            "date": "Mon Jan 31 10:53:42 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"The #GDR by decade - 1980s\", Unter den Linden, #Berlin 1982. #DDR #socialism #Socialismo #Communism #Communist #History https://t.co/dweSkkCZpL",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1486332236882493443",
+            "date": "Wed Jan 26 13:36:34 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar Read: How a dissolved #gdr laid its noblest #football tournament in the grave. #DDR #Oberliga https://t.co/NlMau8KZt6 #soccer #magdeburg #dynamo #Berlin #Dresden #Hansa #Rostock #Brandenburg @DDROberligaFR @Fussball_DDR @FCTimeNations @80s90sfootball #Fussball #History",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1486256809933479938",
+            "date": "Wed Jan 26 08:36:51 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"The #GDR by decade \",  Alexanderplatz,  #Berlin 1972. #alexanderplatz #DDR #socialism #SOCIALISMO #Communists #communism #Communist #History #HistoryMatters https://t.co/9jYIF9Ho41",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1485281236545327111",
+            "date": "Sun Jan 23 20:02:49 +0000 2022",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "RT @assomo5: Et les émissions #RETROGAMING de la semaine, à commencer par notre dernier live #twitch consacré à #Apple, mais également une…",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1484102414034739200",
+            "date": "Thu Jan 20 09:56:03 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"The #GDR by decade - 1960s\", Potsdamer Platz, #Berlin 1962. (1/3). #DDR #potsdamerplatz #Socialism #Socialismo #communism #Communist #History https://t.co/1sPfDkASEu",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1482663443387854851",
+            "date": "Sun Jan 16 10:38:06 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \" On the outskirts of #Berlin \", Early 1980s, #GDR #DDR #SocialistSunday #socialism #Socialismo #Communism #Communists #Communist #History https://t.co/eOwhDznu7p",
+            "map_handle": "ColdWarRecords"
+        },
+        {
             "id": "1481970603636801536",
             "date": "Sat Jan 15 00:07:09 +0000 2022",
             "place": {
@@ -12,7 +2123,519 @@
                 "longitude": "69.62216"
             },
             "place_is_found": "True",
-            "text": "RT @sher_khashimov: A massive Lenin bust hiding in an apartment building stairwell in Khujand, Tajikistan. Photo - Artyom Kushneruk. @sovie…"
+            "text": "RT @sher_khashimov: A massive Lenin bust hiding in an apartment building stairwell in Khujand, Tajikistan. Photo - Artyom Kushneruk. @sovie…",
+            "map_handle": "sovietarchitect"
+        },
+        {
+            "id": "1481002562174296067",
+            "date": "Tue Jan 11 20:38:21 +0000 2022",
+            "place": {
+                "name": "Puck",
+                "country code": "PL",
+                "population": "11415",
+                "latitude": "54.7179",
+                "longitude": "18.40841"
+            },
+            "place_is_found": "True",
+            "text": "It’s still snowy &amp; we have almost two months of winter ahead, so it’s time to play hockey! Or you can enjoy playing our machine called «Шайбу! Шайбу!» (“Puck! Puck!”). You have to throw the puck into the goal (but there’s also a game for 2, when the second player is a goalkeeper) https://t.co/CpzfXRk44y",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1477945900018319362",
+            "date": "Mon Jan 03 10:12:16 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \" #Lenin and #Ampelmann \", Leninplatz, #Berlin 1982, #DDR Perhaps the most durable coming out of #GDR 'Ampelmännchen' from 1961 still operates today. In Berlin, #saarbruecken and #Heidelberg In 2004 #Zwickau implemented the 'Ampelfrau'. #Socialism #Communist #History https://t.co/Mz5gpmk6b4",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1477547386515988485",
+            "date": "Sun Jan 02 07:48:43 +0000 2022",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Two Worlds\", #Berlin 1960s, #gdr #DDR #berlinwall #socialism #socialismo #Communism #Communist #History https://t.co/sGxxqdkGQe",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1475749245009469443",
+            "date": "Tue Dec 28 08:43:32 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Ends Meet\", #Berlin 1962, #GDR  The #French sector meets #Soviet sector. #DDR #Berlinwall #socialism #communism #socialist #Socialista #socialismo #Communists #Communist #History https://t.co/z1de8fzEkh",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1471427091216449537",
+            "date": "Thu Dec 16 10:28:50 +0000 2021",
+            "place": {
+                "name": "Leipzig",
+                "country code": "DE",
+                "population": "504971",
+                "latitude": "51.33962",
+                "longitude": "12.37129"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \" Walking home for #Christmas \", #Leipzig 1960s, #GDR #DDR #Weihnachten #socialism #Socialismo #communism #Socialist  #Communist #History https://t.co/SdEzd4kAgZ",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1470420513155604487",
+            "date": "Mon Dec 13 15:49:04 +0000 2021",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "We’ve began decorating our Museum in St. Petersburg for the upcoming holidays! ❄️✨🎊 \nThere’ll be much more “winter wonderland” soon, and we’ll share the updates 🎄 Just started setting the atmosphere for us and our guests!\nAnd what about you? Do you already have Christmas mood? https://t.co/5KprcUM8sd",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1464495727871246337",
+            "date": "Sat Nov 27 07:26:05 +0000 2021",
+            "place": {
+                "name": "Pop",
+                "country code": "UZ",
+                "population": "22122",
+                "latitude": "40.87361",
+                "longitude": "71.10889"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar Read: The #American who rocked behind The Iron Curtain during the 1970s. Dean Reed was #ElvisPresley of #Communism https://t.co/MTsblbYqqg #Communist #Elvis #rock #Pop #countrymusic #History",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1464492027324813320",
+            "date": "Sat Nov 27 07:11:22 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"View of no man's land\", #Berlin 1984, #GDR #DDR #berlinwall #mauer #thewall #Socialism #socialismo #Communism #Communist #History https://t.co/xR2bxTu1lL",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1463236984311365633",
+            "date": "Tue Nov 23 20:04:17 +0000 2021",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "And finally — recording of @PhilDubPrez lecture in our Museum in October! If you couldn’t make it to Saint Petersburg — you have a chance to catch up now, following the link ⬇️⬇️⬇️\nAnd it was really exciting — so it’s totally worth watching!\nhttps://t.co/lHFI6PHNVm",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1461599989378002946",
+            "date": "Fri Nov 19 07:39:27 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Monumental #socialist boulevard\". Karl-Marx-Allee, #Berlin 1965. #GDR #DDR @bildarchiv Named Stalinallee between 1949 and 1961 after Josef #Stalin #Soviet #Union #architecture #Socialism #Socialismo #Stalinism #Marxism #Communism #Communist #History https://t.co/0kZRyqGZUV",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1458124766817161217",
+            "date": "Tue Nov 09 17:30:09 +0000 2021",
+            "place": {
+                "name": "Irkutsk",
+                "country code": "RU",
+                "population": "586695",
+                "latitude": "52.29778",
+                "longitude": "104.29639",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "Look! Soviet vending machines selling bread — and a cuuute announcement of opening of the first vending machine shop in Irkutsk, explaining how these “modern technologies” work and what kinds of bakery products you can buy there ✨🥖🍞 https://t.co/BvIIOnlu7k",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1457680718935568389",
+            "date": "Mon Nov 08 12:05:40 +0000 2021",
+            "place": {
+                "name": "Warsaw",
+                "country code": "PL",
+                "population": "1702139",
+                "latitude": "52.22977",
+                "longitude": "21.01178"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar Everything has two sides. So had General Wojciech Jaruzelski.  The question always is which side will be remembered. #Socialist #Poland #communism https://t.co/4cJHbzFKd5 #Warsaw #Warszawa #socialismo #polish #Communist #History #coldwarhist",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1457046349136941059",
+            "date": "Mon Nov 08 11:31:15 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar Like it was, #Berlin 1972. #socialism #socialismo #communism #communist #History https://t.co/zZfBeI9wAz",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1455148274789277697",
+            "date": "Mon Nov 01 12:22:38 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" Daily life in the #GDR \", Alexanderplatz, #Berlin late 1980s. #DDR  #socialism #socialismo #Communism #communist #History https://t.co/3Z8fjJQNCy",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1454002825701253125",
+            "date": "Fri Oct 29 08:31:02 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Heard It Thorugh The Barb Wire\", #Berlin 1970s, #GDR #DDR #socialism #socialismo #Communism #Communist #History https://t.co/4EbGGzkaBL",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1453461775425343497",
+            "date": "Wed Oct 27 20:41:05 +0000 2021",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "In 1960’s, when vending machines just began to appear in USSR, “Progress” store was opened in Malaya Dmitrovka St. in Moscow. And it was REALLY progressive: there were no salesmen, all  sales were fully automated! These machines sold different dairy products: milk, butter, etc 🥛 https://t.co/Oz8yxcKzSn",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1451441074472431655",
+            "date": "Fri Oct 22 06:51:33 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"All Eyes On You\", #Berlin 1970s, #GDR    #DDR East German pedestrians watched closely. #communism #berlinermauer #historians #socialism #Socialismo #Communist #History https://t.co/hm7BFkpjoi",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1450565040856309762",
+            "date": "Tue Oct 19 20:50:30 +0000 2021",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "You’re not mistaken: we have an announcement to make! On October 28 there’ll be a lecture by Philippe Dubois @PhilDubPrez — president of @assomo5 — at our museum in St. Petersburg! We’ll find out how are we going to play Mario Bros. in the future and maaany other things! Come! 🤩 https://t.co/G7U9GyXuXk",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1449054187501891594",
+            "date": "Wed Jan 04 14:40:07 +0000 2023",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @SovietArcades: You know that we collect not only Soviet arcade machines, but also vending ones. Well, meet our superhero — shoe shine m…",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1448572142489161729",
+            "date": "Thu Oct 14 08:51:26 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Showing Muscles\", Karl Marx Alle, #Berlin 1979. The #GDR turns thirty. #DDR #socialism #karlmarx #Socialismo #Communism #Communist #History https://t.co/Fi51hn3Fqi",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1447462119239262209",
+            "date": "Mon Oct 11 07:20:36 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar Read A tale from when Politbüro members were kings. #GDR #DDR #Berlin #History  https://t.co/nFFSjWt6dQ #socialism #socialismo #Communism",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1447449972992057351",
+            "date": "Mon Oct 11 06:32:20 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" Highway to #Socialism \", Checkpoint Charlie early 1980s, #Berlin #GDR #DDR #checkpointcharlie #socialismo #Communisme #Communism #Communist #History https://t.co/F73gqNA9LF",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1444264507086417922",
+            "date": "Sat Oct 02 11:34:26 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \" #GDR Skyline \", #Berlin 1980s, #DDR #socialist #architecture Corner of Zimmerstrasse and Lindenstrasse. #socialism #socialism #Socialismo #Communism #коммунизм #समाजवाद #comunismo     #共产主义 #共產主義 #communist #history https://t.co/ILdjSUOnXo",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1442479939295399940",
+            "date": "Mon Sep 27 13:23:12 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"No man's land deserted. Tempting to try?\", #Berlin 1980s, #GDR #DDR #socialism #Socialismo #Communism #Communist #History https://t.co/ykhf2H7mOx",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1442149462944600075",
+            "date": "Mon Sep 27 06:35:16 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar Communist skylines has this alluring, abandoned, fearsome vibe to them. #Berlin #GDR #DDR https://t.co/VFDZTxWImP",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1441658431652442112",
+            "date": "Sat Sep 25 06:58:49 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \" On route into the #GDR \", #Berlin 1980s, #DDR #socialism #Socialismo #Communism #Communist #History https://t.co/sHRpBQIJxJ",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1439878502019383298",
+            "date": "Mon Sep 20 09:06:01 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Wall view in the sun\", #Berlin late 1980s, #GDR #DDR #berlinermauer #Socialism #Socialismo #Communism #Communist #History https://t.co/RUt7QkVzL1",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1438431740368932864",
+            "date": "Thu Sep 16 09:17:06 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"Don't swim\", Kreuzberg, #Berlin 1980s. #GDR #DDR #River #Spree #Border #Socialism #socialismo #Communism #Communist #History https://t.co/2Qc9fljMSA",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1435989372084555786",
+            "date": "Thu Sep 09 15:32:00 +0000 2021",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "People who come to our museum are our biggest love! You are our greatest inspiration and motivation to keep going!\nLook what amazing Polina Kalashnikova (https://t.co/5hwcHwUVtN) drew while visiting the museum in Moscow ✨✨✨ https://t.co/DH0CxmSMSu",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1433717930429239302",
+            "date": "Fri Sep 03 09:06:06 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#ColdWar \"No man's land\", #Berlin 1980s, #GDR #DDR  Looking into #communist east of #Germany #Socialism #SOCIALISMO #Communism #History https://t.co/W73JncsmFH",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1430480884373889025",
+            "date": "Wed Aug 25 10:43:14 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"Checkpoint Charlie\", #Berlin 1970s, #GDR #DDR Officially closed June 22nd 1990. Only Allied embassy and military personel could cross. As well as east german party functionaries. #famous #Charlie #sightseeing #socialism #socialismo #Communism #Communist #History https://t.co/pGByVS6YEq",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1428638099152769027",
+            "date": "Fri Aug 20 08:40:40 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#Coldwar \"School's Out\", #Berlin 1974. #GDR introduced military lessons in 1978. How to march, handling an autmatic rifte etc. was put on schedule from 9th grade up to high school.10th #DDR  #defending #Socialism #socialismo #communism #Communist #History https://t.co/Hridu3JB6G",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1427166618313019393",
+            "date": "Mon Aug 16 07:13:31 +0000 2021",
+            "place": {
+                "name": "Berlin",
+                "country code": "DE",
+                "population": "3426354",
+                "latitude": "52.52437",
+                "longitude": "13.41053"
+            },
+            "place_is_found": "True",
+            "text": "#coldwar \"Monday Morning in the #GDR \", #Berlin 1980. #DDR #Socialism #socialismo #socialiste #sosyalizm #samaajavaad #Communism #Comunismo #Communist #History https://t.co/EfiCVqmj7D",
+            "map_handle": "ColdWarRecords"
+        },
+        {
+            "id": "1415063873372176388",
+            "date": "Tue Jul 13 21:41:32 +0000 2021",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "The shots we truly adore: Christian Dior fashion models posing in front of Soviet soda water machines in Moscow in 1959! https://t.co/Vyzd5HoS8U",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1401840609791459328",
+            "date": "Mon Jun 07 09:57:00 +0000 2021",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "It’s 50 years this summer since the greatest exhibition - “Attraction-71” - was held in Moscow. Numerous models of arcade machines, attractions and roller coasters from 10 countries were exhibited here. And it was the moment when the history of Soviet arcade machines started! 🥳 https://t.co/qzLPQkXXe7",
+            "map_handle": "SovietArcades"
+        },
+        {
+            "id": "1400416964619743234",
+            "date": "Thu Jun 03 12:09:07 +0000 2021",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "RT @FlorentGorgesFR: Mon interview bilingue live pour le \"Musée des machines de jeux soviétiques\" (Moscou) de la semaine dernière vient d'ê…",
+            "map_handle": "SovietArcades"
         },
         {
             "id": "1363166775009943555",
@@ -22,11 +2645,11 @@
                 "country code": "RU",
                 "population": "5028000",
                 "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
+                "longitude": "30.31413"
             },
             "place_is_found": "True",
-            "text": "RT @EastOfGMT: View of the Admiralty building in Leningrad (St Petersburg), USSR - 1969. #StPetersburg #USSR \n\n(photo: Vsevolod Tarasevich)…"
+            "text": "RT @EastOfGMT: View of the Admiralty building in Leningrad (St Petersburg), USSR - 1969. #StPetersburg #USSR \n\n(photo: Vsevolod Tarasevich)…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1302289349409746946",
@@ -40,7 +2663,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @RealSardonicus: Moscow\n\nElliott Erwitt, 1968 https://t.co/z2y4MY62oL"
+            "text": "RT @RealSardonicus: Moscow\n\nElliott Erwitt, 1968 https://t.co/z2y4MY62oL",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1290618485844795393",
@@ -53,7 +2677,8 @@
                 "longitude": "41.63392"
             },
             "place_is_found": "True",
-            "text": "RT @sovietvisuals: Train on Chavchavadze street of Batumi, Georgian SSR, 1985 https://t.co/NkFSQNGvbG"
+            "text": "RT @sovietvisuals: Train on Chavchavadze street of Batumi, Georgian SSR, 1985 https://t.co/NkFSQNGvbG",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1288760023531823104",
@@ -67,7 +2692,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Shukhov Tower in Moscow, photo by Alexander Rodchenko (1929) https://t.co/qt929y63mi"
+            "text": "RT @SovietPostcards: Shukhov Tower in Moscow, photo by Alexander Rodchenko (1929) https://t.co/qt929y63mi",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1288575745024036866",
@@ -81,7 +2707,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Gorky Street in Moscow, photo by Alexander Rubashkin (1978) https://t.co/yN4zf8RJj2"
+            "text": "RT @SovietPostcards: Gorky Street in Moscow, photo by Alexander Rubashkin (1978) https://t.co/yN4zf8RJj2",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1276684141698875392",
@@ -95,7 +2722,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "Mukhin lives and works in Moscow. He teaches at the Rodchenko Moscow School of Photography and Multimedia. In 1986-1987 he attended classes at the A. Lapin Studio in the MSU, in 1987 he joined the Immediate Photography group and in 1989 he started his career as a freelance. https://t.co/NK5GnJZXN1"
+            "text": "Mukhin lives and works in Moscow. He teaches at the Rodchenko Moscow School of Photography and Multimedia. In 1986-1987 he attended classes at the A. Lapin Studio in the MSU, in 1987 he joined the Immediate Photography group and in 1989 he started his career as a freelance. https://t.co/NK5GnJZXN1",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1275819329607565313",
@@ -109,7 +2737,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @GovernmentRF: The military parade marking the 75th anniversary of Victory in the Great Patriotic War was held in Moscow. The decision t…"
+            "text": "RT @GovernmentRF: The military parade marking the 75th anniversary of Victory in the Great Patriotic War was held in Moscow. The decision t…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1275698175635001353",
@@ -122,7 +2751,8 @@
                 "longitude": "23.8258"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Grodno, Belarus. Photo by Georgiy Likhtarovich (1989) https://t.co/mTKIR4F3d0"
+            "text": "RT @SovietPostcards: Grodno, Belarus. Photo by Georgiy Likhtarovich (1989) https://t.co/mTKIR4F3d0",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1270791267706900481",
@@ -136,7 +2766,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Irkutsk, Russia (1959) https://t.co/icmkhiPyhl"
+            "text": "RT @SovietPostcards: Irkutsk, Russia (1959) https://t.co/icmkhiPyhl",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1270269400667561984",
@@ -146,11 +2777,11 @@
                 "country code": "RU",
                 "population": "5028000",
                 "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
+                "longitude": "30.31413"
             },
             "place_is_found": "True",
-            "text": "RT @tassagency_en: #TASS_archive\nWhite nights in Saint Petersburg, 1967\nMaxim Blokhin/TASS https://t.co/T3mCpdDxhW"
+            "text": "RT @tassagency_en: #TASS_archive\nWhite nights in Saint Petersburg, 1967\nMaxim Blokhin/TASS https://t.co/T3mCpdDxhW",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1270091928147722243",
@@ -164,7 +2795,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Moscow (1959) https://t.co/clBDIc0uI2"
+            "text": "RT @SovietPostcards: Moscow (1959) https://t.co/clBDIc0uI2",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1269613403565371397",
@@ -178,7 +2810,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Moscow metro. Photo by David Cook (1969) https://t.co/yOBVRCk0Br"
+            "text": "RT @SovietPostcards: Moscow metro. Photo by David Cook (1969) https://t.co/yOBVRCk0Br",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1269335324821532672",
@@ -188,11 +2821,11 @@
                 "country code": "RU",
                 "population": "53600",
                 "latitude": "44.89497",
-                "longitude": "37.31623",
-                "extent_valid": false
+                "longitude": "37.31623"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Anapa, Krasnodarsky Krai of Russia (1975) https://t.co/Ri8Kbb2mbA"
+            "text": "RT @SovietPostcards: Anapa, Krasnodarsky Krai of Russia (1975) https://t.co/Ri8Kbb2mbA",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1269224737294688256",
@@ -205,7 +2838,8 @@
                 "longitude": "27.56667"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Monument to the Atom on Yakub Kolas square in Minsk (1960s) https://t.co/r5i2Ee27Ub"
+            "text": "RT @SovietPostcards: Monument to the Atom on Yakub Kolas square in Minsk (1960s) https://t.co/r5i2Ee27Ub",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1269003717807943689",
@@ -219,7 +2853,51 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Moscow. Photo by Nikolai Rakhmanov (1982) https://t.co/6ooxHTuozj"
+            "text": "RT @SovietPostcards: Moscow. Photo by Nikolai Rakhmanov (1982) https://t.co/6ooxHTuozj",
+            "map_handle": "sovietarchitect"
+        },
+        {
+            "id": "1266961709404762112",
+            "date": "Sun May 31 05:16:25 +0000 2020",
+            "place": {
+                "name": "Nürnberg",
+                "country code": "DE",
+                "population": "499237",
+                "latitude": "49.45421",
+                "longitude": "11.07752"
+            },
+            "place_is_found": "True",
+            "text": "\"Albrecht Durer House in Nuremberg\"\nKukryniksy, 1945 https://t.co/HGdCOzaxk7",
+            "map_handle": "SovietArtBot"
+        },
+        {
+            "id": "1266146337562787841",
+            "date": "Thu May 28 23:16:25 +0000 2020",
+            "place": {
+                "name": "Aktau",
+                "country code": "KZ",
+                "population": "147443",
+                "latitude": "43.65",
+                "longitude": "51.16667"
+            },
+            "place_is_found": "True",
+            "text": "\"Gorky Reads Shevchenko's Works to Peasants in the Village of Manuilovtsi\"\nKarpo Trokhymenko, 1949 https://t.co/l2R8qqMPna",
+            "map_handle": "SovietArtBot"
+        },
+        {
+            "id": "1265602755152003075",
+            "date": "Wed May 27 11:16:25 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "\"Moscow. View of the Lenin Stadium in Luzhniki\"\nKonstantin Yuon, 1956 https://t.co/PiacUP2Xfa",
+            "map_handle": "SovietArtBot"
         },
         {
             "id": "1264546833013133313",
@@ -229,11 +2907,11 @@
                 "country code": "RU",
                 "population": "5028000",
                 "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
+                "longitude": "30.31413"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Nevsky Prospect in Leningrad. Photo by Joel Martin (1961). https://t.co/5wikYTmWCY"
+            "text": "RT @SovietPostcards: Nevsky Prospect in Leningrad. Photo by Joel Martin (1961). https://t.co/5wikYTmWCY",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1264546262495506432",
@@ -247,7 +2925,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Komsomolskaya metro station in Moscow. Photo by Naum Granovsky (1950s) https://t.co/qId766Cdoq"
+            "text": "RT @SovietPostcards: Komsomolskaya metro station in Moscow. Photo by Naum Granovsky (1950s) https://t.co/qId766Cdoq",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1263161297660719110",
@@ -261,7 +2940,22 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Pushkin State Museum of Fine Arts in Moscow (1982) https://t.co/TNn3xUJHqV"
+            "text": "RT @SovietPostcards: Pushkin State Museum of Fine Arts in Moscow (1982) https://t.co/TNn3xUJHqV",
+            "map_handle": "sovietarchitect"
+        },
+        {
+            "id": "1262794251190108166",
+            "date": "Tue May 19 17:16:25 +0000 2020",
+            "place": {
+                "name": "Gurzuf",
+                "country code": "UA",
+                "population": "8933",
+                "latitude": "44.54624",
+                "longitude": "34.27841"
+            },
+            "place_is_found": "True",
+            "text": "\"Street in Gurzuf\"\nVictor Puzyrkov, 1978 https://t.co/kLYuSjFjgt",
+            "map_handle": "SovietArtBot"
         },
         {
             "id": "1259565117026549760",
@@ -275,7 +2969,107 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Two flags: Soviet and Russian. Moscow, 8 November 1991. https://t.co/HT988gKTsC"
+            "text": "RT @SovietPostcards: Two flags: Soviet and Russian. Moscow, 8 November 1991. https://t.co/HT988gKTsC",
+            "map_handle": "sovietarchitect"
+        },
+        {
+            "id": "1259351563874832387",
+            "date": "Sun May 10 05:16:25 +0000 2020",
+            "place": {
+                "name": "Dresden",
+                "country code": "DE",
+                "population": "486854",
+                "latitude": "51.05089",
+                "longitude": "13.73832"
+            },
+            "place_is_found": "True",
+            "text": "\"Dresden\"\nKukryniksy, 1945 https://t.co/3CctqIsvFv",
+            "map_handle": "SovietArtBot"
+        },
+        {
+            "id": "1258083209763606528",
+            "date": "Wed May 06 17:16:25 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "\"There is such a party! (Lenin on the 1st All-Russian Congress of Workers' and Soldiers'Deputies in Petrograd)\"\nKonstantin Yuon, 1934 https://t.co/rZjaCo2GIq",
+            "map_handle": "SovietArtBot"
+        },
+        {
+            "id": "1256543058075824128",
+            "date": "Sat May 02 11:16:25 +0000 2020",
+            "place": {
+                "name": "Kutaisi",
+                "country code": "GE",
+                "population": "178338",
+                "latitude": "42.26791",
+                "longitude": "42.69459"
+            },
+            "place_is_found": "True",
+            "text": "\"Processing gumbrine in the vicinity if Kutaisi\"\nDavid Kakabadze, 1951 https://t.co/FeZbp7y2cv",
+            "map_handle": "SovietArtBot"
+        },
+        {
+            "id": "1255999476273209344",
+            "date": "Thu Apr 30 23:16:25 +0000 2020",
+            "place": {
+                "name": "Saint Petersburg",
+                "country code": "RU",
+                "population": "5028000",
+                "latitude": "59.93863",
+                "longitude": "30.31413"
+            },
+            "place_is_found": "True",
+            "text": "\"Foreigners in Leningrad\"\nIvan Vladimirov, 1937 https://t.co/ivRZytGKz4",
+            "map_handle": "SovietArtBot"
+        },
+        {
+            "id": "1255637089921708040",
+            "date": "Wed Apr 29 23:16:25 +0000 2020",
+            "place": {
+                "name": "Pinsk",
+                "country code": "BY",
+                "population": "130777",
+                "latitude": "52.1229",
+                "longitude": "26.0951"
+            },
+            "place_is_found": "True",
+            "text": "\"Dnepr flotilla boats on the outskirts of the town of Pinsk\"\nVeniamin Kremer, XX cent. https://t.co/1Fvjqjt8m8",
+            "map_handle": "SovietArtBot"
+        },
+        {
+            "id": "1254096939718762497",
+            "date": "Sat Apr 25 17:16:25 +0000 2020",
+            "place": {
+                "name": "Velikiy Novgorod",
+                "country code": "RU",
+                "population": "215062",
+                "latitude": "58.52131",
+                "longitude": "31.27104"
+            },
+            "place_is_found": "True",
+            "text": "\"Fleeing of fascists from Novgorod\"\nKukryniksy, 1945 https://t.co/E84ChC51iX",
+            "map_handle": "SovietArtBot"
+        },
+        {
+            "id": "1253915745945255936",
+            "date": "Sat Apr 25 05:16:25 +0000 2020",
+            "place": {
+                "name": "Moscow",
+                "country code": "RU",
+                "population": "10381222",
+                "latitude": "55.75222",
+                "longitude": "37.61556",
+                "extent_valid": false
+            },
+            "place_is_found": "True",
+            "text": "\"The Red Army on parade in Red Square, Moscow, November 1940\"\nKonstantin Yuon, 1940 https://t.co/o7nv9UcaFA",
+            "map_handle": "SovietArtBot"
         },
         {
             "id": "1245025563909087232",
@@ -285,11 +3079,11 @@
                 "country code": "RU",
                 "population": "5028000",
                 "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
+                "longitude": "30.31413"
             },
             "place_is_found": "True",
-            "text": "RT @sovietvisuals: Round baths in Lesnoy. Photo by Boris Ignatovich, Leningrad, USSR, 1931 https://t.co/8TiQTe87Dh"
+            "text": "RT @sovietvisuals: Round baths in Lesnoy. Photo by Boris Ignatovich, Leningrad, USSR, 1931 https://t.co/8TiQTe87Dh",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1244907492980805633",
@@ -303,7 +3097,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Kuznetsky Most street in Moscow. Photo by M. Trakhman and S. Fridlyand (1956) https://t.co/KmkYtU0GT9"
+            "text": "RT @SovietPostcards: Kuznetsky Most street in Moscow. Photo by M. Trakhman and S. Fridlyand (1956) https://t.co/KmkYtU0GT9",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1244690739965186049",
@@ -313,11 +3108,11 @@
                 "country code": "RU",
                 "population": "520173",
                 "latitude": "54.6269",
-                "longitude": "39.6916",
-                "extent_valid": false
+                "longitude": "39.6916"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Poschupovo village in Ryazan oblast of Russia (1986) https://t.co/F4Fa1s7HTs"
+            "text": "RT @SovietPostcards: Poschupovo village in Ryazan oblast of Russia (1986) https://t.co/F4Fa1s7HTs",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1244690492853571585",
@@ -331,7 +3126,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Beach in Khimki, Moscow region. Photo by Emmanuil Yevzerikhin (1930) https://t.co/lHomgEAcFx"
+            "text": "RT @SovietPostcards: Beach in Khimki, Moscow region. Photo by Emmanuil Yevzerikhin (1930) https://t.co/lHomgEAcFx",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1244603588707581952",
@@ -344,7 +3140,8 @@
                 "longitude": "10.98461"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Illustrations for O. Guryan’s “Mei Lin’s Stories”. Artist Tatyana Yeryomina (1957). https://t.co/5lKOefYFXf"
+            "text": "RT @SovietPostcards: Illustrations for O. Guryan’s “Mei Lin’s Stories”. Artist Tatyana Yeryomina (1957). https://t.co/5lKOefYFXf",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1243586732559339528",
@@ -358,7 +3155,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Hedgehog in the Fog art in a tree in Izmailovsky Park in Moscow. Created by Yevgeniya Khlynova. https://t.co/1V0PwJ8pSs"
+            "text": "RT @SovietPostcards: Hedgehog in the Fog art in a tree in Izmailovsky Park in Moscow. Created by Yevgeniya Khlynova. https://t.co/1V0PwJ8pSs",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1243479571779014657",
@@ -372,7 +3170,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Spring in Moscow. Photo by V. Yegorov (1975) https://t.co/QNjli779u8"
+            "text": "RT @SovietPostcards: Spring in Moscow. Photo by V. Yegorov (1975) https://t.co/QNjli779u8",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1243479298239074305",
@@ -386,7 +3185,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Interior of a three-room model apartment in the 10th experimental quarter (Novyye Cheryomushki, Moscow). October 1, 19…"
+            "text": "RT @SovietPostcards: Interior of a three-room model apartment in the 10th experimental quarter (Novyye Cheryomushki, Moscow). October 1, 19…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1243452948451151872",
@@ -399,7 +3199,8 @@
                 "longitude": "40.33985"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Pitsunda, Abkhazia (1973) https://t.co/DtzlzSlIls"
+            "text": "RT @SovietPostcards: Pitsunda, Abkhazia (1973) https://t.co/DtzlzSlIls",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1243163085206163457",
@@ -409,11 +3210,11 @@
                 "country code": "RU",
                 "population": "5028000",
                 "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
+                "longitude": "30.31413"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Bread shop in Leningrad (late 1930s) https://t.co/0Dtiq8JDpn"
+            "text": "RT @SovietPostcards: Bread shop in Leningrad (late 1930s) https://t.co/0Dtiq8JDpn",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1242726412920000513",
@@ -423,11 +3224,11 @@
                 "country code": "RU",
                 "population": "5028000",
                 "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
+                "longitude": "30.31413"
             },
             "place_is_found": "True",
-            "text": "RT @sovietvisuals: Post-Soviet visual. Mosaic from abandoned Soviet young pioneer camp \"Kosmonavt\", Leningrad region, Russia, 2019 https://…"
+            "text": "RT @sovietvisuals: Post-Soviet visual. Mosaic from abandoned Soviet young pioneer camp \"Kosmonavt\", Leningrad region, Russia, 2019 https://…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1242525488515612672",
@@ -437,11 +3238,11 @@
                 "country code": "RU",
                 "population": "338978",
                 "latitude": "54.5293",
-                "longitude": "36.27542",
-                "extent_valid": false
+                "longitude": "36.27542"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Lopatinka, village in Kaluga oblast of Russia (1976) https://t.co/bUGL0uZX4S"
+            "text": "RT @SovietPostcards: Lopatinka, village in Kaluga oblast of Russia (1976) https://t.co/bUGL0uZX4S",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1242468957744857089",
@@ -455,7 +3256,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @PasanteDeLaKGB: Moscow. #Quarantine #COVIDー19\nSeats were empty at rehearsal, and remained so for the online performance. https://t.co/F…"
+            "text": "RT @PasanteDeLaKGB: Moscow. #Quarantine #COVIDー19\nSeats were empty at rehearsal, and remained so for the online performance. https://t.co/F…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1241787279435317249",
@@ -469,7 +3271,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: The Upper Trading Rows on the Red Square in Moscow. Photo by P. Pavlov (late 1890s). https://t.co/bBJPrUUCm1"
+            "text": "RT @SovietPostcards: The Upper Trading Rows on the Red Square in Moscow. Photo by P. Pavlov (late 1890s). https://t.co/bBJPrUUCm1",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1241786025334181889",
@@ -482,7 +3285,8 @@
                 "longitude": "66.95972"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Fabric department in a store in Samarkand, Uzbekistan (1970). Photo by Yu. Bagryansky. https://t.co/YS6nQBpKnY"
+            "text": "RT @SovietPostcards: Fabric department in a store in Samarkand, Uzbekistan (1970). Photo by Yu. Bagryansky. https://t.co/YS6nQBpKnY",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1241336616024788993",
@@ -496,7 +3300,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Photo by Mikhail Ozersky (Moscow, 1962) https://t.co/L64s55JIby"
+            "text": "RT @SovietPostcards: Photo by Mikhail Ozersky (Moscow, 1962) https://t.co/L64s55JIby",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1241078070687268868",
@@ -510,7 +3315,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Alexandrovsky Gardens in Moscow. Photo by Naum Granovsky (April 1965) https://t.co/hvsN70R7IH"
+            "text": "RT @SovietPostcards: Alexandrovsky Gardens in Moscow. Photo by Naum Granovsky (April 1965) https://t.co/hvsN70R7IH",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1240577442902933509",
@@ -520,11 +3326,11 @@
                 "country code": "RU",
                 "population": "5028000",
                 "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
+                "longitude": "30.31413"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Lion Bridge and Bank Bridge in Leningrad (late 1960s) https://t.co/0zhPtSJCd1"
+            "text": "RT @SovietPostcards: Lion Bridge and Bank Bridge in Leningrad (late 1960s) https://t.co/0zhPtSJCd1",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1240275237989691394",
@@ -538,7 +3344,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Red Square in Moscow (1979) https://t.co/yTKyiAHJlz"
+            "text": "RT @SovietPostcards: Red Square in Moscow (1979) https://t.co/yTKyiAHJlz",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1239966447859683330",
@@ -552,7 +3359,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Somewhere in Moscow (1976) https://t.co/Hp44OebktK"
+            "text": "RT @SovietPostcards: Somewhere in Moscow (1976) https://t.co/Hp44OebktK",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1239110315759087616",
@@ -566,7 +3374,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "Photo: Photo by Vladimir Yatsin / TASS Newsreel\n\nMoscow, moving to the Strogino area, 1979 https://t.co/Dk1OiFQgEb"
+            "text": "Photo: Photo by Vladimir Yatsin / TASS Newsreel\n\nMoscow, moving to the Strogino area, 1979 https://t.co/Dk1OiFQgEb",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1239109990021058560",
@@ -576,11 +3385,11 @@
                 "country code": "RU",
                 "population": "509870",
                 "latitude": "55.72545",
-                "longitude": "52.41122",
-                "extent_valid": false
+                "longitude": "52.41122"
             },
             "place_is_found": "True",
-            "text": "Photo: E. Logvinov / TASS Newsreel\n\nNaberezhnye Chelny, 1981 https://t.co/5U0yUHZ21B"
+            "text": "Photo: E. Logvinov / TASS Newsreel\n\nNaberezhnye Chelny, 1981 https://t.co/5U0yUHZ21B",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1239109356328804352",
@@ -594,7 +3403,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "Photo: Oleg Ivanov / TASS Newsreel\n\nMoscow, New settlers move into a new apartment, 1983 https://t.co/Mn9XkgJTth"
+            "text": "Photo: Oleg Ivanov / TASS Newsreel\n\nMoscow, New settlers move into a new apartment, 1983 https://t.co/Mn9XkgJTth",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1239109059942535169",
@@ -608,7 +3418,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "Photo: Vladimir Zavyalov / TASS Newsreel\n\nMoscow, Young settlers in the Maryino area on a day off, 1986 https://t.co/6hFFEp7Rhf"
+            "text": "Photo: Vladimir Zavyalov / TASS Newsreel\n\nMoscow, Young settlers in the Maryino area on a day off, 1986 https://t.co/6hFFEp7Rhf",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1239108908750442497",
@@ -618,11 +3429,11 @@
                 "country code": "RU",
                 "population": "315738",
                 "latitude": "59.13333",
-                "longitude": "37.9",
-                "extent_valid": false
+                "longitude": "37.9"
             },
             "place_is_found": "True",
-            "text": "Photo: Boris Kavashkin, Sergey Metelitsa / TASS Newsreel\n\nat a new apartment on Arkhangelskaya street in Cherepovets, 1982 https://t.co/3tFKxXahYl"
+            "text": "Photo: Boris Kavashkin, Sergey Metelitsa / TASS Newsreel\n\nat a new apartment on Arkhangelskaya street in Cherepovets, 1982 https://t.co/3tFKxXahYl",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1238910163152785408",
@@ -636,7 +3447,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Moscow (1976) https://t.co/fECRiJ6xr8"
+            "text": "RT @SovietPostcards: Moscow (1976) https://t.co/fECRiJ6xr8",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1237823948605263873",
@@ -650,7 +3462,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: “Long live our Moscow—our glory, our pride!”\n\nPoster celebrating Moscow’s 800th birthday (1947). Artist V. Livanova. h…"
+            "text": "RT @SovietPostcards: “Long live our Moscow—our glory, our pride!”\n\nPoster celebrating Moscow’s 800th birthday (1947). Artist V. Livanova. h…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1235884001841291265",
@@ -664,7 +3477,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Mayakovsky metro station in Moscow (1939) https://t.co/XEp9z4eu9b"
+            "text": "RT @SovietPostcards: Mayakovsky metro station in Moscow (1939) https://t.co/XEp9z4eu9b",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1235846831545806852",
@@ -704,7 +3518,8 @@
                 "attributes": {}
             },
             "place_is_found": "False",
-            "text": "👇 https://t.co/VuTwtuXLvY"
+            "text": "👇 https://t.co/VuTwtuXLvY",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1234394317235597312",
@@ -718,7 +3533,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @PetrocTrelawny: As we mark Russian Spring @BBCRadio3, thanks to listener Susan Morris for sharing this - \nAlexei Savrasov's 'The rooks…"
+            "text": "RT @PetrocTrelawny: As we mark Russian Spring @BBCRadio3, thanks to listener Susan Morris for sharing this - \nAlexei Savrasov's 'The rooks…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1234232209306980354",
@@ -732,7 +3548,8 @@
                 "extent_valid": true
             },
             "place_is_found": "True",
-            "text": "RT @womensart1: 'Days Of Night' series by Russian photographer Elena Chernyshova, on the Russian arctic city of Norilsk which is in darknes…"
+            "text": "RT @womensart1: 'Days Of Night' series by Russian photographer Elena Chernyshova, on the Russian arctic city of Norilsk which is in darknes…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1233440583844352001",
@@ -746,7 +3563,8 @@
                 "extent_valid": true
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Laying the wooden pavement in Yakutsk (1958) https://t.co/GslW02ytbP"
+            "text": "RT @SovietPostcards: Laying the wooden pavement in Yakutsk (1958) https://t.co/GslW02ytbP",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1233415064809545730",
@@ -786,7 +3604,8 @@
                 "attributes": {}
             },
             "place_is_found": "False",
-            "text": "RT @maxfras: This constructivist gem in central Moscow is in a sad state of disrepair... \n\nBuilt in 1929-1930 as student dormitory of Julia…"
+            "text": "RT @maxfras: This constructivist gem in central Moscow is in a sad state of disrepair... \n\nBuilt in 1929-1930 as student dormitory of Julia…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1233089856320000002",
@@ -799,7 +3618,8 @@
                 "longitude": "76.92861"
             },
             "place_is_found": "True",
-            "text": "Soviet Architecture, Almaty https://t.co/5YRPfzA3lt"
+            "text": "Soviet Architecture, Almaty https://t.co/5YRPfzA3lt",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1233038586536173574",
@@ -809,11 +3629,11 @@
                 "country code": "RU",
                 "population": "12907",
                 "latitude": "54.2298",
-                "longitude": "39.0269",
-                "extent_valid": false
+                "longitude": "39.0269"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Housewarming postcard by Yu. Mikhailov (1961) https://t.co/xNFu02uO9p"
+            "text": "RT @SovietPostcards: Housewarming postcard by Yu. Mikhailov (1961) https://t.co/xNFu02uO9p",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1232682186911952898",
@@ -826,7 +3646,8 @@
                 "longitude": "71.44598"
             },
             "place_is_found": "True",
-            "text": "The Strange, Post-Soviet Architecture of Astana, Kazakhstan https://t.co/OINxLKV69l"
+            "text": "The Strange, Post-Soviet Architecture of Astana, Kazakhstan https://t.co/OINxLKV69l",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1232636908444045313",
@@ -839,7 +3660,8 @@
                 "longitude": "43.84528"
             },
             "place_is_found": "True",
-            "text": "shackway: Fountain on the edge of town in Gyumri, Armenia. This must have been quite impressive when it was still working. The location seems strange, but there was probably a plan to expand housing in this part of town before the 1988 earthquake struck. In the background th.. https://t.co/nK1QizSEEB"
+            "text": "shackway: Fountain on the edge of town in Gyumri, Armenia. This must have been quite impressive when it was still working. The location seems strange, but there was probably a plan to expand housing in this part of town before the 1988 earthquake struck. In the background th.. https://t.co/nK1QizSEEB",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1231903765877395461",
@@ -853,63 +3675,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Sports parade in Moscow (c. 1930) https://t.co/iZKncvFhk6"
-        },
-        {
-            "id": "1231640309630722051",
-            "date": "Sun Feb 23 18:01:47 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "The Gosplan garage designed by Konstantin Melnikov in Moscow, USSR 1934-1936 https://t.co/KeQ1xhfdO1"
-        },
-        {
-            "id": "1231509928210292736",
-            "date": "Sun Feb 23 15:03:00 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Churches of Moscow, photo by Boris Kavashkin (1970s) https://t.co/z2Zlx7If2o"
-        },
-        {
-            "id": "1230761557568569344",
-            "date": "Fri Feb 21 19:25:28 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Volleyball game at Dinamo stadium in Moscow (1930s) https://t.co/eFux2vl3wJ"
-        },
-        {
-            "id": "1230417173660807168",
-            "date": "Thu Feb 20 09:01:28 +0000 2020",
-            "place": {
-                "name": "Saint Petersburg",
-                "country code": "RU",
-                "population": "5028000",
-                "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Home of \"Singer\" (also known as \"Home Books\") - Building on Nevsky Prospect in St.Petersburg, Art nouveau. https://t.co/EyXUQmq8OL"
+            "text": "RT @SovietPostcards: Sports parade in Moscow (c. 1930) https://t.co/iZKncvFhk6",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1230408871568646148",
@@ -923,956 +3690,8 @@
                 "extent_valid": false
             },
             "place_is_found": "True",
-            "text": "RT @tassagency_en: #TASS_archive\nPeople make their way through puddles in Bronnitsy, Moscow region, 1989\nAnatoly Morkovkin, Andrei Solovyov…"
-        },
-        {
-            "id": "1230212879141539842",
-            "date": "Wed Feb 19 20:02:21 +0000 2020",
-            "place": {
-                "name": "Hrodna",
-                "country code": "BY",
-                "population": "317365",
-                "latitude": "53.6884",
-                "longitude": "23.8258"
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Grodno, Belarus. Photo by Georgy Likhtarovich (1989) https://t.co/VUnhSq4ny0"
-        },
-        {
-            "id": "1230135806716760065",
-            "date": "Wed Feb 19 15:02:54 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Zhdanovskaya (Vykhino) - commuter train and metro station in Moscow (1976) https://t.co/IxxporGBYz"
-        },
-        {
-            "id": "1230037567623618577",
-            "date": "Wed Feb 19 07:54:48 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: January 1987 in Moscow, photo by Viktor Budan and Aleksandr Zavyalov. https://t.co/plqPwvsf1L"
-        },
-        {
-            "id": "1229843911469944835",
-            "date": "Tue Feb 18 19:04:14 +0000 2020",
-            "place": {
-                "name": "Saint Petersburg",
-                "country code": "RU",
-                "population": "5028000",
-                "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Astoria hotel in Leningrad, photo by John Schultz (1958) https://t.co/mvkz1zKbqI"
-        },
-        {
-            "id": "1229828359653330944",
-            "date": "Tue Feb 18 18:01:44 +0000 2020",
-            "place": {
-                "name": "Norilsk",
-                "country code": "RU",
-                "population": "140800",
-                "latitude": "69.3535",
-                "longitude": "88.2027",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Norilsk (Russia). https://t.co/rMxOAUgQen"
-        },
-        {
-            "id": "1229784810916323329",
-            "date": "Tue Feb 18 16:13:32 +0000 2020",
-            "place": {
-                "name": "Saint Petersburg",
-                "country code": "RU",
-                "population": "5028000",
-                "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Airworkers’ House of Culture in Leningrad (c. 1930) https://t.co/l3PapS2e3A"
-        },
-        {
-            "id": "1229783101796163585",
-            "date": "Tue Feb 18 15:01:54 +0000 2020",
-            "place": {
-                "name": "Nur-Sultan",
-                "country code": "KZ",
-                "population": "345604",
-                "latitude": "51.1801",
-                "longitude": "71.44598"
-            },
-            "place_is_found": "True",
-            "text": "The Strange, Post-Soviet Architecture of Astana, Kazakhstan https://t.co/Jc4UGyljA1"
-        },
-        {
-            "id": "1229007498708951040",
-            "date": "Sun Feb 16 12:11:18 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Aeroflot flight attendant Nadezhda Tkach in Sheremetyevo airport in Moscow (1973) https://t.co/YWFQyymJ0n"
-        },
-        {
-            "id": "1228429228267515904",
-            "date": "Fri Feb 14 21:28:12 +0000 2020",
-            "place": {
-                "name": "Volgograd",
-                "country code": "RU",
-                "population": "1011417",
-                "latitude": "48.71939",
-                "longitude": "44.50183",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @RealSardonicus: G. Zelma \nVolgograd \n1970 https://t.co/yAP0bH7oms"
-        },
-        {
-            "id": "1228016386586423296",
-            "date": "Thu Feb 13 18:01:36 +0000 2020",
-            "place": {
-                "name": "Tbilisi",
-                "country code": "GE",
-                "population": "1049498",
-                "latitude": "41.69411",
-                "longitude": "44.83368"
-            },
-            "place_is_found": "True",
-            "text": "The Palace of ceremonial rites, Tbilisi, Georgia.Â Masterpiece of the Soviet modernism erected in 1985. The building was bought by a local businessman who was finally buried there in 2008. https://t.co/eHZXQIgC0j"
-        },
-        {
-            "id": "1227880556656037888",
-            "date": "Thu Feb 13 09:01:52 +0000 2020",
-            "place": {
-                "name": "Nur-Sultan",
-                "country code": "KZ",
-                "population": "345604",
-                "latitude": "51.1801",
-                "longitude": "71.44598"
-            },
-            "place_is_found": "True",
-            "text": "Kazmunaigaz Building, Astana (2012) https://t.co/fZYE88a7OK"
-        },
-        {
-            "id": "1227689867385151489",
-            "date": "Wed Feb 12 20:25:19 +0000 2020",
-            "place": {
-                "name": "Saint Petersburg",
-                "country code": "RU",
-                "population": "5028000",
-                "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Warsaw railway station in Leningrad (1966) https://t.co/kVPUuxD5LA"
-        },
-        {
-            "id": "1227291667343917057",
-            "date": "Tue Feb 11 18:01:50 +0000 2020",
-            "place": {
-                "name": "Arsk",
-                "country code": "RU",
-                "population": "17243",
-                "latitude": "56.09151",
-                "longitude": "49.87783",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Melnikov garage intourist 1200px wide - Konstantin Melnikov - Wikipedia, the free encyclopedia https://t.co/wrjlARSk4H"
-        },
-        {
-            "id": "1227155741880045572",
-            "date": "Tue Feb 11 09:01:42 +0000 2020",
-            "place": {
-                "name": "Tashkent",
-                "country code": "UZ",
-                "population": "1978028",
-                "latitude": "41.26465",
-                "longitude": "69.21627"
-            },
-            "place_is_found": "True",
-            "text": "L.Ivanov, The Aeroflot Building, Tashkent, Uzbekistan, 1974 https://t.co/VctIEKgkWV"
-        },
-        {
-            "id": "1226566851393703942",
-            "date": "Sun Feb 09 18:01:40 +0000 2020",
-            "place": {
-                "name": "Gyumri",
-                "country code": "AM",
-                "population": "148381",
-                "latitude": "40.7942",
-                "longitude": "43.84528"
-            },
-            "place_is_found": "True",
-            "text": "shackway: Fountain on the edge of town in Gyumri, Armenia. This must have been quite impressive when it was still working. The location seems strange, but there was probably a plan to expand housing in this part of town before the 1988 earthquake struck. In the background th.. https://t.co/v1hto9XRgK"
-        },
-        {
-            "id": "1226562157573263362",
-            "date": "Sun Feb 09 17:47:30 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Winter in Moscow, photo by Sergey Guneyev (1978) https://t.co/Vgd1M1Kvbo"
-        },
-        {
-            "id": "1226521569515786240",
-            "date": "Sun Feb 09 15:01:44 +0000 2020",
-            "place": {
-                "name": "Yerevan",
-                "country code": "AM",
-                "population": "1093485",
-                "latitude": "40.18111",
-                "longitude": "44.51361"
-            },
-            "place_is_found": "True",
-            "text": "Minimal Soviet... #Yerevan #armstreets #streets #soviet #style #block #minimal #minimalism ... https://t.co/oYJKCLrSd0"
-        },
-        {
-            "id": "1226414320445247488",
-            "date": "Sun Feb 09 18:13:49 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Dinamo ice rink in Moscow, photo by A. Ginzburg (1946) https://t.co/biss0druqA"
-        },
-        {
-            "id": "1226093377613156353",
-            "date": "Sat Feb 08 11:02:25 +0000 2020",
-            "place": {
-                "name": "Hrodna",
-                "country code": "BY",
-                "population": "317365",
-                "latitude": "53.6884",
-                "longitude": "23.8258"
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Grodno, Belarus (1989) https://t.co/HCqBkGQvQC"
-        },
-        {
-            "id": "1225167512108765184",
-            "date": "Wed Feb 05 21:22:17 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Grocery store on Volgogradsky Prospect in Moscow (1966) https://t.co/UQDQBzdiJz"
-        },
-        {
-            "id": "1225166240353849344",
-            "date": "Wed Feb 05 21:20:18 +0000 2020",
-            "place": {
-                "name": "Sochi",
-                "country code": "RU",
-                "population": "327608",
-                "latitude": "43.59917",
-                "longitude": "39.72569",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Waters and juices kiosk in Sochi (1960s) https://t.co/WqwXFPcTHw"
-        },
-        {
-            "id": "1224709643416625152",
-            "date": "Tue Feb 04 15:01:47 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "The Icons of Communist Architecture - Melnikov House, Moscow ARCHITECT: KONSTANTIN MELNIKOV https://t.co/uIqrFrvTV8"
-        },
-        {
-            "id": "1224688618205257728",
-            "date": "Tue Feb 04 13:52:16 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Mayakovsky Square in Moscow (1950s) https://t.co/popZs7Xh3L"
-        },
-        {
-            "id": "1224664342085472257",
-            "date": "Tue Feb 04 12:01:46 +0000 2020",
-            "place": {
-                "name": "Yalta",
-                "country code": "UA",
-                "population": "77003",
-                "latitude": "44.50218",
-                "longitude": "34.16624"
-            },
-            "place_is_found": "True",
-            "text": "“Druzhba Holiday Center Hall” (Yalta, Ukraine, designed by Igor Vasilevsky 1984) © Frederic Chaubin https://t.co/u1tkw8VxeG"
-        },
-        {
-            "id": "1224407591264145409",
-            "date": "Mon Feb 03 19:10:20 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: “The First Soviet Artificial Satellite of the Earth” - monument in Moscow built in 1977, to celebrate the 20th anniver…"
-        },
-        {
-            "id": "1224256637411696640",
-            "date": "Mon Feb 03 09:01:42 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Rusakov Workers’ Club – Moscow, Russia https://t.co/REgnh0kdEw"
-        },
-        {
-            "id": "1224075100435165186",
-            "date": "Mon Feb 03 16:34:17 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @simongerman600: Europe from Moscow and Asia from Irkutsk. This fantastic map from Time Magazine (1952) shows us that viewing the world…"
-        },
-        {
-            "id": "1224052209178071040",
-            "date": "Sun Feb 02 19:30:04 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: On the Red Square in Moscow, photo by Aleksandr Krylov (1967) https://t.co/PuVkeGYxCx"
-        },
-        {
-            "id": "1224035782949769216",
-            "date": "Sun Feb 02 18:25:08 +0000 2020",
-            "place": {
-                "name": "Sochi",
-                "country code": "RU",
-                "population": "327608",
-                "latitude": "43.59917",
-                "longitude": "39.72569",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Fruit market in Sochi (1959) https://t.co/ducWh7VTeV"
-        },
-        {
-            "id": "1223708510963359745",
-            "date": "Sat Feb 01 20:45:54 +0000 2020",
-            "place": {
-                "name": "Perm",
-                "country code": "RU",
-                "population": "982419",
-                "latitude": "58.01046",
-                "longitude": "56.25017",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Headless church of Peter and Paul in Taman village in Perm region of Russia (1983) https://t.co/McN4OVmeA8"
-        },
-        {
-            "id": "1223622419463770118",
-            "date": "Sat Feb 01 15:01:33 +0000 2020",
-            "place": {
-                "name": "Chisinau",
-                "country code": "MD",
-                "population": "635994",
-                "latitude": "47.00556",
-                "longitude": "28.8575"
-            },
-            "place_is_found": "True",
-            "text": "Chisinau circus, Soviet architecture https://t.co/w7jaTadBso"
-        },
-        {
-            "id": "1222613533822738435",
-            "date": "Wed Jan 29 20:29:15 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Red Square in Moscow, photo by Brian Brake (1955) https://t.co/gwjudFsWDo"
-        },
-        {
-            "id": "1222082293336104960",
-            "date": "Tue Jan 28 09:01:38 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Narkomfin Building – Constructivist architecture. The Narkomfin Building is a block of flats in Moscow, Russia, designed by Moisei Ginzburg with Ignaty Milinis in 1928, and finished in 1932. Wikipedia. https://t.co/Vg88ZReHL6"
-        },
-        {
-            "id": "1221493373518991360",
-            "date": "Sun Jan 26 18:01:29 +0000 2020",
-            "place": {
-                "name": "Vitebsk",
-                "country code": "BY",
-                "population": "342700",
-                "latitude": "55.1904",
-                "longitude": "30.2049"
-            },
-            "place_is_found": "True",
-            "text": "CCCP. The Memorial complex \"To Liberators of Vitebsk - the Soviet soldiers, partisans and underground fighters\", it is one of the greatest monuments in Vitebsk, Belarus. The memorial was built in1974. It includes the square, the park, the sculptures, or the pools with flowin.. https://t.co/Juv6RIcAnQ"
-        },
-        {
-            "id": "1221357509618929664",
-            "date": "Sun Jan 26 09:01:36 +0000 2020",
-            "place": {
-                "name": "Tashkent",
-                "country code": "UZ",
-                "population": "1978028",
-                "latitude": "41.26465",
-                "longitude": "69.21627"
-            },
-            "place_is_found": "True",
-            "text": "Tashkent, Uzbekistan. \"State Museum of the History of Uzbekistan\" https://t.co/GTuBYB6Otm"
-        },
-        {
-            "id": "1219919204289302528",
-            "date": "Wed Jan 22 11:10:34 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Matryoshka decorations in Sokolniki Park of Moscow, photo by V. Budan and V. Sozinov (February 1971) https://t.co/TN9Z…"
-        },
-        {
-            "id": "1219681505187942400",
-            "date": "Tue Jan 21 18:01:46 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Architecture of Doom Russia Moscow USSR Soviet Konstantin Melnikov 1920's Constructivism Architecture https://t.co/dBKU5daU2W"
-        },
-        {
-            "id": "1219228523883376640",
-            "date": "Mon Jan 20 12:01:46 +0000 2020",
-            "place": {
-                "name": "Kaliningrad",
-                "country code": "RU",
-                "population": "434954",
-                "latitude": "54.70649",
-                "longitude": "20.51095",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Unfinished building, Kaliningrad, Russia / brutalism #socialist #brutalism #architecture https://t.co/BDmk7U8sba"
-        },
-        {
-            "id": "1218458441519370240",
-            "date": "Sat Jan 18 09:01:44 +0000 2020",
-            "place": {
-                "name": "Tbilisi",
-                "country code": "GE",
-                "population": "1049498",
-                "latitude": "41.69411",
-                "longitude": "44.83368"
-            },
-            "place_is_found": "True",
-            "text": "The Palace of ceremonial rites, Tbilisi, Georgia.Â Masterpiece of the Soviet modernism erected in 1985. The building was bought by a local businessman who was finally buried there in 2008. https://t.co/xKXg4qlfgj"
-        },
-        {
-            "id": "1218231910561996802",
-            "date": "Fri Jan 17 18:01:35 +0000 2020",
-            "place": {
-                "name": "Tbilisi",
-                "country code": "GE",
-                "population": "1049498",
-                "latitude": "41.69411",
-                "longitude": "44.83368"
-            },
-            "place_is_found": "True",
-            "text": "Soviet Wedding Palace - Tbilisi, Georgia https://t.co/egwDLg0hGr"
-        },
-        {
-            "id": "1218186672531279873",
-            "date": "Fri Jan 17 15:01:50 +0000 2020",
-            "place": {
-                "name": "Almaty",
-                "country code": "KZ",
-                "population": "2000900",
-                "latitude": "43.25667",
-                "longitude": "76.92861"
-            },
-            "place_is_found": "True",
-            "text": "Soviet Architecture, Almaty https://t.co/q9BHeJKSRn"
-        },
-        {
-            "id": "1218103985925693441",
-            "date": "Fri Jan 17 10:09:20 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Winter in Moscow https://t.co/XO5nlExpDH"
-        },
-        {
-            "id": "1217870972419821568",
-            "date": "Thu Jan 16 18:17:03 +0000 2020",
-            "place": {
-                "name": "Saint Petersburg",
-                "country code": "RU",
-                "population": "5028000",
-                "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: Kashin Bridge over Kryukov Canal in Leningrad (1940) https://t.co/rnMtEGVcNt"
-        },
-        {
-            "id": "1217054195775418368",
-            "date": "Tue Jan 14 12:01:46 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Shukhov Tover, Moscow, 1922 The Hyperboloid steel tower-gridshell by Vladimir Shukhov: https://t.co/ri6LC33Tgj"
-        },
-        {
-            "id": "1216794257333399555",
-            "date": "Mon Jan 13 18:51:56 +0000 2020",
-            "place": {
-                "name": "Tver",
-                "country code": "RU",
-                "population": "400212",
-                "latitude": "56.85836",
-                "longitude": "35.90057",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @SovietPostcards: A church in Tver region (1978) https://t.co/bzKlEXGgry"
-        },
-        {
-            "id": "1216332098321244161",
-            "date": "Mon Jan 13 16:51:36 +0000 2020",
-            "place": {
-                "id": "6d73a696edc5306f",
-                "url": "https://api.twitter.com/1.1/geo/id/6d73a696edc5306f.json",
-                "place_type": "country",
-                "name": "Kazakhstan",
-                "full_name": "Kazakhstan",
-                "country_code": "KZ",
-                "country": "Kazakhstan",
-                "contained_within": [],
-                "bounding_box": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                46.4925433,
-                                40.9363327
-                            ],
-                            [
-                                87.3152134,
-                                40.9363327
-                            ],
-                            [
-                                87.3152134,
-                                55.4425719
-                            ],
-                            [
-                                46.4925433,
-                                55.4425719
-                            ]
-                        ]
-                    ]
-                },
-                "attributes": {}
-            },
-            "place_is_found": "False",
-            "text": "RT @Starshina73: Зимняя рыбалка говоришь? Да что ты знаешь о ней?)) https://t.co/BI2G5FY3mG"
-        },
-        {
-            "id": "1216012318217207809",
-            "date": "Sat Jan 11 15:01:43 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Unique house. Moscow. Date of Construction 1969 https://t.co/58PFqVSysA"
-        },
-        {
-            "id": "1215921701973786624",
-            "date": "Sat Jan 11 09:01:39 +0000 2020",
-            "place": {
-                "name": "Ashgabat",
-                "country code": "TM",
-                "population": "727700",
-                "latitude": "37.95",
-                "longitude": "58.38333"
-            },
-            "place_is_found": "True",
-            "text": "Karl Marx Library, Ashgabat, Turkmenistan. 1960 - 1975 https://t.co/Ab4AegYNJx"
-        },
-        {
-            "id": "1214879863208849408",
-            "date": "Wed Jan 08 12:01:45 +0000 2020",
-            "place": {
-                "name": "Tbilisi",
-                "country code": "GE",
-                "population": "1049498",
-                "latitude": "41.69411",
-                "longitude": "44.83368"
-            },
-            "place_is_found": "True",
-            "text": "The Palace of ceremonial rites, Tbilisi, Georgia. Masterpiece of the Soviet modernism erected in 1985 is a real late Soviet temple but deprived of elements of a religious cult. https://t.co/zOK5BqNR5z"
-        },
-        {
-            "id": "1214842053387051009",
-            "date": "Wed Jan 08 09:31:30 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Soviet Architecture - SkyscraperCity The Ostankino Tower, designed by Nikolai Nikitin, Moscow, 1967 amazing… https://t.co/pWEbRv2D6K"
-        },
-        {
-            "id": "1214751461038608386",
-            "date": "Wed Jan 08 03:31:31 +0000 2020",
-            "place": {
-                "name": "Dnipro",
-                "country code": "UA",
-                "population": "1032822",
-                "latitude": "48.4593",
-                "longitude": "35.03865"
-            },
-            "place_is_found": "True",
-            "text": "Parus Hotel in Dnipro, Ukraine. Constructed between 1973-1987 but the project was never completed. #travel #abandoned #abandonedplaces #urbanexploration #URBEX #abandonedhotels #sovietarchitecture https://t.co/ZwXDxX1Ho1"
-        },
-        {
-            "id": "1214679228370837505",
-            "date": "Tue Jan 07 22:44:30 +0000 2020",
-            "place": {
-                "name": "Nur-Sultan",
-                "country code": "KZ",
-                "population": "345604",
-                "latitude": "51.1801",
-                "longitude": "71.44598"
-            },
-            "place_is_found": "True",
-            "text": "Kazmunaigaz Building, Astana (2012) https://t.co/896xLkeOF7"
-        },
-        {
-            "id": "1214667833210232833",
-            "date": "Tue Jan 07 21:59:13 +0000 2020",
-            "place": {
-                "name": "Velikiy Novgorod",
-                "country code": "RU",
-                "population": "215062",
-                "latitude": "58.52131",
-                "longitude": "31.27104",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Fyodor Dostoevsky Theater---Novgorod, Russia. I'm sorry, but this couldn't be very comfortable... https://t.co/6rdMKNVDx4"
-        },
-        {
-            "id": "1214621987366199296",
-            "date": "Tue Jan 07 20:08:01 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @mashant: Very dramatic space monument in a former military town outside Moscow https://t.co/c7dKzriBsz"
-        },
-        {
-            "id": "1214570288312193024",
-            "date": "Tue Jan 07 15:31:37 +0000 2020",
-            "place": {
-                "name": "Tashkent",
-                "country code": "UZ",
-                "population": "1978028",
-                "latitude": "41.26465",
-                "longitude": "69.21627"
-            },
-            "place_is_found": "True",
-            "text": "Tashkent, Uzbekistan. \"State Museum of the History of Uzbekistan\" https://t.co/BlysXStz86"
-        },
-        {
-            "id": "1214434366169976832",
-            "date": "Tue Jan 07 06:31:30 +0000 2020",
-            "place": {
-                "name": "Buch",
-                "country code": "DE",
-                "population": "12674",
-                "latitude": "52.6347",
-                "longitude": "13.49679"
-            },
-            "place_is_found": "True",
-            "text": "Fotograf Christopher Herwig hat in Ex-Sowjetrepubliken unglaubliche Bushaltestellen aufgestöbert, zu sehen im Buch \"Soviet Bus Stops\". https://t.co/fD2rujZIC9"
-        },
-        {
-            "id": "1214426845153779712",
-            "date": "Tue Jan 07 06:01:37 +0000 2020",
-            "place": {
-                "name": "Tashkent",
-                "country code": "UZ",
-                "population": "1978028",
-                "latitude": "41.26465",
-                "longitude": "69.21627"
-            },
-            "place_is_found": "True",
-            "text": "L.Ivanov, The Aeroflot Building, Tashkent, Uzbekistan, 1974 https://t.co/gG6iWhgTBZ"
-        },
-        {
-            "id": "1214026670992232448",
-            "date": "Mon Jan 06 03:31:28 +0000 2020",
-            "place": {
-                "name": "Nur-Sultan",
-                "country code": "KZ",
-                "population": "345604",
-                "latitude": "51.1801",
-                "longitude": "71.44598"
-            },
-            "place_is_found": "True",
-            "text": "The Strange, Post-Soviet Architecture of Astana, Kazakhstan https://t.co/ssA59FGLtm"
-        },
-        {
-            "id": "1213928575600078848",
-            "date": "Sun Jan 05 21:01:40 +0000 2020",
-            "place": {
-                "name": "Vilnius",
-                "country code": "LT",
-                "population": "542366",
-                "latitude": "54.68916",
-                "longitude": "25.2798"
-            },
-            "place_is_found": "True",
-            "text": "Apartment blocks, Vilnius https://t.co/5cV4sk5vbm"
-        },
-        {
-            "id": "1213883236708995072",
-            "date": "Sun Jan 05 18:01:31 +0000 2020",
-            "place": {
-                "name": "Tallinn",
-                "country code": "EE",
-                "population": "394024",
-                "latitude": "59.43696",
-                "longitude": "24.75353"
-            },
-            "place_is_found": "True",
-            "text": "Linnahall - Soviet Architecture from 1980 in Tallinn, Estonia https://t.co/2dsG1Mj2jY"
-        },
-        {
-            "id": "1213837943112114176",
-            "date": "Sun Jan 05 15:01:32 +0000 2020",
-            "place": {
-                "name": "Samara",
-                "country code": "RU",
-                "population": "1134730",
-                "latitude": "53.20007",
-                "longitude": "50.15",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Granery in Samara, Russia #socialist #brutalism #architecture https://t.co/te7GtS5Tvi"
-        },
-        {
-            "id": "1213681936515915776",
-            "date": "Sun Jan 05 04:41:37 +0000 2020",
-            "place": {
-                "name": "Oldenburg",
-                "country code": "DE",
-                "population": "159218",
-                "latitude": "53.14118",
-                "longitude": "8.21467"
-            },
-            "place_is_found": "True",
-            "text": "The \"Russian Riviera\" resort town of Gagra is mostly abandoned today. Duke Peter of Oldenburg, a Russian aristocrat, built a grand Art Noveau palace there in 1904. With the advent of the Soviet era, the building was nationalized and turned into a luxury hotel for Stalin and .. https://t.co/QktFyV3CfD"
-        },
-        {
-            "id": "1213681218191077377",
-            "date": "Sun Jan 05 04:38:46 +0000 2020",
-            "place": {
-                "name": "Vladivostok",
-                "country code": "RU",
-                "population": "587022",
-                "latitude": "43.10562",
-                "longitude": "131.87353",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Vladivostok, Russia https://t.co/CAy3QhRDK1"
-        },
-        {
-            "id": "1213645934246203393",
-            "date": "Sun Jan 05 02:18:33 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "The Gosplan garage designed by Konstantin Melnikov in Moscow, USSR 1934-1936 https://t.co/P48KilvyVz"
-        },
-        {
-            "id": "1213634091393916929",
-            "date": "Sun Jan 05 01:31:30 +0000 2020",
-            "place": {
-                "name": "Samara",
-                "country code": "RU",
-                "population": "1134730",
-                "latitude": "53.20007",
-                "longitude": "50.15",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "Granery in Samara, Russia #socialist #brutalism #architecture https://t.co/UiiMJoocvb"
-        },
-        {
-            "id": "1213632720313683970",
-            "date": "Sun Jan 05 01:26:03 +0000 2020",
-            "place": {
-                "name": "Nur-Sultan",
-                "country code": "KZ",
-                "population": "345604",
-                "latitude": "51.1801",
-                "longitude": "71.44598"
-            },
-            "place_is_found": "True",
-            "text": "The Strange, Post-Soviet Architecture of Astana, Kazakhstan https://t.co/p4hr5V2g4Q"
-        },
-        {
-            "id": "1213627712289562624",
-            "date": "Sun Jan 05 01:06:09 +0000 2020",
-            "place": {
-                "name": "Almaty",
-                "country code": "KZ",
-                "population": "2000900",
-                "latitude": "43.25667",
-                "longitude": "76.92861"
-            },
-            "place_is_found": "True",
-            "text": "Futuristic Soviet architecture series. Palace of Pioneers in Almaty, Kazakhstan https://t.co/qDowzFgBbN"
-        },
-        {
-            "id": "1213627059521695745",
-            "date": "Sun Jan 05 01:03:33 +0000 2020",
-            "place": {
-                "name": "Tbilisi",
-                "country code": "GE",
-                "population": "1049498",
-                "latitude": "41.69411",
-                "longitude": "44.83368"
-            },
-            "place_is_found": "True",
-            "text": "Palace of Weddings – Tbilisi, Georgia https://t.co/JWxhQdOaWx"
+            "text": "RT @tassagency_en: #TASS_archive\nPeople make their way through puddles in Bronnitsy, Moscow region, 1989\nAnatoly Morkovkin, Andrei Solovyov…",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1107577596743700480",
@@ -1885,7 +3704,8 @@
                 "longitude": "69.21627"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Tashkent, Uzbekistan (1978) https://t.co/21HoefNkLM"
+            "text": "RT @SovietPostcards: Tashkent, Uzbekistan (1978) https://t.co/21HoefNkLM",
+            "map_handle": "sovietarchitect"
         },
         {
             "id": "1020647123757432833",
@@ -1895,25 +3715,11 @@
                 "country code": "RU",
                 "population": "5028000",
                 "latitude": "59.93863",
-                "longitude": "30.31413",
-                "extent_valid": false
+                "longitude": "30.31413"
             },
             "place_is_found": "True",
-            "text": "RT @SovietPostcards: Spotted this rusty Lenin monument when we stopped for lunch in a small non-descript village called Cherkutino on the w…"
-        },
-        {
-            "id": "868405228231696384",
-            "date": "Sat Feb 01 15:46:08 +0000 2020",
-            "place": {
-                "name": "Moscow",
-                "country code": "RU",
-                "population": "10381222",
-                "latitude": "55.75222",
-                "longitude": "37.61556",
-                "extent_valid": false
-            },
-            "place_is_found": "True",
-            "text": "RT @dgriffinchess: Karpov-Korchnoi, 18th match-game, FIDE Candidates' final, Moscow 1974. (Source: TASS, photographer: V. Savostianov.) #ch…"
+            "text": "RT @SovietPostcards: Spotted this rusty Lenin monument when we stopped for lunch in a small non-descript village called Cherkutino on the w…",
+            "map_handle": "sovietarchitect"
         }
     ],
     "map": {
@@ -1928,7 +3734,8 @@
             "SovietArcades",
             "hocommunism",
             "ruaf_hmeimim",
-            "ColdWarRecords"
+            "ColdWarRecords",
+            "PicturesUssr"
         ],
         "country_codes": [
             "EE",
