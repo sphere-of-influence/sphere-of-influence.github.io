@@ -20,7 +20,9 @@
         "maxZoom": 6.5
     },
     "scripts": [
-        "northpole-map",
+        "northpole-map"
+    ],
+    "dormant_scripts": [
         "northpole-aurora",
         "notice"
     ],
