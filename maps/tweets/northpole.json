@@ -2,19 +2,184 @@
     "slug": "northpole",
     "tweets": [
         {
-            "id": "1620180087558602763",
-            "date": "Mon Jan 30 22:00:09 +0000 2023",
+            "id": "1624461009078345728",
+            "date": "Sat Feb 11 17:31:00 +0000 2023",
             "place": {
-                "name": "Vi",
-                "country code": "SE",
-                "population": "5841",
-                "latitude": "62.43333",
-                "longitude": "17.41667",
+                "name": "Fairbanks",
+                "country code": "US",
+                "population": "32325",
+                "latitude": "64.83778",
+                "longitude": "-147.71639",
                 "extent_valid": true
             },
             "place_is_found": "True",
-            "text": "The Russian government approved the procedure for the implementation of the presidential decree on the ban on oil supplies under price cap contracts:\nhttps://t.co/dViA9CL30u https://t.co/wuuAecobPL",
+            "text": "Happy Women &amp; Girls in Science Day! 👩‍🔬 We’re celebrating by highlighting amazing\nwomen scientists on our staff today &amp; all next week!\nMeet Dr. Sydney Brannoch, an Entomologist with our Fairbanks office. Sydney especially\nenjoys fieldwork in remote places! #WomenInScience https://t.co/Sz6C6SDnHe",
+            "map_handle": "ChugachForestAK"
+        },
+        {
+            "id": "1624077764302360576",
+            "date": "Fri Feb 10 16:08:07 +0000 2023",
+            "place": {
+                "name": "Anchorage",
+                "country code": "US",
+                "population": "298695",
+                "latitude": "61.21806",
+                "longitude": "-149.90028",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Meet us in your Southcentral &amp; Southeast Alaska communities to learn about working with the Forest Service! Feb. 16-March 2 we're visiting: Sitka, Cordova, Hoonah, Ketchikan, Fairbanks, Prince of Wales, Anchorage, Juneau, Yakutat, Wrangell, &amp; Petersburg! https://t.co/LfIqPnTdDK https://t.co/Huuim08Y8C",
+            "map_handle": "ChugachForestAK"
+        },
+        {
+            "id": "1623687312616857600",
+            "date": "Thu Feb 09 14:16:36 +0000 2023",
+            "place": {
+                "name": "Sisimiut",
+                "country code": "GL",
+                "population": "5227",
+                "latitude": "66.93946",
+                "longitude": "-53.6735",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "[1/4] A look back at central Sisimiut in 1918, seen approx. from where Hotel SØMA is located today. A lot has happened in the city since then! Back in 1918, 261 people lived in Sisimiut, so the old church from 1775, seen on the left in the picture, had gradually become too small. https://t.co/Eli7aDPMmT",
+            "map_handle": "arktiskinstitut"
+        },
+        {
+            "id": "1623641428814331906",
+            "date": "Thu Feb 09 12:03:18 +0000 2023",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @HallaNols: 🇬🇱in🇮🇸 and 🇫🇴in🇮🇸 meet in Nuuk for #EUArcticForum. Highly valued colleague and friend❤️ https://t.co/S4pFBjj6X2",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1623635152785010689",
+            "date": "Thu Feb 09 10:49:20 +0000 2023",
+            "place": {
+                "name": "Reykjavík",
+                "country code": "IS",
+                "population": "118918",
+                "latitude": "64.13548",
+                "longitude": "-21.89541",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Good morning from beautiful Reykjavik 🌄🇬🇱 https://t.co/J5aRT1zmHu",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1623414117108436993",
+            "date": "Wed Feb 08 20:11:01 +0000 2023",
+            "place": {
+                "name": "Arkhangel’sk",
+                "country code": "RU",
+                "population": "356051",
+                "latitude": "64.5401",
+                "longitude": "40.5433",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The north Russian region of #Arkhangelsk has lost more than 30 men in Ukraine over the last few weeks https://t.co/7veZoyWmkH",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1623300601227378690",
+            "date": "Wed Feb 08 12:39:57 +0000 2023",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Friendship towns Vadsø and Murmansk send fire trucks to the opposite sides of the war in Ukraine https://t.co/qMAKC1LYfC",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1622898261584449536",
+            "date": "Tue Feb 07 10:01:12 +0000 2023",
+            "place": {
+                "name": "Karis",
+                "country code": "FI",
+                "population": "8853",
+                "latitude": "60.07178",
+                "longitude": "23.66163",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Estonia’s President Alar Karis has recalled the ambassador to Russia, Margus Laidre, the portal of the Estonian state radio and television ERR said:\nhttps://t.co/6uZlvhEWtw https://t.co/Q5TeDzQOPU",
             "map_handle": "tassagency_en"
+        },
+        {
+            "id": "1622675503885783069",
+            "date": "Mon Feb 06 19:16:02 +0000 2023",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Construction starting at new Arctic LNG terminal in Ura Bay, Murmansk region https://t.co/MiQwEsGobE",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1622557873476718595",
+            "date": "Mon Feb 06 11:28:37 +0000 2023",
+            "place": {
+                "name": "Severodvinsk",
+                "country code": "RU",
+                "population": "194292",
+                "latitude": "64.5635",
+                "longitude": "39.8302",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The \"Dmitri Donskoy\" (TK-208) is withdrawn from service. Now awaits scrapping in Severodvinsk. https://t.co/sraGDEIPbo",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1620519060441288704",
+            "date": "Tue Jan 31 20:27:06 +0000 2023",
+            "place": {
+                "name": "Salekhard",
+                "country code": "RU",
+                "population": "38025",
+                "latitude": "66.53",
+                "longitude": "66.60194",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Russia has sent invitations to attend #ArcticCouncil Ministerial in Salekhard on May 11. There will be no roundtable talks as seven of eight chairs will be empty. #ArcticFrontiers https://t.co/SBsTAwD36I",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1620410670838849538",
+            "date": "Tue Jan 31 13:16:24 +0000 2023",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "[1/4] Here's a sight you can't see today: Kayaks in a lake right in front of the cathedral in Nuuk! In the old days, the boys of Nuuk, then called Godthaab, had kayaking lessons in this lake. https://t.co/ORUKfn3zyz",
+            "map_handle": "arktiskinstitut"
         },
         {
             "id": "1619757678372487168",
@@ -812,21 +977,6 @@
             "map_handle": "arctic_today"
         },
         {
-            "id": "1585184622073106432",
-            "date": "Wed Oct 26 08:20:39 +0000 2022",
-            "place": {
-                "name": "Rovaniemi",
-                "country code": "FI",
-                "population": "34781",
-                "latitude": "66.5",
-                "longitude": "25.71667",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Snowy day in the Arctic circle. Lots of snow arrived this morning ❄️❄️. #Firstsnow #Rovaniemi #Finland #VisitLapland https://t.co/pyPgVKLZ3Z",
-            "map_handle": "ourlapland"
-        },
-        {
             "id": "1584949021575368705",
             "date": "Tue Oct 25 16:44:28 +0000 2022",
             "place": {
@@ -855,21 +1005,6 @@
             "place_is_found": "True",
             "text": "October 13th in Reykjavik, the Prime Minister of Greenland Múte B. Egede and Iceland's Prime Minister Katrín Jakobsdóttir signed a Declaration of Cooperation. In the Declaration, the ministers confirm their commitment to further strengthen and expand the bilateral relations🇬🇱🇮🇸 https://t.co/2uHDRdK1VZ",
             "map_handle": "GreenlandRepRVK"
-        },
-        {
-            "id": "1583166153047752705",
-            "date": "Mon Oct 24 04:53:51 +0000 2022",
-            "place": {
-                "name": "Rovaniemi",
-                "country code": "FI",
-                "population": "34781",
-                "latitude": "66.5",
-                "longitude": "25.71667",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "RT @OurLapland: Ski Season In Lapland Has Begun in Levi, Ruka and Rovaniemi \n\n#VisitLapland #WinterIsComing #Lapland \n\nhttps://t.co/GyMtRp4…",
-            "map_handle": "ourlapland"
         },
         {
             "id": "1582213806972817408",
@@ -3808,21 +3943,6 @@
             "map_handle": "GreenlandRepRVK"
         },
         {
-            "id": "1182955230935310337",
-            "date": "Sat Oct 12 09:47:47 +0000 2019",
-            "place": {
-                "name": "Reykjavík",
-                "country code": "IS",
-                "population": "118918",
-                "latitude": "64.13548",
-                "longitude": "-21.89541",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "RT @GreenlandRepDC: #Greenland has very much emerged on the world stage - 🇬🇱 is now taking the main stage at @_Arctic_Circle yet again for…",
-            "map_handle": "GreenlandRepRVK"
-        },
-        {
             "id": "1175311800126099456",
             "date": "Sat Sep 21 07:32:24 +0000 2019",
             "place": {
@@ -4146,7 +4266,9 @@
             "maxZoom": 6.5
         },
         "scripts": [
-            "northpole-map",
+            "northpole-map"
+        ],
+        "dormant_scripts": [
             "northpole-aurora",
             "notice"
         ],
