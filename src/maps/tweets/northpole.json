@@ -2,6 +2,381 @@
     "slug": "northpole",
     "tweets": [
         {
+            "id": "1638925392294850561",
+            "date": "Thu Mar 23 15:27:17 +0000 2023",
+            "place": {
+                "name": "Plesetsk",
+                "country code": "RU",
+                "population": "10870",
+                "latitude": "62.70804",
+                "longitude": "40.29159",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Military \"Z\"-rocket is launched from Russia's northern space center Plesetsk https://t.co/ryD43bWr2O",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1638802115710660609",
+            "date": "Thu Mar 23 08:07:23 +0000 2023",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @Arctic_Centre: Final day of the #Anthropology Conference in #Rovaniemi about to start! \n\nAnd what a start – roundtable discussion @Koru…",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1638661394458644484",
+            "date": "Wed Mar 22 21:58:15 +0000 2023",
+            "place": {
+                "name": "Kotka",
+                "country code": "FI",
+                "population": "54616",
+                "latitude": "60.4664",
+                "longitude": "26.94582",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The Russian ship Swem carrying a cargo of fertilizers has been detained in the Finnish port of Kotka on suspicion of violating EU sanctions on Russia, Finland’s Yle television channel reported:\nhttps://t.co/k6kahYvzcH https://t.co/EnOykKak4V",
+            "map_handle": "tassagency_en"
+        },
+        {
+            "id": "1636299943152320512",
+            "date": "Thu Mar 16 09:37:25 +0000 2023",
+            "place": {
+                "name": "Rovaniemi",
+                "country code": "FI",
+                "population": "34781",
+                "latitude": "66.5",
+                "longitude": "25.71667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @smjasim: A CME arrived last night and it was so incredible. Wait till the END part. 16.3.23 at 1:10 am #StormHour #LastNight #Timelapse…",
+            "map_handle": "ourlapland"
+        },
+        {
+            "id": "1636102034423263233",
+            "date": "Wed Mar 15 20:28:16 +0000 2023",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Wagner Group opens recruitment center in Murmansk https://t.co/j5iP46Qp4D",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1636073571045834757",
+            "date": "Wed Mar 15 18:35:10 +0000 2023",
+            "place": {
+                "name": "Severomorsk",
+                "country code": "RU",
+                "population": "53921",
+                "latitude": "69.06889",
+                "longitude": "33.41622",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "An interesting question is what role #Severomorsk will get in Russia's large-scale Zapad-2023 strategic drill. https://t.co/yA1AJxOTp0",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1635892064725393408",
+            "date": "Wed Mar 15 06:33:56 +0000 2023",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Murmansk gives more benefits to students and school children of soldiers fighting in Ukraine  https://t.co/RTZWutF4dk",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1631669817169133568",
+            "date": "Fri Mar 03 15:33:54 +0000 2023",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @GEM_Arctic: Course announcement for Ph.D students: Building on long-term ecosystem monitoring data from GEM, the BEFLUX  summer school…",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1631646740351680512",
+            "date": "Fri Mar 03 13:24:32 +0000 2023",
+            "place": {
+                "name": "Nuuk",
+                "country code": "GL",
+                "population": "14798",
+                "latitude": "64.18347",
+                "longitude": "-51.72157",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Crazy high #temperatures in early #March in #Nuuk, #Greenland. The average temperature is -7.8 (1991-2020. Data from #Asiaq and #DMI. The #snow is #melting fast and the #forecast promises subzero temperatures early next week - it's going to be #icy... https://t.co/JlP2mp9iPX",
+            "map_handle": "NuukNERO"
+        },
+        {
+            "id": "1631617810290941954",
+            "date": "Fri Mar 03 12:43:05 +0000 2023",
+            "place": {
+                "name": "Vi",
+                "country code": "SE",
+                "population": "5841",
+                "latitude": "62.43333",
+                "longitude": "17.41667",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @DKambIceland: Gode og inspirerende drøftelser med udenrigsminister @thordiskolbrun og nordiske kolleger på Danmarks Ambassade. Vi står…",
+            "map_handle": "GreenlandRepRVK"
+        },
+        {
+            "id": "1631262711521726464",
+            "date": "Thu Mar 02 11:58:32 +0000 2023",
+            "place": {
+                "name": "Yakutsk",
+                "country code": "RU",
+                "population": "235600",
+                "latitude": "62.03389",
+                "longitude": "129.73306",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The start of the so-called spring in Yakutsk, Russia.\n\nAurora borealis over the Lena River and Lena Pillars on Feb 27th.\n\nFog and -42C this morning. https://t.co/KL6dyemZAQ",
+            "map_handle": "yakutia"
+        },
+        {
+            "id": "1630609065238732800",
+            "date": "Tue Feb 28 16:41:11 +0000 2023",
+            "place": {
+                "name": "Tromsø",
+                "country code": "NO",
+                "population": "52436",
+                "latitude": "69.6489",
+                "longitude": "18.95508",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "The Barents Observer is building a journalism exile hub in Kirkenes. Teams up with University of Tromsø to strengthen knowledge on Russia and the North https://t.co/AVslqpU7uF",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1630245976475832321",
+            "date": "Mon Feb 27 16:38:23 +0000 2023",
+            "place": {
+                "name": "Arkhangel’sk",
+                "country code": "RU",
+                "population": "356051",
+                "latitude": "64.5401",
+                "longitude": "40.5433",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "#Russia's best skier and National Guard officer Aleksandr #Bolshunov says he does not care about the ongoing #FISCrossCountry #Planica2023. On 24th February he won gold medal in the Russian championships in #Arkhangelsk https://t.co/QYjgjyVPHn",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1629587632916234243",
+            "date": "Sat Feb 25 21:02:22 +0000 2023",
+            "place": {
+                "name": "Severomorsk",
+                "country code": "RU",
+                "population": "53921",
+                "latitude": "69.06889",
+                "longitude": "33.41622",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Kirkenes' reputation in jeopardy over Severomorsk friendship, international entrepreneurs and investors say. https://t.co/u276uxgHYV",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1629207677451599873",
+            "date": "Fri Feb 24 19:52:34 +0000 2023",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "One year after the start of Russia’s onslaught on Ukraine, flowers in blue and yellow colours appear in downtown Petrozavodsk and Murmansk  https://t.co/9Iw980QPcf",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1628693955675029505",
+            "date": "Thu Feb 23 09:51:13 +0000 2023",
+            "place": {
+                "name": "Petrozavodsk",
+                "country code": "RU",
+                "population": "265025",
+                "latitude": "61.78491",
+                "longitude": "34.34691",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Igor Porgorny and his friends made a huge pigeon in the snow in downtown Petrozavodsk, Northwest Russia. “It is indeed the main symbol of peace,” he says https://t.co/UygGvRKS9b",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1628444522907574274",
+            "date": "Wed Feb 22 17:20:03 +0000 2023",
+            "place": {
+                "name": "Alakurtti",
+                "country code": "RU",
+                "population": "6293",
+                "latitude": "66.9672",
+                "longitude": "30.34905",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Russia's Arctic Brigade in Alakurtti is counting its many dead https://t.co/UZSyYYtun8",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1627637222605217794",
+            "date": "Mon Feb 20 11:52:08 +0000 2023",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Northern Fleet's investigators in Pechenga, Murmansk region, file case against Lieutenant Denis Vasilev after he refused to go to Ukraine https://t.co/o2OlYNzXsU",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1626252179722960896",
+            "date": "Thu Feb 16 16:08:28 +0000 2023",
+            "place": {
+                "name": "Murmansk",
+                "country code": "RU",
+                "population": "319263",
+                "latitude": "68.97917",
+                "longitude": "33.09251",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Ølen Betong Murmansk AS makes good money. The Director says Norway's policy on Russia is \".... little understandable, simply scandalous, also very ignorant.” https://t.co/svr94MM9yd",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1625540384691453952",
+            "date": "Tue Feb 14 18:23:35 +0000 2023",
+            "place": {
+                "name": "Anchorage",
+                "country code": "US",
+                "population": "298695",
+                "latitude": "61.21806",
+                "longitude": "-149.90028",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @AKForestService: Meet Dr. Priscilla Morris, a Wood Utilization Program Manager working in Anchorage. \n\nA highlight of Priscilla’s job i…",
+            "map_handle": "ChugachForestAK"
+        },
+        {
+            "id": "1625508914069487617",
+            "date": "Tue Feb 14 14:55:00 +0000 2023",
+            "place": {
+                "name": "Fairbanks",
+                "country code": "US",
+                "population": "32325",
+                "latitude": "64.83778",
+                "longitude": "-147.71639",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Fairbanks is America’s coldest city. It has no low-barrier shelter.\nhttps://t.co/J63DWTKstP",
+            "map_handle": "CircumpolarInfo"
+        },
+        {
+            "id": "1625457492363816963",
+            "date": "Tue Feb 14 11:30:40 +0000 2023",
+            "place": {
+                "name": "Arkhangel’sk",
+                "country code": "RU",
+                "population": "356051",
+                "latitude": "64.5401",
+                "longitude": "40.5433",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Anatoly Arseev from Kotlas, Arkhangelsk region, was until recently an up-and-coming politician in Putin's United Russia party. Now he faces jail for having  \"discredited the Army.\" 1/6 https://t.co/AYIFFBx97O",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1625076254016667648",
+            "date": "Mon Feb 13 10:15:46 +0000 2023",
+            "place": {
+                "name": "Kola",
+                "country code": "RU",
+                "population": "10600",
+                "latitude": "68.88062",
+                "longitude": "33.01842",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "LATEST: Land forces at Kola reduced to one-fifth, Norwegian Intelligence says https://t.co/yaC04dUOnP",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1624899191246884870",
+            "date": "Sun Feb 12 22:32:11 +0000 2023",
+            "place": {
+                "name": "Arkhangel’sk",
+                "country code": "RU",
+                "population": "356051",
+                "latitude": "64.5401",
+                "longitude": "40.5433",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "Escape into the wild. Putin paid a visit to a forest friend in Arkhangelsk https://t.co/TxH9avAclg",
+            "map_handle": "BarentsNews"
+        },
+        {
+            "id": "1624470240498155522",
+            "date": "Sat Feb 11 18:23:33 +0000 2023",
+            "place": {
+                "name": "Inari",
+                "country code": "FI",
+                "population": "7049",
+                "latitude": "68.90596",
+                "longitude": "27.02881",
+                "extent_valid": true
+            },
+            "place_is_found": "True",
+            "text": "RT @Kreikka: I really believe it will take a LONG time for me to get over my trip to 🇫🇮🤍 #AuroraBorealis #Lapland #Finland #Inari #BestTrip…",
+            "map_handle": "ourlapland"
+        },
+        {
             "id": "1624461009078345728",
             "date": "Sat Feb 11 17:31:00 +0000 2023",
             "place": {
@@ -105,21 +480,6 @@
             "place_is_found": "True",
             "text": "Friendship towns Vadsø and Murmansk send fire trucks to the opposite sides of the war in Ukraine https://t.co/qMAKC1LYfC",
             "map_handle": "BarentsNews"
-        },
-        {
-            "id": "1622898261584449536",
-            "date": "Tue Feb 07 10:01:12 +0000 2023",
-            "place": {
-                "name": "Karis",
-                "country code": "FI",
-                "population": "8853",
-                "latitude": "60.07178",
-                "longitude": "23.66163",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Estonia’s President Alar Karis has recalled the ambassador to Russia, Margus Laidre, the portal of the Estonian state radio and television ERR said:\nhttps://t.co/6uZlvhEWtw https://t.co/Q5TeDzQOPU",
-            "map_handle": "tassagency_en"
         },
         {
             "id": "1622675503885783069",
@@ -272,21 +632,6 @@
             "map_handle": "yakutia"
         },
         {
-            "id": "1615700480063307776",
-            "date": "Wed Jan 18 13:19:47 +0000 2023",
-            "place": {
-                "name": "Murmansk",
-                "country code": "RU",
-                "population": "319263",
-                "latitude": "68.97917",
-                "longitude": "33.09251",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "The giant floating dock north of Murmansk held Russia's only carrier, the \"Admiral Kuznetsov\" when it sank in 2018. https://t.co/H3JWfx0w1B",
-            "map_handle": "BarentsNews"
-        },
-        {
             "id": "1615580353254592514",
             "date": "Wed Jan 18 05:22:26 +0000 2023",
             "place": {
@@ -392,21 +737,6 @@
             "map_handle": "yakutia"
         },
         {
-            "id": "1608453172074549248",
-            "date": "Thu Dec 29 13:21:34 +0000 2022",
-            "place": {
-                "name": "Severodvinsk",
-                "country code": "RU",
-                "population": "194292",
-                "latitude": "64.5635",
-                "longitude": "39.8302",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Russia significantly increased its modern naval nuclear forces on Thursday as one new Borei-A class submarine was handed over to the navy at the shipyard in Severodvinsk. https://t.co/YoXmmgCiLl",
-            "map_handle": "BarentsNews"
-        },
-        {
             "id": "1608111231755247617",
             "date": "Wed Dec 28 15:50:03 +0000 2022",
             "place": {
@@ -420,21 +750,6 @@
             "place_is_found": "True",
             "text": "RT @joukoleinonen: This is how it looks like to drive by car over a frozen river! This shortcut over #Kemijoki in #Rovaniemi saves a lot of…",
             "map_handle": "ourlapland"
-        },
-        {
-            "id": "1607808450699972617",
-            "date": "Tue Dec 27 18:39:40 +0000 2022",
-            "place": {
-                "name": "Murmansk",
-                "country code": "RU",
-                "population": "319263",
-                "latitude": "68.97917",
-                "longitude": "33.09251",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "New patriotism youth center in Severomorsk, Murmansk region, starts training of teenage warriors https://t.co/M1P9ibMCbi",
-            "map_handle": "BarentsNews"
         },
         {
             "id": "1607042024125108225",
@@ -497,36 +812,6 @@
             "map_handle": "ourlapland"
         },
         {
-            "id": "1605926339189411840",
-            "date": "Thu Dec 22 14:00:50 +0000 2022",
-            "place": {
-                "name": "Norilsk",
-                "country code": "RU",
-                "population": "140800",
-                "latitude": "69.3535",
-                "longitude": "88.2027",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Lack of battery materials is not the first that comes to mind when you think about Norilsk.\nhttps://t.co/WJwlJjPAyT",
-            "map_handle": "BarentsNews"
-        },
-        {
-            "id": "1604964458799026198",
-            "date": "Mon Dec 19 22:18:40 +0000 2022",
-            "place": {
-                "name": "Murmansk",
-                "country code": "RU",
-                "population": "319263",
-                "latitude": "68.97917",
-                "longitude": "33.09251",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "The Russian Church and sports: A 'Spiritual Sport Complex' is built in Murmansk where training will be offered in martial arts https://t.co/pU3SzIfGyC",
-            "map_handle": "BarentsNews"
-        },
-        {
             "id": "1604542128943685635",
             "date": "Sun Dec 18 18:20:29 +0000 2022",
             "place": {
@@ -540,21 +825,6 @@
             "place_is_found": "True",
             "text": "Felicitaciones a Argentina 🇦🇷\n\nHere's a vid with a local fan of Argentina in Yakutsk, Russia ☺️\n\n#WorldcupQatar2022 https://t.co/GAKglZ5k9W",
             "map_handle": "yakutia"
-        },
-        {
-            "id": "1604454703269552128",
-            "date": "Sun Dec 18 12:33:05 +0000 2022",
-            "place": {
-                "name": "Murmansk",
-                "country code": "RU",
-                "population": "319263",
-                "latitude": "68.97917",
-                "longitude": "33.09251",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "THe EU sanctions Murmansk governor for involvement in child kidnapping https://t.co/Lsgc2LQsjZ",
-            "map_handle": "BarentsNews"
         },
         {
             "id": "1604140595219415042",
@@ -632,36 +902,6 @@
             "map_handle": "yakutia"
         },
         {
-            "id": "1600917121659154432",
-            "date": "Thu Dec 08 18:16:00 +0000 2022",
-            "place": {
-                "name": "Anchorage",
-                "country code": "US",
-                "population": "298695",
-                "latitude": "61.21806",
-                "longitude": "-149.90028",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Join #ChugachNF Fire and Aviation Management program! 🔥🛩️\n\nDeputy Forest Fire Management Officer GS-0301-11/12. in Anchorage, Alaska https://t.co/MZuPnGqwXy\n\nZone Fire Management Officer GS-0301-9/11 in Moose Pass, Alaska https://t.co/jNwyjYf5J5\nPositions close Dec. 16, 2022 https://t.co/Z6pa8Ui9Cy",
-            "map_handle": "ChugachForestAK"
-        },
-        {
-            "id": "1600827061542666241",
-            "date": "Thu Dec 08 12:18:08 +0000 2022",
-            "place": {
-                "name": "Murmansk",
-                "country code": "RU",
-                "population": "319263",
-                "latitude": "68.97917",
-                "longitude": "33.09251",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Almost three-quarters of all oil shipped out of Murmansk in mid-November went to Asia.  https://t.co/qXESQgtO5k",
-            "map_handle": "BarentsNews"
-        },
-        {
             "id": "1600469283489734656",
             "date": "Wed Dec 07 12:36:27 +0000 2022",
             "place": {
@@ -675,21 +915,6 @@
             "place_is_found": "True",
             "text": "An UAZ vehicle as a monument by a fire station in Yakutsk, Russia. Looks a bit funny ☺️ Guess, it was around -40C at 5 pm. https://t.co/egBXgovZMY",
             "map_handle": "yakutia"
-        },
-        {
-            "id": "1599748116324175872",
-            "date": "Mon Dec 05 12:50:47 +0000 2022",
-            "place": {
-                "name": "Murmansk",
-                "country code": "RU",
-                "population": "319263",
-                "latitude": "68.97917",
-                "longitude": "33.09251",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "“These guys are heroes of the North,” says the Governor of Murmansk. We compiled a list of North Russian men killed in Ukraine. It gives important info about their background \nhttps://t.co/W8oZccn0YF",
-            "map_handle": "BarentsNews"
         },
         {
             "id": "1598935104545468416",
@@ -720,21 +945,6 @@
             "place_is_found": "True",
             "text": "RT @NLinFinland: ✈️ @KLM Royal Dutch Airlines will launch a seasonal route from Rovaniemi to Amsterdam starting Dec 3.🌲 To celebrate the fu…",
             "map_handle": "ourlapland"
-        },
-        {
-            "id": "1598244696845086722",
-            "date": "Thu Dec 01 09:16:44 +0000 2022",
-            "place": {
-                "name": "Murmansk",
-                "country code": "RU",
-                "population": "319263",
-                "latitude": "68.97917",
-                "longitude": "33.09251",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Murmansk governor Andrei Chibis sanctioned for supporting the war on Ukraine by engaging in the mobilisation of military reservists from the North https://t.co/Eu2tZqzNYt",
-            "map_handle": "BarentsNews"
         },
         {
             "id": "1597229661217779712",
@@ -780,21 +990,6 @@
             "place_is_found": "True",
             "text": "Finally, it's coming. Six days with below -40C ahead. And... that's just the end of November in Yakutsk, Russia ☺️ https://t.co/civkBZAsCu",
             "map_handle": "yakutia"
-        },
-        {
-            "id": "1594259454731730944",
-            "date": "Sun Nov 20 09:20:48 +0000 2022",
-            "place": {
-                "name": "Rovaniemi",
-                "country code": "FI",
-                "population": "34781",
-                "latitude": "66.5",
-                "longitude": "25.71667",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Christmas season is officially open. Yesterday opening ceremony at Santa Claus village in Rovaniemi. #Finland #VisitLapland https://t.co/Vd3G81jfdw",
-            "map_handle": "ourlapland"
         },
         {
             "id": "1593429311528128513",
@@ -887,21 +1082,6 @@
             "map_handle": "yakutia"
         },
         {
-            "id": "1591861696637063169",
-            "date": "Sun Nov 13 18:32:58 +0000 2022",
-            "place": {
-                "name": "Rovaniemi",
-                "country code": "FI",
-                "population": "34781",
-                "latitude": "66.5",
-                "longitude": "25.71667",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Polar Explorer Icebreaker cruise and lunch with shuttle bus transportation from Rovaniemi. #Finland #VisitLapland \n\nBook now!\n\nhttps://t.co/lJKrzpNocM",
-            "map_handle": "ourlapland"
-        },
-        {
             "id": "1587531420725133312",
             "date": "Tue Nov 01 19:46:00 +0000 2022",
             "place": {
@@ -915,21 +1095,6 @@
             "place_is_found": "True",
             "text": "Rovaniemi is getting seven new flight connections to European cities, a growth in seasonal flights suggesting that Christmas and winter tourism in northern Finland will be busy this year, @NilsenThomas reports via @BarentsNews. https://t.co/r5KXDNpXJL https://t.co/Ik4IhJ4XEY",
             "map_handle": "arctic_today"
-        },
-        {
-            "id": "1587376366814695424",
-            "date": "Thu Nov 03 18:04:57 +0000 2022",
-            "place": {
-                "name": "Kittilä",
-                "country code": "FI",
-                "population": "5713",
-                "latitude": "67.66474",
-                "longitude": "24.89356",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "RT @OurLapland: Kittilä Airport Announced Airport Of The Year 2021\n\n#VisitLapland #Kittilä #Finland \n\nhttps://t.co/LBH2TSxpcP",
-            "map_handle": "ourlapland"
         },
         {
             "id": "1587362812736987137",
@@ -1080,21 +1245,6 @@
             "place_is_found": "True",
             "text": "State of emergency in Russia’s northernmost port Tiksi/Arctic Yakutia, where a reservoir dam supplying drinking water to local residents &amp; army base broke; the likely cause is thawing permafrost. A special freezing setting that used to support permafrost stopped working in 1997 https://t.co/3KacgzJPGi",
             "map_handle": "siberian_times"
-        },
-        {
-            "id": "1557659603621613568",
-            "date": "Thu Aug 11 09:26:04 +0000 2022",
-            "place": {
-                "name": "Vi",
-                "country code": "SE",
-                "population": "5841",
-                "latitude": "62.43333",
-                "longitude": "17.41667",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Vi skal støtte Ukraine med flere våben og mere ammunition, hvis Rusland skal stoppes. Det siger landets præsident Volodomyr Zelenskyy til konferencen #CopenhagenUkraine, som DK, Ukraine og UK netop har åbnet dørene for. 26 lande mødes for at styrke langsigtet støtte til Ukraine. https://t.co/pdLvmvPg94",
-            "map_handle": "forsvarsmin"
         },
         {
             "id": "1557065983327703043",
@@ -2707,49 +2857,6 @@
             "map_handle": "yakutia"
         },
         {
-            "id": "1412970306810089472",
-            "date": "Thu Jul 08 03:02:27 +0000 2021",
-            "place": {
-                "id": "aa5a3bba7e32448a",
-                "url": "https://api.twitter.com/1.1/geo/id/aa5a3bba7e32448a.json",
-                "place_type": "city",
-                "name": "Yakutsk",
-                "full_name": "Yakutsk, Russia",
-                "country_code": "RU",
-                "country": "Russia",
-                "contained_within": [],
-                "bounding_box": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                129.5950817,
-                                61.949109
-                            ],
-                            [
-                                129.8662308,
-                                61.949109
-                            ],
-                            [
-                                129.8662308,
-                                62.1833831
-                            ],
-                            [
-                                129.5950817,
-                                62.1833831
-                            ]
-                        ]
-                    ]
-                },
-                "attributes": {},
-                "latitude": 129.73065625,
-                "longitude": 62.066246050000004
-            },
-            "place_is_found": "False",
-            "text": "Didn’t believe in England. The final will be awesome! No more attempt to predict anything. Will just enjoy the game #EURO2020",
-            "map_handle": "yakutia"
-        },
-        {
             "id": "1411179759627874305",
             "date": "Sun Jul 11 21:56:09 +0000 2021",
             "place": {
@@ -2941,21 +3048,6 @@
             "place_is_found": "True",
             "text": "Saying bye to the winter. Looking forward to enjoying summer road trips @Yakutia, Russia's Siberia.\n\nThe Kolyma road between Yakutsk and Magadan. Photo by Ajar Varlamov who is our best guide, interpreter, and photographer. https://t.co/Sow607Ixrv",
             "map_handle": "visityakutia"
-        },
-        {
-            "id": "1375085952020926464",
-            "date": "Thu Mar 25 14:03:33 +0000 2021",
-            "place": {
-                "name": "Nuuk",
-                "country code": "GL",
-                "population": "14798",
-                "latitude": "64.18347",
-                "longitude": "-51.72157",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "[1/4] Cities change all the time and #Nuuk is no exception! On the first photo, where a football match is taking place in the foreground, a part of the city is seen in the 1950s from where the arena ‘GHB-hallen’ lies today. https://t.co/YFrlbRnJBE",
-            "map_handle": "arktiskinstitut"
         },
         {
             "id": "1375063333821423622",
@@ -3898,21 +3990,6 @@
             "map_handle": "visityakutia"
         },
         {
-            "id": "1184074656329936896",
-            "date": "Tue Oct 15 11:52:51 +0000 2019",
-            "place": {
-                "name": "Reykjavík",
-                "country code": "IS",
-                "population": "118918",
-                "latitude": "64.13548",
-                "longitude": "-21.89541",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "Fantastic visit from the U12 NÛK handball team from Nuuk, Greenland at the Greenland representation in Reykjavík. It's fun and an honor to meet the future star players from Greenland 🏆🥇Thanks to the club and their great coaches and we wish you a successful stay in Iceland! 🇬🇱🇮🇸 https://t.co/1w3eCMWbn6",
-            "map_handle": "GreenlandRepRVK"
-        },
-        {
             "id": "1183910766342279169",
             "date": "Tue Oct 15 01:01:37 +0000 2019",
             "place": {
@@ -3926,21 +4003,6 @@
             "place_is_found": "True",
             "text": "Aeroflot started selling air tickets for flights to Yakutsk in Winter 2019-2020. Finally.",
             "map_handle": "visityakutia"
-        },
-        {
-            "id": "1182980351414718464",
-            "date": "Sat Oct 12 11:25:05 +0000 2019",
-            "place": {
-                "name": "Reykjavík",
-                "country code": "IS",
-                "population": "118918",
-                "latitude": "64.13548",
-                "longitude": "-21.89541",
-                "extent_valid": true
-            },
-            "place_is_found": "True",
-            "text": "RT @GreenlandMFA: Marking a truly historic moment, as @ORGrimsson stated, our four Heads of Representation to Brussels, Copenhagen, Reykjav…",
-            "map_handle": "GreenlandRepRVK"
         },
         {
             "id": "1175311800126099456",
